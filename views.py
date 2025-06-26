@@ -1019,7 +1019,7 @@ def render_report():
             background: #181c24; /* Dark background color */
             border-radius: 12px;
             padding: 32px 10px 10px 10px;
-            margin-bottom: -60px;
+            margin-bottom: 1rem;
             min-height: 520px;
             box-shadow: 0 2px 12px rgba(0,0,0,0.10);
         }}
@@ -1078,7 +1078,7 @@ def render_report():
         st.warning("DPDP Implementation Framework diagram not found.")
     
     # Add CLAIRE Diagram with reduced spacing
-    st.markdown('<div style="margin-top: -60px;"></div>', unsafe_allow_html=True)
+    st.markdown('<div style="margin-bottom: 1rem;"></div>', unsafe_allow_html=True)
     st.subheader("Informatica CLAIRE Framework")
     claire_path = os.path.join(config.BASE_DIR, "Assets", "CLAIRE.html")
     if os.path.exists(claire_path):
@@ -1091,7 +1091,7 @@ def render_report():
             background: #181c24; /* Dark background color */
             border-radius: 12px;
             padding: 32px 10px 10px 10px;
-            margin-bottom: -60px;
+            margin-bottom: 1rem;
             min-height: 520px;
             box-shadow: 0 2px 12px rgba(0,0,0,0.10);
         }}
@@ -1151,7 +1151,7 @@ def render_report():
     # --- End of commented out section ---
 
     # Add Not Applicable answers section
-    st.markdown('<div style="margin-top: -60px;"></div>', unsafe_allow_html=True)
+    st.markdown('<div style="margin-bottom: 1rem;"></div>', unsafe_allow_html=True)
     st.subheader("Answers marked as \"Not Applicable\"")
     
     # Get questionnaire for reference
@@ -2962,7 +2962,7 @@ def render_privacy_policy_analyzer() -> None:
                 background: #181c24;
                 border-radius: 12px;
                 padding: 32px 10px 10px 10px;
-                margin-bottom: -60px;
+                margin-bottom: 1rem;
                 min-height: 520px;
                 box-shadow: 0 2px 12px rgba(0,0,0,0.10);
             }}
@@ -3020,7 +3020,7 @@ def render_privacy_policy_analyzer() -> None:
         else:
             st.warning("DPDP Implementation Framework diagram not found.")
         # 2. CLAIRE Framework
-        st.markdown('<div style="margin-top: -60px;"></div>', unsafe_allow_html=True)
+        st.markdown('<div style="margin-bottom: 1rem;"></div>', unsafe_allow_html=True)
         st.subheader("Informatica CLAIRE Framework")
         claire_path = os.path.join(config.BASE_DIR, "Assets", "CLAIRE.html")
         if os.path.exists(claire_path):
@@ -3032,7 +3032,7 @@ def render_privacy_policy_analyzer() -> None:
                 background: #181c24;
                 border-radius: 12px;
                 padding: 32px 10px 10px 10px;
-                margin-bottom: -60px;
+                margin-bottom: 1rem;
                 min-height: 520px;
                 box-shadow: 0 2px 12px rgba(0,0,0,0.10);
             }}
