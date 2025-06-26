@@ -1456,7 +1456,7 @@ def render_report():
             justify-content: space-between;
             gap: 20px;
                         padding: 10px;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
         }
         .quadrant-item {
             flex: 1;
@@ -3115,7 +3115,7 @@ def render_privacy_policy_analyzer() -> None:
                 justify-content: space-between;
                 gap: 20px;
                 padding: 10px;
-                flex-wrap: nowrap;
+                flex-wrap: wrap;
             }
             .quadrant-item {
                 flex: 1;
