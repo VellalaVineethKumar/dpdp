@@ -149,12 +149,37 @@ def render_landing_page():
     st.markdown(get_landing_page_css(), unsafe_allow_html=True)
     st.markdown(get_contact_link_css(), unsafe_allow_html=True)
     
-    # Add CSS to center the main content block
+    # Add CSS to center the main content block and logo
     st.markdown("""
         <style>
         /* Target the main block containing landing page elements */
         div[data-testid="stVerticalBlock"] > div.stHorizontalBlock > div[data-testid="stVerticalBlock"] {
             align-items: center;
+        }
+        
+        /* Improved logo centering */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        
+        .logo-container img {
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        /* Ensure the middle column is properly centered */
+        div[data-testid="stHorizontalBlock"] > div:nth-child(2) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
         </style>
         """, unsafe_allow_html=True)
@@ -163,19 +188,10 @@ def render_landing_page():
     if os.path.exists(config.LOGO_PATH):
         col1, col2, col3 = st.columns([1, 1, 1]) # Equal ratios
         with col2:
-            # Inject CSS specifically for this column
-            st.markdown("""
-                <style>
-                    div[data-testid="stHorizontalBlock"] > div:nth-child(2) {
-                        text-align: center;
-                        display: flex; /* Use flexbox for centering */
-                        justify-content: center; /* Center horizontally */
-                        align-items: center; /* Center vertically if needed */
-                    }
-
-                </style>
-            """, unsafe_allow_html=True)
+            # Use the improved CSS class for logo centering
+            st.markdown('<div class="logo-container">', unsafe_allow_html=True)
             st.image(config.LOGO_PATH, width=300) # Increased width from 200 to 300
+            st.markdown('</div>', unsafe_allow_html=True)
     else:
         st.warning(f"Logo not found at path: {config.LOGO_PATH}")
     
