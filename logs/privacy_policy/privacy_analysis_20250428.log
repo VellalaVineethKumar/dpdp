@@ -1,0 +1,443 @@
+2025-04-28 12:28:30,171 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu
+2025-04-28 12:28:32,467 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.lulu.com/privacy-policy?srsltid=AfmBOop-xzwee0HbbcJQwFuykYmytiJR_bcJD0GMTHjntEyKO5sU3M5Y
+2025-04-28 12:28:32,470 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.lulu.com/privacy-policy?srsltid=AfmBOop-xzwee0HbbcJQwFuykYmytiJR_bcJD0GMTHjntEyKO5sU3M5Y
+2025-04-28 12:28:34,373 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.lulu.com/privacy-policy?srsltid=AfmBOop-xzwee0HbbcJQwFuykYmytiJR_bcJD0GMTHjntEyKO5sU3M5Y on attempt 1
+2025-04-28 12:28:34,461 - privacy_policy_analyzer - DEBUG - Removed 18 unwanted elements
+2025-04-28 12:28:34,463 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 12:28:34,465 - privacy_policy_analyzer - INFO - Successfully extracted 22706 characters of content
+2025-04-28 12:28:34,477 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 12:29:14,016 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 12:29:14,017 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 12:29:14,025 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 12:29:14,101 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp1q1ynb2s.pdf
+2025-04-28 12:29:14,102 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp1q1ynb2s.pdf
+2025-04-28 12:29:14,153 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp1q1ynb2s.pdf
+2025-04-28 12:29:14,154 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp1q1ynb2s.pdf
+2025-04-28 12:29:14,204 - privacy_policy_analyzer - INFO - Successfully read 152522 bytes from PDF
+2025-04-28 12:29:14,206 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp1q1ynb2s.pdf
+2025-04-28 12:29:25,449 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu
+2025-04-28 12:29:27,836 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.lulu.com/privacy-policy?srsltid=AfmBOoo8WehcAaVxHcqkl8IriKRA5ye-flsr4Bz6ms5vCKwEvXisk2KI
+2025-04-28 12:29:27,837 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.lulu.com/privacy-policy?srsltid=AfmBOoo8WehcAaVxHcqkl8IriKRA5ye-flsr4Bz6ms5vCKwEvXisk2KI
+2025-04-28 12:29:29,398 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.lulu.com/privacy-policy?srsltid=AfmBOoo8WehcAaVxHcqkl8IriKRA5ye-flsr4Bz6ms5vCKwEvXisk2KI on attempt 1
+2025-04-28 12:29:29,428 - privacy_policy_analyzer - DEBUG - Removed 18 unwanted elements
+2025-04-28 12:29:29,430 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 12:29:29,432 - privacy_policy_analyzer - INFO - Successfully extracted 22706 characters of content
+2025-04-28 12:29:29,437 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-04-28 12:30:02,380 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 12:30:02,381 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 12:30:02,383 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 12:30:02,411 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpxfaj52re.pdf
+2025-04-28 12:30:02,413 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpxfaj52re.pdf
+2025-04-28 12:30:02,419 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpxfaj52re.pdf
+2025-04-28 12:30:02,419 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpxfaj52re.pdf
+2025-04-28 12:30:02,441 - privacy_policy_analyzer - INFO - Successfully read 151248 bytes from PDF
+2025-04-28 12:30:02,442 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpxfaj52re.pdf
+2025-04-28 14:00:11,225 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-04-28 14:00:12,507 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:00:12,509 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:00:13,525 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-04-28 14:00:13,567 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-28 14:00:13,574 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-28 14:00:13,575 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-04-28 14:00:13,581 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:00:52,342 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:00:52,343 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:00:52,349 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:00:52,397 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpcpzrirz9.pdf
+2025-04-28 14:00:52,398 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpcpzrirz9.pdf
+2025-04-28 14:00:52,423 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpcpzrirz9.pdf
+2025-04-28 14:00:52,423 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpcpzrirz9.pdf
+2025-04-28 14:00:52,442 - privacy_policy_analyzer - INFO - Successfully read 154684 bytes from PDF
+2025-04-28 14:00:52,443 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpcpzrirz9.pdf
+2025-04-28 14:06:48,911 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-04-28 14:06:49,707 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:06:49,710 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:06:50,247 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-04-28 14:06:50,329 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-28 14:06:50,344 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-28 14:06:50,348 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-04-28 14:06:50,366 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:07:28,143 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:07:28,146 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:07:28,150 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:07:28,242 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpx4sa9t03.pdf
+2025-04-28 14:07:28,243 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpx4sa9t03.pdf
+2025-04-28 14:07:28,279 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpx4sa9t03.pdf
+2025-04-28 14:07:28,280 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpx4sa9t03.pdf
+2025-04-28 14:07:28,326 - privacy_policy_analyzer - INFO - Successfully read 995296 bytes from PDF
+2025-04-28 14:07:28,328 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpx4sa9t03.pdf
+2025-04-28 14:09:47,360 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-04-28 14:09:50,596 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:09:50,598 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:09:51,342 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-04-28 14:09:51,425 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-28 14:09:51,436 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-28 14:09:51,442 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-04-28 14:09:51,455 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:10:31,939 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:10:31,942 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:10:31,943 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:10:31,963 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp70tirlc3.pdf
+2025-04-28 14:10:31,964 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp70tirlc3.pdf
+2025-04-28 14:10:31,975 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp70tirlc3.pdf
+2025-04-28 14:10:31,976 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp70tirlc3.pdf
+2025-04-28 14:10:32,000 - privacy_policy_analyzer - INFO - Successfully read 163894 bytes from PDF
+2025-04-28 14:10:32,001 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp70tirlc3.pdf
+2025-04-28 14:11:48,137 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: Qatar
+2025-04-28 14:11:50,880 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-04-28 14:11:50,883 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-04-28 14:11:51,326 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-qa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-04-28 14:12:20,506 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: Qatar
+2025-04-28 14:12:23,185 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-04-28 14:12:23,189 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-04-28 14:12:23,324 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-qa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-04-28 14:12:45,100 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: Saudi Arabia
+2025-04-28 14:12:46,267 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://gcc.luluhypermarket.com/en-sa/privacy-policy
+2025-04-28 14:12:46,270 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://gcc.luluhypermarket.com/en-sa/privacy-policy
+2025-04-28 14:12:46,411 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-sa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-sa/privacy-policy
+2025-04-28 14:12:54,761 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: Oman
+2025-04-28 14:12:56,242 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://gcc.luluhypermarket.com/en-om/privacy-policy
+2025-04-28 14:12:56,244 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://gcc.luluhypermarket.com/en-om/privacy-policy
+2025-04-28 14:12:56,426 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-om/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-om/privacy-policy
+2025-04-28 14:13:08,700 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-04-28 14:13:10,886 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:13:10,888 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:13:11,367 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-04-28 14:13:11,441 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-28 14:13:11,449 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-28 14:13:11,451 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-04-28 14:13:11,460 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:14:12,654 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:14:12,657 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:14:12,658 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:14:12,676 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpth2jlt3p.pdf
+2025-04-28 14:14:12,677 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpth2jlt3p.pdf
+2025-04-28 14:14:12,683 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpth2jlt3p.pdf
+2025-04-28 14:14:12,684 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpth2jlt3p.pdf
+2025-04-28 14:14:12,707 - privacy_policy_analyzer - INFO - Successfully read 149509 bytes from PDF
+2025-04-28 14:14:12,708 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpth2jlt3p.pdf
+2025-04-28 14:28:02,778 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-04-28 14:28:03,780 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:28:03,782 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 14:28:04,272 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-04-28 14:28:04,324 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-28 14:28:04,328 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-28 14:28:04,330 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-04-28 14:28:04,335 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:28:34,582 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:28:34,584 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:28:34,585 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:28:34,603 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpk0my78y9.pdf
+2025-04-28 14:28:34,604 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpk0my78y9.pdf
+2025-04-28 14:28:34,617 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpk0my78y9.pdf
+2025-04-28 14:28:34,618 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpk0my78y9.pdf
+2025-04-28 14:28:34,645 - privacy_policy_analyzer - INFO - Successfully read 559552 bytes from PDF
+2025-04-28 14:28:34,646 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpk0my78y9.pdf
+2025-04-28 14:29:04,007 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-04-28 14:29:06,482 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-04-28 14:29:06,484 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-04-28 14:29:08,248 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-04-28 14:29:08,329 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-04-28 14:29:08,330 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 14:29:08,331 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-04-28 14:29:08,337 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:29:40,166 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:29:40,171 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:29:40,174 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:29:40,209 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpvdj34ils.pdf
+2025-04-28 14:29:40,210 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpvdj34ils.pdf
+2025-04-28 14:29:40,223 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpvdj34ils.pdf
+2025-04-28 14:29:40,223 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpvdj34ils.pdf
+2025-04-28 14:29:40,253 - privacy_policy_analyzer - INFO - Successfully read 145355 bytes from PDF
+2025-04-28 14:29:40,256 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpvdj34ils.pdf
+2025-04-28 14:31:26,506 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: adw in country: India
+2025-04-28 14:31:27,383 - privacy_policy_analyzer - INFO - Found privacy policy URL for adw: https://www.adwsafetycloud.com/privacy-policy
+2025-04-28 14:31:27,384 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.adwsafetycloud.com/privacy-policy
+2025-04-28 14:31:29,236 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.adwsafetycloud.com/privacy-policy on attempt 1
+2025-04-28 14:31:29,301 - privacy_policy_analyzer - DEBUG - Removed 21 unwanted elements
+2025-04-28 14:31:29,304 - privacy_policy_analyzer - DEBUG - Found content using selector: article
+2025-04-28 14:31:29,305 - privacy_policy_analyzer - INFO - Successfully extracted 27978 characters of content
+2025-04-28 14:31:29,313 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:32:00,596 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:32:00,599 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:32:00,601 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:32:00,616 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpbv4v009w.pdf
+2025-04-28 14:32:00,617 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpbv4v009w.pdf
+2025-04-28 14:32:00,625 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpbv4v009w.pdf
+2025-04-28 14:32:00,626 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpbv4v009w.pdf
+2025-04-28 14:32:00,651 - privacy_policy_analyzer - INFO - Successfully read 149592 bytes from PDF
+2025-04-28 14:32:00,653 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpbv4v009w.pdf
+2025-04-28 14:33:21,670 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: adw in country: India
+2025-04-28 14:33:22,486 - privacy_policy_analyzer - INFO - Found privacy policy URL for adw: https://www.adwsafetycloud.com/privacy-policy
+2025-04-28 14:33:22,489 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.adwsafetycloud.com/privacy-policy
+2025-04-28 14:33:23,337 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.adwsafetycloud.com/privacy-policy on attempt 1
+2025-04-28 14:33:23,429 - privacy_policy_analyzer - DEBUG - Removed 21 unwanted elements
+2025-04-28 14:33:23,435 - privacy_policy_analyzer - DEBUG - Found content using selector: article
+2025-04-28 14:33:23,437 - privacy_policy_analyzer - INFO - Successfully extracted 27978 characters of content
+2025-04-28 14:33:23,446 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:33:58,528 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:33:58,530 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:33:58,532 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:33:58,573 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpkm9fbbh5.pdf
+2025-04-28 14:33:58,574 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpkm9fbbh5.pdf
+2025-04-28 14:33:58,603 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpkm9fbbh5.pdf
+2025-04-28 14:33:58,604 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpkm9fbbh5.pdf
+2025-04-28 14:33:58,634 - privacy_policy_analyzer - INFO - Successfully read 992810 bytes from PDF
+2025-04-28 14:33:58,638 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpkm9fbbh5.pdf
+2025-04-28 14:37:00,780 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: adw in country: India
+2025-04-28 14:37:01,522 - privacy_policy_analyzer - INFO - Found privacy policy URL for adw: https://www.adwsafetycloud.com/privacy-policy
+2025-04-28 14:37:01,525 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.adwsafetycloud.com/privacy-policy
+2025-04-28 14:37:02,360 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.adwsafetycloud.com/privacy-policy on attempt 1
+2025-04-28 14:37:02,438 - privacy_policy_analyzer - DEBUG - Removed 21 unwanted elements
+2025-04-28 14:37:02,443 - privacy_policy_analyzer - DEBUG - Found content using selector: article
+2025-04-28 14:37:02,445 - privacy_policy_analyzer - INFO - Successfully extracted 27978 characters of content
+2025-04-28 14:37:02,459 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:37:35,215 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:37:35,217 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:37:35,219 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:37:35,253 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp444x_awy.pdf
+2025-04-28 14:37:35,257 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp444x_awy.pdf
+2025-04-28 14:37:35,320 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp444x_awy.pdf
+2025-04-28 14:37:35,322 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp444x_awy.pdf
+2025-04-28 14:37:35,354 - privacy_policy_analyzer - INFO - Successfully read 180783 bytes from PDF
+2025-04-28 14:37:35,355 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp444x_awy.pdf
+2025-04-28 14:37:59,809 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs  in country: India
+2025-04-28 14:38:00,836 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs : https://www.zs.com/india-privacy-policy
+2025-04-28 14:38:00,838 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-04-28 14:38:01,804 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-04-28 14:38:01,967 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-04-28 14:38:01,968 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 14:38:01,971 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-04-28 14:38:01,977 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:39:15,954 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:39:15,957 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:39:15,958 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:39:15,974 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpi4deefqr.pdf
+2025-04-28 14:39:15,975 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpi4deefqr.pdf
+2025-04-28 14:39:15,982 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpi4deefqr.pdf
+2025-04-28 14:39:15,983 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpi4deefqr.pdf
+2025-04-28 14:39:16,013 - privacy_policy_analyzer - INFO - Successfully read 149827 bytes from PDF
+2025-04-28 14:39:16,014 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpi4deefqr.pdf
+2025-04-28 14:39:37,646 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: informatica in country: India
+2025-04-28 14:39:38,047 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: informatica in country: India
+2025-04-28 14:39:38,565 - privacy_policy_analyzer - INFO - Found privacy policy URL for informatica: https://www.informatica.com/privacy-policy.html
+2025-04-28 14:39:40,448 - privacy_policy_analyzer - INFO - Found privacy policy URL for informatica: https://www.informatica.com/privacy-policy.html
+2025-04-28 14:39:40,452 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-04-28 14:39:40,869 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-04-28 14:39:41,111 - privacy_policy_analyzer - DEBUG - Removed 37 unwanted elements
+2025-04-28 14:39:41,112 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 14:39:41,116 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-04-28 14:39:41,132 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 14:40:19,011 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 14:40:19,058 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 14:40:19,061 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 14:40:19,127 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpx2xxxvny.pdf
+2025-04-28 14:40:19,129 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpx2xxxvny.pdf
+2025-04-28 14:40:19,175 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpx2xxxvny.pdf
+2025-04-28 14:40:19,177 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpx2xxxvny.pdf
+2025-04-28 14:40:19,228 - privacy_policy_analyzer - INFO - Successfully read 990495 bytes from PDF
+2025-04-28 14:40:19,230 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpx2xxxvny.pdf
+2025-04-28 15:12:56,574 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-04-28 15:12:57,294 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-04-28 15:12:57,297 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-04-28 15:12:58,012 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-04-28 15:12:58,258 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-04-28 15:12:58,261 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 15:12:58,262 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-04-28 15:12:58,274 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 15:13:40,540 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 15:13:40,545 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 15:13:40,549 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 15:13:40,649 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpo8z61ss_.pdf
+2025-04-28 15:13:40,652 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpo8z61ss_.pdf
+2025-04-28 15:13:40,755 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpo8z61ss_.pdf
+2025-04-28 15:13:40,757 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpo8z61ss_.pdf
+2025-04-28 15:13:40,804 - privacy_policy_analyzer - INFO - Successfully read 1336571 bytes from PDF
+2025-04-28 15:13:40,806 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpo8z61ss_.pdf
+2025-04-28 15:23:13,798 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-04-28 15:23:14,514 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-04-28 15:23:14,518 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-04-28 15:23:15,457 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-04-28 15:23:15,732 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-04-28 15:23:15,736 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 15:23:15,738 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-04-28 15:23:15,754 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 15:24:11,730 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 15:24:11,731 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 15:24:11,733 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 15:24:11,755 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpb3qygn6c.pdf
+2025-04-28 15:24:11,756 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpb3qygn6c.pdf
+2025-04-28 15:24:11,769 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpb3qygn6c.pdf
+2025-04-28 15:24:11,771 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpb3qygn6c.pdf
+2025-04-28 15:24:11,819 - privacy_policy_analyzer - INFO - Successfully read 156711 bytes from PDF
+2025-04-28 15:24:11,820 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpb3qygn6c.pdf
+2025-04-28 15:40:48,976 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-04-28 15:40:49,906 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-04-28 15:40:49,909 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-04-28 15:40:50,993 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-04-28 15:40:51,171 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-04-28 15:40:51,174 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 15:40:51,175 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-04-28 15:40:51,184 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 15:41:18,557 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 15:41:18,561 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 15:41:18,563 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 15:41:18,603 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp_tk9gwri.pdf
+2025-04-28 15:41:18,604 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp_tk9gwri.pdf
+2025-04-28 15:41:18,612 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp_tk9gwri.pdf
+2025-04-28 15:41:18,613 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp_tk9gwri.pdf
+2025-04-28 15:41:18,646 - privacy_policy_analyzer - INFO - Successfully read 146794 bytes from PDF
+2025-04-28 15:41:18,648 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp_tk9gwri.pdf
+2025-04-28 15:47:40,257 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-04-28 15:47:41,034 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-04-28 15:47:41,036 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-04-28 15:47:42,203 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-04-28 15:47:42,305 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-04-28 15:47:42,306 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 15:47:42,308 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-04-28 15:47:42,315 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 15:48:18,519 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 15:48:18,522 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 15:48:18,525 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 15:48:18,562 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmppvx62ir9.pdf
+2025-04-28 15:48:18,564 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmppvx62ir9.pdf
+2025-04-28 15:48:18,594 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmppvx62ir9.pdf
+2025-04-28 15:48:18,595 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmppvx62ir9.pdf
+2025-04-28 15:48:18,631 - privacy_policy_analyzer - INFO - Successfully read 988818 bytes from PDF
+2025-04-28 15:48:18,632 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmppvx62ir9.pdf
+2025-04-28 16:29:46,166 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-04-28 16:29:47,094 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-04-28 16:29:47,096 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-04-28 16:29:48,321 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-04-28 16:29:48,431 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-04-28 16:29:48,433 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 16:29:48,434 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-04-28 16:29:48,447 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 16:30:23,522 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 16:30:23,523 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 16:30:23,529 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 16:30:23,588 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmppvuq8xk_.pdf
+2025-04-28 16:30:23,589 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmppvuq8xk_.pdf
+2025-04-28 16:30:23,618 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmppvuq8xk_.pdf
+2025-04-28 16:30:23,619 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmppvuq8xk_.pdf
+2025-04-28 16:30:23,648 - privacy_policy_analyzer - INFO - Successfully read 994357 bytes from PDF
+2025-04-28 16:30:23,649 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmppvuq8xk_.pdf
+2025-04-28 16:38:00,734 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: awf in country: India
+2025-04-28 16:38:02,966 - privacy_policy_analyzer - INFO - Found privacy policy URL for awf: https://awf.co.in/privacy-policy-2/
+2025-04-28 16:38:02,969 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://awf.co.in/privacy-policy-2/
+2025-04-28 16:38:03,544 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://awf.co.in/privacy-policy-2/ on attempt 1
+2025-04-28 16:38:03,587 - privacy_policy_analyzer - DEBUG - Removed 31 unwanted elements
+2025-04-28 16:38:03,590 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 16:38:03,591 - privacy_policy_analyzer - INFO - Successfully extracted 2409 characters of content
+2025-04-28 16:38:03,600 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 16:38:40,827 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 16:38:40,831 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 16:38:40,834 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 16:38:40,874 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp3qaegc8m.pdf
+2025-04-28 16:38:40,875 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp3qaegc8m.pdf
+2025-04-28 16:38:40,901 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp3qaegc8m.pdf
+2025-04-28 16:38:40,901 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp3qaegc8m.pdf
+2025-04-28 16:38:40,930 - privacy_policy_analyzer - INFO - Successfully read 168321 bytes from PDF
+2025-04-28 16:38:40,931 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp3qaegc8m.pdf
+2025-04-28 16:40:27,147 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: awf in country: India
+2025-04-28 16:40:28,228 - privacy_policy_analyzer - INFO - Found privacy policy URL for awf: https://awf.co.in/privacy-policy-2/
+2025-04-28 16:40:28,230 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://awf.co.in/privacy-policy-2/
+2025-04-28 16:40:28,533 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://awf.co.in/privacy-policy-2/ on attempt 1
+2025-04-28 16:40:28,558 - privacy_policy_analyzer - DEBUG - Removed 31 unwanted elements
+2025-04-28 16:40:28,559 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 16:40:28,560 - privacy_policy_analyzer - INFO - Successfully extracted 2409 characters of content
+2025-04-28 16:40:28,571 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 16:40:51,691 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 16:40:51,695 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 16:40:51,697 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 16:40:51,739 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpk7ciq0ms.pdf
+2025-04-28 16:40:51,741 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpk7ciq0ms.pdf
+2025-04-28 16:40:51,771 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpk7ciq0ms.pdf
+2025-04-28 16:40:51,772 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpk7ciq0ms.pdf
+2025-04-28 16:40:51,800 - privacy_policy_analyzer - INFO - Successfully read 162564 bytes from PDF
+2025-04-28 16:40:51,802 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpk7ciq0ms.pdf
+2025-04-28 16:43:04,804 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: awf in country: India
+2025-04-28 16:43:05,629 - privacy_policy_analyzer - INFO - Found privacy policy URL for awf: https://awf.co.in/privacy-policy-2/
+2025-04-28 16:43:05,630 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://awf.co.in/privacy-policy-2/
+2025-04-28 16:43:05,988 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://awf.co.in/privacy-policy-2/ on attempt 1
+2025-04-28 16:43:06,001 - privacy_policy_analyzer - DEBUG - Removed 31 unwanted elements
+2025-04-28 16:43:06,002 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 16:43:06,003 - privacy_policy_analyzer - INFO - Successfully extracted 2409 characters of content
+2025-04-28 16:43:06,008 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 16:43:46,182 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 16:43:46,187 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 16:43:46,189 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 16:43:46,230 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmplny8ety7.pdf
+2025-04-28 16:43:46,231 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmplny8ety7.pdf
+2025-04-28 16:43:46,256 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmplny8ety7.pdf
+2025-04-28 16:43:46,257 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmplny8ety7.pdf
+2025-04-28 16:43:46,276 - privacy_policy_analyzer - INFO - Successfully read 1009832 bytes from PDF
+2025-04-28 16:43:46,278 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmplny8ety7.pdf
+2025-04-28 16:44:58,916 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: awf in country: India
+2025-04-28 16:44:59,759 - privacy_policy_analyzer - INFO - Found privacy policy URL for awf: https://awf.co.in/privacy-policy-2/
+2025-04-28 16:44:59,761 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://awf.co.in/privacy-policy-2/
+2025-04-28 16:44:59,982 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://awf.co.in/privacy-policy-2/ on attempt 1
+2025-04-28 16:45:00,004 - privacy_policy_analyzer - DEBUG - Removed 31 unwanted elements
+2025-04-28 16:45:00,008 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-28 16:45:00,009 - privacy_policy_analyzer - INFO - Successfully extracted 2409 characters of content
+2025-04-28 16:45:00,015 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 16:45:36,763 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 16:45:36,765 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 16:45:36,766 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 16:45:36,785 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpxp4a7mg1.pdf
+2025-04-28 16:45:36,786 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpxp4a7mg1.pdf
+2025-04-28 16:45:36,801 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpxp4a7mg1.pdf
+2025-04-28 16:45:36,802 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpxp4a7mg1.pdf
+2025-04-28 16:45:36,831 - privacy_policy_analyzer - INFO - Successfully read 996554 bytes from PDF
+2025-04-28 16:45:36,832 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpxp4a7mg1.pdf
+2025-04-28 16:46:02,336 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-04-28 16:46:04,611 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 16:46:04,614 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 16:46:05,170 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-04-28 16:46:05,243 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-28 16:46:05,256 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-28 16:46:05,258 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-04-28 16:46:05,265 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 16:46:34,495 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 16:46:34,501 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 16:46:34,504 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 16:46:34,549 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpfil2t4dp.pdf
+2025-04-28 16:46:34,551 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpfil2t4dp.pdf
+2025-04-28 16:46:34,583 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpfil2t4dp.pdf
+2025-04-28 16:46:34,585 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpfil2t4dp.pdf
+2025-04-28 16:46:34,611 - privacy_policy_analyzer - INFO - Successfully read 992836 bytes from PDF
+2025-04-28 16:46:34,612 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpfil2t4dp.pdf
+2025-04-28 16:48:04,980 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-04-28 16:48:06,956 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 16:48:06,960 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 16:48:07,493 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-04-28 16:48:07,550 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-28 16:48:07,558 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-28 16:48:07,559 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-04-28 16:48:07,566 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 16:48:30,977 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 16:48:30,980 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 16:48:30,981 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 16:48:30,998 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmprzthhnph.pdf
+2025-04-28 16:48:30,998 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmprzthhnph.pdf
+2025-04-28 16:48:31,014 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmprzthhnph.pdf
+2025-04-28 16:48:31,014 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmprzthhnph.pdf
+2025-04-28 16:48:31,041 - privacy_policy_analyzer - INFO - Successfully read 995102 bytes from PDF
+2025-04-28 16:48:31,042 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmprzthhnph.pdf
+2025-04-28 16:51:27,993 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-04-28 16:51:28,961 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 16:51:28,962 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-04-28 16:51:29,472 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-04-28 16:51:29,504 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-28 16:51:29,508 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-28 16:51:29,509 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-04-28 16:51:29,515 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-28 16:51:52,113 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-28 16:51:52,115 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-28 16:51:52,118 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-28 16:51:52,153 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpr61hsnbn.pdf
+2025-04-28 16:51:52,154 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpr61hsnbn.pdf
+2025-04-28 16:51:52,171 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpr61hsnbn.pdf
+2025-04-28 16:51:52,173 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpr61hsnbn.pdf
+2025-04-28 16:51:52,308 - privacy_policy_analyzer - INFO - Successfully read 156252 bytes from PDF
+2025-04-28 16:51:52,311 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpr61hsnbn.pdf

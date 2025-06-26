@@ -1,0 +1,41 @@
+2025-04-23 19:22:35,800 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates
+2025-04-23 19:22:36,368 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/privacy-policy
+2025-04-23 19:22:36,369 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-23 19:22:37,511 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy on attempt 1
+2025-04-23 19:22:37,657 - privacy_policy_analyzer - DEBUG - Removed 129 unwanted elements
+2025-04-23 19:22:37,658 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-23 19:22:37,659 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-23 19:23:53,620 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs 
+2025-04-23 19:23:54,255 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs : https://www.zs.com/privacy-policy
+2025-04-23 19:23:54,257 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-23 19:23:54,645 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy on attempt 1
+2025-04-23 19:23:54,830 - privacy_policy_analyzer - DEBUG - Removed 129 unwanted elements
+2025-04-23 19:23:54,832 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-23 19:23:54,834 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-23 19:23:54,843 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-04-23 19:24:53,252 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-23 19:24:53,256 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-23 19:24:53,262 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-23 19:24:53,336 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpbz3an8lo.pdf
+2025-04-23 19:24:53,337 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpbz3an8lo.pdf
+2025-04-23 19:24:53,394 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpbz3an8lo.pdf
+2025-04-23 19:24:53,395 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpbz3an8lo.pdf
+2025-04-23 19:24:53,421 - privacy_policy_analyzer - INFO - Successfully read 580017 bytes from PDF
+2025-04-23 19:24:53,422 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpbz3an8lo.pdf
+2025-04-23 23:38:12,206 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: BCBS
+2025-04-23 23:38:12,697 - privacy_policy_analyzer - INFO - Found privacy policy URL for BCBS: https://www.bcbs.com/privacy-policy
+2025-04-23 23:38:12,697 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.bcbs.com/privacy-policy
+2025-04-23 23:38:13,647 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.bcbs.com/privacy-policy on attempt 1
+2025-04-23 23:38:13,665 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-04-23 23:38:13,666 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-23 23:38:13,667 - privacy_policy_analyzer - INFO - Successfully extracted 16204 characters of content
+2025-04-23 23:38:13,671 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for United States analysis
+2025-04-23 23:39:57,856 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-23 23:39:57,857 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-23 23:39:57,864 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-23 23:39:57,900 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpcghn49g2.pdf
+2025-04-23 23:39:57,900 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpcghn49g2.pdf
+2025-04-23 23:39:57,929 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpcghn49g2.pdf
+2025-04-23 23:39:57,929 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpcghn49g2.pdf
+2025-04-23 23:39:57,946 - privacy_policy_analyzer - INFO - Successfully read 122954 bytes from PDF
+2025-04-23 23:39:57,947 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpcghn49g2.pdf

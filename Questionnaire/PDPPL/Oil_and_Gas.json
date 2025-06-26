@@ -1,0 +1,310 @@
+{
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization process personal data electronically or through a combination of electronic and traditional techniques? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 2</a>]",
+          "options": [
+            "Yes, with comprehensive documentation",
+            "Partially, needs improvement",
+            "No electronic processing",
+            "Not applicable"
+          ],
+          "recommendations": {
+            "Partially, needs improvement": "Enhance documentation practices to comply with PDPPL requirements.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Governance helps document processing activities.",
+            "No electronic processing": "Evaluate whether any manual processing falls under PDPPL scope. Consider digitizing systems to improve compliance readiness and ensure all processing methods are accounted for.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Governance & Compliance helps manage data in line with regulatory requirements."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Principles of Data Privacy",
+      "weight": 0.13,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization conduct regular audits of personal data processing? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 4</a>]",
+          "options": [
+            "Yes, with full documentation",
+            "Partially implemented",
+            "No audits conducted",
+            "Not applicable"
+          ],
+          "recommendations": {
+            "Partially implemented": "Implement comprehensive audit processes.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Governance provides audit capabilities.",
+            "No audits conducted": "Establish a formal internal audit schedule to assess data processing compliance. Define key audit areas such as consent management, data access requests, and breach response procedures.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica IICS supports capturing taskflow and asset logs, which can be used to track database modifications."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organization maintain a Record of Processing Activities (RoPA) documenting all personal data processing? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 5</a>]",
+          "options": [
+            "Yes, fully documented",
+            "Partially documented",
+            "No RoPA maintained",
+            "Not applicable"
+          ],
+          "recommendations": {
+            "Partially documented": "Complete your RoPA to include all required details.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Catalog automatically documents data processing activities.",
+            "No RoPA maintained": "Create and implement a centralized RoPA that includes all data processing activities, including purposes, categories of data subjects, retention periods, and third-party disclosures.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Implement Informatica Cloud Data Governence to create comprehensive documentation of all data protection processes with full auditability."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Permitted Reasons",
+      "weight": 0.15,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organisation have measures in place to identify and document the permitted reason for processing personal data? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 6</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a framework to identify and document the legal basis for each personal data processing activity, clearly categorizing them under explicit consent, contractual necessity, legal obligation, or legitimate interest.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Cloud Data Governance and Catalog (CDGC) and Cloud Data Access Management (CDAM) ensure compliance with data protection regulations by automating consent management and data privacy controls."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Where 'Explicit Consent' is identified as the permitted reason for processing, does your organisation have an established process for asking and recording consent? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 7</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement a robust consent management system that clearly requests, records, and tracks consent from individuals.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Cloud Data Governance and Catalog (CDGC) and Cloud Data Access Management (CDAM) ensure compliance with data protection regulations by automating consent management and data privacy controls."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Does your organisation have measures in place to identify and document any exemptions under articles 18 and/or 19? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 18 & 19</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a process to identify and document any processing activities that may qualify for exemptions under articles 18 and/or 19 of the PDPPL.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Governance & Compliance helps manage data in line with regulatory requirements."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Special Nature Processing & Security",
+      "weight": 0.10,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organisation comply with the requirements for processing 'personal data of special nature?' [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 16</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement additional safeguards for processing special nature personal data, including ethnic origin, children's data, health information, religious data, marital relations, criminal offenses, and biometrics.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Privacy Management provides tools to classify and monitor sensitive data, supporting compliance with privacy regulations that require purpose limitation."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organisation implement appropriate administrative, technical and financial precautions in compliance with PDPPL requirements? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 8</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement comprehensive security measures including access controls, encryption, regular security testing, incident response capabilities, and staff training. Ensure these measures address the specific risks associated with your data processing activities and align with PDPPL requirements.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Deploy Informatica Dynamic Data Masking and Persistent Data Masking to comprehensively protect sensitive data across development, testing, and production environments."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Individuals' Rights & Complaints",
+      "weight": 0.13,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organisation have the procedures in place to enable individuals to exercise their rights as set out in the PDPPL? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 5</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish comprehensive procedures for handling individual rights requests, including the right to protection and lawful processing, consent withdrawal, objection to processing, erasure, correction, notification of processing, notification of inaccurate disclosure, and access to personal data.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Implement Informatica Data Privacy Management to streamline data subject request fulfillment with automated workflows and self-service portals."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organisation have a system in place to ensure individuals are able to raise concerns or complaints to the organisation? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 18</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a formal complaints handling process that includes multiple accessible channels for individuals to raise concerns, clear procedures for complaint investigation and resolution, and defined timeframes for responses."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Governance & Training Awareness",
+      "weight": 0.10,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organisation have clearly defined, approved and communicated policies relating to the processing of personal data and is compliance monitored across the organisation? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 10</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Develop, approve, and communicate comprehensive data protection policies across your organization. Implement monitoring mechanisms to ensure ongoing compliance with these policies and PDPPL requirements.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Cloud Data Quality offers automated tools for profiling, cleansing, and standardizing data."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organisation have a governance framework that clearly sets out roles & responsibilities in relation to data privacy? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 11</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a formal data privacy governance framework that clearly defines roles and responsibilities throughout the organization. Consider appointing a Data Protection Officer or privacy team to oversee compliance efforts.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Cloud Data Governence creates comprehensive documentation of all data protection processes with full auditability."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Does your organisation have a procedure in place to ensure Data Privacy training and awareness is being conducted across the organisation? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 12</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement regular data privacy training and awareness programs for all employees. Tailor training to specific roles and responsibilities, and maintain records of training completion. Include updates on regulatory changes and emerging privacy best practices.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Governance & Compliance helps manage data in line with regulatory requirements."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Privacy Impact Assessment (DPIA) & Privacy by Design",
+      "weight": 0.09,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Is there a formal, documented framework to conduct and manage Data Privacy Impact Assessments (DPIAs) across the organisation? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 14</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Develop a standardized DPIA framework and process to assess privacy risks for new processing activities or significant changes to existing ones. Include criteria for determining when a DPIA is required, methodology for conducting assessments, and procedures for reviewing and approving results.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Log Analyzer automates the extraction and storage of activity and taskflow logs, aiding in monitoring and compliance."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Is there a framework in place to embed data privacy by design and default within the organisation? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 17</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement a privacy by design framework that integrates privacy considerations into all processes, products, and services from the earliest stages of development. Include privacy in requirements gathering, design reviews, and deployment processes.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Engineering Integration with its comprehensive data lineage capabilities to track and ensure data remains within required jurisdictions."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cross Border Data Flows & Third Party Agreements",
+      "weight": 0.09,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organisation ensure an adequate level of protection for any personal data processed by others on your behalf that is transferred outside the state of Qatar? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 15</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement mechanisms to ensure adequate protection for international data transfers, such as standard contractual clauses, binding corporate rules, or verifying recipient country adequacy decisions. Maintain documentation of transfer impact assessments and safeguards implemented.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Deploy Informatica Cloud Data Integration with region-specific processing to maintain data residency compliance."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organisation have a written contract with processors who process personal data on your behalf, including requirements for the use of sub processors? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 13</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish formal written agreements with all data processors that clearly define their data protection obligations, including confidentiality, security measures, data subject rights support, and sub-processor management. Regularly review and update these agreements.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Governance & Compliance helps manage data in line with regulatory requirements."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Breaches",
+      "weight": 0.10,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organisation have a formal, documented process to identify and respond to privacy related incidents and breaches? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 16</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a comprehensive data breach response plan that includes detection procedures, classification criteria, containment strategies, notification protocols, and post-incident review processes. Ensure all relevant stakeholders understand their roles in the event of a breach.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> cloud Data Ingestion and Replication (CDIR), which supports data replication and backup."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Children's Websites",
+      "weight": 0.04,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organisation take account of the PDPPL requirements for owners or operators of websites directed at children? [<a href='https://datainfa.com/pdppl-qatar/ ' target='_blank'>PDPPL Section 17</a>]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement enhanced protection measures for children's data, including age verification mechanisms, parental consent procedures, simplified privacy notices, and stricter data minimization practices. Ensure these measures comply with the specific PDPPL requirements for children's websites.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Implement Informatica Cloud Data Governence to create comprehensive documentation of all data protection processes with full auditability."
+          }
+        }
+      ]
+    }
+  ],
+  "answer_points": {
+    "Yes, with comprehensive documentation": 1.0,
+    "Yes, with full documentation": 1.0,
+    "Yes, fully documented": 1.0,
+    "Partially, needs improvement": 0.5,
+    "Partially implemented": 0.5,
+    "Partially documented": 0.5,
+    "No electronic processing": 0.0,
+    "No audits conducted": 0.0,
+    "No RoPA maintained": 0.0,
+    "Not applicable": null
+  }
+}

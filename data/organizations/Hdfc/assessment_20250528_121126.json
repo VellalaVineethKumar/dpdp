@@ -1,0 +1,32 @@
+{
+  "organization_name": "Hdfc",
+  "assessment_date": "2025-05-28",
+  "selected_regulation": "NPC",
+  "selected_industry": "general",
+  "responses": {
+    "s0_q0": "Partially: A strategy exists but is incomplete, outdated, or only partially aligned with national strategies.",
+    "s0_q1": "No: No such unit or office exists.",
+    "s0_q2": "No: No policy exists.",
+    "s0_q3": "No: No clear roles or responsibilities.",
+    "s1_q0": "Partially: Architecture is partially developed or not regularly maintained.",
+    "s1_q1": "Yes: An EDM is in place, covering descriptive, diagnostic, predictive, and prescriptive analytics.",
+    "s1_q2": "No: No models have been reviewed or approved by NPC.",
+    "s2_q0": "Yes: The policy is published and aligned with national standards.",
+    "s2_q1": "Partially: Some activities are conducted, but not systematically or regularly.",
+    "s2_q2": "Partially: Some KPIs or scorecards exist, but monitoring is inconsistent.",
+    "s3_q0": "Partially: A policy exists but is incomplete or not aligned.",
+    "s3_q1": "Yes: A comprehensive MDM program and plan are operational.",
+    "s3_q2": "Partially: Some coordination/approval has occurred, but not comprehensively.",
+    "s4_q0": "No: No such policy or program exists.",
+    "s4_q1": "Yes: There is a clear plan and active implementation to digitize processes.",
+    "s5_q0": "Partially: Some cataloging/metadata management exists, but not fully implemented.",
+    "s5_q1": "Yes: Metadata structure fully aligns with NPC standards.",
+    "s6_q0": "Partially: Some policies exist, but not fully compliant or reviewed.",
+    "s6_q1": "No: No compliant storage solutions exist.",
+    "s7_q0": "Yes: A formal, published policy exists.",
+    "s7_q1": "Yes: All data sharing is secure and compliant.",
+    "s7_q2": "Yes: Actively participates in the National Data Marketplace."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-28T12:11:26.877359"
+}

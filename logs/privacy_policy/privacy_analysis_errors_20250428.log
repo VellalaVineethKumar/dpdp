@@ -1,0 +1,4 @@
+2025-04-28 14:11:51,326 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-qa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-04-28 14:12:23,324 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-qa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-04-28 14:12:46,411 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-sa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-sa/privacy-policy
+2025-04-28 14:12:56,426 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-om/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-om/privacy-policy

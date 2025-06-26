@@ -1,0 +1,220 @@
+2025-05-09 23:52:19,002 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:52:19,797 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-05-09 23:52:24,052 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:52:24,215 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:52:24,267 - helpers - INFO - Admin token validated
+2025-05-09 23:52:24,423 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:52:31,241 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:52:31,288 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-09 23:52:31,421 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:07,886 - config - INFO - Loaded 3 API key(s).
+2025-05-09 23:54:07,890 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:11,959 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:15,179 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:15,218 - helpers - INFO - Attempting to validate token: None...
+2025-05-09 23:54:15,237 - token_storage - WARNING - No matching token found: ...
+2025-05-09 23:54:15,242 - helpers - WARNING - Token validation failed
+2025-05-09 23:54:16,611 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:16,753 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:16,796 - helpers - INFO - Admin token validated
+2025-05-09 23:54:16,912 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:18,490 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:18,524 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-09 23:54:18,633 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:18,683 - __main__ - ERROR - Error in main application: cannot access local variable 'button_clicked' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\app.py", line 123, in main
+    render_privacy_policy_analyzer()
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\views.py", line 2529, in render_privacy_policy_analyzer
+    if button_clicked:
+       ^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'button_clicked' where it is not associated with a value
+2025-05-09 23:54:48,499 - config - INFO - Loaded 3 API key(s).
+2025-05-09 23:54:48,501 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:51,814 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:52,769 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:54,245 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:54:54,298 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-05-09 23:54:54,665 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-09 23:54:54,667 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-09 23:54:54,781 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-09 23:54:55,268 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-09 23:54:55,310 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-09 23:54:55,314 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-09 23:54:55,317 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-09 23:56:44,553 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-09 23:56:44,556 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-09 23:56:44,558 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-09 23:56:44,591 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:44,592 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:44,606 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:44,607 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:44,634 - privacy_policy_analyzer - INFO - Successfully read 592644 bytes from PDF
+2025-05-09 23:56:44,635 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:55,424 - config - INFO - Loaded 3 API key(s).
+2025-05-09 23:56:55,425 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:57:48,775 - config - INFO - Loaded 3 API key(s).
+2025-05-09 23:57:48,779 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:57:50,797 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:57:52,926 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:57:53,072 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:57:53,107 - helpers - INFO - Admin token validated
+2025-05-09 23:57:53,213 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:57:54,853 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:57:54,880 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-09 23:57:54,970 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:57:59,856 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:58:03,150 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:58:04,104 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:58:04,157 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-05-09 23:58:04,600 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-05-09 23:58:04,602 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-05-09 23:58:05,435 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-05-09 23:58:05,633 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-05-09 23:58:05,635 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-09 23:58:05,636 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-05-09 23:58:05,641 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-09 23:59:09,502 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-09 23:59:09,511 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-09 23:59:09,514 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-09 23:59:09,532 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,532 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,539 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,540 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,566 - privacy_policy_analyzer - INFO - Successfully read 148271 bytes from PDF
+2025-05-09 23:59:09,567 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,641 - config - INFO - Loaded 3 API key(s).
+2025-05-09 23:59:09,642 - __main__ - INFO - Application started - Logging initialized
+2025-05-09 23:59:15,493 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:00:30,190 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:00:31,173 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:01:11,500 - config - INFO - Loaded 3 API key(s).
+2025-05-10 00:01:11,502 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:01:53,467 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:02:06,836 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:03:54,487 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:03:54,508 - helpers - INFO - Navigating to page: welcome from privacy
+2025-05-10 00:03:54,593 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:03:56,503 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:03:56,523 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-10 00:03:56,590 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:03:57,887 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:03:57,905 - helpers - INFO - Navigating to page: welcome from privacy
+2025-05-10 00:03:57,973 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:04:00,553 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:04:02,896 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:04:03,031 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:04:03,067 - views - INFO - Starting assessment for iNFORMATICA
+2025-05-10 00:04:03,069 - helpers - INFO - Navigating to page: assessment from welcome
+2025-05-10 00:04:03,168 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:04:03,196 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-05-10 00:04:03,198 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-05-10 00:04:03,199 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-05-10 00:04:03,200 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL
+2025-05-10 00:04:03,200 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-10 00:04:03,201 - assessment - INFO - Looking for questionnaire for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-10 00:04:03,202 - assessment - INFO - Found exact match for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-10 00:04:03,202 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-05-10 00:04:03,204 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-10 00:04:10,151 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:04:10,172 - helpers - INFO - Navigating to page: welcome from assessment
+2025-05-10 00:04:10,246 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:07:33,126 - config - INFO - Loaded 3 API key(s).
+2025-05-10 00:07:33,128 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:07:33,219 - __main__ - ERROR - Error in main application: `st.session_state.selected_language` cannot be modified after the widget with key `selected_language` is instantiated.
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\app.py", line 115, in main
+    render_welcome_page()
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\views.py", line 2056, in render_welcome_page
+    st.session_state.selected_language = selected_language
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 133, in __setattr__
+    self[key] = value
+    ~~~~^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 111, in __setitem__
+    get_session_state()[key] = value
+    ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 99, in __setitem__
+    self._state[key] = value
+    ~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\state\session_state.py", line 472, in __setitem__
+    raise StreamlitAPIException(
+streamlit.errors.StreamlitAPIException: `st.session_state.selected_language` cannot be modified after the widget with key `selected_language` is instantiated.
+2025-05-10 00:07:36,758 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:07:36,916 - __main__ - ERROR - Error in main application: `st.session_state.selected_language` cannot be modified after the widget with key `selected_language` is instantiated.
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\app.py", line 115, in main
+    render_welcome_page()
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\views.py", line 2056, in render_welcome_page
+    st.session_state.selected_language = selected_language
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 133, in __setattr__
+    self[key] = value
+    ~~~~^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 408, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 111, in __setitem__
+    get_session_state()[key] = value
+    ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 99, in __setitem__
+    self._state[key] = value
+    ~~~~~~~~~~~^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\state\session_state.py", line 472, in __setitem__
+    raise StreamlitAPIException(
+streamlit.errors.StreamlitAPIException: `st.session_state.selected_language` cannot be modified after the widget with key `selected_language` is instantiated.
+2025-05-10 00:08:13,155 - config - INFO - Loaded 3 API key(s).
+2025-05-10 00:08:13,157 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:16,760 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:18,925 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:24,104 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:24,131 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-10 00:08:24,226 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:25,792 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:25,816 - helpers - INFO - Navigating to page: welcome from privacy
+2025-05-10 00:08:25,903 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:27,997 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:34,385 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:34,420 - views - INFO - Starting assessment for iNFORMATICA
+2025-05-10 00:08:34,421 - helpers - INFO - Navigating to page: assessment from welcome
+2025-05-10 00:08:34,508 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:08:34,546 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-10 00:08:34,549 - assessment - INFO - Looking for questionnaire for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-10 00:08:34,550 - assessment - INFO - Found exact match for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-10 00:08:34,551 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-05-10 00:11:34,380 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:11:34,399 - helpers - INFO - Navigating to page: welcome from assessment
+2025-05-10 00:11:34,486 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:11:44,414 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:11:51,098 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:13:44,967 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:13:45,010 - views - INFO - Starting assessment for iNFORMATICA
+2025-05-10 00:13:45,011 - helpers - INFO - Navigating to page: assessment from welcome
+2025-05-10 00:13:45,119 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:17:00,302 - config - INFO - Loaded 3 API key(s).
+2025-05-10 00:17:00,304 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:17:00,396 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-10 00:17:00,397 - assessment - INFO - Looking for questionnaire for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-10 00:17:00,397 - assessment - INFO - Found exact match for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-10 00:17:00,398 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-05-10 00:17:01,308 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:17:01,338 - helpers - INFO - Navigating to page: welcome from assessment
+2025-05-10 00:17:01,428 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:17:02,354 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:17:02,378 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-10 00:17:02,476 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:17:03,587 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 00:17:03,616 - helpers - INFO - Navigating to page: welcome from privacy
+2025-05-10 00:17:03,715 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 10:20:10,917 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 10:29:21,090 - __main__ - INFO - Application started - Logging initialized
+2025-05-10 10:53:08,440 - __main__ - INFO - Application started - Logging initialized

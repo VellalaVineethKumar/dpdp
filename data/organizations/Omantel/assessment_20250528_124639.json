@@ -1,0 +1,25 @@
+{
+  "organization_name": "Omantel",
+  "assessment_date": "2025-05-28",
+  "selected_regulation": "NPC",
+  "selected_industry": "General",
+  "responses": {
+    "s0_q1": "Yes: A formal, dedicated unit or office is operational and has clear responsibilities.",
+    "s0_q2": "Partially: A policy exists but is not fully aligned or not widely communicated.",
+    "s0_q3": "Yes: All roles and responsibilities are documented and assigned.",
+    "s0_q0": "Yes: The strategy is documented, covers all 12 NDP domains, and is reviewed/updated annually.",
+    "s1_q0": "Yes: A comprehensive architecture exists, is documented, and regularly updated.",
+    "s1_q1": "Partially: An EDM exists but is incomplete or not fully utilized.",
+    "s1_q2": "Partially: Some models have been submitted or reviewed, but not all.",
+    "s2_q0": "Partially: A policy exists but is not fully aligned or not published.",
+    "s2_q1": "Yes: A formal program is in place, with regular assessments and improvements.",
+    "s2_q2": "Yes: Scorecards and KPIs are implemented and actively monitored.",
+    "s3_q0": "Partially: A policy exists but is incomplete or not aligned.",
+    "s3_q1": "Yes: A comprehensive MDM program and plan are operational.",
+    "s3_q2": "Partially: Some coordination/approval has occurred, but not comprehensively.",
+    "s4_q0": "Partially: Policy/program exists but is incomplete or covers only part of the lifecycle.",
+    "s4_q1": "Yes: There is a clear plan and active implementation to digitize processes."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-28T12:46:39.998580"
+}

@@ -1,0 +1,496 @@
+{
+  "sections": [
+	{
+  "name": "Open and Transparent Management of Personal Information",
+  "weight": 0.12,
+  "questions": [
+    {
+      "id": 1,
+      "text": "Does your organization have a clearly expressed and up-to-date APP privacy policy? [APP 1.3]",
+      "options": [
+        "Yes: The organization has a comprehensive, current privacy policy addressing personal information management.",
+        "Partially: There is a privacy policy, but it is outdated or not fully comprehensive.",
+        "No: There is no privacy policy in place."
+      ],
+      "recommendations": {
+        "Partially: There is a privacy policy, but it is outdated or not fully comprehensive.": "Review and update your privacy policy to ensure it is comprehensive and current. Regularly schedule reviews to keep the policy aligned with legal requirements and organizational practices.",
+        "No: There is no privacy policy in place.": "Draft and implement a privacy policy immediately. Use the APPs as a framework and seek legal or privacy expert advice if needed."
+      }
+    },
+    {
+      "id": 2,
+      "text": "Does your privacy policy specify: \n The kinds of personal information collected and held?\n How personal information is collected and held?\n The purposes for which information is collected, held, used, and disclosed?\n How individuals can access and correct their information?\n How individuals can complain about breaches and how complaints are handled?\n Whether information is disclosed to overseas recipients, and if so, which countries? [APP 1.4]",
+      "options": [
+        "Yes: All these elements are clearly addressed in the policy.",
+        "Partially: Some, but not all, elements are addressed.",
+        "No: Most or all of these elements are missing from the policy."
+      ],
+      "recommendations": {
+        "Partially: Some, but not all, elements are addressed.": "Audit your privacy policy to identify missing elements (e.g., types of information, complaint mechanisms, overseas disclosures). Update the policy to address all required points.",
+        "No: Most or all of these elements are missing from the policy.": "Develop a detailed privacy policy that covers all required aspects as listed in APP 1.4. Refer to OAIC templates and guidance."
+      }
+    },
+    {
+      "id": 3,
+      "text": "Is your privacy policy available free of charge and in an appropriate form (e.g., online)? [APP 1.5]",
+      "options": [
+        "Yes: The policy is always available free of charge in a suitable format.",
+        "Partially: The policy is available but may not always be free or easily accessible.",
+        "No: The policy is not available free of charge or in an appropriate form."
+      ],
+      "recommendations": {
+        "Partially: The policy is available but may not always be free or easily accessible.": "Ensure your privacy policy is always accessible (e.g., website, office) and free of charge. Remove barriers to access.",
+        "No: The policy is not available free of charge or in an appropriate form.": "Make your privacy policy available online and in physical form if needed, and ensure it is free to access."
+      }
+    },
+    {
+      "id": 4,
+      "text": "If requested, do you provide the privacy policy in the requested form where reasonable? [APP 1.6]",
+      "options": [
+        "Yes: The organization provides the policy in the requested format whenever possible.",
+        "Partially: The organization tries but may not always accommodate requests.",
+        "No: The organization does not provide the policy in different formats."
+      ],
+      "recommendations": {
+        "Partially: The organization tries but may not always accommodate requests.": "Establish a process for providing the policy in requested formats (e.g., large print, electronic). Train staff to respond to such requests.",
+        "No: The organization does not provide the policy in different formats.": "Implement procedures to provide the privacy policy in alternative formats upon request."
+      }
+    }
+  ]
+},
+  {
+    "name": "Anonymity and Pseudonymity",
+    "weight": 0.05,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you allow individuals to interact anonymously or using a pseudonym, where practicable? [APP 2.1]",
+        "options": [
+          "Yes: Individuals can interact anonymously or with a pseudonym in most cases.",
+          "Partially: Anonymity or pseudonymity is allowed in limited circumstances.",
+          "No: The organization does not allow anonymous or pseudonymous interactions."
+        ],
+        "recommendations": {
+          "Partially: Anonymity or pseudonymity is allowed in limited circumstances.": "Review processes to allow anonymity or pseudonymity wherever possible. Identify and remove unnecessary barriers.",
+          "No: The organization does not allow anonymous or pseudonymous interactions.": "Redesign processes to enable anonymous or pseudonymous interactions unless prohibited by law or impracticable."
+        }
+      },
+      {
+        "id": 2,
+        "text": "Are exceptions to anonymity/pseudonymity limited to when required by law or impracticable? [APP 2.2]",
+        "options": [
+          "Yes: Exceptions are only made when legally required or impracticable.",
+          "Partially: Exceptions are sometimes made outside these circumstances.",
+          "No: Exceptions are not limited to these cases."
+        ],
+        "recommendations": {
+          "Partially: Exceptions are sometimes made outside these circumstances.": "Document and justify all exceptions. Ensure exceptions are only made when legally required or truly impracticable.",
+          "No: Exceptions are not limited to these cases.": "Limit exceptions strictly to legal or practical necessity, and update procedures accordingly."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Collection of Solicited Personal Information",
+    "weight": 0.11,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you only collect personal information that is reasonably necessary for your functions or activities? [APP 3.1, 3.2]",
+        "options": [
+          "Yes: All collected information is necessary for business functions or activities.",
+          "Partially: Most information is necessary, but some may not be.",
+          "No: Information is collected regardless of necessity."
+        ],
+        "recommendations": {
+          "Partially: Most information is necessary, but some may not be.": "Review all data collection practices and eliminate unnecessary data collection.",
+          "No: Information is collected regardless of necessity.": "Redesign data collection to only gather information that is necessary for your functions or activities."
+        }
+      },
+      {
+        "id": 2,
+        "text": "Do you only collect sensitive information with consent, or under specific legal/health exceptions? [APP 3.3, 3.4]",
+        "options": [
+          "Yes: Sensitive information is collected only with consent or as legally permitted.",
+          "Partially: Sensitive information is occasionally collected without proper consent or authority.",
+          "No: Sensitive information is collected without consent or legal basis."
+        ],
+        "recommendations": {
+          "Partially: Sensitive information is occasionally collected without proper consent or authority.": "Ensure sensitive information is only collected with valid consent or under clear legal exceptions. Update consent forms and staff training.",
+          "No: Sensitive information is collected without consent or legal basis.": "Immediately cease collecting sensitive information without consent or legal basis. Review all current holdings for compliance."
+        }
+      },
+      {
+        "id": 3,
+        "text": "Is all personal information collected by lawful and fair means? [APP 3.5]",
+        "options": [
+          "Yes: Collection methods are always lawful and fair.",
+          "Partially: Collection is usually lawful and fair, but not always.",
+          "No: Collection methods are not always lawful or fair."
+        ],
+        "recommendations": {
+          "Partially: Collection is usually lawful and fair, but not always.": "Conduct a review of collection methods. Train staff and update procedures to ensure all collection is lawful and fair.",
+          "No: Collection methods are not always lawful or fair.": "Immediately halt unlawful or unfair collection. Implement compliant collection processes."
+        }
+      },
+      {
+        "id": 4,
+        "text": "Do you collect personal information directly from the individual unless an exception applies? [APP 3.6]",
+        "options": [
+          "Yes: Information is collected directly unless an exception applies.",
+          "Partially: Information is sometimes collected from third parties without exception.",
+          "No: Information is regularly collected from third parties without valid exceptions."
+        ],
+        "recommendations": {
+          "Partially: Information is sometimes collected from third parties without exception.": "Update processes to prioritize direct collection from individuals unless an exception applies.",
+          "No: Information is regularly collected from third parties without valid exceptions.": "Redesign collection practices to ensure information is obtained directly from individuals wherever possible."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Dealing with Unsolicited Personal Information",
+    "weight": 0.07,
+    "questions": [
+      {
+        "id": 1,
+        "text": "If you receive unsolicited personal information, do you determine if it could have been collected under APP 3? [APP 4.1]",
+        "options": [
+          "Yes: All unsolicited information is assessed for compliance with collection principles.",
+          "Partially: Assessment occurs inconsistently.",
+          "No: No assessment is performed."
+        ],
+        "recommendations": {
+          "Partially: Assessment occurs inconsistently.": "Standardize assessment procedures for all unsolicited information. Train staff to recognize and act on such information.",
+          "No: No assessment is performed.": "Implement a mandatory process to assess all unsolicited information for compliance."
+        }
+      },
+      {
+        "id": 2,
+        "text": "If not, do you destroy or de-identify the information as soon as practicable, unless unlawful or unreasonable? [APP 4.3]",
+        "options": [
+          "Yes: Unnecessary unsolicited information is promptly destroyed or de-identified.",
+          "Partially: Information is occasionally retained unnecessarily.",
+          "No: Unsolicited information is kept without assessment."
+        ],
+        "recommendations": {
+          "Partially: Information is occasionally retained unnecessarily.": "Review records management and ensure prompt destruction or de-identification of non-compliant unsolicited information.",
+          "No: Unsolicited information is kept without assessment.": "Establish and enforce procedures for immediate destruction or de-identification of such information."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Notification of Collection",
+    "weight": 0.09,
+    "questions": [
+      {
+        "id": 1,
+        "text": "At or before collection, or as soon as practicable after, do you notify individuals of:\n Your identity and contact details?\n If collected from another source, the circumstances of collection?\n Any legal requirement for collection?\n The purposes of collection?\n Main consequences if information is not provided?\n Usual disclosures of the information? How to access and correct their information?\n How to complain about breaches?\n Whether information will be disclosed overseas and, if practicable, the countries? [APP 5.1, 5.2]",
+        "options": [
+          "Yes: Individuals are always notified of all required matters.",
+          "Partially: Notification is incomplete or inconsistent.",
+          "No: Individuals are not notified."
+        ],
+        "recommendations": {
+          "Partially: Notification is incomplete or inconsistent.": "Update collection notices and procedures to include all required information. Regularly review for completeness.",
+          "No: Individuals are not notified.": "Create and implement a standard notification process for all data collection activities."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Use or Disclosure of Personal Information",
+    "weight": 0.11,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you only use or disclose personal information for the primary purpose of collection, unless consent is given or an exception applies? [APP 6.1]",
+        "options": [
+          "Yes: Use/disclosure is always for the primary purpose or with consent/exception.",
+          "Partially: Use/disclosure for secondary purposes occurs without proper basis.",
+          "No: Use/disclosure is not restricted to the primary purpose."
+        ],
+        "recommendations": {
+          "Partially: Use/disclosure for secondary purposes occurs without proper basis.": "Review all uses/disclosures to ensure they align with the primary purpose or have proper consent/exception.",
+          "No: Use/disclosure is not restricted to the primary purpose.": "Restrict use/disclosure to the primary purpose or obtain valid consent/exception before proceeding."
+        }
+      },
+      {
+        "id": 2,
+        "text": "If using/disclosing for a secondary purpose, is it related (or directly related for sensitive info) and reasonably expected? [APP 6.2]",
+        "options": [
+          "Yes: Secondary use/disclosure is always related and reasonably expected.",
+          "Partially: Secondary use/disclosure is sometimes unrelated or unexpected.",
+          "No: Secondary use/disclosure is unrelated and not reasonably expected."
+        ],
+        "recommendations": {
+          "Partially: Secondary use/disclosure is sometimes unrelated or unexpected.": "Update policies to ensure secondary uses/disclosures are related and reasonably expected. Obtain consent where needed.",
+          "No: Secondary use/disclosure is unrelated and not reasonably expected.": "Prohibit unrelated or unexpected secondary uses/disclosures."
+        }
+      },
+      {
+        "id": 3,
+        "text": "If disclosing biometric information to enforcement bodies, do you comply with Commissioner guidelines? [APP 6.3]",
+        "options": [
+          "Yes: All disclosures comply with guidelines.",
+          "Partially: Guidelines are only partially followed.",
+          "No: Guidelines are not followed or not relevant."
+        ],
+        "recommendations": {
+          "Partially: Guidelines are only partially followed.": "Review and align all biometric disclosures with Commissioner guidelines. Train relevant staff.",
+          "No: Guidelines are not followed or not relevant.": "Immediately stop non-compliant disclosures; review and update procedures."
+        }
+      },
+      {
+        "id": 4,
+        "text": "Before disclosure, do you take reasonable steps to de-identify personal information if required? [APP 6.4]",
+        "options": [
+          "Yes: Information is de-identified as required before disclosure.",
+          "Partially: De-identification occurs inconsistently.",
+          "No: Information is not de-identified before disclosure."
+        ],
+        "recommendations": {
+          "Partially: De-identification occurs inconsistently.": "Strengthen de-identification processes and ensure they are consistently applied.",
+          "No: Information is not de-identified before disclosure.": "Implement mandatory de-identification steps before disclosure as required."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Direct Marketing",
+    "weight": 0.06,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you only use or disclose personal information for direct marketing with consent or as permitted by law? [APP 7]",
+        "options": [
+          "Yes: Direct marketing only occurs with consent or legal basis.",
+          "Partially: Direct marketing occurs without proper consent or authority.",
+          "No: Direct marketing is conducted without regard to consent or law."
+        ],
+        "recommendations": {
+          "Partially: Direct marketing occurs without proper consent or authority.": "Review direct marketing practices and ensure consent or legal basis is always obtained.",
+          "No: Direct marketing is conducted without regard to consent or law.": "Cease all direct marketing until compliant processes are in place."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Cross-Border Disclosure",
+    "weight": 0.07,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Before disclosing personal information overseas, do you take reasonable steps to ensure the recipient does not breach the APPs? [APP 8]",
+        "options": [
+          "Yes: All overseas disclosures are assessed for compliance or equivalent protection.",
+          "Partially: Overseas disclosures are not always properly assessed.",
+          "No: Overseas disclosures occur without assessment."
+        ],
+        "recommendations": {
+          "Partially: Overseas disclosures are not always properly assessed.": "Strengthen due diligence for overseas disclosures. Document and verify recipient compliance.",
+          "No: Overseas disclosures occur without assessment.": "Suspend overseas disclosures until compliance with APPs or equivalent protections is assured."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Adoption, Use or Disclosure of Government Related Identifiers",
+    "weight": 0.06,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you refrain from adopting, using, or disclosing government related identifiers unless permitted by law? [APP 9]",
+        "options": [
+          "Yes: Government identifiers are only used/disclosed as legally permitted.",
+          "Partially: There are occasional exceptions without legal basis.",
+          "No: Government identifiers are used/disclosed without restriction."
+        ],
+        "recommendations": {
+          "Partially: There are occasional exceptions without legal basis.": "Audit use of government identifiers and restrict to legally permitted situations.",
+          "No: Government identifiers are used/disclosed without restriction.": "Immediately cease use/disclosure of government identifiers except as permitted by law."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Quality of Personal Information",
+    "weight": 0.06,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you take reasonable steps to ensure that personal information is accurate, up-to-date, and complete? [APP 10]",
+        "options": [
+          "Yes: Regular checks and updates are performed.",
+          "Partially: Information is reviewed occasionally.",
+          "No: No steps are taken to ensure accuracy or completeness."
+        ],
+        "recommendations": {
+          "Partially: Information is reviewed occasionally.": "Increase frequency and thoroughness of data quality checks. Implement regular audits.",
+          "No: No steps are taken to ensure accuracy or completeness.": "Establish robust data quality assurance processes and conduct an immediate review of all records."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Security of Personal Information",
+    "weight": 0.10,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you take reasonable steps to protect personal information from misuse, interference, loss, unauthorized access, modification, or disclosure? [APP 11]",
+        "options": [
+          "Yes: Robust security measures are in place.",
+          "Partially: Security measures are inconsistent or partial.",
+          "No: There are no significant security measures."
+        ],
+        "recommendations": {
+          "Partially: Security measures are inconsistent or partial.": "Enhance security measures and conduct regular risk assessments. Train staff on security protocols.",
+          "No: There are no significant security measures.": "Immediately implement comprehensive security measures to protect personal information."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Access to Personal Information",
+    "weight": 0.07,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you provide individuals with access to their personal information upon request, unless an exception applies? [APP 12]",
+        "options": [
+          "Yes: Access is provided as required.",
+          "Partially: Access is inconsistently provided.",
+          "No: Access is generally not provided."
+        ],
+        "recommendations": {
+          "Partially: Access is inconsistently provided.": "Streamline and clarify access procedures. Ensure all requests are handled promptly and in accordance with exceptions.",
+          "No: Access is generally not provided.": "Develop and enforce a process for providing access to personal information upon request."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Correction of Personal Information",
+    "weight": 0.03,
+    "questions": [
+      {
+        "id": 1,
+        "text": "Do you take reasonable steps to correct personal information to ensure it is accurate, up-to-date, complete, relevant, and not misleading? [APP 13]",
+        "options": [
+          "Yes: Corrections are made promptly upon request or discovery.",
+          "Partially: Corrections are made inconsistently.",
+          "No: Corrections are rarely or never made."
+        ],
+        "recommendations": {
+          "Partially: Corrections are made inconsistently.": "Improve correction procedures and ensure all requests are addressed in a timely manner.",
+          "No: Corrections are rarely or never made.": "Establish a clear, accessible process for correcting personal information and train staff accordingly."
+        }
+      }
+    ]
+  }
+],
+
+"answer_points": {
+  "Yes: The organization has a comprehensive, current privacy policy addressing personal information management.": 1.0,
+  "Partially: There is a privacy policy, but it is outdated or not fully comprehensive.": 0.5,
+  "No: There is no privacy policy in place.": 0.0,
+
+  "Yes: All these elements are clearly addressed in the policy.": 1.0,
+  "Partially: Some, but not all, elements are addressed.": 0.5,
+  "No: Most or all of these elements are missing from the policy.": 0.0,
+
+  "Yes: The policy is always available free of charge in a suitable format.": 1.0,
+  "Partially: The policy is available but may not always be free or easily accessible.": 0.5,
+  "No: The policy is not available free of charge or in an appropriate form.": 0.0,
+
+  "Yes: The organization provides the policy in the requested format whenever possible.": 1.0,
+  "Partially: The organization tries but may not always accommodate requests.": 0.5,
+  "No: The organization does not provide the policy in different formats.": 0.0,
+
+  "Yes: Individuals can interact anonymously or with a pseudonym in most cases.": 1.0,
+  "Partially: Anonymity or pseudonymity is allowed in limited circumstances.": 0.5,
+  "No: The organization does not allow anonymous or pseudonymous interactions.": 0.0,
+
+  "Yes: Exceptions are only made when legally required or impracticable.": 1.0,
+  "Partially: Exceptions are sometimes made outside these circumstances.": 0.5,
+  "No: Exceptions are not limited to these cases.": 0.0,
+
+  "Yes: All collected information is necessary for business functions or activities.": 1.0,
+  "Partially: Most information is necessary, but some may not be.": 0.5,
+  "No: Information is collected regardless of necessity.": 0.0,
+
+  "Yes: Sensitive information is collected only with consent or as legally permitted.": 1.0,
+  "Partially: Sensitive information is occasionally collected without proper consent or authority.": 0.5,
+  "No: Sensitive information is collected without consent or legal basis.": 0.0,
+
+  "Yes: Collection methods are always lawful and fair.": 1.0,
+  "Partially: Collection is usually lawful and fair, but not always.": 0.5,
+  "No: Collection methods are not always lawful or fair.": 0.0,
+
+  "Yes: Information is collected directly unless an exception applies.": 1.0,
+  "Partially: Information is sometimes collected from third parties without exception.": 0.5,
+  "No: Information is regularly collected from third parties without valid exceptions.": 0.0,
+
+  "Yes: All unsolicited information is assessed for compliance with collection principles.": 1.0,
+  "Partially: Assessment occurs inconsistently.": 0.5,
+  "No: No assessment is performed.": 0.0,
+
+  "Yes: Unnecessary unsolicited information is promptly destroyed or de-identified.": 1.0,
+  "Partially: Information is occasionally retained unnecessarily.": 0.5,
+  "No: Unsolicited information is kept without assessment.": 0.0,
+
+  "Yes: Individuals are always notified of all required matters.": 1.0,
+  "Partially: Notification is incomplete or inconsistent.": 0.5,
+  "No: Individuals are not notified.": 0.0,
+
+  "Yes: Use/disclosure is always for the primary purpose or with consent/exception.": 1.0,
+  "Partially: Use/disclosure for secondary purposes occurs without proper basis.": 0.5,
+  "No: Use/disclosure is not restricted to the primary purpose.": 0.0,
+
+  "Yes: Secondary use/disclosure is always related and reasonably expected.": 1.0,
+  "Partially: Secondary use/disclosure is sometimes unrelated or unexpected.": 0.5,
+  "No: Secondary use/disclosure is unrelated and not reasonably expected.": 0.0,
+
+  "Yes: All disclosures comply with guidelines.": 1.0,
+  "Partially: Guidelines are only partially followed.": 0.5,
+  "No: Guidelines are not followed or not relevant.": 0.0,
+
+  "Yes: Information is de-identified as required before disclosure.": 1.0,
+  "Partially: De-identification occurs inconsistently.": 0.5,
+  "No: Information is not de-identified before disclosure.": 0.0,
+
+  "Yes: Direct marketing only occurs with consent or legal basis.": 1.0,
+  "Partially: Direct marketing occurs without proper consent or authority.": 0.5,
+  "No: Direct marketing is conducted without regard to consent or law.": 0.0,
+
+  "Yes: All overseas disclosures are assessed for compliance or equivalent protection.": 1.0,
+  "Partially: Overseas disclosures are not always properly assessed.": 0.5,
+  "No: Overseas disclosures occur without assessment.": 0.0,
+
+  "Yes: Government identifiers are only used/disclosed as legally permitted.": 1.0,
+  "Partially: There are occasional exceptions without legal basis.": 0.5,
+  "No: Government identifiers are used/disclosed without restriction.": 0.0,
+
+  "Yes: Regular checks and updates are performed.": 1.0,
+  "Partially: Information is reviewed occasionally.": 0.5,
+  "No: No steps are taken to ensure accuracy or completeness.": 0.0,
+
+  "Yes: Robust security measures are in place.": 1.0,
+  "Partially: Security measures are inconsistent or partial.": 0.5,
+  "No: There are no significant security measures.": 0.0,
+
+  "Yes: Access is provided as required.": 1.0,
+  "Partially: Access is inconsistently provided.": 0.5,
+  "No: Access is generally not provided.": 0.0,
+
+  "Yes: Corrections are made promptly upon request or discovery.": 1.0,
+  "Partially: Corrections are made inconsistently.": 0.5,
+  "No: Corrections are rarely or never made.": 0.0
+}
+}
+
+
+
+

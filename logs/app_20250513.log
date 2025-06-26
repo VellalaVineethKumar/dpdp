@@ -1,0 +1,322 @@
+2025-05-13 12:31:52,020 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:31:53,026 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-05-13 12:31:57,655 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:31:57,759 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:31:57,790 - helpers - INFO - Admin token validated
+2025-05-13 12:31:57,883 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:38:26,971 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:42:40,660 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:42:52,775 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:42:52,897 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:42:52,922 - helpers - INFO - Admin token validated
+2025-05-13 12:42:53,020 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:42:55,482 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:42:55,633 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:42:55,703 - views - INFO - Starting assessment for adwwad
+2025-05-13 12:42:55,703 - helpers - INFO - Navigating to page: assessment from welcome
+2025-05-13 12:42:55,840 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 12:42:55,920 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-05-13 12:42:55,923 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-05-13 12:42:55,924 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-05-13 12:42:55,924 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL
+2025-05-13 12:42:55,925 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-13 12:42:55,926 - assessment - INFO - Looking for questionnaire for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-13 12:42:55,927 - assessment - INFO - Found exact match for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-13 12:42:55,929 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-05-13 12:42:55,932 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-13 13:30:20,027 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 13:30:20,090 - config - INFO - Loaded 3 API key(s).
+2025-05-13 13:30:20,094 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:30:42,141 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:30:42,252 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:30:42,281 - helpers - INFO - Admin token validated
+2025-05-13 13:30:42,395 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:30:45,919 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:30:45,943 - helpers - INFO - Navigating to page: welcome from welcome
+2025-05-13 13:30:49,369 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:30:49,498 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:30:49,534 - views - INFO - Starting assessment for adwwad
+2025-05-13 13:30:49,535 - helpers - INFO - Navigating to page: assessment from welcome
+2025-05-13 13:30:49,622 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:30:49,648 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-05-13 13:30:49,649 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-05-13 13:30:49,649 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-05-13 13:30:49,652 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL
+2025-05-13 13:30:49,653 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-13 13:30:49,653 - assessment - INFO - Looking for questionnaire for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-13 13:30:49,654 - assessment - INFO - Found exact match for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-13 13:30:49,654 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-05-13 13:30:49,655 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-13 13:30:55,487 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:31:11,486 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:32:32,758 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:32:47,914 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:32:48,043 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:32:48,073 - helpers - INFO - Admin token validated
+2025-05-13 13:32:48,160 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:33:21,425 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:33:21,448 - helpers - INFO - Navigating to page: welcome from welcome
+2025-05-13 13:36:27,603 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 13:36:27,606 - config - INFO - Loaded 3 API key(s).
+2025-05-13 13:36:27,607 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 13:39:42,860 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 13:39:42,861 - config - INFO - Loaded 3 API key(s).
+2025-05-13 13:39:42,862 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:02:47,606 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:02:48,144 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:05:16,027 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:05:19,317 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:05:19,449 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:05:19,479 - helpers - INFO - Admin token validated
+2025-05-13 14:05:19,570 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:05:33,843 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:05:43,122 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:05:43,230 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:05:43,256 - helpers - INFO - Admin token validated
+2025-05-13 14:05:43,346 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:06:55,621 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:06:55,653 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-13 14:06:55,801 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:06:57,128 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:06:57,149 - helpers - INFO - Navigating to page: admin from privacy
+2025-05-13 14:06:57,249 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:06:57,286 - views - INFO - CSV Header: token,created_at,expires_at,organization_name,generated_by
+2025-05-13 14:06:57,319 - views - INFO - CSV columns detected: ['token', 'created_at', 'expires_at', 'organization_name', 'generated_by']
+2025-05-13 14:06:58,830 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:06:58,857 - helpers - INFO - Navigating to page: privacy from admin
+2025-05-13 14:06:58,940 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:07:00,212 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:07:00,233 - helpers - INFO - Navigating to page: welcome from privacy
+2025-05-13 14:07:00,351 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:09:39,883 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 14:09:39,885 - config - INFO - Loaded 3 API key(s).
+2025-05-13 14:09:39,885 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:09:42,827 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:09:45,001 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:09:47,726 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:09:47,866 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:09:47,887 - helpers - INFO - Admin token validated
+2025-05-13 14:09:47,989 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:19,504 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 14:12:19,506 - config - INFO - Loaded 3 API key(s).
+2025-05-13 14:12:19,509 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:22,870 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:29,336 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 14:12:29,344 - config - INFO - Loaded 3 API key(s).
+2025-05-13 14:12:29,346 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:29,389 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:29,536 - helpers - INFO - Admin token validated
+2025-05-13 14:12:29,635 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:45,059 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:47,165 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:49,477 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:49,645 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:12:49,691 - helpers - INFO - Admin token validated
+2025-05-13 14:12:49,813 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:13,713 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 14:56:13,715 - config - INFO - Loaded 3 API key(s).
+2025-05-13 14:56:13,717 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:22,413 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:24,739 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:24,879 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:24,899 - helpers - INFO - Admin token validated
+2025-05-13 14:56:24,984 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:40,499 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:42,226 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:42,333 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 14:56:42,358 - helpers - INFO - Admin token validated
+2025-05-13 14:56:42,447 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:09:31,374 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:09:31,375 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:09:31,377 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:09:33,822 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:09:37,953 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:09:38,070 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:09:38,094 - helpers - INFO - Admin token validated
+2025-05-13 15:09:38,186 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:11:03,110 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:11:03,111 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:11:03,113 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:11:16,813 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:11:16,816 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:11:16,818 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:14:49,235 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:14:53,720 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:14:56,582 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:14:56,718 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:14:56,739 - helpers - INFO - Admin token validated
+2025-05-13 15:14:56,837 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:15:09,239 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:15:09,243 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:15:09,246 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:15:21,404 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:15:21,407 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:15:21,409 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:15:23,754 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:15:27,980 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:15:28,140 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:15:28,179 - helpers - INFO - Admin token validated
+2025-05-13 15:15:28,307 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:15:55,975 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:15:55,976 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:15:55,978 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:17:02,514 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:17:02,516 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:17:02,517 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:17:06,050 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:17:10,051 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:17:10,170 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:17:10,199 - helpers - INFO - Admin token validated
+2025-05-13 15:17:10,293 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:19:40,906 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:19:40,908 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:19:40,910 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:19:50,668 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:19:50,671 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:19:50,673 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:19:58,803 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:19:58,807 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:19:58,808 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:20:07,039 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:20:07,042 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:20:07,044 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:20:10,449 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:20:15,183 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:20:15,340 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:20:15,406 - helpers - INFO - Admin token validated
+2025-05-13 15:20:15,655 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:15,998 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:21:16,000 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:21:16,001 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:18,551 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:18,574 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-13 15:21:18,663 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:22,250 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:39,675 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:21:39,680 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:21:39,682 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:43,076 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:43,234 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:43,289 - helpers - INFO - Admin token validated
+2025-05-13 15:21:43,444 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:21:51,529 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:22:14,731 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:22:14,733 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:22:14,734 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:22:14,810 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-13 15:22:14,907 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:22:17,411 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:33:19,636 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:34:44,901 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:34:45,058 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:34:45,089 - helpers - INFO - Admin token validated
+2025-05-13 15:34:45,190 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:34:53,446 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:34:53,472 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-13 15:34:53,568 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:34:56,203 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:34:56,964 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:35:47,615 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:35:47,619 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:35:47,621 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:35:56,132 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:35:56,251 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:35:56,278 - helpers - INFO - Admin token validated
+2025-05-13 15:35:56,388 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:00,736 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:00,762 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-13 15:36:00,856 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:02,792 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:02,817 - helpers - INFO - Navigating to page: welcome from privacy
+2025-05-13 15:36:02,908 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:06,931 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:44,004 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:36:44,006 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:36:44,008 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:46,620 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:46,642 - helpers - INFO - Navigating to page: privacy from welcome
+2025-05-13 15:36:46,727 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:49,374 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:53,491 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:36:53,512 - helpers - INFO - Navigating to page: welcome from privacy
+2025-05-13 15:36:53,601 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:42:42,213 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:42:44,184 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:42:44,293 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:42:44,340 - helpers - INFO - Admin token validated
+2025-05-13 15:42:44,449 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:45:17,630 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:45:18,677 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:45:19,655 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-05-13 15:45:24,502 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:45:24,592 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:45:24,620 - helpers - INFO - Admin token validated
+2025-05-13 15:45:24,701 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:46:42,423 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:46:42,426 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:46:42,427 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:46:44,789 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:46:47,296 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:46:47,429 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:46:47,455 - helpers - INFO - Admin token validated
+2025-05-13 15:46:47,551 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:47:36,320 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:47:36,323 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:47:36,325 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:47:52,633 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:47:52,636 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:47:52,637 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:48:08,537 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:48:08,540 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:48:08,542 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:48:30,208 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:48:30,211 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:48:30,213 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:49:52,150 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-05-13 15:49:52,153 - config - INFO - Loaded 3 API key(s).
+2025-05-13 15:49:52,155 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:49:54,808 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:49:54,926 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:49:54,950 - helpers - INFO - Admin token validated
+2025-05-13 15:49:55,038 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:50:01,922 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:50:02,048 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:50:02,088 - views - INFO - Starting assessment for adwwad
+2025-05-13 15:50:02,089 - helpers - INFO - Navigating to page: assessment from welcome
+2025-05-13 15:50:02,188 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:50:02,215 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-05-13 15:50:02,216 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-05-13 15:50:02,217 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-05-13 15:50:02,217 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL
+2025-05-13 15:50:02,218 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-13 15:50:02,218 - assessment - INFO - Looking for questionnaire for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-13 15:50:02,218 - assessment - INFO - Found exact match for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-05-13 15:50:02,219 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-05-13 15:50:02,220 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-05-13 15:50:34,757 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:51:00,179 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:51:03,287 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:51:03,400 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:51:03,429 - helpers - INFO - Admin token validated
+2025-05-13 15:51:03,521 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 15:51:07,337 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 16:11:40,696 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 16:11:46,830 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 16:11:56,192 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 16:11:56,219 - helpers - INFO - Admin token validated
+2025-05-13 16:11:56,302 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 17:11:03,638 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 17:29:56,750 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 17:29:58,673 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 17:29:58,705 - helpers - INFO - Admin token validated
+2025-05-13 17:29:58,794 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 17:30:02,495 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 17:30:02,607 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 17:30:02,637 - views - INFO - Starting assessment for omantel
+2025-05-13 17:30:02,638 - helpers - INFO - Navigating to page: assessment from welcome
+2025-05-13 17:30:02,725 - __main__ - INFO - Application started - Logging initialized
+2025-05-13 17:30:02,753 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-05-13 17:30:02,753 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-05-13 17:30:02,754 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-05-13 17:30:02,755 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL
+2025-05-13 17:30:02,755 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas

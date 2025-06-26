@@ -1,0 +1,17 @@
+requests>=2.31.0
+streamlit>=1.32.0
+pandas>=2.2.0
+plotly>=5.18.0
+openai>=1.12.0
+openpyxl>=3.1.2
+sqlparse>=0.4.4
+pypandoc>=1.11
+python-dotenv>=1.0.0
+markdown-pdf>=0.1.0
+xlsxwriter>=3.1.9
+beautifulsoup4>=4.12.3
+googlesearch-python>=1.2.3
+httpx>=0.26.0
+typing-extensions>=4.9.0
+python-dateutil>=2.8.2
+pytz>=2024.1 

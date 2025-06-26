@@ -1,0 +1,48 @@
+2025-06-18 17:16:23,927 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Qia in country: Qatar
+2025-06-18 17:16:24,550 - privacy_policy_analyzer - INFO - Found privacy policy URL for Qia: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-06-18 17:16:24,552 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-06-18 17:16:28,428 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.qia.qa/en/Pages/Privacy.aspx on attempt 1
+2025-06-18 17:16:28,455 - privacy_policy_analyzer - DEBUG - Removed 77 unwanted elements
+2025-06-18 17:16:28,459 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-06-18 17:16:28,460 - privacy_policy_analyzer - INFO - Successfully extracted 469 characters of content
+2025-06-18 17:16:28,465 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-06-18 17:16:57,229 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-18 17:16:57,230 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-18 17:16:57,317 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:16:57,318 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:16:57,353 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:16:57,355 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:16:57,375 - privacy_policy_analyzer - INFO - Successfully read 977900 bytes from PDF
+2025-06-18 17:16:57,376 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:17:17,202 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Amgen in country: India
+2025-06-18 17:17:17,787 - privacy_policy_analyzer - INFO - Found privacy policy URL for Amgen: https://www.amgen.com/india/privacy-statement
+2025-06-18 17:17:17,789 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.amgen.com/india/privacy-statement
+2025-06-18 17:17:20,305 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.amgen.com/india/privacy-statement on attempt 1
+2025-06-18 17:17:20,350 - privacy_policy_analyzer - DEBUG - Removed 48 unwanted elements
+2025-06-18 17:17:20,353 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-06-18 17:17:20,354 - privacy_policy_analyzer - INFO - Successfully extracted 17014 characters of content
+2025-06-18 17:17:20,357 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-06-18 17:18:17,765 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-18 17:18:17,767 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-18 17:18:17,788 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,789 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,807 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,808 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,838 - privacy_policy_analyzer - INFO - Successfully read 990648 bytes from PDF
+2025-06-18 17:18:17,839 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 18:01:24,246 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Amgen in country: India
+2025-06-18 18:01:24,941 - privacy_policy_analyzer - INFO - Found privacy policy URL for Amgen: https://www.amgen.com/india/privacy-statement
+2025-06-18 18:01:24,944 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.amgen.com/india/privacy-statement
+2025-06-18 18:01:27,674 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.amgen.com/india/privacy-statement on attempt 1
+2025-06-18 18:01:27,760 - privacy_policy_analyzer - DEBUG - Removed 48 unwanted elements
+2025-06-18 18:01:27,766 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-06-18 18:01:27,767 - privacy_policy_analyzer - INFO - Successfully extracted 17014 characters of content
+2025-06-18 18:01:27,771 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-06-18 18:01:51,023 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-18 18:01:51,024 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-18 18:01:51,051 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,052 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,065 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,066 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,095 - privacy_policy_analyzer - INFO - Successfully read 555466 bytes from PDF
+2025-06-18 18:01:51,096 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf

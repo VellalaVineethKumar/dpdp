@@ -1,0 +1,62 @@
+2025-06-24 23:38:55,390 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:38:56,299 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-06-24 23:39:00,804 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:39:00,907 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:39:00,941 - helpers - INFO - Admin token validated
+2025-06-24 23:39:01,014 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:39:17,118 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:40:59,093 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:40:59,126 - helpers - INFO - Navigating to page: privacy from welcome
+2025-06-24 23:40:59,232 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:42:18,795 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-24 23:42:18,797 - config - INFO - Loaded 3 API key(s).
+2025-06-24 23:42:18,798 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:42:21,202 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:42:24,021 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:42:29,779 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:42:29,937 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:42:29,968 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Aramco in country: Saudi Arabia
+2025-06-24 23:42:30,469 - privacy_policy_analyzer - INFO - Found privacy policy URL for Aramco: https://www.aramco.com/en/privacy-notice
+2025-06-24 23:42:30,470 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aramco.com/en/privacy-notice
+2025-06-24 23:42:59,682 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:43:00,027 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:43:00,068 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Alrajhi Bank in country: Saudi Arabia
+2025-06-24 23:43:00,459 - privacy_policy_analyzer - INFO - Found privacy policy URL for Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-06-24 23:43:00,460 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-06-24 23:43:00,888 - privacy_policy_analyzer - WARNING - Timeout error on attempt 1: HTTPSConnectionPool(host='www.aramco.com', port=443): Read timed out. (read timeout=30)
+2025-06-24 23:43:04,116 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-06-24 23:43:04,173 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-06-24 23:43:04,174 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-06-24 23:43:04,177 - privacy_policy_analyzer - INFO - Successfully extracted 16829 characters of content
+2025-06-24 23:43:04,179 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Saudi Arabia analysis
+2025-06-24 23:43:24,535 - privacy_policy_analyzer - WARNING - Connection error on attempt 2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-24 23:43:48,202 - privacy_policy_analyzer - WARNING - Connection error on attempt 3: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-24 23:43:48,202 - privacy_policy_analyzer - ERROR - Connection failed after 3 attempts
+2025-06-24 23:43:54,666 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-24 23:43:54,667 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-24 23:43:54,766 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,768 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,804 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,805 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,840 - privacy_policy_analyzer - INFO - Successfully read 993506 bytes from PDF
+2025-06-24 23:43:54,842 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,970 - __main__ - INFO - Application started - Logging initialized
+2025-06-24 23:45:39,666 - __main__ - INFO - Application started - Logging initialized
+2025-06-25 03:09:30,072 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-25 03:09:30,074 - config - INFO - Loaded 3 API key(s).
+2025-06-25 03:09:30,075 - __main__ - INFO - Application started - Logging initialized
+2025-06-25 04:45:57,184 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-2273' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-25 08:27:44,362 - __main__ - INFO - Application started - Logging initialized
+2025-06-25 08:27:48,628 - __main__ - INFO - Application started - Logging initialized

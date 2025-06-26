@@ -1,0 +1,19 @@
+{
+  "organization_name": "Aa",
+  "assessment_date": "2025-06-17",
+  "selected_regulation": "OAIC",
+  "selected_industry": "General",
+  "responses": {
+    "s0_q0": "Yes: The organization has a comprehensive, current privacy policy addressing personal information management.",
+    "s0_q1": "Yes: All these elements are clearly addressed in the policy.",
+    "s0_q2": "No: The policy is not available free of charge or in an appropriate form.",
+    "s0_q3": "Partially: The organization tries but may not always accommodate requests.",
+    "s1_q0": "Yes: Individuals can interact anonymously or with a pseudonym in most cases.",
+    "s1_q1": "Yes: Exceptions are only made when legally required or impracticable.",
+    "s2_q0": "Partially: Most information is necessary, but some may not be.",
+    "s2_q1": "Yes: Sensitive information is collected only with consent or as legally permitted.",
+    "s2_q2": "Yes: Collection methods are always lawful and fair."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-06-17T18:28:50.167818"
+}

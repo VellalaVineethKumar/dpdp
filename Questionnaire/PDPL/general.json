@@ -1,0 +1,441 @@
+{
+  "sections": [
+    {
+      "name": "Applicability of the PDPL",
+      "weight": 0.06,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization process personal data related to individuals in Saudi Arabia, regardless of location? [PDPL Article 2]",
+          "options": [
+            "Yes, with comprehensive documentation",
+            "Partially, needs improvement",
+            "No, not applicable",
+            "No processing of Saudi personal data"
+          ],
+          "recommendations": {
+            "Partially, needs improvement": "Enhance documentation practices to comply with PDPL requirements. Maintain clear records of all processing activities involving Saudi personal data.",
+            "No, not applicable": "Review your data processing activities to confirm no Saudi personal data is involved. Reassess periodically.",
+            "No processing of Saudi personal data": "Continue monitoring for any changes in data processing scope."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Principles of Data Privacy",
+      "weight": 0.13,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization conduct regular audits of personal data processing activities? [PDPL Article 31]",
+          "options": [
+            "Yes, with full documentation",
+            "Partially implemented",
+            "No audits conducted",
+            "Not applicable"
+          ],
+          "recommendations": {
+            "Partially implemented": "Implement comprehensive audit processes covering all PDPL requirements.",
+            "No audits conducted": "Establish a formal internal audit schedule to assess data processing compliance with PDPL."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organization maintain a Record of Processing Activities (RoPA) documenting all personal data processing? [PDPL Article 31]",
+          "options": [
+            "Yes, fully documented",
+            "Partially documented",
+            "No RoPA maintained",
+            "Not applicable"
+          ],
+          "recommendations": {
+            "Partially documented": "Complete your RoPA to include all required details as per PDPL.",
+            "No RoPA maintained": "Create a centralized RoPA including all data processing activities, purposes, categories of data subjects, retention periods, and third-party disclosures."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Permitted Reasons and Consent",
+      "weight": 0.15,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization have measures in place to identify and document the legal basis for processing personal data under PDPL? [PDPL Article 5, 6, 7, 10]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a framework to identify and document the legal basis for each processing activity (consent, contract, legal obligation, vital interest, public interest, or legitimate interest)."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Where 'Consent' is identified as the legal basis, does your organization have an established process for obtaining, recording, and managing consent? [PDPL Article 5, 9]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement a robust consent management system that clearly requests, records, and tracks consent from individuals."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Does your organization have measures in place to identify and document any exemptions or special cases under PDPL (e.g., public interest, security, health)? [PDPL Article 6, 10, 23]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a process to identify and document any processing activities that may qualify for exemptions under PDPL."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Special Nature Processing & Security",
+      "weight": 0.10,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization comply with the requirements for processing 'sensitive personal data' (health, genetic, credit, biometric, etc.) under PDPL? [PDPL Article 11, 23, 24]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement additional safeguards for processing sensitive personal data, including access controls, encryption, and strict documentation."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organization implement appropriate administrative, technical, and financial precautions to protect personal data in compliance with PDPL? [PDPL Article 19]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement comprehensive security measures including access controls, encryption, regular security testing, incident response, and staff training."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Individuals' Rights & Complaints",
+      "weight": 0.13,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization have procedures in place to enable individuals to exercise their rights under PDPL (access, correction, deletion, objection, etc.)? [PDPL Article 4, 21]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish comprehensive procedures for handling individual rights requests, including workflows for access, correction, deletion, and objection."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organization have a system in place to ensure individuals can raise concerns or complaints regarding personal data processing? [PDPL Article 34]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a formal complaints handling process with clear procedures and timeframes for response."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Governance & Training Awareness",
+      "weight": 0.10,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization have clearly defined, approved, and communicated data protection policies, with compliance monitored across the organization? [PDPL Article 10, 19]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Develop, approve, and communicate comprehensive data protection policies. Implement monitoring mechanisms to ensure ongoing compliance."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organization have a governance framework that sets out roles and responsibilities for data privacy? [PDPL Article 30]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a formal data privacy governance framework. Consider appointing a Data Protection Officer (DPO) or privacy team."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Does your organization provide regular data privacy training and awareness programs for employees? [PDPL Article 19]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement regular data privacy training and maintain records of training completion."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Privacy Impact Assessment (DPIA) & Privacy by Design",
+      "weight": 0.09,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Is there a formal, documented framework to conduct and manage Data Privacy Impact Assessments (DPIAs) for high-risk processing activities? [PDPL Article 22]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Develop a standardized DPIA framework and process for new or changed processing activities."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Is there a framework in place to embed data privacy by design and default within the organization? [PDPL Article 19]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Integrate privacy considerations into all processes, products, and services from the earliest stages."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cross Border Data Flows & Third Party Agreements",
+      "weight": 0.09,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization ensure an adequate level of protection for personal data transferred outside Saudi Arabia, including conducting Transfer Impact Assessments? [PDPL Article 29]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement mechanisms (e.g., standard contractual clauses, binding corporate rules) for international data transfers. Maintain documentation of transfer impact assessments."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organization have written contracts with processors that process personal data on your behalf, including requirements for sub-processors? [PDPL Article 8]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish formal written agreements with all data processors, including confidentiality, security, and sub-processor management."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Breaches",
+      "weight": 0.10,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization have a formal, documented process to identify and respond to privacy-related incidents and breaches? [PDPL Article 20]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish a comprehensive data breach response plan, including detection, notification, containment, and post-incident review."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Registration and Documentation",
+      "weight": 0.05,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Is your organization registered as a Controller with the Saudi Data & Artificial Intelligence Authority (SDAIA), and are all registrations and documentation up to date? [PDPL Article 30, 31]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Register as a Controller with SDAIA and maintain up-to-date documentation of processing activities."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Children's Data",
+      "weight": 0.04,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization take account of the PDPL requirements for processing personal data of children or other vulnerable groups? [PDPL Article 5, 9]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement enhanced protection measures for children's data, including age verification, parental consent, and strict data minimization."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Accuracy and Update Procedures",
+      "weight": 0.03,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization take sufficient steps to verify the accuracy, completeness, and timeliness of personal data processed? [PDPL Article 14]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Establish procedures to regularly review and update personal data to ensure it remains accurate and relevant."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Privacy Policy and Transparency",
+      "weight": 0.03,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization provide a clear privacy policy to data subjects, including information on processing purposes, data categories, retention, and rights? [PDPL Article 12, 13]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Develop and publish a comprehensive privacy policy that meets PDPL requirements, and ensure it is easily accessible to data subjects."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Retention and Destruction",
+      "weight": 0.03,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization have a documented process for timely destruction of personal data that is no longer necessary for its collection purpose? [PDPL Article 18]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement a data retention and destruction policy that ensures personal data is deleted or anonymized when no longer needed."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Marketing and Communications",
+      "weight": 0.03,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization obtain explicit consent for marketing communications and provide clear opt-out mechanisms? [PDPL Article 25, 26]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Ensure marketing communications are sent only with explicit consent and provide easy opt-out options."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Scientific, Research, and Statistical Processing",
+      "weight": 0.02,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization comply with PDPL requirements when processing personal data for scientific, research, or statistical purposes? [PDPL Article 27]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Ensure that processing for scientific, research, or statistical purposes is anonymized or pseudonymized, and that consent is obtained where required."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Official Documents and Copying",
+      "weight": 0.01,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization restrict copying of official documents containing identifiable personal data to cases required by law or competent authority? [PDPL Article 28]",
+          "options": [
+            "No - Not yet completed",
+            "Yes - Successfully completed",
+            "No - Not Applicable"
+          ],
+          "recommendations": {
+            "No - Not yet completed": "Implement controls to ensure official documents are copied only when legally required or by authorized request."
+          }
+        }
+      ]
+    }
+  ],
+  "answer_points": {
+    "Yes, with comprehensive documentation": 1.0,
+    "Yes, with full documentation": 1.0,
+    "Yes, fully documented": 1.0,
+    "Yes - Successfully completed": 1.0,
+    "Partially, needs improvement": 0.5,
+    "Partially implemented": 0.5,
+    "Partially documented": 0.5,
+    "No electronic processing": 0.0,
+    "No audits conducted": 0.0,
+    "No RoPA maintained": 0.0,
+    "No - Not yet completed": 0.0,
+    "No, not applicable": 0.0,
+    "No processing of Saudi personal data": 0.0,
+    "Not applicable": null
+  }
+}

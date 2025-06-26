@@ -1,0 +1,17 @@
+2025-04-22 18:25:57,677 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: awd
+2025-04-22 18:25:58,253 - privacy_policy_analyzer - INFO - Found privacy policy URL for awd: https://www.awd.com.au/privacy-policy/
+2025-04-22 18:25:58,254 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.awd.com.au/privacy-policy/
+2025-04-22 18:26:00,103 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.awd.com.au/privacy-policy/ on attempt 1
+2025-04-22 18:26:00,173 - privacy_policy_analyzer - DEBUG - Removed 93 unwanted elements
+2025-04-22 18:26:00,175 - privacy_policy_analyzer - DEBUG - Found content using selector: article
+2025-04-22 18:26:00,175 - privacy_policy_analyzer - INFO - Successfully extracted 4828 characters of content
+2025-04-22 18:26:00,181 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for DPDP Act (India) analysis
+2025-04-22 18:26:50,955 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-22 18:26:50,956 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-22 18:26:50,958 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-22 18:26:51,009 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpsec8y9am.pdf
+2025-04-22 18:26:51,010 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpsec8y9am.pdf
+2025-04-22 18:26:51,064 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpsec8y9am.pdf
+2025-04-22 18:26:51,065 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpsec8y9am.pdf
+2025-04-22 18:26:51,087 - privacy_policy_analyzer - INFO - Successfully read 1007605 bytes from PDF
+2025-04-22 18:26:51,088 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpsec8y9am.pdf

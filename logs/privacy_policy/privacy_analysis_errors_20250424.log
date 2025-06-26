@@ -1,0 +1,18 @@
+2025-04-24 16:24:01,956 - privacy_policy_analyzer - ERROR - Error generating PDF: hierarchy level of item 0 must be 1
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\privacy_policy_analyzer.py", line 614, in generate_privacy_policy_pdf
+    pdf.save(output_file)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\markdown_pdf\__init__.py", line 104, in save
+    doc.set_toc(self.toc)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\pymupdf\utils.py", line 1517, in set_toc
+    raise ValueError("hierarchy level of item 0 must be 1")
+ValueError: hierarchy level of item 0 must be 1
+2025-04-24 16:26:19,712 - privacy_policy_analyzer - ERROR - Error generating PDF: hierarchy level of item 0 must be 1
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\privacy_policy_analyzer.py", line 614, in generate_privacy_policy_pdf
+    pdf.save(output_file)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\markdown_pdf\__init__.py", line 104, in save
+    doc.set_toc(self.toc)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\pymupdf\utils.py", line 1517, in set_toc
+    raise ValueError("hierarchy level of item 0 must be 1")
+ValueError: hierarchy level of item 0 must be 1

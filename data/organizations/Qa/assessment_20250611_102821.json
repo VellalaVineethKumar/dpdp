@@ -1,0 +1,16 @@
+{
+  "organization_name": "Qa",
+  "assessment_date": "2025-06-11",
+  "selected_regulation": "PDPPL",
+  "selected_industry": "Oil and Gas",
+  "responses": {
+    "s0_q0": "Yes, with comprehensive documentation",
+    "s1_q0": "Yes, with full documentation",
+    "s1_q1": "No RoPA maintained",
+    "s2_q0": "Yes - Successfully completed",
+    "s2_q1": "No - Not Applicable",
+    "s2_q2": "Yes - Successfully completed"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-06-11T10:28:21.273950"
+}

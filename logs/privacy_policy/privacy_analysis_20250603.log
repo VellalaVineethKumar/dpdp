@@ -1,0 +1,16 @@
+2025-06-03 16:44:09,139 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Omantel in country: Qatar
+2025-06-03 16:44:10,295 - privacy_policy_analyzer - INFO - Found privacy policy URL for Omantel: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-06-03 16:44:10,298 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-06-03 16:44:11,553 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.omantel.om/Footer2/Privacy%20Policy on attempt 1
+2025-06-03 16:44:11,768 - privacy_policy_analyzer - DEBUG - Removed 24 unwanted elements
+2025-06-03 16:44:11,773 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-06-03 16:44:11,774 - privacy_policy_analyzer - INFO - Successfully extracted 10887 characters of content
+2025-06-03 16:44:11,806 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-06-03 16:44:40,125 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-03 16:44:40,126 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-03 16:44:40,206 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpjjle65ji.pdf
+2025-06-03 16:44:40,207 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpjjle65ji.pdf
+2025-06-03 16:44:40,225 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpjjle65ji.pdf
+2025-06-03 16:44:40,226 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpjjle65ji.pdf
+2025-06-03 16:44:40,261 - privacy_policy_analyzer - INFO - Successfully read 557745 bytes from PDF
+2025-06-03 16:44:40,263 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpjjle65ji.pdf

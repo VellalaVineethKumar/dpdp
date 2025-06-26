@@ -1,0 +1,68 @@
+2025-04-11 17:18:59,535 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Omantel 
+2025-04-11 17:19:00,068 - privacy_policy_analyzer - INFO - Found privacy policy URL for Omantel : https://www.omantel.om/Footer2/Privacy%20Policy
+2025-04-11 17:19:00,069 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-04-11 17:19:01,276 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.omantel.om/Footer2/Privacy%20Policy on attempt 1
+2025-04-11 17:19:01,358 - privacy_policy_analyzer - DEBUG - Removed 24 unwanted elements
+2025-04-11 17:19:01,369 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-04-11 17:19:01,370 - privacy_policy_analyzer - INFO - Successfully extracted 10887 characters of content
+2025-04-11 17:19:01,375 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for PDPP (Oman) analysis
+2025-04-11 17:19:17,024 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-11 17:19:17,025 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-11 17:19:17,030 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-11 17:19:17,088 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmpt8glivs7.pdf
+2025-04-11 17:19:17,089 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmpt8glivs7.pdf
+2025-04-11 17:19:17,120 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmpt8glivs7.pdf
+2025-04-11 17:19:17,121 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmpt8glivs7.pdf
+2025-04-11 17:19:17,162 - privacy_policy_analyzer - INFO - Successfully read 560071 bytes from PDF
+2025-04-11 17:19:17,163 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmpt8glivs7.pdf
+2025-04-11 17:28:13,906 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: assessment
+2025-04-11 17:28:14,416 - privacy_policy_analyzer - INFO - Found privacy policy URL for assessment: https://www.assessment.com/Privacy
+2025-04-11 17:28:14,419 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.assessment.com/Privacy
+2025-04-11 17:28:15,653 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.assessment.com/Privacy on attempt 1
+2025-04-11 17:28:15,665 - privacy_policy_analyzer - DEBUG - Removed 21 unwanted elements
+2025-04-11 17:28:15,668 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-11 17:28:15,669 - privacy_policy_analyzer - INFO - Successfully extracted 3662 characters of content
+2025-04-11 17:28:15,675 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for DPDP Act (India) analysis
+2025-04-11 17:28:42,187 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-11 17:28:42,188 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-11 17:28:42,189 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-11 17:28:42,207 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmpza0d_gfl.pdf
+2025-04-11 17:28:42,207 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmpza0d_gfl.pdf
+2025-04-11 17:28:42,232 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmpza0d_gfl.pdf
+2025-04-11 17:28:42,233 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmpza0d_gfl.pdf
+2025-04-11 17:28:42,255 - privacy_policy_analyzer - INFO - Successfully read 575469 bytes from PDF
+2025-04-11 17:28:42,256 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmpza0d_gfl.pdf
+2025-04-11 17:36:46,775 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: assessment
+2025-04-11 17:36:47,682 - privacy_policy_analyzer - INFO - Found privacy policy URL for assessment: https://www.assessment.com/Privacy
+2025-04-11 17:36:47,683 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.assessment.com/Privacy
+2025-04-11 17:36:48,834 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.assessment.com/Privacy on attempt 1
+2025-04-11 17:36:48,849 - privacy_policy_analyzer - DEBUG - Removed 21 unwanted elements
+2025-04-11 17:36:48,854 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-11 17:36:48,855 - privacy_policy_analyzer - INFO - Successfully extracted 3662 characters of content
+2025-04-11 17:36:48,861 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for DPDP Act (India) analysis
+2025-04-11 17:37:15,992 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-11 17:37:15,994 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-11 17:37:15,995 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-11 17:37:16,011 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmp7illvj43.pdf
+2025-04-11 17:37:16,011 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmp7illvj43.pdf
+2025-04-11 17:37:16,018 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmp7illvj43.pdf
+2025-04-11 17:37:16,019 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmp7illvj43.pdf
+2025-04-11 17:37:16,050 - privacy_policy_analyzer - INFO - Successfully read 148514 bytes from PDF
+2025-04-11 17:37:16,052 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmp7illvj43.pdf
+2025-04-11 17:42:10,233 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Informatica
+2025-04-11 17:42:10,751 - privacy_policy_analyzer - INFO - Found privacy policy URL for Informatica: https://www.informatica.com/privacy-policy.html
+2025-04-11 17:42:10,752 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-04-11 17:42:11,362 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-04-11 17:42:11,438 - privacy_policy_analyzer - DEBUG - Removed 37 unwanted elements
+2025-04-11 17:42:11,438 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-11 17:42:11,440 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-04-11 17:42:11,446 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for DPDP Act (India) analysis
+2025-04-11 17:43:07,307 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-11 17:43:07,309 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-11 17:43:07,310 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-11 17:43:07,326 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmpyogftl5k.pdf
+2025-04-11 17:43:07,326 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmpyogftl5k.pdf
+2025-04-11 17:43:07,346 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmpyogftl5k.pdf
+2025-04-11 17:43:07,347 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmpyogftl5k.pdf
+2025-04-11 17:43:07,382 - privacy_policy_analyzer - INFO - Successfully read 566935 bytes from PDF
+2025-04-11 17:43:07,383 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmpyogftl5k.pdf

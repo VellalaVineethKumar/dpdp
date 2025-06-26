@@ -1,0 +1,1501 @@
+2025-06-10 17:43:49,158 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 17:43:50,474 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-06-10 17:44:02,807 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 17:44:03,024 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 17:44:03,094 - helpers - INFO - Admin token validated
+2025-06-10 17:44:03,226 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 17:44:25,016 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 17:49:29,338 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 17:49:29,376 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 17:49:29,382 - data_storage - INFO - Saved assessment data for Adadaw to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Adadaw\assessment_20250610_174929.json
+2025-06-10 17:52:33,655 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 17:53:36,689 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 17:53:50,565 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:17:31,646 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:17:31,929 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:17:31,982 - helpers - INFO - Admin token validated
+2025-06-10 18:17:32,123 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:18:49,949 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:18:50,025 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:18:50,030 - data_storage - INFO - Saved assessment data for Exonn to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Exonn\assessment_20250610_181850.json
+2025-06-10 18:18:53,432 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:19:01,227 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:19:04,239 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:19:17,155 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:19:17,201 - views - INFO - Starting assessment for Exonn
+2025-06-10 18:19:17,202 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-10 18:19:17,202 - data_storage - INFO - Triggering start notification email for Exonn
+2025-06-10 18:19:17,202 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-10 18:19:20,949 - data_storage - INFO - Assessment notification email sent for Exonn
+2025-06-10 18:19:20,952 - data_storage - INFO - Saved assessment data for Exonn to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Exonn\assessment_20250610_181920.json
+2025-06-10 18:19:20,952 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-10 18:19:21,046 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:19:21,087 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: General
+2025-06-10 18:19:21,088 - assessment - INFO - Looking for questionnaire for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-10 18:19:21,089 - assessment - WARNING - No PDPPL questionnaire found for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL, using default
+2025-06-10 18:19:21,090 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-10 18:19:21,091 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-10 18:19:21,099 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-10 18:19:21,104 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-10 18:19:21,106 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-06-10 18:19:21,106 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-06-10 18:19:21,107 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-06-10 18:19:21,107 - views - INFO - [render_assessment] Using regulation: PDPPL for country: Qatar
+2025-06-10 18:19:21,108 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-06-10 18:19:21,109 - assessment - INFO - Looking for questionnaire for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-10 18:19:21,110 - assessment - INFO - Found exact match for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-10 18:19:21,110 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-06-10 18:19:21,110 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-06-10 18:19:21,111 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-10 18:19:21,112 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-10 18:19:21,113 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-06-10 18:20:00,518 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:20:29,719 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:20:29,909 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:20:29,952 - helpers - INFO - Admin token validated
+2025-06-10 18:20:30,096 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:20:45,019 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:21:28,484 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:21:28,727 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:21:28,779 - helpers - INFO - Admin token validated
+2025-06-10 18:21:28,928 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:22:55,515 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:22:55,590 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:22:55,604 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182255.json
+2025-06-10 18:23:01,278 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:23:05,225 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:23:06,187 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:23:11,474 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:23:11,546 - views - INFO - Starting assessment for Qatar Airways
+2025-06-10 18:23:11,549 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-10 18:23:11,550 - data_storage - INFO - Triggering start notification email for Qatar Airways
+2025-06-10 18:23:11,551 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-10 18:23:14,806 - data_storage - INFO - Assessment notification email sent for Qatar Airways
+2025-06-10 18:23:14,810 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182314.json
+2025-06-10 18:23:14,810 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-10 18:23:14,893 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:23:14,931 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-06-10 18:23:14,932 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-06-10 18:23:14,932 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-06-10 18:23:14,935 - views - INFO - [render_assessment] Using regulation: PDPPL for country: Qatar
+2025-06-10 18:23:14,936 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-06-10 18:24:08,062 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:08,123 - helpers - INFO - Saved response for s0_q0: 'Yes, with comprehensive documentation'
+2025-06-10 18:24:08,126 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:24:08,129 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182408.json
+2025-06-10 18:24:08,270 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:08,313 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='General'
+2025-06-10 18:24:08,314 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='General'
+2025-06-10 18:24:08,317 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'General')
+2025-06-10 18:24:08,317 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/General
+2025-06-10 18:24:08,317 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:24:08,319 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:24:08,319 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:24:08,319 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:24:08,320 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:24:08,320 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:24:08,320 - assessment - INFO - Found responses for section indices: [0]
+2025-06-10 18:24:08,321 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:24:08,321 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:24:08,321 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:24:08,321 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:24:08,322 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:24:08,323 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:24:08,323 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:24:08,323 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,324 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:24:08,324 - assessment - WARNING - Empty responses for section Principles of Data Privacy, using raw score None
+2025-06-10 18:24:08,324 - assessment - INFO - Section Principles of Data Privacy score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,324 - assessment - INFO - Section Principles of Data Privacy: No responses, score set to None
+2025-06-10 18:24:08,324 - assessment - INFO - Section Principles of Data Privacy: total_points=0.0, max_points=2
+2025-06-10 18:24:08,325 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:24:08,325 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,327 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:24:08,327 - assessment - INFO - Question 3: No response provided
+2025-06-10 18:24:08,327 - assessment - WARNING - Empty responses for section Permitted Reasons, using raw score None
+2025-06-10 18:24:08,327 - assessment - INFO - Section Permitted Reasons score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,327 - assessment - INFO - Section Permitted Reasons: No responses, score set to None
+2025-06-10 18:24:08,329 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:24:08,329 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:24:08,329 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,330 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:24:08,330 - assessment - WARNING - Empty responses for section Special Nature Processing & Security, using raw score None
+2025-06-10 18:24:08,330 - assessment - INFO - Section Special Nature Processing & Security score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,332 - assessment - INFO - Section Special Nature Processing & Security: No responses, score set to None
+2025-06-10 18:24:08,332 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:24:08,333 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:24:08,333 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,335 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:24:08,335 - assessment - WARNING - Empty responses for section Individuals' Rights & Complaints, using raw score None
+2025-06-10 18:24:08,335 - assessment - INFO - Section Individuals' Rights & Complaints score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,336 - assessment - INFO - Section Individuals' Rights & Complaints: No responses, score set to None
+2025-06-10 18:24:08,336 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:24:08,336 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:24:08,336 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,337 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:24:08,337 - assessment - INFO - Question 3: No response provided
+2025-06-10 18:24:08,337 - assessment - WARNING - Empty responses for section Governance & Training Awareness, using raw score None
+2025-06-10 18:24:08,337 - assessment - INFO - Section Governance & Training Awareness score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,337 - assessment - INFO - Section Governance & Training Awareness: No responses, score set to None
+2025-06-10 18:24:08,338 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:24:08,338 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:24:08,338 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,338 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:24:08,340 - assessment - WARNING - Empty responses for section Data Privacy Impact Assessment (DPIA) & Privacy by Design, using raw score None
+2025-06-10 18:24:08,343 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,343 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: No responses, score set to None
+2025-06-10 18:24:08,344 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:24:08,344 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:24:08,344 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,346 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:24:08,346 - assessment - WARNING - Empty responses for section Cross Border Data Flows & Third Party Agreements, using raw score None
+2025-06-10 18:24:08,346 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,346 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: No responses, score set to None
+2025-06-10 18:24:08,347 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:24:08,349 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:24:08,349 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,350 - assessment - WARNING - Empty responses for section Data Breaches, using raw score None
+2025-06-10 18:24:08,351 - assessment - INFO - Section Data Breaches score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,351 - assessment - INFO - Section Data Breaches: No responses, score set to None
+2025-06-10 18:24:08,352 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:24:08,352 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:24:08,352 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:24:08,353 - assessment - WARNING - Empty responses for section Children's Websites, using raw score None
+2025-06-10 18:24:08,353 - assessment - INFO - Section Children's Websites score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:24:08,353 - assessment - INFO - Section Children's Websites: No responses, score set to None
+2025-06-10 18:24:08,353 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:24:08,353 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:24:08,354 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': None, 'Permitted Reasons': None, 'Special Nature Processing & Security': None, "Individuals' Rights & Complaints": None, 'Governance & Training Awareness': None, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': None, 'Cross Border Data Flows & Third Party Agreements': None, 'Data Breaches': None, "Children's Websites": None}
+2025-06-10 18:24:08,354 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:24:08,354 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:24:08,355 - assessment - INFO - Section Principles of Data Privacy: SKIPPED (no score)
+2025-06-10 18:24:08,355 - assessment - INFO - Section Permitted Reasons: SKIPPED (no score)
+2025-06-10 18:24:08,355 - assessment - INFO - Section Special Nature Processing & Security: SKIPPED (no score)
+2025-06-10 18:24:08,356 - assessment - INFO - Section Individuals' Rights & Complaints: SKIPPED (no score)
+2025-06-10 18:24:08,356 - assessment - INFO - Section Governance & Training Awareness: SKIPPED (no score)
+2025-06-10 18:24:08,356 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: SKIPPED (no score)
+2025-06-10 18:24:08,356 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: SKIPPED (no score)
+2025-06-10 18:24:08,357 - assessment - INFO - Section Data Breaches: SKIPPED (no score)
+2025-06-10 18:24:08,358 - assessment - INFO - Section Children's Websites: SKIPPED (no score)
+2025-06-10 18:24:08,358 - assessment - INFO - Total weighted score: 0.06, Total weight: 0.06
+2025-06-10 18:24:08,359 - assessment - INFO - Overall score calculation: (0.06 / total_weight) * 100 = 100.00%
+2025-06-10 18:24:19,965 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:20,174 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:21,765 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:22,015 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:27,236 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:27,304 - helpers - INFO - Saved response for s2_q0: 'Yes - Successfully completed'
+2025-06-10 18:24:27,305 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:24:27,310 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182427.json
+2025-06-10 18:24:27,315 - helpers - INFO - Saved response for s2_q1: 'No - Not yet completed'
+2025-06-10 18:24:27,317 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:24:27,321 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182427.json
+2025-06-10 18:24:27,323 - helpers - INFO - Saved response for s2_q2: 'Yes - Successfully completed'
+2025-06-10 18:24:27,324 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:24:27,330 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182427.json
+2025-06-10 18:24:27,499 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:32,301 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:32,365 - helpers - INFO - Saved response for s3_q0: 'No - Not yet completed'
+2025-06-10 18:24:32,376 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:24:32,381 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182432.json
+2025-06-10 18:24:32,383 - helpers - INFO - Saved response for s3_q1: 'No - Not yet completed'
+2025-06-10 18:24:32,386 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:24:32,387 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182432.json
+2025-06-10 18:24:32,570 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:33,027 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:33,238 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:34,860 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:35,090 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:35,823 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:36,061 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:38,149 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:38,356 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:38,918 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:39,122 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:40,372 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:40,587 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:41,365 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:41,585 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:42,357 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:42,555 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:43,371 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:43,561 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:46,093 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:46,356 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:46,770 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:46,999 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:48,509 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:48,570 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='Oil_and_Gas'
+2025-06-10 18:24:48,573 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='Oil_and_Gas'
+2025-06-10 18:24:48,574 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'Oil_and_Gas')
+2025-06-10 18:24:48,574 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/Oil_and_Gas
+2025-06-10 18:24:48,575 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:24:48,575 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:24:48,575 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:24:48,576 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:24:48,576 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:24:48,576 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:24:48,577 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:24:48,577 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:24:48,577 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:24:48,578 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:24:48,578 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:24:48,578 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:24:48,579 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:24:48,579 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:24:48,579 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:24:48,580 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:24:48,580 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:24:48,580 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:24:48,581 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:24:48,581 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:24:48,581 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:24:48,582 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:24:48,582 - assessment - INFO - Found responses for section indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2025-06-10 18:24:48,582 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:24:48,582 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:24:48,582 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:24:48,583 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:24:48,583 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:24:48,584 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:24:48,584 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:24:48,584 - assessment - INFO - Question 1: Response = 'No audits conducted'
+2025-06-10 18:24:48,584 - assessment - INFO - Question 1: Points = 0.0
+2025-06-10 18:24:48,585 - assessment - INFO - Question 1: Adding 0.0 points, running total = 0.0/1
+2025-06-10 18:24:48,585 - assessment - INFO - Question 2: Response = 'No RoPA maintained'
+2025-06-10 18:24:48,585 - assessment - INFO - Question 2: Points = 0.0
+2025-06-10 18:24:48,585 - assessment - INFO - Question 2: Adding 0.0 points, running total = 0.0/2
+2025-06-10 18:24:48,585 - assessment - INFO - Section Principles of Data Privacy score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,586 - assessment - INFO - Section Principles of Data Privacy: total_points=0.0, max_points=2
+2025-06-10 18:24:48,586 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:24:48,586 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:24:48,586 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:24:48,588 - assessment - INFO - Question 2: Response = 'No - Not yet completed'
+2025-06-10 18:24:48,588 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:24:48,588 - assessment - INFO - Question 3: Response = 'Yes - Successfully completed'
+2025-06-10 18:24:48,589 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:24:48,589 - assessment - INFO - Section Permitted Reasons score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,589 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:24:48,590 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:24:48,590 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-10 18:24:48,593 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:24:48,594 - assessment - INFO - Question 2: Response = 'No - Not yet completed'
+2025-06-10 18:24:48,594 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:24:48,595 - assessment - INFO - Section Special Nature Processing & Security score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,595 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:24:48,596 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:24:48,596 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:24:48,597 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:24:48,603 - assessment - INFO - Question 2: Response = 'No - Not yet completed'
+2025-06-10 18:24:48,603 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:24:48,604 - assessment - INFO - Section Individuals' Rights & Complaints score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,604 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:24:48,604 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:24:48,604 - assessment - INFO - Question 1: Response = 'No - Not Applicable'
+2025-06-10 18:24:48,604 - assessment - INFO - Question 1: Points = None (partial match)
+2025-06-10 18:24:48,605 - assessment - INFO - Question 2: Response = 'No - Not yet completed'
+2025-06-10 18:24:48,605 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:24:48,605 - assessment - INFO - Question 3: Response = 'Yes - Successfully completed'
+2025-06-10 18:24:48,606 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:24:48,606 - assessment - INFO - Section Governance & Training Awareness score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,607 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:24:48,607 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:24:48,609 - assessment - INFO - Question 1: Response = 'No - Not Applicable'
+2025-06-10 18:24:48,609 - assessment - INFO - Question 1: Points = None (partial match)
+2025-06-10 18:24:48,610 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:24:48,610 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:24:48,610 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,610 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:24:48,611 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:24:48,612 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-10 18:24:48,612 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:24:48,612 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:24:48,613 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:24:48,613 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,613 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:24:48,613 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:24:48,614 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-10 18:24:48,615 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:24:48,615 - assessment - INFO - Section Data Breaches score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,615 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:24:48,615 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:24:48,615 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-10 18:24:48,616 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:24:48,616 - assessment - INFO - Section Children's Websites score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:24:48,617 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:24:48,617 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:24:48,618 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': 0.0, 'Permitted Reasons': 0.0, 'Special Nature Processing & Security': 0.0, "Individuals' Rights & Complaints": 0.0, 'Governance & Training Awareness': 0.0, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': 0.0, 'Cross Border Data Flows & Third Party Agreements': 0.0, 'Data Breaches': 0.0, "Children's Websites": 0.0}
+2025-06-10 18:24:48,618 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:24:48,618 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:24:48,619 - assessment - INFO - Section Principles of Data Privacy: score=0.00, weight=0.13, contribution=0.00
+2025-06-10 18:24:48,619 - assessment - INFO - Section Permitted Reasons: score=0.00, weight=0.15, contribution=0.00
+2025-06-10 18:24:48,620 - assessment - INFO - Section Special Nature Processing & Security: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:24:48,620 - assessment - INFO - Section Individuals' Rights & Complaints: score=0.00, weight=0.13, contribution=0.00
+2025-06-10 18:24:48,621 - assessment - INFO - Section Governance & Training Awareness: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:24:48,621 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: score=0.00, weight=0.09, contribution=0.00
+2025-06-10 18:24:48,622 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: score=0.00, weight=0.09, contribution=0.00
+2025-06-10 18:24:48,623 - assessment - INFO - Section Data Breaches: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:24:48,624 - assessment - INFO - Section Children's Websites: score=0.00, weight=0.04, contribution=0.00
+2025-06-10 18:24:48,624 - assessment - INFO - Total weighted score: 0.06, Total weight: 0.9899999999999999
+2025-06-10 18:24:48,624 - assessment - INFO - Overall score calculation: (0.06 / total_weight) * 100 = 6.06%
+2025-06-10 18:24:48,765 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:24:51,004 - views - INFO - Requesting AI report generation with the following configuration:
+2025-06-10 18:24:51,004 - views - INFO - AI enabled: True
+2025-06-10 18:24:51,004 - views - INFO - API key available: Yes
+2025-06-10 18:24:51,005 - views - INFO - API provider: openrouter
+2025-06-10 18:24:51,006 - nlg_report - INFO - AI API is fully configured and enabled
+2025-06-10 18:24:51,007 - nlg_report - INFO - Configuring OpenRouter API client
+2025-06-10 18:24:51,920 - nlg_report - INFO - OpenRouter client configured with model: deepseek/deepseek-chat-v3-0324:free
+2025-06-10 18:24:51,920 - nlg_report - INFO - Creating AI prompt for markdown format from context data
+2025-06-10 18:24:51,921 - nlg_report - INFO - Created prompt with length: 9342 characters
+2025-06-10 18:24:51,921 - nlg_report - INFO - Making API request attempt 1/3
+2025-06-10 18:24:51,922 - nlg_report - INFO - Sending request to OpenRouter API
+2025-06-10 18:24:55,050 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 18:25:09,277 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:09,318 - helpers - INFO - Navigating to page: welcome from report
+2025-06-10 18:25:09,496 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:11,137 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:11,176 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-10 18:25:11,356 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:13,720 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:16,067 - nlg_report - INFO - Received full API response
+2025-06-10 18:25:16,067 - nlg_report - INFO - API call completed successfully in 24.14 seconds
+2025-06-10 18:25:16,069 - nlg_report - INFO - Received valid response with content length: 4118 characters
+2025-06-10 18:25:16,149 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:16,707 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:16,754 - helpers - INFO - Admin token validated
+2025-06-10 18:25:16,916 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:25,916 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:25,971 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:25,980 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182525.json
+2025-06-10 18:25:26,183 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:26,236 - views - INFO - Starting assessment for Qatar Airways
+2025-06-10 18:25:26,236 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-10 18:25:26,237 - data_storage - INFO - Triggering start notification email for Qatar Airways
+2025-06-10 18:25:26,238 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-10 18:25:29,149 - data_storage - INFO - Assessment notification email sent for Qatar Airways
+2025-06-10 18:25:29,152 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182529.json
+2025-06-10 18:25:29,153 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-10 18:25:29,253 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:29,291 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-06-10 18:25:29,292 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-06-10 18:25:29,293 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-06-10 18:25:29,294 - views - INFO - [render_assessment] Using regulation: PDPPL for country: Qatar
+2025-06-10 18:25:29,294 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-06-10 18:25:32,955 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:33,014 - helpers - INFO - Saved response for s0_q0: 'Yes, with comprehensive documentation'
+2025-06-10 18:25:33,015 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:33,019 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182533.json
+2025-06-10 18:25:33,223 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:33,265 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='General'
+2025-06-10 18:25:33,266 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='General'
+2025-06-10 18:25:33,266 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'General')
+2025-06-10 18:25:33,267 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/General
+2025-06-10 18:25:33,268 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:25:33,268 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:25:33,270 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:25:33,270 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:25:33,270 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:25:33,271 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:25:33,272 - assessment - INFO - Found responses for section indices: [0]
+2025-06-10 18:25:33,272 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:25:33,272 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:25:33,273 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:25:33,273 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:25:33,274 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:25:33,275 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:25:33,277 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:25:33,279 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,279 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:25:33,279 - assessment - WARNING - Empty responses for section Principles of Data Privacy, using raw score None
+2025-06-10 18:25:33,281 - assessment - INFO - Section Principles of Data Privacy score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,281 - assessment - INFO - Section Principles of Data Privacy: No responses, score set to None
+2025-06-10 18:25:33,282 - assessment - INFO - Section Principles of Data Privacy: total_points=0.0, max_points=2
+2025-06-10 18:25:33,282 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:25:33,282 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,283 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:25:33,283 - assessment - INFO - Question 3: No response provided
+2025-06-10 18:25:33,283 - assessment - WARNING - Empty responses for section Permitted Reasons, using raw score None
+2025-06-10 18:25:33,283 - assessment - INFO - Section Permitted Reasons score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,283 - assessment - INFO - Section Permitted Reasons: No responses, score set to None
+2025-06-10 18:25:33,283 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:25:33,283 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:25:33,284 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,284 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:25:33,284 - assessment - WARNING - Empty responses for section Special Nature Processing & Security, using raw score None
+2025-06-10 18:25:33,285 - assessment - INFO - Section Special Nature Processing & Security score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,285 - assessment - INFO - Section Special Nature Processing & Security: No responses, score set to None
+2025-06-10 18:25:33,286 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:25:33,286 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:25:33,287 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,289 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:25:33,289 - assessment - WARNING - Empty responses for section Individuals' Rights & Complaints, using raw score None
+2025-06-10 18:25:33,289 - assessment - INFO - Section Individuals' Rights & Complaints score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,289 - assessment - INFO - Section Individuals' Rights & Complaints: No responses, score set to None
+2025-06-10 18:25:33,289 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:25:33,290 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:25:33,290 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,290 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:25:33,290 - assessment - INFO - Question 3: No response provided
+2025-06-10 18:25:33,292 - assessment - WARNING - Empty responses for section Governance & Training Awareness, using raw score None
+2025-06-10 18:25:33,292 - assessment - INFO - Section Governance & Training Awareness score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,293 - assessment - INFO - Section Governance & Training Awareness: No responses, score set to None
+2025-06-10 18:25:33,293 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:25:33,293 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:25:33,294 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,295 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:25:33,296 - assessment - WARNING - Empty responses for section Data Privacy Impact Assessment (DPIA) & Privacy by Design, using raw score None
+2025-06-10 18:25:33,296 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,297 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: No responses, score set to None
+2025-06-10 18:25:33,297 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:25:33,297 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:25:33,297 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,299 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:25:33,299 - assessment - WARNING - Empty responses for section Cross Border Data Flows & Third Party Agreements, using raw score None
+2025-06-10 18:25:33,300 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,300 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: No responses, score set to None
+2025-06-10 18:25:33,301 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:25:33,301 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:25:33,302 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,302 - assessment - WARNING - Empty responses for section Data Breaches, using raw score None
+2025-06-10 18:25:33,303 - assessment - INFO - Section Data Breaches score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,303 - assessment - INFO - Section Data Breaches: No responses, score set to None
+2025-06-10 18:25:33,303 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:25:33,304 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:25:33,304 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:25:33,304 - assessment - WARNING - Empty responses for section Children's Websites, using raw score None
+2025-06-10 18:25:33,305 - assessment - INFO - Section Children's Websites score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:25:33,305 - assessment - INFO - Section Children's Websites: No responses, score set to None
+2025-06-10 18:25:33,305 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:25:33,307 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:25:33,307 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': None, 'Permitted Reasons': None, 'Special Nature Processing & Security': None, "Individuals' Rights & Complaints": None, 'Governance & Training Awareness': None, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': None, 'Cross Border Data Flows & Third Party Agreements': None, 'Data Breaches': None, "Children's Websites": None}
+2025-06-10 18:25:33,307 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:25:33,307 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:25:33,308 - assessment - INFO - Section Principles of Data Privacy: SKIPPED (no score)
+2025-06-10 18:25:33,308 - assessment - INFO - Section Permitted Reasons: SKIPPED (no score)
+2025-06-10 18:25:33,309 - assessment - INFO - Section Special Nature Processing & Security: SKIPPED (no score)
+2025-06-10 18:25:33,311 - assessment - INFO - Section Individuals' Rights & Complaints: SKIPPED (no score)
+2025-06-10 18:25:33,312 - assessment - INFO - Section Governance & Training Awareness: SKIPPED (no score)
+2025-06-10 18:25:33,313 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: SKIPPED (no score)
+2025-06-10 18:25:33,313 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: SKIPPED (no score)
+2025-06-10 18:25:33,313 - assessment - INFO - Section Data Breaches: SKIPPED (no score)
+2025-06-10 18:25:33,313 - assessment - INFO - Section Children's Websites: SKIPPED (no score)
+2025-06-10 18:25:33,314 - assessment - INFO - Total weighted score: 0.06, Total weight: 0.06
+2025-06-10 18:25:33,314 - assessment - INFO - Overall score calculation: (0.06 / total_weight) * 100 = 100.00%
+2025-06-10 18:25:34,989 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:35,222 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:36,453 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:36,684 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:37,135 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:37,384 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:38,246 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:38,470 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:38,971 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:39,271 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:41,898 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:41,949 - helpers - INFO - Saved response for s3_q0: 'Yes - Successfully completed'
+2025-06-10 18:25:41,951 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:41,955 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182541.json
+2025-06-10 18:25:42,155 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:42,610 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:42,881 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:45,556 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:45,639 - helpers - INFO - Saved response for s4_q0: 'Yes - Successfully completed'
+2025-06-10 18:25:45,640 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:45,643 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182545.json
+2025-06-10 18:25:45,649 - helpers - INFO - Saved response for s4_q1: 'Yes - Successfully completed'
+2025-06-10 18:25:45,654 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:45,656 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182545.json
+2025-06-10 18:25:45,865 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:46,566 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:46,890 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:48,750 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:49,025 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:49,371 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:49,625 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:51,276 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:51,350 - helpers - INFO - Saved response for s6_q0: 'Yes - Successfully completed'
+2025-06-10 18:25:51,351 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:51,354 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182551.json
+2025-06-10 18:25:51,559 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:51,984 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:52,266 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:54,966 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:55,011 - helpers - INFO - Saved response for s7_q0: 'Yes - Successfully completed'
+2025-06-10 18:25:55,012 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:55,016 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182555.json
+2025-06-10 18:25:55,019 - helpers - INFO - Saved response for s7_q1: 'Yes - Successfully completed'
+2025-06-10 18:25:55,020 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:55,024 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182555.json
+2025-06-10 18:25:55,233 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:55,653 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:55,903 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:57,348 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:57,414 - helpers - INFO - Saved response for s8_q0: 'Yes - Successfully completed'
+2025-06-10 18:25:57,415 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:57,422 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182557.json
+2025-06-10 18:25:57,619 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:58,079 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:58,384 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:59,572 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:25:59,627 - helpers - INFO - Saved response for s9_q0: 'Yes - Successfully completed'
+2025-06-10 18:25:59,629 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:25:59,634 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182559.json
+2025-06-10 18:25:59,639 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='Oil_and_Gas'
+2025-06-10 18:25:59,642 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='Oil_and_Gas'
+2025-06-10 18:25:59,643 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'Oil_and_Gas')
+2025-06-10 18:25:59,643 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/Oil_and_Gas
+2025-06-10 18:25:59,645 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:25:59,646 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:25:59,646 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:25:59,648 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:25:59,648 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:25:59,649 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:25:59,649 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:25:59,650 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:25:59,650 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,651 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:25:59,651 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,651 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,652 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,652 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,652 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:25:59,652 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,652 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:25:59,653 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,655 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,655 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,655 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:25:59,656 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:25:59,656 - assessment - INFO - Found responses for section indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2025-06-10 18:25:59,657 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:25:59,659 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:25:59,660 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:25:59,660 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:25:59,660 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:25:59,661 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:25:59,661 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:25:59,662 - assessment - INFO - Question 1: Response = 'Yes, with full documentation'
+2025-06-10 18:25:59,662 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:25:59,662 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:25:59,662 - assessment - INFO - Question 2: Response = 'Yes, fully documented'
+2025-06-10 18:25:59,665 - assessment - INFO - Question 2: Points = 1.0
+2025-06-10 18:25:59,666 - assessment - INFO - Question 2: Adding 1.0 points, running total = 2.0/2
+2025-06-10 18:25:59,666 - assessment - INFO - Section Principles of Data Privacy score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:25:59,666 - assessment - INFO - Section Principles of Data Privacy: total_points=2.0, max_points=2
+2025-06-10 18:25:59,666 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:25:59,668 - assessment - INFO - Question 1: Response = 'No - Not Applicable'
+2025-06-10 18:25:59,668 - assessment - INFO - Question 1: Points = None (partial match)
+2025-06-10 18:25:59,668 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:25:59,668 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:25:59,669 - assessment - INFO - Question 3: Response = 'No - Not Applicable'
+2025-06-10 18:25:59,670 - assessment - INFO - Question 3: Points = None (partial match)
+2025-06-10 18:25:59,670 - assessment - INFO - Section Permitted Reasons score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:25:59,670 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:25:59,671 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:25:59,673 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,674 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,675 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:25:59,676 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:25:59,676 - assessment - INFO - Section Special Nature Processing & Security score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:25:59,676 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:25:59,678 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:25:59,678 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,679 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,679 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,679 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,679 - assessment - INFO - Section 'Individuals' Rights & Complaints' has all full compliance responses - should have perfect score
+2025-06-10 18:25:59,680 - assessment - INFO - Correcting Individuals' Rights & Complaints score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:25:59,680 - assessment - INFO - Section Individuals' Rights & Complaints score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:25:59,681 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:25:59,683 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:25:59,683 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,683 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,683 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,684 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,684 - assessment - INFO - Question 3: Response = 'No - Not Applicable'
+2025-06-10 18:25:59,685 - assessment - INFO - Question 3: Points = None (partial match)
+2025-06-10 18:25:59,685 - assessment - INFO - Section Governance & Training Awareness score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:25:59,687 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:25:59,688 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:25:59,688 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,688 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,693 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:25:59,694 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:25:59,695 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:25:59,695 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:25:59,695 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:25:59,697 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,699 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,702 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,703 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,704 - assessment - INFO - Section 'Cross Border Data Flows & Third Party Agreements' has all full compliance responses - should have perfect score
+2025-06-10 18:25:59,705 - assessment - INFO - Correcting Cross Border Data Flows & Third Party Agreements score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:25:59,705 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:25:59,706 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:25:59,706 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:25:59,707 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,707 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,707 - assessment - INFO - Section 'Data Breaches' has all full compliance responses - should have perfect score
+2025-06-10 18:25:59,708 - assessment - INFO - Correcting Data Breaches score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:25:59,708 - assessment - INFO - Section Data Breaches score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:25:59,708 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:25:59,709 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:25:59,709 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:25:59,711 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:25:59,711 - assessment - INFO - Section 'Children's Websites' has all full compliance responses - should have perfect score
+2025-06-10 18:25:59,711 - assessment - INFO - Correcting Children's Websites score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:25:59,712 - assessment - INFO - Section Children's Websites score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:25:59,713 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:25:59,713 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:25:59,713 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': 1.0, 'Permitted Reasons': 0.0, 'Special Nature Processing & Security': 0.0, "Individuals' Rights & Complaints": 1.0, 'Governance & Training Awareness': 0.0, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': 0.0, 'Cross Border Data Flows & Third Party Agreements': 1.0, 'Data Breaches': 1.0, "Children's Websites": 1.0}
+2025-06-10 18:25:59,713 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:25:59,713 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:25:59,715 - assessment - INFO - Section Principles of Data Privacy: score=1.00, weight=0.13, contribution=0.13
+2025-06-10 18:25:59,715 - assessment - INFO - Section Permitted Reasons: score=0.00, weight=0.15, contribution=0.00
+2025-06-10 18:25:59,715 - assessment - INFO - Section Special Nature Processing & Security: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:25:59,716 - assessment - INFO - Section Individuals' Rights & Complaints: score=1.00, weight=0.13, contribution=0.13
+2025-06-10 18:25:59,716 - assessment - INFO - Section Governance & Training Awareness: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:25:59,716 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: score=0.00, weight=0.09, contribution=0.00
+2025-06-10 18:25:59,717 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: score=1.00, weight=0.09, contribution=0.09
+2025-06-10 18:25:59,717 - assessment - INFO - Section Data Breaches: score=1.00, weight=0.10, contribution=0.10
+2025-06-10 18:25:59,717 - assessment - INFO - Section Children's Websites: score=1.00, weight=0.04, contribution=0.04
+2025-06-10 18:25:59,718 - assessment - INFO - Total weighted score: 0.55, Total weight: 0.9899999999999999
+2025-06-10 18:25:59,718 - assessment - INFO - Overall score calculation: (0.55 / total_weight) * 100 = 55.56%
+2025-06-10 18:25:59,953 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:26:00,146 - views - INFO - Requesting AI report generation with the following configuration:
+2025-06-10 18:26:00,148 - views - INFO - AI enabled: True
+2025-06-10 18:26:00,148 - views - INFO - API key available: Yes
+2025-06-10 18:26:00,149 - views - INFO - API provider: openrouter
+2025-06-10 18:26:00,149 - nlg_report - INFO - AI API is fully configured and enabled
+2025-06-10 18:26:00,151 - nlg_report - INFO - Configuring OpenRouter API client
+2025-06-10 18:26:00,749 - nlg_report - INFO - OpenRouter client configured with model: deepseek/deepseek-chat-v3-0324:free
+2025-06-10 18:26:00,750 - nlg_report - INFO - Creating AI prompt for markdown format from context data
+2025-06-10 18:26:00,750 - nlg_report - INFO - Created prompt with length: 5470 characters
+2025-06-10 18:26:00,751 - nlg_report - INFO - Making API request attempt 1/3
+2025-06-10 18:26:00,751 - nlg_report - INFO - Sending request to OpenRouter API
+2025-06-10 18:26:04,883 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:26:04,929 - helpers - INFO - Navigating to page: assessment from report
+2025-06-10 18:26:05,113 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:26:07,958 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 18:26:08,253 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:26:08,325 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='Oil_and_Gas'
+2025-06-10 18:26:08,331 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='Oil_and_Gas'
+2025-06-10 18:26:08,333 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'Oil_and_Gas')
+2025-06-10 18:26:08,333 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/Oil_and_Gas
+2025-06-10 18:26:08,334 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:26:08,334 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:26:08,336 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:26:08,336 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:26:08,336 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:26:08,337 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:26:08,337 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:26:08,337 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:26:08,338 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,338 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:26:08,338 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,338 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,339 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,339 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,339 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:26:08,340 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,340 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:26:08,340 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,342 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,342 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,343 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:26:08,344 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:26:08,344 - assessment - INFO - Found responses for section indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2025-06-10 18:26:08,344 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:26:08,344 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:26:08,345 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:26:08,345 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:26:08,345 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:26:08,345 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:26:08,347 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:26:08,347 - assessment - INFO - Question 1: Response = 'Yes, with full documentation'
+2025-06-10 18:26:08,349 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:26:08,350 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:26:08,350 - assessment - INFO - Question 2: Response = 'Yes, fully documented'
+2025-06-10 18:26:08,350 - assessment - INFO - Question 2: Points = 1.0
+2025-06-10 18:26:08,351 - assessment - INFO - Question 2: Adding 1.0 points, running total = 2.0/2
+2025-06-10 18:26:08,353 - assessment - INFO - Section Principles of Data Privacy score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:26:08,354 - assessment - INFO - Section Principles of Data Privacy: total_points=2.0, max_points=2
+2025-06-10 18:26:08,354 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:26:08,355 - assessment - INFO - Question 1: Response = 'No - Not Applicable'
+2025-06-10 18:26:08,356 - assessment - INFO - Question 1: Points = None (partial match)
+2025-06-10 18:26:08,356 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:26:08,356 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:26:08,359 - assessment - INFO - Question 3: Response = 'No - Not Applicable'
+2025-06-10 18:26:08,361 - assessment - INFO - Question 3: Points = None (partial match)
+2025-06-10 18:26:08,361 - assessment - INFO - Section Permitted Reasons score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:26:08,361 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:26:08,362 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:26:08,362 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,363 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,363 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:26:08,363 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:26:08,364 - assessment - INFO - Section Special Nature Processing & Security score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:26:08,364 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:26:08,364 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:26:08,365 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,365 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,366 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,366 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,366 - assessment - INFO - Section 'Individuals' Rights & Complaints' has all full compliance responses - should have perfect score
+2025-06-10 18:26:08,367 - assessment - INFO - Correcting Individuals' Rights & Complaints score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:26:08,368 - assessment - INFO - Section Individuals' Rights & Complaints score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:26:08,368 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:26:08,368 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:26:08,369 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,369 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,369 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,369 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,370 - assessment - INFO - Question 3: Response = 'No - Not Applicable'
+2025-06-10 18:26:08,370 - assessment - INFO - Question 3: Points = None (partial match)
+2025-06-10 18:26:08,370 - assessment - INFO - Section Governance & Training Awareness score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:26:08,371 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:26:08,371 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:26:08,372 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,372 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,373 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:26:08,373 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:26:08,375 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:26:08,375 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:26:08,376 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:26:08,376 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,377 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,377 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,378 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,378 - assessment - INFO - Section 'Cross Border Data Flows & Third Party Agreements' has all full compliance responses - should have perfect score
+2025-06-10 18:26:08,378 - assessment - INFO - Correcting Cross Border Data Flows & Third Party Agreements score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:26:08,378 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:26:08,379 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:26:08,379 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:26:08,379 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,380 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,380 - assessment - INFO - Section 'Data Breaches' has all full compliance responses - should have perfect score
+2025-06-10 18:26:08,380 - assessment - INFO - Correcting Data Breaches score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:26:08,381 - assessment - INFO - Section Data Breaches score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:26:08,383 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:26:08,383 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:26:08,388 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:26:08,388 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:26:08,390 - assessment - INFO - Section 'Children's Websites' has all full compliance responses - should have perfect score
+2025-06-10 18:26:08,390 - assessment - INFO - Correcting Children's Websites score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:26:08,390 - assessment - INFO - Section Children's Websites score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:26:08,392 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:26:08,393 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:26:08,393 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': 1.0, 'Permitted Reasons': 0.0, 'Special Nature Processing & Security': 0.0, "Individuals' Rights & Complaints": 1.0, 'Governance & Training Awareness': 0.0, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': 0.0, 'Cross Border Data Flows & Third Party Agreements': 1.0, 'Data Breaches': 1.0, "Children's Websites": 1.0}
+2025-06-10 18:26:08,394 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:26:08,395 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:26:08,395 - assessment - INFO - Section Principles of Data Privacy: score=1.00, weight=0.13, contribution=0.13
+2025-06-10 18:26:08,397 - assessment - INFO - Section Permitted Reasons: score=0.00, weight=0.15, contribution=0.00
+2025-06-10 18:26:08,397 - assessment - INFO - Section Special Nature Processing & Security: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:26:08,397 - assessment - INFO - Section Individuals' Rights & Complaints: score=1.00, weight=0.13, contribution=0.13
+2025-06-10 18:26:08,399 - assessment - INFO - Section Governance & Training Awareness: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:26:08,399 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: score=0.00, weight=0.09, contribution=0.00
+2025-06-10 18:26:08,399 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: score=1.00, weight=0.09, contribution=0.09
+2025-06-10 18:26:08,400 - assessment - INFO - Section Data Breaches: score=1.00, weight=0.10, contribution=0.10
+2025-06-10 18:26:08,401 - assessment - INFO - Section Children's Websites: score=1.00, weight=0.04, contribution=0.04
+2025-06-10 18:26:08,401 - assessment - INFO - Total weighted score: 0.55, Total weight: 0.9899999999999999
+2025-06-10 18:26:08,403 - assessment - INFO - Overall score calculation: (0.55 / total_weight) * 100 = 55.56%
+2025-06-10 18:26:08,579 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:26:08,758 - views - INFO - Requesting AI report generation with the following configuration:
+2025-06-10 18:26:08,763 - views - INFO - AI enabled: True
+2025-06-10 18:26:08,763 - views - INFO - API key available: Yes
+2025-06-10 18:26:08,763 - views - INFO - API provider: openrouter
+2025-06-10 18:26:08,763 - nlg_report - INFO - AI API is fully configured and enabled
+2025-06-10 18:26:08,767 - nlg_report - INFO - Configuring OpenRouter API client
+2025-06-10 18:26:09,437 - nlg_report - INFO - OpenRouter client configured with model: deepseek/deepseek-chat-v3-0324:free
+2025-06-10 18:26:09,441 - nlg_report - INFO - Creating AI prompt for markdown format from context data
+2025-06-10 18:26:09,443 - nlg_report - INFO - Created prompt with length: 5470 characters
+2025-06-10 18:26:09,443 - nlg_report - INFO - Making API request attempt 1/3
+2025-06-10 18:26:09,445 - nlg_report - INFO - Sending request to OpenRouter API
+2025-06-10 18:26:13,078 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 18:26:38,480 - nlg_report - INFO - Received full API response
+2025-06-10 18:26:38,481 - nlg_report - INFO - API call completed successfully in 29.04 seconds
+2025-06-10 18:26:38,481 - nlg_report - INFO - Received valid response with content length: 3670 characters
+2025-06-10 18:26:38,776 - views - INFO - Report generation completed in 30.01 seconds
+2025-06-10 18:26:38,779 - views - INFO - Report length: 3670 characters
+2025-06-10 18:26:38,795 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-06-10 18:26:38,805 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-06-10 18:26:38,908 - views - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp3595zx8w.pdf
+2025-06-10 18:26:38,908 - views - INFO - Attempting conversion and save to: C:\Users\HP\AppData\Local\Temp\tmp3595zx8w.pdf
+2025-06-10 18:26:38,960 - views - INFO - markdown-pdf save operation completed for C:\Users\HP\AppData\Local\Temp\tmp3595zx8w.pdf
+2025-06-10 18:26:38,961 - views - INFO - Output PDF file exists: C:\Users\HP\AppData\Local\Temp\tmp3595zx8w.pdf
+2025-06-10 18:26:38,990 - views - INFO - Successfully read 602212 bytes from C:\Users\HP\AppData\Local\Temp\tmp3595zx8w.pdf
+2025-06-10 18:26:38,992 - views - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp3595zx8w.pdf
+2025-06-10 18:26:39,130 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL
+2025-06-10 18:27:05,200 - nlg_report - INFO - Received full API response
+2025-06-10 18:27:05,201 - nlg_report - INFO - API call completed successfully in 64.45 seconds
+2025-06-10 18:27:05,201 - nlg_report - INFO - Received valid response with content length: 4122 characters
+2025-06-10 18:27:10,298 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:12,788 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:13,026 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:13,082 - helpers - INFO - Admin token validated
+2025-06-10 18:27:13,242 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:24,605 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:24,667 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:24,678 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182724.json
+2025-06-10 18:27:24,912 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:24,964 - views - INFO - Starting assessment for Qatar Airways
+2025-06-10 18:27:24,964 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-10 18:27:24,965 - data_storage - INFO - Triggering start notification email for Qatar Airways
+2025-06-10 18:27:24,965 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-10 18:27:28,346 - data_storage - INFO - Assessment notification email sent for Qatar Airways
+2025-06-10 18:27:28,350 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182728.json
+2025-06-10 18:27:28,350 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-10 18:27:28,452 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:28,486 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-06-10 18:27:28,489 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-06-10 18:27:28,489 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-06-10 18:27:28,490 - views - INFO - [render_assessment] Using regulation: PDPPL for country: Qatar
+2025-06-10 18:27:28,492 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-06-10 18:27:31,156 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:31,218 - helpers - INFO - Saved response for s0_q0: 'Yes, with comprehensive documentation'
+2025-06-10 18:27:31,226 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:31,230 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182731.json
+2025-06-10 18:27:31,448 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:31,490 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='General'
+2025-06-10 18:27:31,498 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='General'
+2025-06-10 18:27:31,500 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'General')
+2025-06-10 18:27:31,506 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/General
+2025-06-10 18:27:31,506 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:27:31,508 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:27:31,508 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:27:31,509 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:27:31,510 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:27:31,510 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:27:31,510 - assessment - INFO - Found responses for section indices: [0]
+2025-06-10 18:27:31,511 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:27:31,511 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:27:31,511 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:27:31,513 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:27:31,513 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:27:31,513 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:27:31,513 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:27:31,514 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,514 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:27:31,514 - assessment - WARNING - Empty responses for section Principles of Data Privacy, using raw score None
+2025-06-10 18:27:31,515 - assessment - INFO - Section Principles of Data Privacy score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,515 - assessment - INFO - Section Principles of Data Privacy: No responses, score set to None
+2025-06-10 18:27:31,515 - assessment - INFO - Section Principles of Data Privacy: total_points=0.0, max_points=2
+2025-06-10 18:27:31,515 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:27:31,516 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,516 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:27:31,516 - assessment - INFO - Question 3: No response provided
+2025-06-10 18:27:31,517 - assessment - WARNING - Empty responses for section Permitted Reasons, using raw score None
+2025-06-10 18:27:31,517 - assessment - INFO - Section Permitted Reasons score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,518 - assessment - INFO - Section Permitted Reasons: No responses, score set to None
+2025-06-10 18:27:31,520 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:27:31,520 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:27:31,520 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,521 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:27:31,521 - assessment - WARNING - Empty responses for section Special Nature Processing & Security, using raw score None
+2025-06-10 18:27:31,521 - assessment - INFO - Section Special Nature Processing & Security score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,521 - assessment - INFO - Section Special Nature Processing & Security: No responses, score set to None
+2025-06-10 18:27:31,522 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:27:31,522 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:27:31,522 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,522 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:27:31,522 - assessment - WARNING - Empty responses for section Individuals' Rights & Complaints, using raw score None
+2025-06-10 18:27:31,524 - assessment - INFO - Section Individuals' Rights & Complaints score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,524 - assessment - INFO - Section Individuals' Rights & Complaints: No responses, score set to None
+2025-06-10 18:27:31,524 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:27:31,524 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:27:31,525 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,525 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:27:31,527 - assessment - INFO - Question 3: No response provided
+2025-06-10 18:27:31,528 - assessment - WARNING - Empty responses for section Governance & Training Awareness, using raw score None
+2025-06-10 18:27:31,528 - assessment - INFO - Section Governance & Training Awareness score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,529 - assessment - INFO - Section Governance & Training Awareness: No responses, score set to None
+2025-06-10 18:27:31,529 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:27:31,529 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:27:31,530 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,531 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:27:31,531 - assessment - WARNING - Empty responses for section Data Privacy Impact Assessment (DPIA) & Privacy by Design, using raw score None
+2025-06-10 18:27:31,532 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,532 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: No responses, score set to None
+2025-06-10 18:27:31,533 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:27:31,533 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:27:31,533 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,534 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:27:31,535 - assessment - WARNING - Empty responses for section Cross Border Data Flows & Third Party Agreements, using raw score None
+2025-06-10 18:27:31,536 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,537 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: No responses, score set to None
+2025-06-10 18:27:31,537 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:27:31,538 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:27:31,538 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,539 - assessment - WARNING - Empty responses for section Data Breaches, using raw score None
+2025-06-10 18:27:31,539 - assessment - INFO - Section Data Breaches score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,539 - assessment - INFO - Section Data Breaches: No responses, score set to None
+2025-06-10 18:27:31,539 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:27:31,539 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:27:31,540 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:27:31,540 - assessment - WARNING - Empty responses for section Children's Websites, using raw score None
+2025-06-10 18:27:31,540 - assessment - INFO - Section Children's Websites score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:27:31,541 - assessment - INFO - Section Children's Websites: No responses, score set to None
+2025-06-10 18:27:31,542 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:27:31,542 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:27:31,542 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': None, 'Permitted Reasons': None, 'Special Nature Processing & Security': None, "Individuals' Rights & Complaints": None, 'Governance & Training Awareness': None, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': None, 'Cross Border Data Flows & Third Party Agreements': None, 'Data Breaches': None, "Children's Websites": None}
+2025-06-10 18:27:31,542 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:27:31,543 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:27:31,544 - assessment - INFO - Section Principles of Data Privacy: SKIPPED (no score)
+2025-06-10 18:27:31,544 - assessment - INFO - Section Permitted Reasons: SKIPPED (no score)
+2025-06-10 18:27:31,544 - assessment - INFO - Section Special Nature Processing & Security: SKIPPED (no score)
+2025-06-10 18:27:31,544 - assessment - INFO - Section Individuals' Rights & Complaints: SKIPPED (no score)
+2025-06-10 18:27:31,545 - assessment - INFO - Section Governance & Training Awareness: SKIPPED (no score)
+2025-06-10 18:27:31,545 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: SKIPPED (no score)
+2025-06-10 18:27:31,545 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: SKIPPED (no score)
+2025-06-10 18:27:31,546 - assessment - INFO - Section Data Breaches: SKIPPED (no score)
+2025-06-10 18:27:31,547 - assessment - INFO - Section Children's Websites: SKIPPED (no score)
+2025-06-10 18:27:31,550 - assessment - INFO - Total weighted score: 0.06, Total weight: 0.06
+2025-06-10 18:27:31,554 - assessment - INFO - Overall score calculation: (0.06 / total_weight) * 100 = 100.00%
+2025-06-10 18:27:35,378 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:35,472 - helpers - INFO - Saved response for s1_q0: 'Yes, with full documentation'
+2025-06-10 18:27:35,474 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:35,479 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182735.json
+2025-06-10 18:27:35,482 - helpers - INFO - Saved response for s1_q1: 'Yes, fully documented'
+2025-06-10 18:27:35,487 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:35,489 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182735.json
+2025-06-10 18:27:35,731 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:37,087 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:37,375 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:40,772 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:40,839 - helpers - INFO - Saved response for s2_q2: 'No - Not Applicable'
+2025-06-10 18:27:40,840 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:40,843 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182740.json
+2025-06-10 18:27:41,030 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:42,901 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:43,161 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:45,131 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:45,195 - helpers - INFO - Saved response for s3_q1: 'Yes - Successfully completed'
+2025-06-10 18:27:45,196 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:45,203 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182745.json
+2025-06-10 18:27:45,378 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:45,959 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:46,198 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:48,050 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:48,115 - helpers - INFO - Saved response for s4_q1: 'Yes - Successfully completed'
+2025-06-10 18:27:48,119 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:48,126 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182748.json
+2025-06-10 18:27:48,335 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:48,792 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:49,039 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:51,646 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:51,925 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:52,468 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:52,734 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:54,644 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:54,711 - helpers - INFO - Saved response for s6_q0: 'Yes - Successfully completed'
+2025-06-10 18:27:54,713 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:54,717 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182754.json
+2025-06-10 18:27:54,913 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:55,898 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:56,161 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:57,788 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:57,862 - helpers - INFO - Saved response for s7_q0: 'Yes - Successfully completed'
+2025-06-10 18:27:57,864 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:27:57,870 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182757.json
+2025-06-10 18:27:58,092 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:58,570 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:27:58,832 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:28:00,045 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:28:00,110 - helpers - INFO - Saved response for s8_q0: 'No - Not yet completed'
+2025-06-10 18:28:00,112 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:28:00,117 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182800.json
+2025-06-10 18:28:00,311 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:28:00,876 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:28:01,148 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:28:02,907 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:28:02,965 - helpers - INFO - Saved response for s9_q0: 'No - Not yet completed'
+2025-06-10 18:28:02,966 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:28:02,973 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182802.json
+2025-06-10 18:28:02,979 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='Oil_and_Gas'
+2025-06-10 18:28:02,980 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='Oil_and_Gas'
+2025-06-10 18:28:02,982 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'Oil_and_Gas')
+2025-06-10 18:28:02,984 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/Oil_and_Gas
+2025-06-10 18:28:02,985 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:28:02,985 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:28:02,986 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:28:02,986 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:28:02,987 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:28:02,987 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,987 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,988 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:28:02,988 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:28:02,988 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,989 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,989 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,989 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,991 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:28:02,991 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:28:02,991 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,991 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:28:02,991 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,992 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:28:02,993 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:28:02,993 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:28:02,993 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:28:02,993 - assessment - INFO - Found responses for section indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2025-06-10 18:28:02,993 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:28:02,995 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:28:02,995 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:28:02,996 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:28:02,998 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:28:03,000 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:28:03,000 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:28:03,002 - assessment - INFO - Question 1: Response = 'Yes, with full documentation'
+2025-06-10 18:28:03,003 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:28:03,004 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:28:03,005 - assessment - INFO - Question 2: Response = 'Yes, fully documented'
+2025-06-10 18:28:03,005 - assessment - INFO - Question 2: Points = 1.0
+2025-06-10 18:28:03,006 - assessment - INFO - Question 2: Adding 1.0 points, running total = 2.0/2
+2025-06-10 18:28:03,007 - assessment - INFO - Section Principles of Data Privacy score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:28:03,007 - assessment - INFO - Section Principles of Data Privacy: total_points=2.0, max_points=2
+2025-06-10 18:28:03,008 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:28:03,009 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,011 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,012 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,013 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,013 - assessment - INFO - Question 3: Response = 'No - Not Applicable'
+2025-06-10 18:28:03,014 - assessment - INFO - Question 3: Points = None (partial match)
+2025-06-10 18:28:03,015 - assessment - INFO - Section Permitted Reasons score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:28:03,015 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:28:03,015 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:28:03,018 - assessment - INFO - Question 1: Response = 'No - Not Applicable'
+2025-06-10 18:28:03,019 - assessment - INFO - Question 1: Points = None (partial match)
+2025-06-10 18:28:03,019 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,020 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,020 - assessment - INFO - Section Special Nature Processing & Security score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:28:03,020 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:28:03,022 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:28:03,022 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,022 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,023 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,023 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,023 - assessment - INFO - Section 'Individuals' Rights & Complaints' has all full compliance responses - should have perfect score
+2025-06-10 18:28:03,024 - assessment - INFO - Correcting Individuals' Rights & Complaints score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:28:03,024 - assessment - INFO - Section Individuals' Rights & Complaints score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:28:03,025 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:28:03,025 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:28:03,026 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,026 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,027 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:28:03,030 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:28:03,031 - assessment - INFO - Question 3: Response = 'No - Not yet completed'
+2025-06-10 18:28:03,031 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:28:03,031 - assessment - INFO - Section Governance & Training Awareness score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:28:03,035 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:28:03,035 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:28:03,036 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,036 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,037 - assessment - INFO - Question 2: Response = 'No - Not yet completed'
+2025-06-10 18:28:03,037 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:28:03,037 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:28:03,038 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:28:03,038 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:28:03,039 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,040 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,040 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:28:03,041 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:28:03,042 - assessment - INFO - Section 'Cross Border Data Flows & Third Party Agreements' has all full compliance responses - should have perfect score
+2025-06-10 18:28:03,042 - assessment - INFO - Correcting Cross Border Data Flows & Third Party Agreements score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:28:03,043 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:28:03,043 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:28:03,045 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:28:03,046 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-10 18:28:03,046 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:28:03,047 - assessment - INFO - Section Data Breaches score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:28:03,047 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:28:03,048 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:28:03,048 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-10 18:28:03,050 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:28:03,050 - assessment - INFO - Section Children's Websites score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:28:03,051 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:28:03,052 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:28:03,053 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': 1.0, 'Permitted Reasons': 0.0, 'Special Nature Processing & Security': 0.0, "Individuals' Rights & Complaints": 1.0, 'Governance & Training Awareness': 0.0, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': 0.0, 'Cross Border Data Flows & Third Party Agreements': 1.0, 'Data Breaches': 0.0, "Children's Websites": 0.0}
+2025-06-10 18:28:03,053 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:28:03,053 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:28:03,054 - assessment - INFO - Section Principles of Data Privacy: score=1.00, weight=0.13, contribution=0.13
+2025-06-10 18:28:03,054 - assessment - INFO - Section Permitted Reasons: score=0.00, weight=0.15, contribution=0.00
+2025-06-10 18:28:03,055 - assessment - INFO - Section Special Nature Processing & Security: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:28:03,055 - assessment - INFO - Section Individuals' Rights & Complaints: score=1.00, weight=0.13, contribution=0.13
+2025-06-10 18:28:03,056 - assessment - INFO - Section Governance & Training Awareness: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:28:03,056 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: score=0.00, weight=0.09, contribution=0.00
+2025-06-10 18:28:03,057 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: score=1.00, weight=0.09, contribution=0.09
+2025-06-10 18:28:03,058 - assessment - INFO - Section Data Breaches: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:28:03,059 - assessment - INFO - Section Children's Websites: score=0.00, weight=0.04, contribution=0.00
+2025-06-10 18:28:03,060 - assessment - INFO - Total weighted score: 0.41000000000000003, Total weight: 0.9899999999999999
+2025-06-10 18:28:03,060 - assessment - INFO - Overall score calculation: (0.41000000000000003 / total_weight) * 100 = 41.41%
+2025-06-10 18:28:03,226 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:28:03,447 - views - INFO - Requesting AI report generation with the following configuration:
+2025-06-10 18:28:03,448 - views - INFO - AI enabled: True
+2025-06-10 18:28:03,451 - views - INFO - API key available: Yes
+2025-06-10 18:28:03,453 - views - INFO - API provider: openrouter
+2025-06-10 18:28:03,456 - nlg_report - INFO - AI API is fully configured and enabled
+2025-06-10 18:28:03,475 - nlg_report - INFO - Configuring OpenRouter API client
+2025-06-10 18:28:04,152 - nlg_report - INFO - OpenRouter client configured with model: deepseek/deepseek-chat-v3-0324:free
+2025-06-10 18:28:04,153 - nlg_report - INFO - Creating AI prompt for markdown format from context data
+2025-06-10 18:28:04,154 - nlg_report - INFO - Created prompt with length: 7007 characters
+2025-06-10 18:28:04,154 - nlg_report - INFO - Making API request attempt 1/3
+2025-06-10 18:28:04,154 - nlg_report - INFO - Sending request to OpenRouter API
+2025-06-10 18:28:06,640 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 18:29:25,756 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:28,628 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:28,852 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:28,898 - helpers - INFO - Admin token validated
+2025-06-10 18:29:29,048 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:42,014 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:42,073 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:29:42,079 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182942.json
+2025-06-10 18:29:42,314 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:42,376 - views - INFO - Starting assessment for Qatar Airways
+2025-06-10 18:29:42,378 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-10 18:29:42,378 - data_storage - INFO - Triggering start notification email for Qatar Airways
+2025-06-10 18:29:42,379 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-10 18:29:45,372 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:45,413 - data_storage - INFO - Assessment notification email sent for Qatar Airways
+2025-06-10 18:29:45,422 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182945.json
+2025-06-10 18:29:45,551 - views - INFO - Starting assessment for Qatar Airways
+2025-06-10 18:29:45,552 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-10 18:29:45,553 - data_storage - INFO - Triggering start notification email for Qatar Airways
+2025-06-10 18:29:45,553 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-10 18:29:48,632 - data_storage - INFO - Assessment notification email sent for Qatar Airways
+2025-06-10 18:29:48,635 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182948.json
+2025-06-10 18:29:48,636 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-10 18:29:48,739 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:48,778 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-06-10 18:29:48,783 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-06-10 18:29:48,784 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-06-10 18:29:48,786 - views - INFO - [render_assessment] Using regulation: PDPPL for country: Qatar
+2025-06-10 18:29:48,786 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-06-10 18:29:51,166 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:51,218 - helpers - INFO - Saved response for s0_q0: 'Yes, with comprehensive documentation'
+2025-06-10 18:29:51,221 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:29:51,226 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182951.json
+2025-06-10 18:29:51,438 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:51,483 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='General'
+2025-06-10 18:29:51,485 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='General'
+2025-06-10 18:29:51,485 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'General')
+2025-06-10 18:29:51,485 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/General
+2025-06-10 18:29:51,486 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:29:51,486 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:29:51,486 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:29:51,487 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:29:51,487 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:29:51,487 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:29:51,488 - assessment - INFO - Found responses for section indices: [0]
+2025-06-10 18:29:51,488 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:29:51,489 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:29:51,489 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:29:51,489 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:29:51,490 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:29:51,491 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:29:51,491 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:29:51,492 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,494 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:29:51,495 - assessment - WARNING - Empty responses for section Principles of Data Privacy, using raw score None
+2025-06-10 18:29:51,495 - assessment - INFO - Section Principles of Data Privacy score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,495 - assessment - INFO - Section Principles of Data Privacy: No responses, score set to None
+2025-06-10 18:29:51,496 - assessment - INFO - Section Principles of Data Privacy: total_points=0.0, max_points=2
+2025-06-10 18:29:51,496 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:29:51,496 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,496 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:29:51,496 - assessment - INFO - Question 3: No response provided
+2025-06-10 18:29:51,498 - assessment - WARNING - Empty responses for section Permitted Reasons, using raw score None
+2025-06-10 18:29:51,498 - assessment - INFO - Section Permitted Reasons score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,498 - assessment - INFO - Section Permitted Reasons: No responses, score set to None
+2025-06-10 18:29:51,499 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:29:51,499 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:29:51,499 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,500 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:29:51,500 - assessment - WARNING - Empty responses for section Special Nature Processing & Security, using raw score None
+2025-06-10 18:29:51,500 - assessment - INFO - Section Special Nature Processing & Security score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,501 - assessment - INFO - Section Special Nature Processing & Security: No responses, score set to None
+2025-06-10 18:29:51,502 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:29:51,503 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:29:51,503 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,504 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:29:51,504 - assessment - WARNING - Empty responses for section Individuals' Rights & Complaints, using raw score None
+2025-06-10 18:29:51,504 - assessment - INFO - Section Individuals' Rights & Complaints score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,505 - assessment - INFO - Section Individuals' Rights & Complaints: No responses, score set to None
+2025-06-10 18:29:51,505 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:29:51,505 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:29:51,506 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,506 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:29:51,506 - assessment - INFO - Question 3: No response provided
+2025-06-10 18:29:51,506 - assessment - WARNING - Empty responses for section Governance & Training Awareness, using raw score None
+2025-06-10 18:29:51,507 - assessment - INFO - Section Governance & Training Awareness score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,508 - assessment - INFO - Section Governance & Training Awareness: No responses, score set to None
+2025-06-10 18:29:51,509 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:29:51,512 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:29:51,512 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,513 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:29:51,513 - assessment - WARNING - Empty responses for section Data Privacy Impact Assessment (DPIA) & Privacy by Design, using raw score None
+2025-06-10 18:29:51,513 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,513 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: No responses, score set to None
+2025-06-10 18:29:51,513 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:29:51,515 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:29:51,515 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,515 - assessment - INFO - Question 2: No response provided
+2025-06-10 18:29:51,515 - assessment - WARNING - Empty responses for section Cross Border Data Flows & Third Party Agreements, using raw score None
+2025-06-10 18:29:51,515 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,515 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: No responses, score set to None
+2025-06-10 18:29:51,517 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:29:51,517 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:29:51,517 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,517 - assessment - WARNING - Empty responses for section Data Breaches, using raw score None
+2025-06-10 18:29:51,517 - assessment - INFO - Section Data Breaches score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,517 - assessment - INFO - Section Data Breaches: No responses, score set to None
+2025-06-10 18:29:51,517 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:29:51,519 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:29:51,519 - assessment - INFO - Question 1: No response provided
+2025-06-10 18:29:51,519 - assessment - WARNING - Empty responses for section Children's Websites, using raw score None
+2025-06-10 18:29:51,519 - assessment - INFO - Section Children's Websites score: AFTER=0.0% (Raw score was None)
+2025-06-10 18:29:51,519 - assessment - INFO - Section Children's Websites: No responses, score set to None
+2025-06-10 18:29:51,519 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:29:51,521 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:29:51,521 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': None, 'Permitted Reasons': None, 'Special Nature Processing & Security': None, "Individuals' Rights & Complaints": None, 'Governance & Training Awareness': None, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': None, 'Cross Border Data Flows & Third Party Agreements': None, 'Data Breaches': None, "Children's Websites": None}
+2025-06-10 18:29:51,521 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:29:51,521 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:29:51,521 - assessment - INFO - Section Principles of Data Privacy: SKIPPED (no score)
+2025-06-10 18:29:51,522 - assessment - INFO - Section Permitted Reasons: SKIPPED (no score)
+2025-06-10 18:29:51,522 - assessment - INFO - Section Special Nature Processing & Security: SKIPPED (no score)
+2025-06-10 18:29:51,522 - assessment - INFO - Section Individuals' Rights & Complaints: SKIPPED (no score)
+2025-06-10 18:29:51,523 - assessment - INFO - Section Governance & Training Awareness: SKIPPED (no score)
+2025-06-10 18:29:51,523 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: SKIPPED (no score)
+2025-06-10 18:29:51,523 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: SKIPPED (no score)
+2025-06-10 18:29:51,524 - assessment - INFO - Section Data Breaches: SKIPPED (no score)
+2025-06-10 18:29:51,524 - assessment - INFO - Section Children's Websites: SKIPPED (no score)
+2025-06-10 18:29:51,524 - assessment - INFO - Total weighted score: 0.06, Total weight: 0.06
+2025-06-10 18:29:51,525 - assessment - INFO - Overall score calculation: (0.06 / total_weight) * 100 = 100.00%
+2025-06-10 18:29:54,941 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:55,002 - helpers - INFO - Saved response for s1_q0: 'Partially implemented'
+2025-06-10 18:29:55,005 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:29:55,006 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182955.json
+2025-06-10 18:29:55,010 - helpers - INFO - Saved response for s1_q1: 'Yes, fully documented'
+2025-06-10 18:29:55,011 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:29:55,015 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182955.json
+2025-06-10 18:29:55,226 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:58,051 - nlg_report - INFO - Received full API response
+2025-06-10 18:29:58,052 - nlg_report - INFO - API call completed successfully in 113.90 seconds
+2025-06-10 18:29:58,052 - nlg_report - INFO - Received valid response with content length: 4336 characters
+2025-06-10 18:29:58,052 - views - INFO - Report generation completed in 114.60 seconds
+2025-06-10 18:29:58,053 - views - INFO - Report length: 4336 characters
+2025-06-10 18:29:59,117 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:29:59,184 - helpers - INFO - Saved response for s2_q0: 'Yes - Successfully completed'
+2025-06-10 18:29:59,185 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:29:59,195 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182959.json
+2025-06-10 18:29:59,198 - helpers - INFO - Saved response for s2_q1: 'No - Not Applicable'
+2025-06-10 18:29:59,198 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:29:59,202 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182959.json
+2025-06-10 18:29:59,203 - helpers - INFO - Saved response for s2_q2: 'Yes - Successfully completed'
+2025-06-10 18:29:59,207 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:29:59,210 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_182959.json
+2025-06-10 18:29:59,409 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:02,556 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:02,613 - helpers - INFO - Saved response for s3_q0: 'Yes - Successfully completed'
+2025-06-10 18:30:02,615 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:02,620 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183002.json
+2025-06-10 18:30:02,624 - helpers - INFO - Saved response for s3_q1: 'No - Not Applicable'
+2025-06-10 18:30:02,625 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:02,633 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183002.json
+2025-06-10 18:30:02,832 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:05,940 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:05,996 - helpers - INFO - Saved response for s4_q0: 'No - Not Applicable'
+2025-06-10 18:30:05,996 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:06,000 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183005.json
+2025-06-10 18:30:06,002 - helpers - INFO - Saved response for s4_q1: 'Yes - Successfully completed'
+2025-06-10 18:30:06,002 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:06,010 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183006.json
+2025-06-10 18:30:06,212 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:11,342 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:11,405 - helpers - INFO - Saved response for s5_q0: 'Yes - Successfully completed'
+2025-06-10 18:30:11,405 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:11,409 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183011.json
+2025-06-10 18:30:11,413 - helpers - INFO - Saved response for s5_q1: 'No - Not Applicable'
+2025-06-10 18:30:11,414 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:11,417 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183011.json
+2025-06-10 18:30:11,419 - helpers - INFO - Saved response for s5_q2: 'Yes - Successfully completed'
+2025-06-10 18:30:11,420 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:11,423 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183011.json
+2025-06-10 18:30:11,636 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:15,404 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:15,457 - helpers - INFO - Saved response for s6_q0: 'Yes - Successfully completed'
+2025-06-10 18:30:15,460 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:15,464 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183015.json
+2025-06-10 18:30:15,467 - helpers - INFO - Saved response for s6_q1: 'No - Not yet completed'
+2025-06-10 18:30:15,468 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:15,472 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183015.json
+2025-06-10 18:30:15,682 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:18,532 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:18,608 - helpers - INFO - Saved response for s7_q0: 'No - Not yet completed'
+2025-06-10 18:30:18,612 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:18,615 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183018.json
+2025-06-10 18:30:18,618 - helpers - INFO - Saved response for s7_q1: 'Yes - Successfully completed'
+2025-06-10 18:30:18,620 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:18,623 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183018.json
+2025-06-10 18:30:18,851 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:20,699 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:20,752 - helpers - INFO - Saved response for s8_q0: 'Yes - Successfully completed'
+2025-06-10 18:30:20,753 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:20,759 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183020.json
+2025-06-10 18:30:20,949 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:22,683 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:22,747 - helpers - INFO - Saved response for s9_q0: 'No - Not yet completed'
+2025-06-10 18:30:22,748 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-10 18:30:22,754 - data_storage - INFO - Saved assessment data for Qatar Airways to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Qatar Airways\assessment_20250610_183022.json
+2025-06-10 18:30:22,759 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='Oil_and_Gas'
+2025-06-10 18:30:22,759 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='Oil_and_Gas'
+2025-06-10 18:30:22,760 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'Oil_and_Gas')
+2025-06-10 18:30:22,762 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/Oil_and_Gas
+2025-06-10 18:30:22,762 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-10 18:30:22,764 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-10 18:30:22,764 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-10 18:30:22,764 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-10 18:30:22,764 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-10 18:30:22,765 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,765 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:30:22,766 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,766 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,766 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:30:22,766 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:30:22,766 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,768 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,768 - assessment - WARNING - Response 'No - Not Applicable' not found in answer_points
+2025-06-10 18:30:22,768 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,769 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,769 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:30:22,769 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:30:22,769 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,770 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-10 18:30:22,770 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-10 18:30:22,770 - assessment - INFO - Processing scores for 10 sections
+2025-06-10 18:30:22,771 - assessment - INFO - Found responses for section indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2025-06-10 18:30:22,773 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-10 18:30:22,773 - assessment - INFO - Question 1: Response = 'Yes, with comprehensive documentation'
+2025-06-10 18:30:22,774 - assessment - INFO - Question 1: Points = 1.0
+2025-06-10 18:30:22,775 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-10 18:30:22,775 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:30:22,775 - assessment - INFO - Section Applicability of the PDPPL: total_points=1.0, max_points=1
+2025-06-10 18:30:22,776 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-10 18:30:22,777 - assessment - INFO - Question 1: Response = 'Partially implemented'
+2025-06-10 18:30:22,777 - assessment - INFO - Question 1: Points = 0.5
+2025-06-10 18:30:22,777 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-10 18:30:22,778 - assessment - INFO - Question 2: Response = 'Yes, fully documented'
+2025-06-10 18:30:22,778 - assessment - INFO - Question 2: Points = 1.0
+2025-06-10 18:30:22,778 - assessment - INFO - Question 2: Adding 1.0 points, running total = 1.5/2
+2025-06-10 18:30:22,779 - assessment - INFO - Section Principles of Data Privacy score: BEFORE=75.0%, AFTER=75.0% (Corrected)
+2025-06-10 18:30:22,779 - assessment - INFO - Section Principles of Data Privacy: total_points=1.5, max_points=2
+2025-06-10 18:30:22,781 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-10 18:30:22,782 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,783 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,784 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:30:22,784 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:30:22,785 - assessment - INFO - Question 3: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,786 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,786 - assessment - INFO - Section Permitted Reasons score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:30:22,787 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-10 18:30:22,787 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-10 18:30:22,787 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,788 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,788 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:30:22,789 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:30:22,790 - assessment - INFO - Section Special Nature Processing & Security score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:30:22,790 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-10 18:30:22,792 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-10 18:30:22,793 - assessment - INFO - Question 1: Response = 'No - Not Applicable'
+2025-06-10 18:30:22,793 - assessment - INFO - Question 1: Points = None (partial match)
+2025-06-10 18:30:22,793 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,793 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,793 - assessment - INFO - Section Individuals' Rights & Complaints score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:30:22,795 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-10 18:30:22,795 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-10 18:30:22,795 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,796 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,796 - assessment - INFO - Question 2: Response = 'No - Not Applicable'
+2025-06-10 18:30:22,796 - assessment - INFO - Question 2: Points = None (partial match)
+2025-06-10 18:30:22,796 - assessment - INFO - Question 3: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,796 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,797 - assessment - INFO - Section Governance & Training Awareness score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:30:22,797 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-10 18:30:22,798 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-10 18:30:22,798 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,798 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,800 - assessment - INFO - Question 2: Response = 'No - Not yet completed'
+2025-06-10 18:30:22,800 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:30:22,800 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:30:22,800 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-10 18:30:22,801 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-10 18:30:22,801 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-10 18:30:22,801 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:30:22,804 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,805 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,805 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:30:22,805 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-10 18:30:22,805 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-10 18:30:22,806 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-10 18:30:22,806 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-10 18:30:22,807 - assessment - INFO - Section 'Data Breaches' has all full compliance responses - should have perfect score
+2025-06-10 18:30:22,807 - assessment - INFO - Correcting Data Breaches score from 0.0 to 1.0 based on full compliance pattern
+2025-06-10 18:30:22,808 - assessment - INFO - Section Data Breaches score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-10 18:30:22,808 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-10 18:30:22,809 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-10 18:30:22,809 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-10 18:30:22,809 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-10 18:30:22,810 - assessment - INFO - Section Children's Websites score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-10 18:30:22,810 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-10 18:30:22,810 - assessment - INFO - Verifying all sections have scores...
+2025-06-10 18:30:22,812 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': 0.75, 'Permitted Reasons': 0.0, 'Special Nature Processing & Security': 0.0, "Individuals' Rights & Complaints": 0.0, 'Governance & Training Awareness': 0.0, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': 0.0, 'Cross Border Data Flows & Third Party Agreements': 0.0, 'Data Breaches': 1.0, "Children's Websites": 0.0}
+2025-06-10 18:30:22,813 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-10 18:30:22,813 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-10 18:30:22,813 - assessment - INFO - Section Principles of Data Privacy: score=0.75, weight=0.13, contribution=0.10
+2025-06-10 18:30:22,814 - assessment - INFO - Section Permitted Reasons: score=0.00, weight=0.15, contribution=0.00
+2025-06-10 18:30:22,814 - assessment - INFO - Section Special Nature Processing & Security: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:30:22,815 - assessment - INFO - Section Individuals' Rights & Complaints: score=0.00, weight=0.13, contribution=0.00
+2025-06-10 18:30:22,816 - assessment - INFO - Section Governance & Training Awareness: score=0.00, weight=0.10, contribution=0.00
+2025-06-10 18:30:22,816 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: score=0.00, weight=0.09, contribution=0.00
+2025-06-10 18:30:22,817 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: score=0.00, weight=0.09, contribution=0.00
+2025-06-10 18:30:22,817 - assessment - INFO - Section Data Breaches: score=1.00, weight=0.10, contribution=0.10
+2025-06-10 18:30:22,818 - assessment - INFO - Section Children's Websites: score=0.00, weight=0.04, contribution=0.00
+2025-06-10 18:30:22,818 - assessment - INFO - Total weighted score: 0.2575, Total weight: 0.9899999999999999
+2025-06-10 18:30:22,819 - assessment - INFO - Overall score calculation: (0.2575 / total_weight) * 100 = 26.01%
+2025-06-10 18:30:23,000 - __main__ - INFO - Application started - Logging initialized
+2025-06-10 18:30:23,232 - views - INFO - Requesting AI report generation with the following configuration:
+2025-06-10 18:30:23,232 - views - INFO - AI enabled: True
+2025-06-10 18:30:23,234 - views - INFO - API key available: Yes
+2025-06-10 18:30:23,249 - views - INFO - API provider: openrouter
+2025-06-10 18:30:23,250 - nlg_report - INFO - AI API is fully configured and enabled
+2025-06-10 18:30:23,254 - nlg_report - INFO - Configuring OpenRouter API client
+2025-06-10 18:30:23,837 - nlg_report - INFO - OpenRouter client configured with model: deepseek/deepseek-chat-v3-0324:free
+2025-06-10 18:30:23,838 - nlg_report - INFO - Creating AI prompt for markdown format from context data
+2025-06-10 18:30:23,838 - nlg_report - INFO - Created prompt with length: 7117 characters
+2025-06-10 18:30:23,839 - nlg_report - INFO - Making API request attempt 1/3
+2025-06-10 18:30:23,839 - nlg_report - INFO - Sending request to OpenRouter API
+2025-06-10 18:30:26,525 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 18:31:34,380 - nlg_report - INFO - Received full API response
+2025-06-10 18:31:34,381 - nlg_report - INFO - API call completed successfully in 70.54 seconds
+2025-06-10 18:31:34,381 - nlg_report - INFO - Received valid response with content length: 4665 characters
+2025-06-10 18:31:34,381 - views - INFO - Report generation completed in 71.13 seconds
+2025-06-10 18:31:34,383 - views - INFO - Report length: 4665 characters
+2025-06-10 18:31:34,389 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-06-10 18:31:34,392 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-06-10 18:31:34,425 - views - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp6n45eoib.pdf
+2025-06-10 18:31:34,425 - views - INFO - Attempting conversion and save to: C:\Users\HP\AppData\Local\Temp\tmp6n45eoib.pdf
+2025-06-10 18:31:34,435 - views - INFO - markdown-pdf save operation completed for C:\Users\HP\AppData\Local\Temp\tmp6n45eoib.pdf
+2025-06-10 18:31:34,435 - views - INFO - Output PDF file exists: C:\Users\HP\AppData\Local\Temp\tmp6n45eoib.pdf
+2025-06-10 18:31:34,481 - views - INFO - Successfully read 555193 bytes from C:\Users\HP\AppData\Local\Temp\tmp6n45eoib.pdf
+2025-06-10 18:31:34,481 - views - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp6n45eoib.pdf
+2025-06-10 18:31:34,504 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL

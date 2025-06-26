@@ -1,0 +1,71 @@
+2025-05-28 12:55:24,977 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Qia in country: Qatar
+2025-05-28 12:55:25,565 - privacy_policy_analyzer - INFO - Found privacy policy URL for Qia: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-05-28 12:55:25,565 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-05-28 12:55:26,882 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.qia.qa/en/Pages/Privacy.aspx on attempt 1
+2025-05-28 12:55:27,006 - privacy_policy_analyzer - DEBUG - Removed 77 unwanted elements
+2025-05-28 12:55:27,019 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-05-28 12:55:27,019 - privacy_policy_analyzer - INFO - Successfully extracted 469 characters of content
+2025-05-28 12:55:27,019 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-28 12:56:31,723 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-28 12:56:31,726 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-28 12:56:31,775 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpltgazkbr.pdf
+2025-05-28 12:56:31,775 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpltgazkbr.pdf
+2025-05-28 12:56:31,784 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpltgazkbr.pdf
+2025-05-28 12:56:31,784 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpltgazkbr.pdf
+2025-05-28 12:56:31,821 - privacy_policy_analyzer - INFO - Successfully read 143290 bytes from PDF
+2025-05-28 12:56:31,824 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpltgazkbr.pdf
+2025-05-28 12:56:50,887 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Ministry Of Transport in country: Qatar
+2025-05-28 12:56:51,422 - privacy_policy_analyzer - INFO - Found privacy policy URL for Ministry Of Transport: https://www.mot.gov.qa/en/privacy-policy
+2025-05-28 12:56:51,422 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.mot.gov.qa/en/privacy-policy
+2025-05-28 12:56:53,279 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.mot.gov.qa/en/privacy-policy on attempt 1
+2025-05-28 12:56:53,319 - privacy_policy_analyzer - DEBUG - Removed 14 unwanted elements
+2025-05-28 12:56:53,329 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-28 12:56:53,329 - privacy_policy_analyzer - INFO - Successfully extracted 836 characters of content
+2025-05-28 12:56:53,329 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-28 12:57:16,961 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Ministry Of Finance in country: Qatar
+2025-05-28 12:57:17,555 - privacy_policy_analyzer - INFO - Found privacy policy URL for Ministry Of Finance: https://www.qfc.qa/en/privacy-policy
+2025-05-28 12:57:17,555 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.qfc.qa/en/privacy-policy
+2025-05-28 12:57:18,293 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.qfc.qa/en/privacy-policy on attempt 1
+2025-05-28 12:57:18,402 - privacy_policy_analyzer - DEBUG - Removed 36 unwanted elements
+2025-05-28 12:57:18,405 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-28 12:57:18,405 - privacy_policy_analyzer - INFO - Successfully extracted 9039 characters of content
+2025-05-28 12:57:18,409 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-28 12:57:44,998 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-28 12:57:44,998 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-28 12:57:45,095 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpplqxd0bk.pdf
+2025-05-28 12:57:45,095 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpplqxd0bk.pdf
+2025-05-28 12:57:45,111 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpplqxd0bk.pdf
+2025-05-28 12:57:45,111 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpplqxd0bk.pdf
+2025-05-28 12:57:45,145 - privacy_policy_analyzer - INFO - Successfully read 579026 bytes from PDF
+2025-05-28 12:57:45,145 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpplqxd0bk.pdf
+2025-05-28 12:58:56,884 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-28 12:58:56,888 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-28 12:58:56,943 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp8h0lfmn0.pdf
+2025-05-28 12:58:56,943 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp8h0lfmn0.pdf
+2025-05-28 12:58:56,974 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp8h0lfmn0.pdf
+2025-05-28 12:58:56,975 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp8h0lfmn0.pdf
+2025-05-28 12:58:57,024 - privacy_policy_analyzer - INFO - Successfully read 153677 bytes from PDF
+2025-05-28 12:58:57,024 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp8h0lfmn0.pdf
+2025-05-28 13:53:14,555 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Ministry Of Finance in country: Qatar
+2025-05-28 13:53:14,999 - privacy_policy_analyzer - INFO - Found privacy policy URL for Ministry Of Finance: https://www.qfc.qa/en/privacy-policy
+2025-05-28 13:53:15,002 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.qfc.qa/en/privacy-policy
+2025-05-28 13:53:15,720 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.qfc.qa/en/privacy-policy on attempt 1
+2025-05-28 13:53:15,856 - privacy_policy_analyzer - DEBUG - Removed 36 unwanted elements
+2025-05-28 13:53:15,861 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-28 13:53:15,864 - privacy_policy_analyzer - INFO - Successfully extracted 9039 characters of content
+2025-05-28 13:53:15,873 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-28 13:55:18,327 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-28 13:55:18,329 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-28 13:55:18,387 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpauz7u38l.pdf
+2025-05-28 13:55:18,391 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpauz7u38l.pdf
+2025-05-28 13:55:18,410 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpauz7u38l.pdf
+2025-05-28 13:55:18,413 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpauz7u38l.pdf
+2025-05-28 13:55:18,451 - privacy_policy_analyzer - INFO - Successfully read 151074 bytes from PDF
+2025-05-28 13:55:18,454 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpauz7u38l.pdf
+2025-05-28 16:27:35,540 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Ministry Of Finance in country: Qatar (NPC)
+2025-05-28 16:27:36,027 - privacy_policy_analyzer - INFO - Found privacy policy URL for Ministry Of Finance: https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf
+2025-05-28 16:27:36,030 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf
+2025-05-28 16:27:44,525 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf on attempt 1
+2025-05-28 16:29:01,155 - privacy_policy_analyzer - DEBUG - Removed 0 unwanted elements
+2025-05-28 16:29:01,157 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-05-28 16:29:01,257 - privacy_policy_analyzer - INFO - Successfully extracted 17371289 characters of content

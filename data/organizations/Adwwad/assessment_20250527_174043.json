@@ -1,0 +1,21 @@
+{
+  "organization_name": "Adwwad",
+  "assessment_date": "2025-05-27",
+  "selected_regulation": "NPC",
+  "selected_industry": "general",
+  "responses": {
+    "s0_q0": "Yes, with comprehensive documentation",
+    "s0_q1": "Yes: A formal, dedicated unit or office is operational and has clear responsibilities.",
+    "s0_q2": "Yes: The policy is published, communicated, and aligned with NDP requirements.",
+    "s0_q3": "Yes: All roles and responsibilities are documented and assigned.",
+    "s1_q0": "Yes, with full documentation",
+    "s1_q1": "Yes, fully documented",
+    "s2_q0": "No - Not yet completed",
+    "s2_q1": "No - Not yet completed",
+    "s2_q2": "No - Not yet completed",
+    "s3_q0": "No - Not yet completed",
+    "s3_q1": "No - Not yet completed"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-27T17:40:43.615614"
+}

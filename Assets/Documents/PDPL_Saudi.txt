@@ -1,0 +1,563 @@
+Personal Data Protection Law
+Article 1
+For the purpose of implementing this Law, the following terms shall have the meanings
+assigned thereto, unless the context requires otherwise:
+1-Law: The Personal Data Protection Law.
+2-Regulations: The Implementing Regulations of the Law.
+3-Competent Authority: The authority to be determined by a resolution of the Council of
+Ministers.
+4-Personal Data: Any data, regardless of its source or form, that may lead to identifying an
+individual specifically, or that may directly or indirectly make it possible to identify an
+individual, including name, personal identification number, addresses, contact numbers,
+license numbers, records, personal assets, bank and credit card numbers, photos and
+videos of an individual, and any other data of personal nature.
+5-Processing: Any operation carried out on Personal Data by any means, whether manual
+or automated, including collecting, recording, saving, indexing, organizing, formatting,
+storing, modifying, updating, consolidating, retrieving, using, disclosing, transmitting,
+publishing, sharing, linking, blocking, erasing and destroying data.
+6-Collection: The collection of Personal Data by Controller in accordance with the
+provisions of this Law, either from the Data Subject directly, a representative of the Data
+Subject, any legal guardian over the Data Subject or any other party.
+7-Destruction: Any action taken on Personal Data that makes it unreadable and
+irretrievable, or impossible to identify the related Data Subject.
+8-Disclosure: Enabling any person - other than the Controller or the Processor, as the case
+may be - to access, collect or use personal data by any means and for any purpose.
+9-Transfer: The transfer of Personal Data from one place to another for Processing.
+10-Publishing: Transmitting or making available any Personal Data using any written, audio
+or visual means.
+11-Sensitive Data: Personal Data revealing racial or ethnic origin, or religious, intellectual
+
+or political belief, data relating to security criminal convictions and offenses, biometric or
+Genetic Data for the purpose of identifying the person, Health Data, and data that indicates
+that one or both of the individual’s parents are unknown.
+12-Genetic Data: Any Personal Data related to the hereditary or acquired characteristics of
+a natural person that uniquely identifies the physiological or health characteristics of that
+
+person, and derived from biological sample analysis of that person, such as DNA or any
+other testing that leads to generating Genetic Data.
+13-Health Data: Any Personal Data related to an individual's health condition, whether their
+physical, mental or psychological conditions, or related to Health Services received by that
+individual.
+14-Health Services: Services related to the health of an individual, including preventive,
+curative, rehabilitative and hospitalizing services, as well as the provision of medications.
+15-Credit Data: Any Personal Data related to an individual's request for, or obtaining of,
+financing from a financing entity, whether for a personal or family purpose, including any
+data relating to that individual’s ability to obtain and repay debts, and the credit history of
+that person.
+16-Data Subject: The individual to whom the Personal Data relate.
+17-Public Entity: Any ministry, department, public institution or public authority, any
+independent public entity in the Kingdom, or any affiliated entity therewith.
+
+18-Controller: Any Public Entity, natural person or private legal person that specifies the
+purpose and manner of Processing Personal Data, whether the data is processed by that
+Controller or by the Processor.
+19-Processor: Any Public Entity, natural person or private legal person that processes
+Personal Data for the benefit and on behalf of the Controller.
+
+Article 2
+1-The Law applies to any Processing of Personal Data related to individuals that takes
+place in the Kingdom by any means, including the Processing of Personal Data related to
+
+individuals residing in the Kingdom by any means from any party outside the Kingdom. This
+includes the data of the deceased if it would lead to them or a member of their family being
+identified specifically.
+2-The scope of applying the Law excludes the individual's Personal Data Processing for
+purposes that do not go beyond personal or family use, as long as the Data Subject did not
+publish or disclose it to others. The Regulations shall define personal and family use
+provided in this Paragraph.
+
+Article 3
+The provisions and procedures stated in this Law shall not prejudice any provision that
+grants a right to the Data Subject or confers better protection to Personal Data pursuant to
+any other law or an international agreement to which the Kingdom is a party.
+
+Article 4
+Data Subject shall have the following rights pursuant to this Law and as set out in the
+Regulations:
+1-The right to be informed about the legal basis and the purpose of the Collection of their
+Personal Data.
+2-The right to access their Personal Data held by the Controller, in accordance with the
+rules and procedures set out in the Regulations, and without prejudice to the provisions of
+Article (9) of this Law.
+3-The right to request obtaining their Personal Data held by the Controller in a readable and
+clear format, in accordance with the controls and procedures specified by the Regulations.
+4-The right to request correcting, completing, or updating their Personal Data held by the
+Controller.
+
+5-The right to request a Destruction of their Personal Data held by the Controller when such
+Personal Data is no longer needed by Data Subject, without prejudice to the provisions of
+Article (18) of this Law.
+
+Article 5
+1-Except for the cases stated in this Law, neither Personal Data may be processed nor the
+
+purpose of Personal Data Processing may be changed without the consent of the Data
+Subject. The Regulations Shall set out the conditions of the consent, the cases in which the
+consent must be explicit, and the terms and conditions related to obtaining the consent of
+the legal guardian if the Data Subject fully or partially lacks legal capacity.
+2-In all cases, Data Subject may withdraw the consent mentioned in Paragraph (1) of this
+Article at any time; the Regulations determines the necessary controls for such case.
+
+Article 6
+In the following cases, Processing of Personal Data shall not be subject to the consent
+referred to in Paragraph (1) of Article (5) herein:
+1-If the Processing serves actual interests of the Data Subject, but communicating with the
+Data Subject is impossible or difficult.
+2-If the Processing is pursuant to another law or in implementation of a previous agreement
+to which the Data Subject is a party.
+3-If the Controller is a Public Entity and the Processing is required for security purposes or
+to satisfy judicial requirements.
+
+4-If the Processing is necessary for the purpose of legitimate interest of the Controller,
+without prejudice to the rights and interests of the Data Subject, and provided that no
+Sensitive Data is to be processed. Related provisions and controls are set out in the
+Regulations.
+
+Article 7
+The consent referred to in paragraph (1) of Article (5) of this Law may not form a condition
+of providing a service or a benefit, unless such service or benefit is directly related to the
+Processing of Personal Data for which the consent is given.
+
+Article 8
+Subject to the provisions of this Law and the Regulations regarding the Disclosure of
+Personal Data, the Controller shall only select Processors providing the necessary
+guarantees to implement the provisions of this Law and the Regulations. The Controller
+shall also monitor the compliance of said Processors with the provisions of this Law and
+the Regulations. This shall not prejudice the Controller’s responsibilities towards the Data
+Subject or the Competent Authority as the case may be. The Regulations shall set out the
+provisions necessary in this regard, including provisions related to any subsequent
+contracts conducted by the Processor.
+
+Article 9
+1-The Controller may set time frames for exercising the right to access Personal Data
+stated in Paragraph (2) of Article (4) herein as stipulated in the Regulations. The Controller
+may limit the exercise of this right in the following cases:
+a) If this is necessary to protect the Data Subject or other parties from any harm,
+according to the provisions set forth the Regulations.
+b) If the Controller is a Public Entity and the restriction is required for security
+purposes, required by another law, or required to fulfill judicial requirements.
+2-The Controller shall prevent the Data Subject from accessing Personal Data in any of the
+situations stated in Paragraphs (1, 2, 3, 4, 5) and (6) of Article (16) herein.
+
+Article 10
+The Controller may only collect Personal Data directly from the Data Subject and may only
+process Personal Data for the purposes for which they have been collected. However, the
+
+Controller may collect Personal Data from a source other that the Data Subject and may
+process Personal Data for purposes other than the ones for which they have been collected
+in the following situations:
+1- The Data Subject gives their consent in accordance with the provisions of this Law.
+2- Personal Data is publicly available or was collected from a publicly available source.
+
+3- The Controller is a Public Entity, and the Collection or Processing of the Personal Data is
+required for public interest or security purposes, or to implement another law, or to fulfill
+judicial requirements.
+4- Complying with this may harm the Data Subject or affect their vital interests
+5- Personal Data Collection or Processing is necessary to protect public health, public
+safety, or to protect the life or health of specific individuals.
+6- Personal Data is not to be recorded or stored in a form that makes it possible to directly
+or indirectly identify the Data Subject.
+7- Personal Data Collection is necessary to achieve legitimate interests of the Controller,
+without prejudice to the rights and interests of the Data Subject, and provided that no
+Sensitive Data is to be processed.
+The Regulations shall set out the provisions, controls and procedures related to what is
+stated in paragraphs (2) to (7) of this Article.
+
+Article 11
+1- The purpose for which Personal Data is collected shall be directly related to the
+Controller’s purposes, and shall not contravene any legal provisions.
+2- The methods and means of Personal Data Collection shall not conflict with any legal
+provisions, shall be appropriate for the circumstances of the Data Subject, shall be
+
+direct, clear and secure, and shall not involve any deception, misleading or extortion.
+3- The content of the Personal Data shall be appropriate and limited to the minimum
+
+amount necessary to achieve the purpose of the Collection. Content that may lead to
+specifically identifying Data Subject once the purpose of Collection is achieved shall be
+avoided. The Regulations shall set out the necessary controls in this regard.
+4- If the Personal Data collected is no longer necessary for the purpose for which it has
+been collected, the Controller shall, without undue delay, cease their Collection and
+destroy previously collected Personal Data.
+
+Article 12
+The Controller shall use a privacy policy and make it available to Data Subjects for their
+
+information prior to collecting their Personal Data. The policy shall specify the purpose of
+Collection, Personal Data to be collected, the means used for Collection, Processing,
+storage and Destruction, and information about the Data Subject rights and how to exercise
+such rights.
+
+Article 13
+When collecting Personal Data directly from the Data Subject, the Controller shall take
+appropriate measures to inform the Data Subject of the following upon Collection:
+1- The legal basis for collecting their Personal Data.
+
+2- The purpose of the Collection, and shall specify the Personal Data whose Collection is
+mandatory and the Personal Data whose Collection is optional. The Data Subject shall be
+informed that the Personal Data will not be subsequently processed in a manner
+inconsistent with the Collection purpose or in cases other than those stated in Article (10)
+of this Law.
+3- Unless the Collection is for security purposes, the identity of the person collecting the
+Personal Data and the address of its representative, if necessary.
+4- The entities to which the Personal Data will be disclosed, the capacity of such entities,
+and whether the Personal Data will be transferred, disclosed or processed outside the
+Kingdom.
+5- The potential consequences and risks that may result from not collecting the Personal
+Data.
+6- The rights of the Data Subject pursuant to Article (4) herein.
+7- Such other elements as set out in the Regulations based on the nature of the activity
+done by the Controller.
+
+Article 14
+The Controller may not process Personal Data without taking sufficient steps to verify the
+Personal Data accuracy, completeness, timeliness and relevance to the purpose for which
+it is collected in accordance with the provisions of the Law.
+
+Article 15
+The Controller may not Disclose Personal Data except in the following situations:
+1- Data Subject consents to the Disclosure in accordance with the provisions of the
+Law.
+
+2- Personal Data has been collected from a publicly available source.
+3- The entity requesting Disclosure is a Public Entity, and the Collection or Processing
+of the Personal Data is required for public interest or security purposes, or to
+implement another law, to fulfill judicial requirements.
+4- The Disclosure is necessary to protect public health, public safety, or to protect the
+lives or health of specific individuals.
+5- The Disclosure will only involve subsequent Processing in a form that makes it
+impossible to directly or indirectly identify the Data Subject.
+
+6- The Disclosure is necessary to achieve legitimate interests of the Controller, without
+prejudice to the rights and interests of the Data Subject, and provided that no
+Sensitive Data is to be processed.
+The Regulations shall set out the provisions, controls and procedures related to
+what is stated in paragraphs (2) to (6) of this Article.
+
+Article 16
+
+The Controller shall not disclose Personal Data in the situations stated in Paragraphs (1, 2,
+5) and (6) of Article (15) if the Disclosure:
+1- Represents a threat to security, harms the reputation of the Kingdom, or conflicts
+with the interests of the Kingdom.
+2- Affects the Kingdom’s relations with any other state.
+3- Prevents the detection of a crime, affects the rights of an accused to a fair trial, or
+affects the integrity of existing criminal procedures.
+4- Compromises the safety of an individual.
+5- Results in violating the privacy of an individual other than the Data Subject, as set
+out in the Regulations.
+6- Conflicts with the interests of a person that fully or partially lacks legal capacity.
+7- Violates legally established professional obligations.
+8- Involves a violation of an obligation, procedure, or judicial decision.
+9- Exposes the identity of a confidential source of information in a manner detrimental
+to the public interest.
+
+Article 17
+1- If Personal Data is corrected, completed or updated, the Controller shall notify such
+amendment to all the other entities to which such Personal Data has been
+transferred and make the amendment available to such entities.
+2- The Regulations shall set out the time frames for correction and updating of
+Personal Data, types of correction, and the procedures required to avoid the
+consequences of Processing incorrect, inaccurate or outdated Personal Data.
+
+Article 18
+1- The Controller shall, without undue delay, Destroy the Personal Data when no longer
+necessary for the purpose for which they were collected. However, the Controller
+may retain data after the purpose of the Collection ceases to exist; provided that it
+does not contain anything that may lead to specifically identifying Data Subject
+pursuant to the controls stipulated in the Regulations.
+
+2- In the following cases, the Controller shall retain the Personal Data after the purpose
+
+of the Collection ceases to exist:
+
+a) If there is a legal basis for retaining the Personal Data for a specific period, in which
+case the Personal Data shall be destroyed upon the lapse of that period or when the
+purpose of the Collection is satisfied, whichever longer.
+
+b) If the Personal Data is closely related to a case under consideration before a judicial
+authority and the retention of the Personal Data is required for that purpose, in
+which case the Personal Data shall be destroyed once the judicial procedures are
+concluded.
+
+Article 19
+The Controller shall implement all the necessary organizational, administrative and technical
+measures to protect Personal Data, including during the Transfer of Personal Data, in
+accordance with the provisions and controls set out in the Regulations.
+
+Article 20
+1- The Controller shall notify the Competent Authority upon knowing of any breach,
+damage, or illegal access to personal data, in accordance with the Regulations.
+2- The Controller shall notify the Data Subject of any breach, damage or illegal access to
+their Personal Data that would cause damage to their data or cause prejudice to their
+rights and interests, in accordance with the Regulations.
+
+Article 21
+The Controller shall respond to the requests of the Data Subject pertaining to their rights
+under this Law within such period and in such method as set out in the Regulations.
+
+Article 22
+The Controller shall conduct an impact assessment of Personal Data Processing in relation
+to any product or service, based on the nature of the activity carried out by the Controller,
+in accordance with the relevant provisions of the Regulations.
+
+Article 23
+Without prejudice to this Law, the Regulations shall set out additional controls and
+procedures for the Processing of Health Data in a manner that ensures the privacy of the
+Data Subject and protects their rights under this Law. Such additional controls and
+procedures shall include the following:
+
+1- Restricting the right to access Health Data, including medical files, to the minimum
+number of employees or workers and only to the extent necessary to provide the
+required Health Services.
+2- Restricting Health Data Processing procedures and operations to the minimum
+
+extent possible of employees and workers as necessary to provide Health Services
+or offer health insurance programs.
+
+Article 24
+Without prejudice to this Law, the Regulations shall set out additional controls and
+procedures for the Processing of Credit Data in a manner that ensures the privacy of the
+Data Subject and protects their rights under this Law and the Credit Information Law. Such
+controls and procedures shall include the following:
+1- Implementing appropriate measures to verify that the Data Subject has given their
+explicit consent to the Collection of the Personal Data, changing the purpose of the
+Collection, or Disclosure or Publishing of the Personal Data in accordance with the
+provisions of this Law and the Credit Information Law.
+2- Requiring that the Data Subject be notified when a request for Disclosure of their
+Credit Data is received from any entity.
+
+Article 25
+With the exception of the awareness-raising materials sent by Public Entities, Controller
+may not use personal means of communication, including the post and email, of the Data
+Subject to send advertising or awareness-raising materials, unless:
+1- Obtaining the prior consent of the targeted recipient for such materials.
+
+2- The sender of the material shall provide a clear mechanism, as set out in the
+Regulations, that enables the targeted recipient to request stopping receiving such
+
+materials if they desire so.
+3- The Regulations shall set out the provisions concerning the aforementioned
+advertising and awareness-raising materials, as well as the conditions and situations
+concerning the consent of the recipient to receive aforementioned materials.
+
+Article 26
+With the exception of Sensitive Data, Personal Data may be processed for marketing
+
+purposes, if it is collected directly from the Data Subject and their consent is given in
+accordance with the provisions of Law; the Regulations shall set out the controls in such
+regard.
+
+Article 27
+Personal data may be collected or processed for scientific, research, or statistical purposes
+without the consent of the Data Subject in the following situations:
+1-If it does not specifically identify the Data Subject.
+2-If evidence of the Data Subject’s identity will be destroyed during the Processing and
+prior to Disclosure of such data to any other entity, if it is not Sensitive Data.
+
+3-If personal data is collected or processed for these purposes is required by another law
+or in implementation of a previous agreement to which the Data Subject is a party.
+The Regulations shall set out the controls required by the provisions of this Article.
+
+Article 28
+It is not permissible to copy official documents where Data Subjects are identifiable, except
+where it is required by law, or when a competent public authority requests copying such
+documents pursuant to the Regulations.
+
+Article 29
+1-Subject to the provisions of Paragraph (2) of this Article, a Controller may Transfer
+Personal Data outside the Kingdom or disclose it to a party outside the Kingdom, in
+order to achieve any of the following purposes:
+A. If this is relating to performing an obligation under an agreement, to which the
+Kingdom is a party.
+
+B. If it is to serve the interests of the Kingdom.
+C. If this is to the performance of an obligation to which the Data Subject is a party
+D. If this is to fulfill other purposes as set out in the Regulations.
+2-The conditions that must be met when there is a Transfer or Disclosure of
+
+Personal Data, according to what is stated in Paragraph (1) of this Article, are as
+follows:
+
+A. The Transfer or Disclosure shall not cause any prejudice to national security or
+the vital interests of the Kingdom.
+B. There is an adequate level of protection for Personal Data outside the Kingdom.
+Such level of protection shall be at least equivalent to the level of protection
+guaranteed by the Law and Regulations, according to the results of an
+assessment conducted by the Competent Authority in coordination with
+whomever it deems appropriate from the other relevant authorities.
+
+C. The Transfer or Disclosure shall be limited to the minimum amount of Personal
+Data needed.
+3-Paragraph (2) of this Article shall not apply to cases of extreme necessity to preserve
+the life or vital interests of the Data Subject or to prevent, examine or treat disease.
+4-The Regulations shall set out the provisions, criteria and procedures related to the
+implementing this Article, including applicable exceptions for Controllers regarding
+conditions referred to in Subparagraphs (b) and (c) of Paragraph (2) of this Article, as
+well as controls and procedures for such exemptions.
+
+Article 30
+
+1- Without prejudice to the provisions of this Law and the powers of the Saudi Central
+Bank pursuant to applicable legal provisions, the Competent Authority shall be the
+entity in charge of overseeing the implementation of this Law and the Regulations.
+2- The Regulations shall identify the situations where the Controller shall appoint one or
+more persons as personal data protection officer(s). and shall set the responsibilities
+of any such person in accordance with the provisions of this Law.
+3- The Controller shall cooperate with the Competent Authority in performing its duties
+to supervise the implementation of the provisions of this Law and the Regulations,
+and shall take such steps as necessary in connection with the related matters
+referred to the Controller by the Competent Authority.
+4- The Competent Authority, in order to carry out its duties related to supervising the
+implementation of the provisions of the Law and Regulations, may:
+A. Request the necessary documents or information from the Controller to ensure
+its compliance with the provisions of the Law and Regulations.
+B. Request the cooperation of any other party for the purposes of support in
+accomplishing supervisory duties and enforcement of the provisions of the Law
+and Regulations.
+C. Specify the appropriate tools and mechanisms for monitoring Controllers’
+compliance with the provisions of the Law and the Regulations, including
+maintaining a national register of Controllers for this purpose.
+D. Provide services related to Personal Data protection through the national register
+referred to in Subparagraph (c) of this Paragraph or through any other means
+deemed appropriate. The Competent Authority may collect a fee for the Personal
+Data protection services it may provide.
+5- The Competent Authority may, at its discretion, delegate to other authorities the
+accomplishment of some of its duties that are related to supervision or enforcement
+of the provisions of the Law and Regulations.
+
+Article 31
+Without prejudice to Article (18) herein, the Controller shall maintain records, for such a
+period as required under the Regulations, of the Personal Data Processing activities, based
+on the nature of the activity carried out by the Controller. Such records are to be available
+whenever requested by the Competent Authority. The records shall contain the following
+information at a minimum:
+
+1-Contact details of the Controller.
+2-The purpose of the Personal Data Processing.
+3-Description of the categories of Personal Data Subjects.
+
+4-Any other entity to which Personal Data has been, or will be, disclosed.
+5-Whether the Personal Data has been or will be transferred outside the Kingdom or
+disclosed to an entity outside the Kingdom.
+
+6-The expected period for which Personal Data shall be retained.
+
+Article 32
+Repealed.
+
+Article 33
+1-The Competent Authority shall set the requirements for practicing commercial,
+professional or non-profit activities related to Personal Data protection in the Kingdom, in
+coordination with the competent authorities, and without prejudice to the other
+requirements set by those authorities in their domain of competence.
+2-The Competent Authority may grant licenses to entities that issue accreditation
+certificates to Controllers and Processors. The Competent Authority shall set the rules to
+regulate the issuance of such certificates.
+3-The Competent Authority may grant licenses to entities that conduct audits or checks of
+Personal Data Processing activities related to the Controller’s activity, in accordance with
+the provisions stipulated in the Regulations. The Competent Authority shall set the
+conditions and criteria to grant such licenses, and the rules regulating them.
+4-The Competent Authority shall specify the appropriate tools and mechanisms to monitor
+compliance of Controllers and Processors outside the Kingdom in regard with their
+obligations as stated in the Law and the Regulations when Processing personal data
+related to individuals residing in the Kingdom by any means, and shall define procedures to
+enforce the provisions of the Law and the Regulations outside the Kingdom.
+
+Article 34
+A Data Subject may submit to the Competent Authority any complaint that may arise out of
+the implementation of this Law and the Regulations. The Regulations shall set out the rules
+for processing the complaints that may arise from implementing this Law and the
+Regulations.
+
+Article 35
+1-Without prejudice to any harsher penalty stipulated in another law, any individual
+
+discloses or publishes Sensitive Data, in violation of the provisions of the Law, with the
+intention of harming the Data Subject or achieving a personal benefit shall be punished with
+imprisonment for a period not exceeding (two years), or a fine not exceeding (three million)
+Riyals, or both.
+2-The Public Prosecution is responsible for investigating and prosecuting before the
+competent court for the violation stipulated in Paragraph (1) of this Article.
+
+3-The competent court shall be in charge of lawsuits arising from the implementation of this
+Article and issuing the prescribed penalties.
+4-The competent court may double the fine penalty stipulated in Paragraph (1) of this
+Article in the case of recidivism, even if it results in exceeding its maximum limit, provided
+that it does not exceed double this limit.
+
+Article 36
+1-In cases that are not covered in Article (35) herein and without prejudice to any harsher
+penalty stipulated in another law, a warning or a fine not exceeding (five million) Riyals shall
+be imposed on every person with a special natural or legal capacity - covered by the
+provisions of the Law - who violates any of the provisions of the Law or the Regulations.
+The fine penalty may be doubled in the event of a repeat violation, even if it results in
+exceeding its maximum limit, provided that it does not exceed double this limit.
+2-A committee (or more) shall be formed by a decision of the president of the Competent
+Authority. The number of its members shall not be less than (three), and one of them shall
+be appointed as the committee head, and there shall be a technical specialist and a legal
+advisor among them. The committee is to examine violations and issue warnings or impose
+fines as stipulated in Paragraph (1) of this Article, considering the type of violation
+committed, its seriousness and the extent of its impact; provided that the decision of the
+committee is approved by the president of the Competent Authority or whomever they
+delegate. The president of the Competent Authority shall issue, by their decision, the rules
+of work of the committee, and the remunerations of its members shall be determined
+therein.
+3-Anyone against whom a decision has been issued by the committee mentioned in
+Paragraph (2) of this Article has the right to appeal against them before the competent
+court.
+
+Article 37
+1-Employees and workers appointed by a decision of the president of the Competent
+Authority shall have the powers to control and inspect the violations stated in this Law or
+the Regulations. The president of the Competent Authority shall issue the rules and
+
+procedures in regard to the work of those employees and workers in accordance with the
+applicable laws.
+2-The employees and workers referred to in Paragraph (1) of this Article may seek
+assistance from criminal investigations authorities or other competent authorities to carry
+
+out their duties concerning control and inspection of violations stipulated in the Law or
+Regulations.
+3-The Competent Authority has the right to seize the means or tools used in committing the
+violation until a decision is made on it.
+
+Article 38
+1-Without prejudice to the rights of bona fide third parties, the competent court may order
+the confiscation of funds obtained as a result of committing the violations stipulated in the
+Law.
+2-The competent court, or the committee referred to in paragraph (2) of Article (36), as the
+case may be, may include in their penalty judgment or decision a provision that a summary
+of such judgment or decision shall be published at the expense of the violator in one (or more)
+local newspapers distributed in their area of residence, or using any other proper means. This
+is based on the type, seriousness and impact of the violation; provided that the publishing
+shall be after the judgment becomes final, the lapse of the deadline for appeals, or the
+issuance of a final ruling dismissing the appeal against the judgement.
+
+Article 39
+Without prejudice to the provisions of Article (35) and Paragraph (1) of Article (36) of this
+Law, the Public Entity shall discipline any of its employees who violate any of the provisions
+of this Law and Regulations, in accordance with the disciplinary provisions and procedures
+prescribed by law.
+
+Article 40
+Without prejudice to the penalties stated in this Law, any individual that suffers a damage
+as a result of any of the violations stated in this Law or the Regulations may apply to a
+competent court for proportionate compensation for the material or moral damage.
+
+Article 41
+Any person that engages in the Processing of Personal Data shall protect the confidentiality
+of the Personal Data even after the end of such person’s occupational or contractual
+relationship.
+
+Article 42
+The president of the Competent Authority shall issue the Regulations within a period not
+exceeding (seven hundred and twenty) days commencing on the date of publishing the Law
+provided that the president must coordinate before issuing the Law with: (Ministry of
+Communications and Information Technology, Ministry of Foreign Affairs, Communications,
+Space & Technology Commission, Digital Government Authority, National Cybersecurity
+Authority, Saudi Health Council, and Saudi Central Bank), each in its own jurisdiction.
+
+Article 43
+This Law shall come into force after (seven hundred and twenty) days commencing on the
+date of its publication in the Official Gazette.
+

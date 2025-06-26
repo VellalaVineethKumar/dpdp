@@ -1,0 +1,112 @@
+2025-05-14 12:27:45,657 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: qatarsummit in country: Qatar
+2025-05-14 12:27:47,886 - privacy_policy_analyzer - INFO - Found privacy policy URL for qatarsummit: https://qatar.websummit.com/privacy-policy/
+2025-05-14 12:27:47,887 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://qatar.websummit.com/privacy-policy/
+2025-05-14 12:27:48,820 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://qatar.websummit.com/privacy-policy/ on attempt 1
+2025-05-14 12:27:48,848 - privacy_policy_analyzer - DEBUG - Removed 31 unwanted elements
+2025-05-14 12:27:48,849 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-14 12:27:48,850 - privacy_policy_analyzer - INFO - Successfully extracted 57 characters of content
+2025-05-14 12:27:48,853 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-14 12:30:09,887 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-14 12:30:09,888 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-14 12:30:09,927 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp7iykr4qs.pdf
+2025-05-14 12:30:09,928 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp7iykr4qs.pdf
+2025-05-14 12:30:09,956 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp7iykr4qs.pdf
+2025-05-14 12:30:09,957 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp7iykr4qs.pdf
+2025-05-14 12:30:09,972 - privacy_policy_analyzer - INFO - Successfully read 124612 bytes from PDF
+2025-05-14 12:30:09,973 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp7iykr4qs.pdf
+2025-05-14 12:31:24,899 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: qatarsummit in country: Qatar
+2025-05-14 12:31:25,960 - privacy_policy_analyzer - INFO - Found privacy policy URL for qatarsummit: https://qatar.websummit.com/privacy-policy/
+2025-05-14 12:31:25,962 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://qatar.websummit.com/privacy-policy/
+2025-05-14 12:31:26,042 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://qatar.websummit.com/privacy-policy/ on attempt 1
+2025-05-14 12:31:26,053 - privacy_policy_analyzer - DEBUG - Removed 31 unwanted elements
+2025-05-14 12:31:26,053 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-14 12:31:26,054 - privacy_policy_analyzer - INFO - Successfully extracted 57 characters of content
+2025-05-14 12:31:26,057 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-14 12:33:27,689 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-14 12:33:27,690 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-14 12:33:27,697 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpddlia2f0.pdf
+2025-05-14 12:33:27,698 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpddlia2f0.pdf
+2025-05-14 12:33:27,705 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpddlia2f0.pdf
+2025-05-14 12:33:27,705 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpddlia2f0.pdf
+2025-05-14 12:33:27,721 - privacy_policy_analyzer - INFO - Successfully read 123054 bytes from PDF
+2025-05-14 12:33:27,721 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpddlia2f0.pdf
+2025-05-14 12:35:39,023 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Hdfc in country: Qatar
+2025-05-14 12:35:39,663 - privacy_policy_analyzer - INFO - Found privacy policy URL for Hdfc: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-14 12:35:39,665 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-14 12:35:39,787 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-14 12:35:40,321 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-14 12:35:40,392 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-14 12:35:40,400 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-14 12:35:40,404 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-14 12:38:01,717 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-14 12:38:01,718 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-14 12:38:01,731 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmphn3iuzqj.pdf
+2025-05-14 12:38:01,732 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmphn3iuzqj.pdf
+2025-05-14 12:38:01,736 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmphn3iuzqj.pdf
+2025-05-14 12:38:01,736 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmphn3iuzqj.pdf
+2025-05-14 12:38:01,759 - privacy_policy_analyzer - INFO - Successfully read 124657 bytes from PDF
+2025-05-14 12:38:01,760 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmphn3iuzqj.pdf
+2025-05-14 12:38:46,044 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Hdfc in country: Qatar
+2025-05-14 12:38:46,447 - privacy_policy_analyzer - INFO - Found privacy policy URL for Hdfc: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-14 12:38:46,450 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-14 12:38:46,622 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-14 12:38:47,006 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-14 12:38:47,049 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-14 12:38:47,053 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-14 12:38:47,056 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-14 12:40:00,929 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-14 12:40:00,930 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-14 12:40:00,972 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmptkv4li92.pdf
+2025-05-14 12:40:00,973 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmptkv4li92.pdf
+2025-05-14 12:40:00,978 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmptkv4li92.pdf
+2025-05-14 12:40:00,978 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmptkv4li92.pdf
+2025-05-14 12:40:00,993 - privacy_policy_analyzer - INFO - Successfully read 583097 bytes from PDF
+2025-05-14 12:40:00,994 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmptkv4li92.pdf
+2025-05-14 13:00:33,705 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Hdfc in country: Qatar
+2025-05-14 13:00:34,222 - privacy_policy_analyzer - INFO - Found privacy policy URL for Hdfc: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-14 13:00:34,223 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-14 13:00:34,335 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-14 13:00:34,618 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-14 13:00:34,674 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-14 13:00:34,678 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-14 13:00:34,681 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-14 13:01:53,117 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-14 13:01:53,118 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-14 13:01:53,166 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpm2dt4qly.pdf
+2025-05-14 13:01:53,166 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpm2dt4qly.pdf
+2025-05-14 13:01:53,181 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpm2dt4qly.pdf
+2025-05-14 13:01:53,182 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpm2dt4qly.pdf
+2025-05-14 13:01:53,221 - privacy_policy_analyzer - INFO - Successfully read 581872 bytes from PDF
+2025-05-14 13:01:53,221 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpm2dt4qly.pdf
+2025-05-14 13:05:25,242 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Omantel in country: Qatar
+2025-05-14 13:05:26,190 - privacy_policy_analyzer - INFO - Found privacy policy URL for Omantel: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-05-14 13:05:26,192 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-05-14 13:05:27,286 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.omantel.om/Footer2/Privacy%20Policy on attempt 1
+2025-05-14 13:05:27,415 - privacy_policy_analyzer - DEBUG - Removed 24 unwanted elements
+2025-05-14 13:05:27,417 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-05-14 13:05:27,418 - privacy_policy_analyzer - INFO - Successfully extracted 10887 characters of content
+2025-05-14 13:05:27,421 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-14 13:06:45,553 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-14 13:06:45,553 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-14 13:06:45,578 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpq61_316i.pdf
+2025-05-14 13:06:45,579 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpq61_316i.pdf
+2025-05-14 13:06:45,585 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpq61_316i.pdf
+2025-05-14 13:06:45,586 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpq61_316i.pdf
+2025-05-14 13:06:45,598 - privacy_policy_analyzer - INFO - Successfully read 1043246 bytes from PDF
+2025-05-14 13:06:45,599 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpq61_316i.pdf
+2025-05-14 17:48:18,616 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Hdfc in country: Qatar
+2025-05-14 17:48:19,180 - privacy_policy_analyzer - INFO - Found privacy policy URL for Hdfc: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-14 17:48:19,183 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-14 17:48:19,303 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-14 17:48:19,719 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-14 17:48:19,760 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-14 17:48:19,767 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-14 17:48:19,771 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-14 17:50:22,079 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-14 17:50:22,080 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-14 17:50:22,151 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp4g1v4k8m.pdf
+2025-05-14 17:50:22,153 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp4g1v4k8m.pdf
+2025-05-14 17:50:22,189 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp4g1v4k8m.pdf
+2025-05-14 17:50:22,190 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp4g1v4k8m.pdf
+2025-05-14 17:50:22,210 - privacy_policy_analyzer - INFO - Successfully read 140941 bytes from PDF
+2025-05-14 17:50:22,211 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp4g1v4k8m.pdf

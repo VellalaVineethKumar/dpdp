@@ -1,0 +1,25 @@
+{
+  "organization_name": "Aa",
+  "assessment_date": "2025-06-11",
+  "selected_regulation": "PDPPL",
+  "selected_industry": "Oil and Gas",
+  "responses": {
+    "s0_q0": "Partially, needs improvement",
+    "s1_q0": "Yes, with full documentation",
+    "s1_q1": "Yes, fully documented",
+    "s2_q0": "Yes - Successfully completed",
+    "s2_q1": "Yes - Successfully completed",
+    "s2_q2": "No - Not Applicable",
+    "s3_q0": "No - Not yet completed",
+    "s3_q1": "Yes - Successfully completed",
+    "s4_q0": "Yes - Successfully completed",
+    "s4_q1": "No - Not yet completed",
+    "s5_q0": "Yes - Successfully completed",
+    "s5_q1": "Yes - Successfully completed",
+    "s5_q2": "No - Not yet completed",
+    "s6_q0": "Yes - Successfully completed",
+    "s6_q1": "No - Not yet completed"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-06-11T11:41:26.445913"
+}

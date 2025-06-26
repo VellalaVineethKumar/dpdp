@@ -1,0 +1,29 @@
+{
+  "organization_name": "Adwaw",
+  "assessment_date": "2025-05-27",
+  "selected_regulation": "NPC",
+  "selected_industry": "general",
+  "responses": {
+    "s0_q0": "Yes: The strategy is documented, covers all 12 NDP domains, and is reviewed/updated annually.",
+    "s0_q1": "Yes: A formal, dedicated unit or office is operational and has clear responsibilities.",
+    "s0_q2": "Yes: The policy is published, communicated, and aligned with NDP requirements.",
+    "s0_q3": "Yes: All roles and responsibilities are documented and assigned.",
+    "s1_q0": "Yes: A comprehensive architecture exists, is documented, and regularly updated.",
+    "s1_q1": "Yes: An EDM is in place, covering descriptive, diagnostic, predictive, and prescriptive analytics.",
+    "s1_q2": "Yes: All models are reviewed and approved by NPC.",
+    "s2_q0": "Yes: The policy is published and aligned with national standards.",
+    "s2_q1": "Yes: A formal program is in place, with regular assessments and improvements.",
+    "s2_q2": "Yes: Scorecards and KPIs are implemented and actively monitored.",
+    "s3_q0": "Yes: A formal, published policy exists and is aligned with national standards.",
+    "s3_q1": "Yes: A comprehensive MDM program and plan are operational.",
+    "s3_q2": "Partially: Some coordination/approval has occurred, but not comprehensively.",
+    "s4_q0": "Yes: Policy and program exist and cover the full lifecycle.",
+    "s4_q1": "Partially: Some digitalization efforts are underway, but not comprehensive.",
+    "s5_q0": "No: No catalog or metadata system exists.",
+    "s5_q1": "Partially: Some alignment exists, but not comprehensive.",
+    "s6_q0": "Yes: Policies are documented, compliant, and regularly reviewed.",
+    "s6_q1": "Yes: All storage solutions are secure, scalable, and compliant."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-27T16:29:56.364429"
+}

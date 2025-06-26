@@ -1,0 +1,210 @@
+2025-05-08 13:59:36,355 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-05-08 13:59:37,062 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 13:59:37,064 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 13:59:37,156 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-08 13:59:37,514 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-08 13:59:37,558 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-08 13:59:37,564 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-08 13:59:37,569 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 14:00:40,497 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 14:00:40,502 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 14:00:40,513 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 14:00:40,649 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpmr2ag_jv.pdf
+2025-05-08 14:00:40,650 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpmr2ag_jv.pdf
+2025-05-08 14:00:40,736 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpmr2ag_jv.pdf
+2025-05-08 14:00:40,738 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpmr2ag_jv.pdf
+2025-05-08 14:00:40,771 - privacy_policy_analyzer - INFO - Successfully read 995829 bytes from PDF
+2025-05-08 14:00:40,773 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpmr2ag_jv.pdf
+2025-05-08 14:05:40,656 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-05-08 14:05:41,246 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:05:41,248 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:05:41,337 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-08 14:05:41,753 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-08 14:05:41,832 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-08 14:05:41,837 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-08 14:05:41,840 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 14:06:51,581 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 14:06:51,584 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 14:06:51,587 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 14:06:51,607 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpkxdlhjvf.pdf
+2025-05-08 14:06:51,607 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpkxdlhjvf.pdf
+2025-05-08 14:06:51,615 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpkxdlhjvf.pdf
+2025-05-08 14:06:51,616 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpkxdlhjvf.pdf
+2025-05-08 14:06:51,646 - privacy_policy_analyzer - INFO - Successfully read 584496 bytes from PDF
+2025-05-08 14:06:51,648 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpkxdlhjvf.pdf
+2025-05-08 14:08:59,404 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-05-08 14:08:59,973 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:08:59,973 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:09:00,079 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-08 14:09:00,293 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-08 14:09:00,364 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-08 14:09:00,372 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-08 14:09:00,377 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 14:09:34,093 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-05-08 14:09:34,653 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:09:34,653 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:09:34,742 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-08 14:09:34,927 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-08 14:09:34,954 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-08 14:09:34,956 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-08 14:09:34,959 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 14:09:58,907 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 14:09:58,909 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 14:09:58,911 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 14:09:58,938 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpetcfo6gd.pdf
+2025-05-08 14:09:58,939 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpetcfo6gd.pdf
+2025-05-08 14:09:58,956 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpetcfo6gd.pdf
+2025-05-08 14:09:58,956 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpetcfo6gd.pdf
+2025-05-08 14:09:58,980 - privacy_policy_analyzer - INFO - Successfully read 997490 bytes from PDF
+2025-05-08 14:09:58,981 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpetcfo6gd.pdf
+2025-05-08 14:11:02,165 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 14:11:02,169 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 14:11:02,171 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 14:11:02,190 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpqlwd4jm7.pdf
+2025-05-08 14:11:02,191 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpqlwd4jm7.pdf
+2025-05-08 14:11:02,202 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpqlwd4jm7.pdf
+2025-05-08 14:11:02,203 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpqlwd4jm7.pdf
+2025-05-08 14:11:02,229 - privacy_policy_analyzer - INFO - Successfully read 590179 bytes from PDF
+2025-05-08 14:11:02,231 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpqlwd4jm7.pdf
+2025-05-08 14:13:12,009 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-05-08 14:13:12,726 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-05-08 14:13:12,727 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-05-08 14:13:14,010 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-05-08 14:13:14,144 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-05-08 14:13:14,145 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-08 14:13:14,147 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-05-08 14:13:14,152 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 14:14:12,564 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 14:14:12,566 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 14:14:12,568 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 14:14:12,594 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp43z65ld2.pdf
+2025-05-08 14:14:12,595 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp43z65ld2.pdf
+2025-05-08 14:14:12,614 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp43z65ld2.pdf
+2025-05-08 14:14:12,615 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp43z65ld2.pdf
+2025-05-08 14:14:12,649 - privacy_policy_analyzer - INFO - Successfully read 995387 bytes from PDF
+2025-05-08 14:14:12,651 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp43z65ld2.pdf
+2025-05-08 14:14:28,814 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-05-08 14:14:30,964 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-05-08 14:14:30,965 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-05-08 14:14:31,024 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-05-08 14:14:31,083 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-05-08 14:14:31,085 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-08 14:14:31,085 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-05-08 14:14:31,088 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 14:16:53,329 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 14:16:53,333 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 14:16:53,336 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 14:16:53,365 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpwlebogxv.pdf
+2025-05-08 14:16:53,366 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpwlebogxv.pdf
+2025-05-08 14:16:53,381 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpwlebogxv.pdf
+2025-05-08 14:16:53,381 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpwlebogxv.pdf
+2025-05-08 14:16:53,403 - privacy_policy_analyzer - INFO - Successfully read 1061607 bytes from PDF
+2025-05-08 14:16:53,404 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpwlebogxv.pdf
+2025-05-08 14:17:51,507 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-05-08 14:17:53,639 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:17:53,643 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:17:53,727 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-08 14:17:54,084 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-08 14:17:54,151 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-08 14:17:54,157 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-08 14:17:54,164 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 14:18:37,885 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 14:18:37,891 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 14:18:37,896 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 14:18:37,955 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpkvgsequq.pdf
+2025-05-08 14:18:37,957 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpkvgsequq.pdf
+2025-05-08 14:18:37,969 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpkvgsequq.pdf
+2025-05-08 14:18:37,971 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpkvgsequq.pdf
+2025-05-08 14:18:38,011 - privacy_policy_analyzer - INFO - Successfully read 148877 bytes from PDF
+2025-05-08 14:18:38,013 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpkvgsequq.pdf
+2025-05-08 14:19:27,916 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-05-08 14:19:28,504 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:19:28,507 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 14:19:28,595 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-08 14:19:28,952 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-08 14:19:29,035 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-08 14:19:29,042 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-08 14:19:29,049 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 14:20:55,920 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 14:20:55,925 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 14:20:55,929 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 14:20:56,006 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpomry52wd.pdf
+2025-05-08 14:20:56,007 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpomry52wd.pdf
+2025-05-08 14:20:56,037 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpomry52wd.pdf
+2025-05-08 14:20:56,038 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpomry52wd.pdf
+2025-05-08 14:20:56,080 - privacy_policy_analyzer - INFO - Successfully read 918039 bytes from PDF
+2025-05-08 14:20:56,082 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpomry52wd.pdf
+2025-05-08 15:40:28,510 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 15:41:42,824 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 15:41:42,829 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 15:41:42,837 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 15:41:42,886 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpqaxe5n1c.pdf
+2025-05-08 15:41:42,888 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpqaxe5n1c.pdf
+2025-05-08 15:41:42,939 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpqaxe5n1c.pdf
+2025-05-08 15:41:42,940 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpqaxe5n1c.pdf
+2025-05-08 15:41:42,974 - privacy_policy_analyzer - INFO - Successfully read 998327 bytes from PDF
+2025-05-08 15:41:42,976 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpqaxe5n1c.pdf
+2025-05-08 15:44:16,313 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-08 15:44:16,445 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-08 15:44:16,834 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-08 15:44:16,893 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-08 15:44:16,901 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-08 15:44:16,907 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 15:45:39,239 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 15:45:39,243 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 15:45:39,248 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 15:45:39,309 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpoapxmjg3.pdf
+2025-05-08 15:45:39,310 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpoapxmjg3.pdf
+2025-05-08 15:45:39,332 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpoapxmjg3.pdf
+2025-05-08 15:45:39,333 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpoapxmjg3.pdf
+2025-05-08 15:45:39,380 - privacy_policy_analyzer - INFO - Successfully read 574505 bytes from PDF
+2025-05-08 15:45:39,382 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpoapxmjg3.pdf
+2025-05-08 15:54:40,891 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: aramco in country: India
+2025-05-08 15:54:41,594 - privacy_policy_analyzer - INFO - Found privacy policy URL for aramco: https://india.aramco.com/en/privacy-statement
+2025-05-08 15:54:41,596 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://india.aramco.com/en/privacy-statement
+2025-05-08 15:55:11,843 - privacy_policy_analyzer - WARNING - Timeout error on attempt 1: HTTPSConnectionPool(host='india.aramco.com', port=443): Read timed out. (read timeout=30)
+2025-05-08 15:55:43,896 - privacy_policy_analyzer - WARNING - Timeout error on attempt 2: HTTPSConnectionPool(host='india.aramco.com', port=443): Read timed out. (read timeout=30)
+2025-05-08 15:56:16,000 - privacy_policy_analyzer - WARNING - Timeout error on attempt 3: HTTPSConnectionPool(host='india.aramco.com', port=443): Read timed out. (read timeout=30)
+2025-05-08 15:56:16,001 - privacy_policy_analyzer - ERROR - Request timed out after 3 attempts
+2025-05-08 15:57:49,949 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: India
+2025-05-08 15:57:50,712 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://www.kochi.lulumall.in/privacy-policy/
+2025-05-08 15:57:50,716 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.kochi.lulumall.in/privacy-policy/
+2025-05-08 15:57:51,239 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.kochi.lulumall.in/privacy-policy/ on attempt 1
+2025-05-08 15:57:51,296 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-05-08 15:57:51,306 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-05-08 15:57:51,308 - privacy_policy_analyzer - INFO - Successfully extracted 13433 characters of content
+2025-05-08 15:57:51,312 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 15:58:14,004 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: Qatar
+2025-05-08 15:58:15,224 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-08 15:58:15,227 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-08 15:58:15,306 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-qa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-08 15:58:40,479 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 15:58:40,481 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 15:58:40,484 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 15:58:40,504 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp0e8f1bks.pdf
+2025-05-08 15:58:40,505 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp0e8f1bks.pdf
+2025-05-08 15:58:40,516 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp0e8f1bks.pdf
+2025-05-08 15:58:40,517 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp0e8f1bks.pdf
+2025-05-08 15:58:40,544 - privacy_policy_analyzer - INFO - Successfully read 158369 bytes from PDF
+2025-05-08 15:58:40,545 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp0e8f1bks.pdf
+2025-05-08 16:01:12,974 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: Qatar
+2025-05-08 16:01:13,567 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-08 16:01:13,570 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-08 16:01:13,668 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-qa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-08 17:04:17,212 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: varun in country: India
+2025-05-08 17:04:19,482 - privacy_policy_analyzer - INFO - Found privacy policy URL for varun: https://www.varunindia.com/privacy-policy
+2025-05-08 17:04:19,485 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.varunindia.com/privacy-policy
+2025-05-08 17:04:20,293 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.varunindia.com/privacy-policy on attempt 1
+2025-05-08 17:04:20,339 - privacy_policy_analyzer - DEBUG - Removed 18 unwanted elements
+2025-05-08 17:04:20,342 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-05-08 17:04:20,343 - privacy_policy_analyzer - INFO - Successfully extracted 14 characters of content
+2025-05-08 17:04:20,346 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-08 17:05:22,928 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-08 17:05:22,930 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-08 17:05:22,941 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-08 17:05:23,049 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpuybvbf5y.pdf
+2025-05-08 17:05:23,051 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpuybvbf5y.pdf
+2025-05-08 17:05:23,119 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpuybvbf5y.pdf
+2025-05-08 17:05:23,120 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpuybvbf5y.pdf
+2025-05-08 17:05:23,161 - privacy_policy_analyzer - INFO - Successfully read 1308052 bytes from PDF
+2025-05-08 17:05:23,163 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpuybvbf5y.pdf

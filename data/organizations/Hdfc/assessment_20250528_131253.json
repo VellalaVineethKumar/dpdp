@@ -1,0 +1,12 @@
+{
+  "organization_name": "Hdfc",
+  "assessment_date": "2025-05-28",
+  "selected_regulation": "NPC",
+  "selected_industry": "General",
+  "responses": {
+    "s12_q0": "Yes: Regular audits and reviews are conducted and documented.",
+    "s12_q1": "No: No mechanisms in place."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-28T13:12:53.912813"
+}

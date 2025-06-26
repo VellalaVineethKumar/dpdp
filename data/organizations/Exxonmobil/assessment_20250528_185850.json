@@ -1,0 +1,13 @@
+{
+  "organization_name": "Exxonmobil",
+  "assessment_date": "2025-05-28",
+  "selected_regulation": "ndp_qatar",
+  "selected_industry": "Oil and Gas",
+  "responses": {
+    "s0_q0": "Yes, with comprehensive documentation",
+    "s1_q0": "Partially implemented",
+    "s1_q1": "Partially documented"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-28T18:58:50.863560"
+}

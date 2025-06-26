@@ -1,0 +1,586 @@
+2025-06-18 11:56:27,144 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 11:56:28,305 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-06-18 11:56:28,888 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:13:11,171 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:13:12,823 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-06-18 17:13:19,549 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:13:20,634 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:13:20,705 - helpers - INFO - Admin token validated
+2025-06-18 17:13:20,833 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:15:58,635 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:15:58,661 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:15:58,667 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_171558.json
+2025-06-18 17:15:58,808 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:15:58,845 - views - INFO - Starting assessment for Fa
+2025-06-18 17:15:58,845 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-18 17:15:58,847 - data_storage - INFO - Triggering start notification email for Fa
+2025-06-18 17:15:58,852 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-18 17:16:02,126 - data_storage - INFO - Assessment notification email sent for Fa
+2025-06-18 17:16:02,128 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_171602.json
+2025-06-18 17:16:02,128 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-18 17:16:02,206 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:16:02,233 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: General
+2025-06-18 17:16:02,235 - assessment - INFO - Looking for questionnaire for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-18 17:16:02,236 - assessment - WARNING - No PDPPL questionnaire found for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL, using default
+2025-06-18 17:16:02,236 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-18 17:16:02,236 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-18 17:16:02,237 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-18 17:16:02,238 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-18 17:16:02,239 - views - INFO - [render_assessment] Session selected_country: Qatar
+2025-06-18 17:16:02,240 - views - INFO - [render_assessment] Session selected_industry: Oil and Gas
+2025-06-18 17:16:02,242 - views - INFO - [render_assessment] Mapped industry_for_loader: Oil_and_Gas
+2025-06-18 17:16:02,242 - views - INFO - [render_assessment] Using regulation: PDPPL for country: Qatar
+2025-06-18 17:16:02,243 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-06-18 17:16:02,244 - assessment - INFO - Looking for questionnaire for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-18 17:16:02,245 - assessment - INFO - Found exact match for oil_and_gas in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-18 17:16:02,245 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-06-18 17:16:02,246 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\oil_and_gas.json
+2025-06-18 17:16:02,246 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-18 17:16:02,247 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-18 17:16:02,248 - views - INFO - [render_assessment] Loaded questionnaire for regulation: PDPPL, industry: Oil_and_Gas
+2025-06-18 17:16:02,551 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:16:02,581 - helpers - INFO - Navigating to page: assessment from assessment
+2025-06-18 17:16:04,638 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:16:04,667 - helpers - INFO - Navigating to page: privacy from assessment
+2025-06-18 17:16:04,769 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:16:08,053 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:16:17,821 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:16:23,743 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:16:23,894 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:16:23,927 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Qia in country: Qatar
+2025-06-18 17:16:24,550 - privacy_policy_analyzer - INFO - Found privacy policy URL for Qia: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-06-18 17:16:24,552 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-06-18 17:16:28,428 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.qia.qa/en/Pages/Privacy.aspx on attempt 1
+2025-06-18 17:16:28,455 - privacy_policy_analyzer - DEBUG - Removed 77 unwanted elements
+2025-06-18 17:16:28,459 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-06-18 17:16:28,460 - privacy_policy_analyzer - INFO - Successfully extracted 469 characters of content
+2025-06-18 17:16:28,465 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-06-18 17:16:57,229 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-18 17:16:57,230 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-18 17:16:57,317 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:16:57,318 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:16:57,353 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:16:57,355 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:16:57,375 - privacy_policy_analyzer - INFO - Successfully read 977900 bytes from PDF
+2025-06-18 17:16:57,376 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp_8f1nbck.pdf
+2025-06-18 17:17:13,400 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:17:15,406 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:17:17,175 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:17:17,202 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Amgen in country: India
+2025-06-18 17:17:17,787 - privacy_policy_analyzer - INFO - Found privacy policy URL for Amgen: https://www.amgen.com/india/privacy-statement
+2025-06-18 17:17:17,789 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.amgen.com/india/privacy-statement
+2025-06-18 17:17:20,305 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.amgen.com/india/privacy-statement on attempt 1
+2025-06-18 17:17:20,350 - privacy_policy_analyzer - DEBUG - Removed 48 unwanted elements
+2025-06-18 17:17:20,353 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-06-18 17:17:20,354 - privacy_policy_analyzer - INFO - Successfully extracted 17014 characters of content
+2025-06-18 17:17:20,357 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-06-18 17:18:17,765 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-18 17:18:17,767 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-18 17:18:17,788 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,789 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,807 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,808 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,838 - privacy_policy_analyzer - INFO - Successfully read 990648 bytes from PDF
+2025-06-18 17:18:17,839 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpxd5oxry1.pdf
+2025-06-18 17:18:17,917 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:18:53,781 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:19:50,461 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:19:50,479 - helpers - INFO - Navigating to page: welcome from privacy
+2025-06-18 17:19:50,566 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:19:52,228 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:19:52,257 - views - INFO - Starting assessment for Fa
+2025-06-18 17:19:52,258 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-18 17:19:52,258 - data_storage - INFO - Triggering start notification email for Fa
+2025-06-18 17:19:52,259 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-18 17:19:55,293 - data_storage - INFO - Assessment notification email sent for Fa
+2025-06-18 17:19:55,297 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_171955.json
+2025-06-18 17:19:55,298 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-18 17:19:55,375 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:19:57,454 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:19:57,484 - helpers - INFO - Saved response for s0_q0: 'Partially, needs improvement'
+2025-06-18 17:19:57,485 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:19:57,490 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_171957.json
+2025-06-18 17:19:57,585 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:19:57,608 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='General'
+2025-06-18 17:19:57,609 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='General'
+2025-06-18 17:19:57,610 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'General')
+2025-06-18 17:19:57,610 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/General
+2025-06-18 17:19:57,610 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-18 17:19:57,611 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-18 17:19:57,611 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-18 17:19:57,611 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-18 17:19:57,611 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-18 17:19:57,612 - assessment - INFO - Processing scores for 10 sections
+2025-06-18 17:19:57,612 - assessment - INFO - Found responses for section indices: [0]
+2025-06-18 17:19:57,612 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-18 17:19:57,613 - assessment - INFO - Question 1: Response = 'Partially, needs improvement'
+2025-06-18 17:19:57,613 - assessment - INFO - Question 1: Points = 0.5
+2025-06-18 17:19:57,614 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-18 17:19:57,614 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-18 17:19:57,614 - assessment - INFO - Section Applicability of the PDPPL: total_points=0.5, max_points=1
+2025-06-18 17:19:57,615 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-18 17:19:57,615 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,615 - assessment - INFO - Question 2: No response provided
+2025-06-18 17:19:57,616 - assessment - WARNING - Empty responses for section Principles of Data Privacy, using raw score None
+2025-06-18 17:19:57,616 - assessment - INFO - Section Principles of Data Privacy score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,616 - assessment - INFO - Section Principles of Data Privacy: No responses, score set to None
+2025-06-18 17:19:57,616 - assessment - INFO - Section Principles of Data Privacy: total_points=0.0, max_points=2
+2025-06-18 17:19:57,617 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-18 17:19:57,617 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,617 - assessment - INFO - Question 2: No response provided
+2025-06-18 17:19:57,617 - assessment - INFO - Question 3: No response provided
+2025-06-18 17:19:57,618 - assessment - WARNING - Empty responses for section Permitted Reasons, using raw score None
+2025-06-18 17:19:57,618 - assessment - INFO - Section Permitted Reasons score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,618 - assessment - INFO - Section Permitted Reasons: No responses, score set to None
+2025-06-18 17:19:57,618 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-18 17:19:57,618 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-18 17:19:57,619 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,619 - assessment - INFO - Question 2: No response provided
+2025-06-18 17:19:57,619 - assessment - WARNING - Empty responses for section Special Nature Processing & Security, using raw score None
+2025-06-18 17:19:57,620 - assessment - INFO - Section Special Nature Processing & Security score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,620 - assessment - INFO - Section Special Nature Processing & Security: No responses, score set to None
+2025-06-18 17:19:57,620 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-18 17:19:57,620 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-18 17:19:57,620 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,621 - assessment - INFO - Question 2: No response provided
+2025-06-18 17:19:57,621 - assessment - WARNING - Empty responses for section Individuals' Rights & Complaints, using raw score None
+2025-06-18 17:19:57,621 - assessment - INFO - Section Individuals' Rights & Complaints score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,621 - assessment - INFO - Section Individuals' Rights & Complaints: No responses, score set to None
+2025-06-18 17:19:57,621 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-18 17:19:57,622 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-18 17:19:57,622 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,622 - assessment - INFO - Question 2: No response provided
+2025-06-18 17:19:57,622 - assessment - INFO - Question 3: No response provided
+2025-06-18 17:19:57,623 - assessment - WARNING - Empty responses for section Governance & Training Awareness, using raw score None
+2025-06-18 17:19:57,623 - assessment - INFO - Section Governance & Training Awareness score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,623 - assessment - INFO - Section Governance & Training Awareness: No responses, score set to None
+2025-06-18 17:19:57,624 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-18 17:19:57,624 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-18 17:19:57,624 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,625 - assessment - INFO - Question 2: No response provided
+2025-06-18 17:19:57,625 - assessment - WARNING - Empty responses for section Data Privacy Impact Assessment (DPIA) & Privacy by Design, using raw score None
+2025-06-18 17:19:57,627 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,627 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: No responses, score set to None
+2025-06-18 17:19:57,627 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-18 17:19:57,627 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-18 17:19:57,628 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,628 - assessment - INFO - Question 2: No response provided
+2025-06-18 17:19:57,628 - assessment - WARNING - Empty responses for section Cross Border Data Flows & Third Party Agreements, using raw score None
+2025-06-18 17:19:57,628 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,628 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: No responses, score set to None
+2025-06-18 17:19:57,629 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-18 17:19:57,629 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-18 17:19:57,629 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,629 - assessment - WARNING - Empty responses for section Data Breaches, using raw score None
+2025-06-18 17:19:57,630 - assessment - INFO - Section Data Breaches score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,630 - assessment - INFO - Section Data Breaches: No responses, score set to None
+2025-06-18 17:19:57,630 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-18 17:19:57,630 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-18 17:19:57,631 - assessment - INFO - Question 1: No response provided
+2025-06-18 17:19:57,631 - assessment - WARNING - Empty responses for section Children's Websites, using raw score None
+2025-06-18 17:19:57,631 - assessment - INFO - Section Children's Websites score: AFTER=0.0% (Raw score was None)
+2025-06-18 17:19:57,631 - assessment - INFO - Section Children's Websites: No responses, score set to None
+2025-06-18 17:19:57,631 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-18 17:19:57,632 - assessment - INFO - Verifying all sections have scores...
+2025-06-18 17:19:57,632 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 0.5, 'Principles of Data Privacy': None, 'Permitted Reasons': None, 'Special Nature Processing & Security': None, "Individuals' Rights & Complaints": None, 'Governance & Training Awareness': None, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': None, 'Cross Border Data Flows & Third Party Agreements': None, 'Data Breaches': None, "Children's Websites": None}
+2025-06-18 17:19:57,632 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-18 17:19:57,632 - assessment - INFO - Section Applicability of the PDPPL: score=0.50, weight=0.06, contribution=0.03
+2025-06-18 17:19:57,633 - assessment - INFO - Section Principles of Data Privacy: SKIPPED (no score)
+2025-06-18 17:19:57,633 - assessment - INFO - Section Permitted Reasons: SKIPPED (no score)
+2025-06-18 17:19:57,633 - assessment - INFO - Section Special Nature Processing & Security: SKIPPED (no score)
+2025-06-18 17:19:57,633 - assessment - INFO - Section Individuals' Rights & Complaints: SKIPPED (no score)
+2025-06-18 17:19:57,633 - assessment - INFO - Section Governance & Training Awareness: SKIPPED (no score)
+2025-06-18 17:19:57,635 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: SKIPPED (no score)
+2025-06-18 17:19:57,635 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: SKIPPED (no score)
+2025-06-18 17:19:57,636 - assessment - INFO - Section Data Breaches: SKIPPED (no score)
+2025-06-18 17:19:57,636 - assessment - INFO - Section Children's Websites: SKIPPED (no score)
+2025-06-18 17:19:57,636 - assessment - INFO - Total weighted score: 0.03, Total weight: 0.06
+2025-06-18 17:19:57,636 - assessment - INFO - Overall score calculation: (0.03 / total_weight) * 100 = 50.00%
+2025-06-18 17:19:59,861 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:19:59,895 - helpers - INFO - Saved response for s1_q0: 'Partially implemented'
+2025-06-18 17:19:59,896 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:19:59,899 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_171959.json
+2025-06-18 17:19:59,900 - helpers - INFO - Saved response for s1_q1: 'Yes, fully documented'
+2025-06-18 17:19:59,901 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:19:59,904 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_171959.json
+2025-06-18 17:20:00,009 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:03,029 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:03,064 - helpers - INFO - Saved response for s2_q0: 'Yes - Successfully completed'
+2025-06-18 17:20:03,064 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:03,067 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172003.json
+2025-06-18 17:20:03,069 - helpers - INFO - Saved response for s2_q1: 'No - Not yet completed'
+2025-06-18 17:20:03,070 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:03,072 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172003.json
+2025-06-18 17:20:03,075 - helpers - INFO - Saved response for s2_q2: 'Yes - Successfully completed'
+2025-06-18 17:20:03,075 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:03,077 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172003.json
+2025-06-18 17:20:03,182 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:05,357 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:05,387 - helpers - INFO - Saved response for s3_q0: 'Yes - Successfully completed'
+2025-06-18 17:20:05,388 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:05,391 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172005.json
+2025-06-18 17:20:05,393 - helpers - INFO - Saved response for s3_q1: 'Yes - Successfully completed'
+2025-06-18 17:20:05,393 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:05,396 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172005.json
+2025-06-18 17:20:05,498 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:08,083 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:08,123 - helpers - INFO - Saved response for s4_q0: 'No - Not yet completed'
+2025-06-18 17:20:08,123 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:08,126 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172008.json
+2025-06-18 17:20:08,128 - helpers - INFO - Saved response for s4_q1: 'Yes - Successfully completed'
+2025-06-18 17:20:08,129 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:08,132 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172008.json
+2025-06-18 17:20:08,233 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:11,358 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:11,389 - helpers - INFO - Saved response for s5_q0: 'Yes - Successfully completed'
+2025-06-18 17:20:11,390 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:11,393 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172011.json
+2025-06-18 17:20:11,396 - helpers - INFO - Saved response for s5_q1: 'Yes - Successfully completed'
+2025-06-18 17:20:11,396 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:11,399 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172011.json
+2025-06-18 17:20:11,401 - helpers - INFO - Saved response for s5_q2: 'No - Not yet completed'
+2025-06-18 17:20:11,402 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:11,405 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172011.json
+2025-06-18 17:20:11,491 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:15,005 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:15,036 - helpers - INFO - Saved response for s6_q0: 'Yes - Successfully completed'
+2025-06-18 17:20:15,037 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:15,043 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172015.json
+2025-06-18 17:20:15,045 - helpers - INFO - Saved response for s6_q1: 'No - Not yet completed'
+2025-06-18 17:20:15,045 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:15,048 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172015.json
+2025-06-18 17:20:15,149 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:17,413 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:17,438 - helpers - INFO - Saved response for s7_q0: 'Yes - Successfully completed'
+2025-06-18 17:20:17,439 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:17,442 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172017.json
+2025-06-18 17:20:17,443 - helpers - INFO - Saved response for s7_q1: 'Yes - Successfully completed'
+2025-06-18 17:20:17,443 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:17,448 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172017.json
+2025-06-18 17:20:17,537 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:19,005 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:19,033 - helpers - INFO - Saved response for s8_q0: 'No - Not yet completed'
+2025-06-18 17:20:19,035 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:19,037 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172019.json
+2025-06-18 17:20:19,139 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:20,405 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:20,442 - helpers - INFO - Saved response for s9_q0: 'Yes - Successfully completed'
+2025-06-18 17:20:20,443 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-18 17:20:20,446 - data_storage - INFO - Saved assessment data for Fa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Fa\assessment_20250618_172020.json
+2025-06-18 17:20:20,449 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='Oil_and_Gas'
+2025-06-18 17:20:20,449 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='Oil_and_Gas'
+2025-06-18 17:20:20,450 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'Oil_and_Gas')
+2025-06-18 17:20:20,450 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/Oil_and_Gas
+2025-06-18 17:20:20,450 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-18 17:20:20,450 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-18 17:20:20,452 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-18 17:20:20,452 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-18 17:20:20,452 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-18 17:20:20,452 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,452 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-18 17:20:20,453 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,453 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,453 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,453 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-18 17:20:20,453 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,453 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,455 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,455 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-18 17:20:20,455 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,455 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-18 17:20:20,456 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,456 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,456 - assessment - WARNING - Response 'No - Not yet completed' not found in answer_points
+2025-06-18 17:20:20,457 - assessment - WARNING - Response 'Yes - Successfully completed' not found in answer_points
+2025-06-18 17:20:20,457 - assessment - INFO - Processing scores for 10 sections
+2025-06-18 17:20:20,457 - assessment - INFO - Found responses for section indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2025-06-18 17:20:20,457 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-18 17:20:20,458 - assessment - INFO - Question 1: Response = 'Partially, needs improvement'
+2025-06-18 17:20:20,458 - assessment - INFO - Question 1: Points = 0.5
+2025-06-18 17:20:20,458 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-18 17:20:20,459 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-18 17:20:20,459 - assessment - INFO - Section Applicability of the PDPPL: total_points=0.5, max_points=1
+2025-06-18 17:20:20,459 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-18 17:20:20,459 - assessment - INFO - Question 1: Response = 'Partially implemented'
+2025-06-18 17:20:20,460 - assessment - INFO - Question 1: Points = 0.5
+2025-06-18 17:20:20,460 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-18 17:20:20,460 - assessment - INFO - Question 2: Response = 'Yes, fully documented'
+2025-06-18 17:20:20,461 - assessment - INFO - Question 2: Points = 1.0
+2025-06-18 17:20:20,461 - assessment - INFO - Question 2: Adding 1.0 points, running total = 1.5/2
+2025-06-18 17:20:20,461 - assessment - INFO - Section Principles of Data Privacy score: BEFORE=75.0%, AFTER=75.0% (Corrected)
+2025-06-18 17:20:20,461 - assessment - INFO - Section Principles of Data Privacy: total_points=1.5, max_points=2
+2025-06-18 17:20:20,462 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-18 17:20:20,462 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,462 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,463 - assessment - INFO - Question 2: Response = 'No - Not yet completed'
+2025-06-18 17:20:20,463 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-18 17:20:20,463 - assessment - INFO - Question 3: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,463 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,463 - assessment - INFO - Section Permitted Reasons score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-18 17:20:20,466 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-18 17:20:20,467 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-18 17:20:20,467 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,467 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,467 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,467 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,469 - assessment - INFO - Section 'Special Nature Processing & Security' has all full compliance responses - should have perfect score
+2025-06-18 17:20:20,469 - assessment - INFO - Correcting Special Nature Processing & Security score from 0.0 to 1.0 based on full compliance pattern
+2025-06-18 17:20:20,469 - assessment - INFO - Section Special Nature Processing & Security score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-18 17:20:20,469 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-18 17:20:20,470 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-18 17:20:20,470 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-18 17:20:20,471 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-18 17:20:20,471 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,471 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,471 - assessment - INFO - Section Individuals' Rights & Complaints score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-18 17:20:20,472 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-18 17:20:20,472 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-18 17:20:20,472 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,473 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,473 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,474 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,474 - assessment - INFO - Question 3: Response = 'No - Not yet completed'
+2025-06-18 17:20:20,474 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-18 17:20:20,475 - assessment - INFO - Section Governance & Training Awareness score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-18 17:20:20,475 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-18 17:20:20,476 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-18 17:20:20,476 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,476 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,476 - assessment - INFO - Question 2: Response = 'No - Not yet completed'
+2025-06-18 17:20:20,478 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-18 17:20:20,478 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-18 17:20:20,478 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-18 17:20:20,478 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-18 17:20:20,478 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,479 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,479 - assessment - INFO - Question 2: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,479 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,479 - assessment - INFO - Section 'Cross Border Data Flows & Third Party Agreements' has all full compliance responses - should have perfect score
+2025-06-18 17:20:20,479 - assessment - INFO - Correcting Cross Border Data Flows & Third Party Agreements score from 0.0 to 1.0 based on full compliance pattern
+2025-06-18 17:20:20,479 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-18 17:20:20,480 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-18 17:20:20,480 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-18 17:20:20,482 - assessment - INFO - Question 1: Response = 'No - Not yet completed'
+2025-06-18 17:20:20,482 - assessment - WARNING - No points assigned for response: 'No - Not yet completed'
+2025-06-18 17:20:20,482 - assessment - INFO - Section Data Breaches score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-06-18 17:20:20,484 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-18 17:20:20,485 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-18 17:20:20,485 - assessment - INFO - Question 1: Response = 'Yes - Successfully completed'
+2025-06-18 17:20:20,486 - assessment - WARNING - No points assigned for response: 'Yes - Successfully completed'
+2025-06-18 17:20:20,486 - assessment - INFO - Section 'Children's Websites' has all full compliance responses - should have perfect score
+2025-06-18 17:20:20,486 - assessment - INFO - Correcting Children's Websites score from 0.0 to 1.0 based on full compliance pattern
+2025-06-18 17:20:20,486 - assessment - INFO - Section Children's Websites score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-18 17:20:20,488 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-18 17:20:20,488 - assessment - INFO - Verifying all sections have scores...
+2025-06-18 17:20:20,488 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 0.5, 'Principles of Data Privacy': 0.75, 'Permitted Reasons': 0.0, 'Special Nature Processing & Security': 1.0, "Individuals' Rights & Complaints": 0.0, 'Governance & Training Awareness': 0.0, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': 0.0, 'Cross Border Data Flows & Third Party Agreements': 1.0, 'Data Breaches': 0.0, "Children's Websites": 1.0}
+2025-06-18 17:20:20,488 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-18 17:20:20,489 - assessment - INFO - Section Applicability of the PDPPL: score=0.50, weight=0.06, contribution=0.03
+2025-06-18 17:20:20,489 - assessment - INFO - Section Principles of Data Privacy: score=0.75, weight=0.13, contribution=0.10
+2025-06-18 17:20:20,489 - assessment - INFO - Section Permitted Reasons: score=0.00, weight=0.15, contribution=0.00
+2025-06-18 17:20:20,490 - assessment - INFO - Section Special Nature Processing & Security: score=1.00, weight=0.10, contribution=0.10
+2025-06-18 17:20:20,490 - assessment - INFO - Section Individuals' Rights & Complaints: score=0.00, weight=0.13, contribution=0.00
+2025-06-18 17:20:20,490 - assessment - INFO - Section Governance & Training Awareness: score=0.00, weight=0.10, contribution=0.00
+2025-06-18 17:20:20,490 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: score=0.00, weight=0.09, contribution=0.00
+2025-06-18 17:20:20,491 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: score=1.00, weight=0.09, contribution=0.09
+2025-06-18 17:20:20,491 - assessment - INFO - Section Data Breaches: score=0.00, weight=0.10, contribution=0.00
+2025-06-18 17:20:20,491 - assessment - INFO - Section Children's Websites: score=1.00, weight=0.04, contribution=0.04
+2025-06-18 17:20:20,491 - assessment - INFO - Total weighted score: 0.3575, Total weight: 0.9899999999999999
+2025-06-18 17:20:20,492 - assessment - INFO - Overall score calculation: (0.3575 / total_weight) * 100 = 36.11%
+2025-06-18 17:20:20,597 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:20:22,822 - views - INFO - Requesting AI report generation with the following configuration:
+2025-06-18 17:20:22,822 - views - INFO - AI enabled: True
+2025-06-18 17:20:22,822 - views - INFO - API key available: Yes
+2025-06-18 17:20:22,823 - views - INFO - API provider: openrouter
+2025-06-18 17:20:22,824 - nlg_report - INFO - AI API is fully configured and enabled
+2025-06-18 17:20:22,825 - nlg_report - INFO - Configuring OpenRouter API client
+2025-06-18 17:20:23,482 - nlg_report - INFO - OpenRouter client configured with model: deepseek/deepseek-chat-v3-0324:free
+2025-06-18 17:20:23,483 - nlg_report - INFO - Creating AI prompt for markdown format from context data
+2025-06-18 17:20:23,483 - nlg_report - INFO - Created prompt with length: 7522 characters
+2025-06-18 17:20:23,483 - nlg_report - INFO - Making API request attempt 1/3
+2025-06-18 17:20:23,483 - nlg_report - INFO - Sending request to OpenRouter API
+2025-06-18 17:20:27,201 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-18 17:20:50,094 - nlg_report - INFO - Received full API response
+2025-06-18 17:20:50,094 - nlg_report - INFO - API call completed successfully in 26.61 seconds
+2025-06-18 17:20:50,095 - nlg_report - INFO - Received valid response with content length: 4829 characters
+2025-06-18 17:20:52,835 - views - INFO - Report generation completed in 30.01 seconds
+2025-06-18 17:20:52,835 - views - INFO - Report length: 4829 characters
+2025-06-18 17:20:52,840 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-06-18 17:20:52,841 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-06-18 17:20:52,863 - views - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp2mb95m67.pdf
+2025-06-18 17:20:52,863 - views - INFO - Attempting conversion and save to: C:\Users\HP\AppData\Local\Temp\tmp2mb95m67.pdf
+2025-06-18 17:20:52,867 - views - INFO - markdown-pdf save operation completed for C:\Users\HP\AppData\Local\Temp\tmp2mb95m67.pdf
+2025-06-18 17:20:52,867 - views - INFO - Output PDF file exists: C:\Users\HP\AppData\Local\Temp\tmp2mb95m67.pdf
+2025-06-18 17:20:52,882 - views - INFO - Successfully read 152142 bytes from C:\Users\HP\AppData\Local\Temp\tmp2mb95m67.pdf
+2025-06-18 17:20:52,883 - views - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp2mb95m67.pdf
+2025-06-18 17:20:52,942 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL
+2025-06-18 17:21:24,535 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:21:24,710 - views - INFO - [render_assessment] Mapped regulation_for_loader: PDPPL
+2025-06-18 17:21:24,880 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:23:10,692 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-18 17:23:10,694 - config - INFO - Loaded 3 API key(s).
+2025-06-18 17:23:10,697 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:23:10,852 - helpers - INFO - Navigating to page: privacy from discovery
+2025-06-18 17:23:10,974 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:28:32,524 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-18 17:28:32,527 - config - INFO - Loaded 3 API key(s).
+2025-06-18 17:28:32,530 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:28:36,631 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:28:36,818 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:28:36,908 - helpers - INFO - Admin token validated
+2025-06-18 17:28:37,068 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:30:04,475 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:30:08,203 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:30:08,235 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 17:30:08,445 - helpers - INFO - Admin token validated
+2025-06-18 17:30:08,583 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:06,735 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:08,869 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:09,047 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:09,073 - helpers - INFO - Admin token validated
+2025-06-18 18:01:09,183 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:11,764 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:11,790 - helpers - INFO - Navigating to page: privacy from welcome
+2025-06-18 18:01:11,932 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:14,942 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:14,976 - helpers - INFO - Navigating to page: privacy from privacy
+2025-06-18 18:01:19,446 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:21,927 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:23,423 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:24,204 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:01:24,246 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Amgen in country: India
+2025-06-18 18:01:24,941 - privacy_policy_analyzer - INFO - Found privacy policy URL for Amgen: https://www.amgen.com/india/privacy-statement
+2025-06-18 18:01:24,944 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.amgen.com/india/privacy-statement
+2025-06-18 18:01:27,674 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.amgen.com/india/privacy-statement on attempt 1
+2025-06-18 18:01:27,760 - privacy_policy_analyzer - DEBUG - Removed 48 unwanted elements
+2025-06-18 18:01:27,766 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-06-18 18:01:27,767 - privacy_policy_analyzer - INFO - Successfully extracted 17014 characters of content
+2025-06-18 18:01:27,771 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-06-18 18:01:51,023 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-18 18:01:51,024 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-18 18:01:51,051 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,052 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,065 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,066 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,095 - privacy_policy_analyzer - INFO - Successfully read 555466 bytes from PDF
+2025-06-18 18:01:51,096 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpw3s6hhxf.pdf
+2025-06-18 18:01:51,183 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:02:35,137 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-18 18:02:35,138 - config - INFO - Loaded 3 API key(s).
+2025-06-18 18:02:35,142 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:23:03,740 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:24:35,329 - __main__ - INFO - Application started - Logging initialized
+2025-06-18 18:24:36,973 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7336' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-18 19:04:03,077 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7337' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-18 19:04:03,172 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7338' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-18 19:04:03,344 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7339' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-18 19:04:03,366 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7340' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-18 19:04:03,454 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7341' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-18 19:04:03,480 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7342' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-18 19:04:03,499 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7343' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\anaconda3\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-18 21:46:11,896 - __main__ - INFO - Application started - Logging initialized

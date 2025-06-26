@@ -1,0 +1,901 @@
+{
+  "sections": [
+    {
+      "name": "Data Collection and Processing",
+      "weight": 0.11,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization provide customers with a notice specifying the purposes of processing in English and all official Indian languages? [<a href='https://datainfa.com/dpdp-act/' target='_blank'> DPDP Section 3 </a>]",
+          "options": [
+            "Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.",
+            "Partially, Notices are not provided in all required languages.",
+            "No, Work is in progress to implement this requirement."
+          ],
+          "recommendations": {
+            "No, Notices are not provided in all required languages.": "Ensure that customer notices are available in English and all 22 official Indian languages, as required by the DPDP Act.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Governance & Compliance helps manage data in line with regulatory requirements, ensuring data is processed for specified purposes.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Privacy Management provides tools to classify and monitor sensitive data, supporting compliance with privacy regulations that require purpose limitation.",
+            "Partially, Work is in progress to implement this requirement.": "Accelerate the implementation of multilingual notices to meet compliance standards.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Governance & Compliance helps manage data in line with regulatory requirements, ensuring data is processed for specified purposes.\n\n<span class='informatica-solution'>**Informatica Solution:**</span> Informatica Data Privacy Management provides tools to classify and monitor sensitive data, supporting compliance with privacy regulations that require purpose limitation."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your notice include an itemized description of personal data collected and the specific purposes for which it will be used? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 3(b)(i) and (ii)</a>]",
+          "options": [
+            "Yes, with detailed itemization: The notice provides a clear, detailed list of all personal data collected and specifies the exact purposes for their use.",
+            "Partially, but needs more detail: The notice includes some itemization and purpose descriptions, but lacks clarity or completeness.",
+            "No, the notice lacks itemization and purpose details: The notice does not provide an itemized list or specify the purposes for data use.",
+            "Not applicable: This option might apply if your organization does not collect personal data or if the notice is not required due to exemptions."
+          ],
+          "recommendations": {
+            "Partially, but needs more detail: The notice includes some itemization and purpose descriptions, but lacks clarity or completeness.": "Enhance the notice by providing a fully itemized list of personal data collected and explicitly stating the purposes for which each data type will be used.\n\n**Informatica Solution:** Informatica Data Privacy Management provides tools to classify and monitor sensitive data, supporting compliance with privacy regulations that require purpose limitation.",
+            "No, the notice lacks itemization and purpose details: The notice does not provide an itemized list or specify the purposes for data use.": "Revise the notice to include a clear, structured breakdown of personal data collected and its specific purposes, ensuring compliance with DPDP Section 3(b)(i) and (ii).\n\n**Informatica Solution:** Informatica Data Privacy Management provides tools to classify and monitor sensitive data, supporting compliance with privacy regulations that require purpose limitation."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Do you enable consent through clear, affirmative action for the specified purposes? [Requirements for Processing Personal Data][<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 3(b)</a>]",
+          "options": [
+            "Yes, with clear affirmative action required: Consent is obtained through explicit actions (e.g., ticking a box, clicking an 'I agree' button) that clearly indicate agreement to the specified purposes.",
+            "Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.",
+            "No, we rely on implicit consent or lack clear affirmative action: Consent is assumed without explicit action or is not clearly tied to specific purposes.",
+            "Not applicable: This option might apply if consent is not required due to exemptions (e.g., legal obligations)."
+          ],
+          "recommendations": {
+            "Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.": "Improve consent mechanisms by requiring clear, affirmative action such as opt-in checkboxes or explicit confirmation buttons.\n\n**Informatica Solution:** Cloud Data Governance and Catalog (CDGC) and Cloud Data Access Management (CDAM) ensure compliance with data protection regulations by automating consent management and data privacy controls.",
+            "No, we rely on implicit consent or lack clear affirmative action: Consent is assumed without explicit action or is not clearly tied to specific purposes.": "Replace implicit consent with explicit, informed consent mechanisms that require users to actively agree to the specified purposes of data processing.\n\n**Informatica Solution:** Cloud Data Governance and Catalog (CDGC) and Cloud Data Access Management (CDAM) ensure compliance with data protection regulations by automating consent management and data privacy controls."
+          }
+        },
+        {
+          "id": 4,
+          "text": "Have you implemented mechanisms to ensure processing is limited only to the purposes specified in the notice? [Requirements for Processing Personal Data][<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 3(b)</a>]",
+          "options": [
+            "Yes, with strict adherence to purpose limitation: The organization ensures that personal data is processed only for the specific purposes outlined in the notice, aligning with the principle of purpose limitation.",
+            "Partially, but some processing may exceed specified purposes: While efforts are made to limit processing to specified purposes, there may be instances where data is used beyond those purposes.",
+            "No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.",
+            "Not applicable: This option might apply if your organization does not process personal data or if the notice requirement is exempt under specific circumstances."
+          ],
+          "recommendations": {
+            "Partially, but some processing may exceed specified purposes: While efforts are made to limit processing to specified purposes, there may be instances where data is used beyond those purposes.": "Implement stricter controls to ensure personal data is processed solely for the stated purposes, avoiding any unauthorized repurposing. \n\n**Informatica Solution:** Informatica Data Governance & Compliance helps manage data in line with regulatory requirements, ensuring data is processed for specified purposes.\n\n**Informatica Solution:** Informatica Data Privacy Management provides tools to classify and monitor sensitive data, supporting compliance with privacy regulations that require purpose limitation.",
+            "No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.": "Establish and enforce a robust purpose limitation policy to ensure compliance with DPDP processing restrictions. \n\n**Informatica Solution:** Informatica Data Governance & Compliance helps manage data in line with regulatory requirements, ensuring data is processed for specified purposes.\n\n**Informatica Solution:** Informatica Data Privacy Management provides tools to classify and monitor sensitive data, supporting compliance with privacy regulations that require purpose limitation."
+          }
+        },
+        {
+          "id": 5,
+          "text": "Do you have procedures to verify if data is provided voluntarily for specified purposes (e.g., passport or ID proof for account opening) where consent exemptions apply? [Consent Exemption Provisions][<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 5</a>]",
+          "options": [
+            "Yes, with clear verification processes: The organization has established procedures to verify that data is provided voluntarily for specific purposes where consent exemptions apply, ensuring compliance with DPDP Act requirements.",
+            "Partially, but verification processes need improvement: While some verification processes exist, they may not fully align with DPDP Act standards or could be more robust.",
+            "No, we lack procedures for verifying voluntary data provision: The organization does not have specific procedures in place to verify voluntary data provision under consent exemptions.",
+            "Not applicable: This option might apply if your organization does not handle data under consent exemptions or if such exemptions are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but verification processes need improvement: While some verification processes exist, they may not fully align with DPDP Act standards or could be more robust.": "Strengthen verification mechanisms to ensure data is provided voluntarily in cases where consent exemptions apply, reducing risks of non-compliance.",
+            "No, we lack procedures for verifying voluntary data provision: The organization does not have specific procedures in place to verify voluntary data provision under consent exemptions.": "Develop and implement verification protocols to confirm that data provided under consent exemptions is truly voluntary, ensuring compliance with DPDP Section 5 of the DPDP Act."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Principal Rights",
+      "weight": 0.11,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Have you established easy ways for customers to communicate and take action to access/correct/erase their data? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 13 - Rights of Data Principal</a>]",
+          "options": [
+            "Yes, with clear, accessible channels: The organization provides straightforward and user-friendly methods for data principals to request access, correction, or erasure of their personal data, aligning with DPDP Act requirements.",
+            "Partially, but processes need simplification: While some mechanisms exist, they may be cumbersome or not fully accessible to all data principals.",
+            "No, communication channels are lacking or complex: The organization does not have established or accessible channels for data principals to exercise their rights.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such rights are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but processes need simplification: While some mechanisms exist, they may be cumbersome or not fully accessible to all data principals.": "Simplify and enhance the accessibility of data principal request mechanisms to ensure easy access, correction, or erasure of personal data.\n\n**Informatica Solution:** Implement Informatica Data Privacy Management to streamline data subject request fulfillment with automated workflows and self-service portals.",
+            "No, communication channels are lacking or complex: The organization does not have established or accessible channels for data principals to exercise their rights.": "Establish clear, accessible channels such as web portals, email, or dedicated customer support lines to facilitate data principal rights requests.\n\n**Informatica Solution:** Deploy Informatica's Data Subject Rights Management module to provide a comprehensive solution for managing customer data requests."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Have you added a 'requests' feature to your website/portal for customers to exercise their rights? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 13(1)(a)</a>]",
+          "options": [
+            "Yes, with a dedicated web form: The organization provides a specific web form or feature on its website/portal that allows customers to easily submit requests to exercise their rights (e.g., access, correction, erasure).",
+            "Partially, but the feature needs improvement: While some mechanism exists, it may not be fully accessible or user-friendly, requiring further enhancements.",
+            "No, we lack a dedicated feature for submitting requests: The organization does not have a specific feature or web form for customers to submit requests related to their data rights.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such rights are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but the feature needs improvement: While some mechanism exists, it may not be fully accessible or user-friendly, requiring further enhancements.": "Enhance the 'requests' feature on your website/portal by making it more user-friendly, ensuring easy submission of access, correction, and erasure requests.",
+            "No, we lack a dedicated feature for submitting requests: The organization does not have a specific feature or web form for customers to submit requests related to their data rights.": "Develop a dedicated web form or portal feature allowing customers to submit requests for accessing, correcting, or erasing their data in compliance with DPDP Section 13(1)(a)."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Have you built internal capacity to respond to data principal requests within time limits? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 13(3)</a>]",
+          "options": [
+            "Yes, with established processes and timelines: The organization has developed internal mechanisms to ensure timely responses to data principal requests, typically within the specified timeframe (e.g., 30 days).",
+            "Partially, but response times can be inconsistent: While some processes exist, response times may vary and not always meet the required deadlines.",
+            "No, we lack adequate internal capacity for timely responses: The organization does not have sufficient resources or processes in place to respond to data principal requests within the specified time limits.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such requests are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but response times can be inconsistent: While some processes exist, response times may vary and not always meet the required deadlines.": "Optimize internal processes to ensure consistent response times for data principal requests, aligning with the DPDP Act's required timeframe (e.g., 30 days).",
+            "No, we lack adequate internal capacity for timely responses: The organization does not have sufficient resources or processes in place to respond to data principal requests within the specified time limits.": "Strengthen internal capacity by designating a team or automated system to handle data principal requests efficiently and within the required deadlines."
+          }
+        },
+        {
+          "id": 4,
+          "text": "Do you publish the timeframe for responding to customer grievances on your website/app? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 13(3)</a>]",
+          "options": [
+            "Yes, with clear timelines displayed: The organization clearly publishes the response timeframe for addressing grievances on its website or app, ensuring transparency and compliance with DPDP Act requirements.",
+            "Partially, but timelines are not clearly communicated: While some information about grievance response times may be available, it is not clearly displayed or communicated to users.",
+            "No, we do not publish response timelines: The organization does not provide any information about the timeframe for responding to grievances on its website or app.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such grievances are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but timelines are not clearly communicated: While some information about grievance response times may be available, it is not clearly displayed or communicated to users.": "Ensure that grievance response timelines are prominently displayed on your website/app to provide transparency to users.",
+            "No, we do not publish response timelines: The organization does not provide any information about the timeframe for responding to grievances on its website or app.": "Publish clear and legally compliant response timelines on your website/app to improve transparency and regulatory adherence."
+          }
+        },
+        {
+          "id": 5,
+          "text": "Have you implemented a process for customers to nominate individuals who can exercise rights on their behalf? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 13(4)</a>]",
+          "options": [
+            "Yes, with clear nomination procedures: The organization provides a straightforward process for data principals to nominate representatives to exercise their rights, especially in cases of incapacity or death.",
+            "Partially, but nomination processes need clarification: While some mechanism exists, it may not be fully clear or accessible to all data principals.",
+            "No, we lack a nomination process: The organization does not have a process in place for data principals to nominate representatives.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such nominations are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but nomination processes need clarification: While some mechanism exists, it may not be fully clear or accessible to all data principals.": "Clarify and document the nomination process for data principals to delegate rights to representatives, ensuring accessibility and transparency.",
+            "No, we lack a nomination process: The organization does not have a process in place for data principals to nominate representatives.": "Implement a formal nomination process allowing data principals to designate representatives who can exercise their rights on their behalf, in line with DPDP Section 13(4)."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Security Measures",
+      "weight": 0.13,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Have you implemented appropriate data security measures including encryption, obfuscation, masking, or virtual tokens? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6(1)(a)</a>]",
+          "options": [
+            "Yes, with comprehensive implementation: The organization has fully implemented a combination of data security measures such as encryption, obfuscation, masking, and virtual tokens to protect personal data.",
+            "Partially, but some measures need enhancement: While some data security measures are in place, they may not cover all necessary techniques or could be improved for better protection.",
+            "No, we lack robust data security measures: The organization does not have adequate data security measures in place, such as encryption, obfuscation, masking, or virtual tokens.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such measures are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but some measures need enhancement: While some data security measures are in place, they may not cover all necessary techniques or could be improved for better protection.": "Enhance security measures by fully implementing encryption, obfuscation, masking, and virtual tokens to strengthen data protection.\n\n**Informatica Solution:** Deploy Informatica Dynamic Data Masking and Persistent Data Masking to comprehensively protect sensitive data across development, testing, and production environments.",
+            "No, we lack robust data security measures: The organization does not have adequate data security measures in place, such as encryption, obfuscation, masking, or virtual tokens.": "Establish and implement a comprehensive data security framework, including encryption, masking, and obfuscation, to protect personal data in compliance with DPDP Section 6(1)(a).\n\n**Informatica Solution:** Informatica Cloud Data Masking and Informatica Advanced Masking Solution, offer robust data masking capabilities that anonymize sensitive information, supporting data privacy compliance and secure data handling."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Do you have access controls for computer resources used by your organization? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6(1)(b)</a>]",
+          "options": [
+            "Yes, with robust access controls: The organization has implemented strong access controls, including authentication mechanisms, authorization protocols, and access logs to ensure that only authorized personnel can access computer resources handling personal data.",
+            "Partially, but access controls need enhancement: While some access controls exist, they may not be comprehensive or could be improved to better secure computer resources.",
+            "No, we lack adequate access controls: The organization does not have sufficient access controls in place to protect computer resources from unauthorized access.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such controls are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but access controls need enhancement: While some access controls exist, they may not be comprehensive or could be improved to better secure computer resources.": "Strengthen access controls by implementing stricter authentication mechanisms, authorization protocols, and access logging for better security.\n\n**Informatica Solution:** Informatica Cloud Data Access Management (CDAM), include features like authentication, authorization, and access logging to ensure that only authorized personnel can access computer resources handling personal data.",
+            "No, we lack adequate access controls: The organization does not have sufficient access controls in place to protect computer resources from unauthorized access.": "Develop and enforce role-based access controls (RBAC) and multi-factor authentication (MFA) to ensure only authorized personnel can access sensitive data.\n\n**Informatica Solution:** Informatica Cloud Data Access Management (CDAM), include features like authentication, authorization, and access logging to ensure that only authorized personnel can access computer resources handling personal data."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Have you implemented logging, monitoring, and review systems to detect unauthorized access? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6(1)(c)</a>]",
+          "options": [
+            "Yes, with comprehensive logging and monitoring: The organization has implemented robust logging, monitoring, and review systems to detect unauthorized access to personal data, ensuring timely identification and response to security incidents.",
+            "Partially, but logging and monitoring need improvement: While some logging and monitoring systems exist, they may not be comprehensive or could be enhanced for better detection and response.",
+            "No, we lack adequate logging and monitoring systems: The organization does not have sufficient logging, monitoring, and review systems in place to detect unauthorized access.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such systems are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but logging and monitoring need improvement: While some logging and monitoring systems exist, they may not be comprehensive or could be enhanced for better detection and response.": "Upgrade logging and monitoring capabilities by implementing real-time alerts, periodic log audits, and automated anomaly detection to improve security oversight.",
+            "No, we lack adequate logging and monitoring systems: The organization does not have sufficient logging, monitoring, and review systems in place to detect unauthorized access.": "Implement a comprehensive logging and monitoring system to track unauthorized access and detect security incidents in compliance with DPDP Section 6(1)(c). "
+          }
+        },
+        {
+          "id": 4,
+          "text": "Do you have measures for continued processing in case of data compromise (e.g., data backups)? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6(1)(d)</a>]",
+          "options": [
+            "Yes, with comprehensive backup and recovery measures: The organization has implemented robust data backup and recovery mechanisms to ensure continued processing in case of data compromise.",
+            "Partially, but backup and recovery processes need improvement: While some measures exist, they may not be fully reliable or comprehensive in case of data compromise.",
+            "No, we lack adequate backup and recovery measures: The organization does not have sufficient mechanisms in place for continued processing in case of data compromise.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such measures are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but backup and recovery processes need improvement: While some measures exist, they may not be fully reliable or comprehensive in case of data compromise.": "Enhance backup and disaster recovery strategies by incorporating automated, encrypted backups with frequent testing to ensure data availability during breaches.  \n\n**Informatica Solution:** cloud Data Ingestion and Replication (CDIR), which supports data replication and backup. This can aid in ensuring continued processing in case of data compromise.",
+            "No, we lack adequate backup and recovery measures: The organization does not have sufficient mechanisms in place for continued processing in case of data compromise.": "Develop a robust data backup and recovery plan with geographically distributed storage and redundancy to maintain operational continuity in case of a security incident. \n\n**Informatica Solution:** cloud Data Ingestion and Replication (CDIR), which supports data replication and backup. This can aid in ensuring continued processing in case of data compromise."
+          }
+        },
+        {
+          "id": 5,
+          "text": "Do you retain logs and personal data for at least one year to enable detection and investigation of unauthorized access? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6(1)(e)</a>]",
+          "options": [
+            "Yes, with retention for at least one year: The organization retains logs and relevant personal data for a minimum of one year to facilitate the detection and investigation of unauthorized access, as required by the DPDP Act.",
+            "Partially, but retention period is less than one year: While some logs and data are retained, the retention period is shorter than one year.",
+            "No, we do not retain logs and data for the required period: The organization does not retain logs and personal data for at least one year, which could hinder the detection and investigation of unauthorized access.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such retention is not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but retention period is less than one year: While some logs and data are retained, the retention period is shorter than one year.": "Extend data retention policies to comply with the minimum one-year requirement under DPDP Section 6(1)(e) and ensure logs are securely stored.",
+            "No, we do not retain logs and data for the required period: The organization does not retain logs and personal data for at least one year, which could hinder the detection and investigation of unauthorized access.": "Implement mandatory log retention policies for at least one year and establish secure storage mechanisms for forensic investigations and compliance audits."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Breach Notification",
+      "weight": 0.10,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Do you have procedures to notify affected data principals without delay in case of a personal data breach? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 7(1)</a>]",
+          "options": [
+            "Yes, with immediate notification procedures: The organization has established procedures to notify affected data principals promptly and without delay in the event of a personal data breach, ensuring compliance with DPDP Act requirements.",
+            "Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification to all affected data principals.",
+            "No, we lack procedures for immediate breach notification: The organization does not have specific procedures in place to notify affected data principals in case of a breach.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if breach notifications are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification to all affected data principals.": "Enhance breach notification procedures to ensure all affected data principals are informed immediately in case of a personal data breach.",
+            "No, we lack procedures for immediate breach notification: The organization does not have specific procedures in place to notify affected data principals in case of a breach.": "Implement a structured breach notification plan that ensures prompt communication with affected data principals, following DPDP Act Section 7(1)."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your breach notification include a description of the breach, its consequences, mitigation measures, and safety measures for data principals? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 7(1)(a)-(e)</a>]",
+          "options": [
+            "Yes, with comprehensive details: The breach notification includes a clear description of the breach (nature, timing, and location), its likely consequences for affected data principals, measures implemented to mitigate risks, and safety measures data principals can take to protect themselves.",
+            "Partially, but some details are missing: While some information is provided, the notification lacks one or more of the required details, such as the description of the breach, consequences, mitigation measures, or safety advice.",
+            "No, the notification lacks essential details: The breach notification does not include a description of the breach, its consequences, mitigation measures, or safety measures for data principals.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if breach notifications are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but some details are missing: While some information is provided, the notification lacks one or more of the required details, such as the description of the breach, consequences, mitigation measures, or safety advice.": "Ensure breach notifications include all required details—description, impact, mitigation measures, and safety steps—to fully inform affected individuals.",
+            "No, the notification lacks essential details: The breach notification does not include a description of the breach, its consequences, mitigation measures, or safety measures for data principals.": "Revise breach notification templates to include comprehensive details as required by DPDP Section 7(1)(a)-(e)."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Do you have processes to notify the Data Protection Board within 72 hours of becoming aware of a breach? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 7(2)(b)</a>]",
+          "options": [
+            "Yes, with established procedures for timely notification: The organization has implemented processes to ensure that the Data Protection Board is notified within 72 hours of becoming aware of a breach, as required by the DPDP Act.",
+            "Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification within the 72-hour timeframe.",
+            "No, we lack procedures for timely breach notification to the Board: The organization does not have specific procedures in place to notify the Data Protection Board within the required timeframe.",
+            "The Processes are in place, but they are not strictly time-bound: The organization has procedures for notifying the Data Protection Board, but they do not strictly adhere to the 72-hour deadline."
+          ],
+          "recommendations": {
+            "Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification within the 72-hour timeframe.": "Refine breach reporting workflows to ensure the Data Protection Board is notified within the mandatory 72-hour period.",
+            "No, we lack procedures for timely breach notification to the Board: The organization does not have specific procedures in place to notify the Data Protection Board within the required timeframe.": "Implement a formal breach escalation policy to ensure regulatory reporting within 72 hours, in compliance with DPDP Section 7(2)(b).",
+            "Processes are in place, but they are not strictly time-bound: The organization has procedures for notifying the Data Protection Board, but they do not strictly adhere to the 72-hour deadline.": "Strengthen internal processes to ensure breach notifications strictly adhere to the 72-hour reporting requirement."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Retention and Erasure",
+      "weight": 0.05,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Have you implemented processes to purge personal data when a customer withdraws consent or requests erasure? [Data Retention Restrictions][<a href='https://datainfa.com/dpdp-act/' target='_blank'>Rule 3(c)(i)</a>]",
+          "options": [
+            "Yes, with automated processes for data erasure: The organization has implemented automated processes to erase personal data promptly upon withdrawal of consent or request for erasure by the data principal, as required by the DPDP Act.",
+            "Partially, but erasure processes need improvement: While some processes exist, they may not be fully automated or could be more efficient to ensure timely erasure.",
+            "No, we lack procedures for timely data erasure: The organization does not have specific procedures in place to erase personal data upon withdrawal of consent or request for erasure.",
+            "Manual processes are in place, but they are effective: The organization uses manual processes for erasing personal data, which are effective but may not be as efficient as automated systems."
+          ],
+          "recommendations": {
+            "Partially, but erasure processes need improvement: While some processes exist, they may not be fully automated or could be more efficient to ensure timely erasure.": "Enhance erasure processes by incorporating automation to ensure timely deletion of personal data upon withdrawal of consent or request for erasure. \n\n**Informatica Solution:** Informatica can help implement processes for purging personal data when a customer withdraws consent or requests erasure through its data management solutions.",
+            "No, we lack procedures for timely data erasure: The organization does not have specific procedures in place to erase personal data upon withdrawal of consent or request for erasure.": "Establish clear policies and automated workflows for timely data erasure, ensuring compliance with DPDP Rule 3(c)(i). \n\n**Informatica Solution:** Informatica can help implement processes for purging personal data when a customer withdraws consent or requests erasure through its data management solutions.",
+            "Manual processes are in place, but they are effective: The organization uses manual processes for erasing personal data, which are effective but may not be as efficient as automated systems.": "Transition from manual to automated erasure processes to enhance efficiency and reduce delays. \n\n**Informatica Solution:** Informatica can help implement processes for purging personal data when a customer withdraws consent or requests erasure through its data management solutions."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Do you have mechanisms to erase personal data when the customer hasn't approached for data processing for the prescribed time period? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 8</a>]",
+          "options": [
+            "Yes, with automated processes for data erasure: The organization has implemented automated processes to erase personal data when it is no longer necessary for the specified purpose or when the customer has not approached for data processing within the prescribed time period.",
+            "Partially, but erasure processes need improvement: While some mechanisms exist, they may not be fully automated or could be more efficient to ensure timely erasure.",
+            "No, we lack procedures for timely data erasure: The organization does not have specific procedures in place to erase personal data when it is no longer necessary or when the customer has not approached for data processing within the prescribed time period.",
+            "Manual processes are in place, but they are effective: The organization uses manual processes for erasing personal data, which are effective but may not be as efficient as automated systems."
+          ],
+          "recommendations": {
+            "Partially, but erasure processes need improvement: While some mechanisms exist, they may not be fully automated or could be more efficient to ensure timely erasure.": "Optimize erasure mechanisms to ensure prompt data deletion when it is no longer required for processing. \n\n**Informatica Solution:** Informatica can help implement mechanisms for erasing personal data when it is no longer necessary through its cloud-based solutions.",
+            "No, we lack procedures for timely data erasure: The organization does not have specific procedures in place to erase personal data when it is no longer necessary or when the customer has not approached for data processing within the prescribed time period.": "Implement an automated policy-driven data erasure process aligned with DPDP Section 8 requirements.\n\n**Informatica Solution:** Informatica can help implement mechanisms for erasing personal data when it is no longer necessary through its cloud-based solutions."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Do you provide at least 48-hour advance notice to customers before deleting their data? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 8(2)</a>]",
+          "options": [
+            "Yes, with consistent 48-hour notice: The organization provides a minimum of 48 hours' notice to customers before deleting their personal data, as required by the DPDP Act.",
+            "Partially, but notice period may vary: While some form of notice is provided, it may not consistently meet the 48-hour requirement.",
+            "No, we do not provide advance notice: The organization does not provide any advance notice to customers before deleting their personal data.",
+            "Manual processes are in place, but they are effective: The organization uses manual processes to notify customers, which are effective but may not always ensure timely notice."
+          ],
+          "recommendations": {
+            "Partially, but notice period may vary: While some form of notice is provided, it may not consistently meet the 48-hour requirement.": "Ensure that customers receive consistent 48-hour advance notice before their data is deleted.\n\n**Informatica Solution:** An email can be triggered via CAI before 48-hour advance notice to customers before deleting their data.",
+            "No, we do not provide advance notice: The organization does not provide any advance notice to customers before deleting their personal data.": "Establish a mandatory notification system that alerts customers at least 48 hours before data deletion, in compliance with DPDP Section 8(2). \n\n**Informatica Solution:** An email can be triggered via CAI before 48-hour advance notice to customers before deleting their data."
+          }
+        },
+        {
+          "id": 4,
+          "text": "Have you implemented secure erasure standards? [Data Retention Restrictions][<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 8(1)</a>]",
+          "options": [
+            "Yes, with comprehensive implementation: The organization has fully implemented recognized secure erasure standards (e.g., NIST 800-88, DoD 5220.22-M) to ensure that personal data is irretrievably removed from storage devices.",
+            "Partially, but erasure standards need improvement: While some secure erasure methods are in place, they may not fully align with recognized standards or could be more efficient.",
+            "No, we lack secure erasure standards: The organization does not have specific secure erasure standards or procedures in place to ensure that personal data is properly erased.",
+            "The Manual processes are in place, but they are effective: The organization uses manual processes for data erasure, which are effective but may not be as efficient or compliant with recognized standards as automated solutions."
+          ],
+          "recommendations": {
+            "Partially, but erasure standards need improvement: While some secure erasure methods are in place, they may not fully align with recognized standards or could be more efficient.": "Adopt industry-standard secure erasure practices (e.g., NIST 800-88, DoD 5220.22-M) to ensure complete and irreversible data deletion. \n\n**Informatica Solution:** Informatica's implementation of NIST 800-88 standards ensures that personal data is securely erased from storage devices, aligning with recognized secure erasure standards.",
+            "No, we lack secure erasure standards: The organization does not have specific secure erasure standards or procedures in place to ensure that personal data is properly erased.": "Implement secure erasure mechanisms to prevent data recovery and ensure compliance with DPDP Section 8(1). \n\n**Informatica Solution:** Informatica's implementation of NIST 800-88 standards ensures that personal data is securely erased from storage devices, aligning with recognized secure erasure standards."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Accuracy and Completeness",
+      "weight": 0.08,
+      "questions": [
+        {
+          "id": 1,
+          "text": "When processing data for customer decisions (e.g., credit scoring), do you ensure underlying records are complete, accurate, and consistent? [Data Completeness, Accuracy and Consistency][<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6</a>]",
+          "options": [
+            "Yes: We have robust processes in place to ensure that all underlying records are complete, accurate, and consistent when processing data for customer decisions.",
+            "Partially: We have some measures in place to ensure data quality, but our processes need improvement to fully guarantee completeness, accuracy, and consistency.",
+            "No: We do not currently have specific procedures to ensure that underlying records are complete, accurate, and consistent.",
+            "Not Applicable: Our organization does not handle personal data or process customer decisions based on such data."
+          ],
+          "recommendations": {
+            "Partially: We have some measures in place to ensure data quality, but our processes need improvement to fully guarantee completeness, accuracy, and consistency.": "To improve processes, implement more comprehensive measures to ensure data completeness, accuracy, and consistency, particularly for decision-making processes such as credit scoring. \n\n**Informatica Solution:** Informatica's Cloud Data Quality offers automated tools for profiling, cleansing, and standardizing data.",
+            "No: We do not currently have specific procedures to ensure that underlying records are complete, accurate, and consistent.": "Implement specific procedures and processes to ensure that all underlying records are complete, accurate, and consistent when processing data for customer decisions, in line with industry best practices. \n\n**Informatica Solution:** Informatica's Cloud Data Quality offers automated tools for profiling, cleansing, and standardizing data.",
+            "Not Applicable: Our organization does not handle personal data or process customer decisions based on such data.": "Ensure that your organization’s data processing policies align with applicable regulations, even if you do not currently handle such data. \n\n**Informatica Solution:** Informatica's Cloud Data Quality offers automated tools for profiling, cleansing, and standardizing data."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Have you implemented audit logs to track database modifications? [Data Completeness, Accuracy and Consistency][<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6</a>]",
+          "options": [
+            "Yes, with comprehensive audit logging: The organization has implemented robust audit logs that track all database modifications, including details such as the user, timestamp, type of operation (insert, update, delete), and affected records. These logs are designed to ensure traceability and compliance with security standards.",
+            "Partially, but audit logging needs improvement: Some audit logging mechanisms are in place, but they may not cover all database modifications or lack critical details such as user identification or timestamps.",
+            "No, we lack audit logging mechanisms: The organization does not have processes in place to track database modifications through audit logs, which could hinder traceability and compliance efforts.",
+            "Manual tracking is used instead of automated logs: The organization relies on manual methods or basic tracking systems for monitoring database changes, which may not be as efficient or reliable as automated audit logs."
+          ],
+          "recommendations": {
+            "Partially, but audit logging needs improvement: Some audit logging mechanisms are in place, but they may not cover all database modifications or lack critical details such as user identification or timestamps.": "Enhance audit logging to include essential details like user identification, timestamps, and the type of operation to improve traceability and compliance. \n\n**Informatica Solution:** Informatica IICS supports capturing taskflow and asset logs, which can be used to track database modifications.  \n\n**Informatica Solution:** Informatica's Log Analyzer automates the extraction and storage of activity and taskflow logs, aiding in monitoring and compliance.",
+            "No, we lack audit logging mechanisms: The organization does not have processes in place to track database modifications through audit logs, which could hinder traceability and compliance efforts.": "Implement comprehensive automated audit logging mechanisms to track all database modifications and ensure full compliance with data protection standards. \n\n**Informatica Solution:** Informatica IICS supports capturing taskflow and asset logs, which can be used to track database modifications.  \n\n**Informatica Solution:** Informatica's Log Analyzer automates the extraction and storage of activity and taskflow logs, aiding in monitoring and compliance.",
+            "Manual tracking is used instead of automated logs: The organization relies on manual methods or basic tracking systems for monitoring database changes, which may not be as efficient or reliable as automated audit logs.": "Move from manual tracking to automated audit logs to improve efficiency, traceability, and data security. \n\n**Informatica Solution:** Informatica IICS supports capturing taskflow and asset logs, which can be used to track database modifications.  \n\n**Informatica Solution:** Informatica's Log Analyzer automates the extraction and storage of activity and taskflow logs, aiding in monitoring and compliance."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Children's Data Protection",
+      "weight": 0.03,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Have you implemented mechanisms to obtain verifiable parental consent before processing children's data? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 10(1)</a>]",
+          "options": [
+            "Yes, with robust mechanisms for verifiable consent: The organization has implemented robust mechanisms to obtain verifiable parental consent before processing children's data, ensuring compliance with legal requirements and ensuring that consent is genuine and authorized by a parent or guardian.",
+            "Partially, but consent mechanisms need improvement: While some mechanisms exist, they may not fully ensure that parental consent is verifiable or that it meets all legal standards for processing children's data.",
+            "No, we lack mechanisms for obtaining verifiable parental consent: The organization does not have specific mechanisms in place to obtain verifiable parental consent before processing children's data."
+          ],
+          "recommendations": {
+            "Partially, but consent mechanisms need improvement: While some mechanisms exist, they may not fully ensure that parental consent is verifiable or that it meets all legal standards for processing children's data.": "Improve parental consent mechanisms by integrating stronger verification methods, such as digital signatures or government ID verification, to ensure compliance with DPDP Section 10(1).",
+            "No, we lack mechanisms for obtaining verifiable parental consent: The organization does not have specific mechanisms in place to obtain verifiable parental consent before processing children's data.": "Implement a verifiable parental consent system using multi-factor authentication or document-based verification to comply with child data protection regulations."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Do you have technical measures to verify the identity and age of parents? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 10(1)(a)-(b)</a>]",
+          "options": [
+            "Yes, with robust identity verification methods: The organization uses advanced technical measures such as biometric verification, document-based verification (e.g., government IDs), or digital tokens to verify the identity and age of parents, ensuring compliance with legal requirements.",
+            "Partially, but verification methods need improvement: While some technical measures exist, they may not fully ensure accurate verification of parental identity and age or could be more efficient.",
+            "No, we lack technical measures for verification: The organization does not have specific technical measures in place to verify the identity and age of parents.",
+            "Not applicable: This option might apply if your organization does not handle children's data or if such verification is not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but verification methods need improvement: While some technical measures exist, they may not fully ensure accurate verification of parental identity and age or could be more efficient.": "Enhance parental verification processes by adopting stronger identity proofing methods such as biometric validation or secure document verification.",
+            "No, we lack technical measures for verification: The organization does not have specific technical measures in place to verify the identity and age of parents.": "Develop a technical verification framework for parental identity and age verification, ensuring compliance with DPDP Section 10(1)(a)-(b)."
+          }
+        },
+        {
+          "id": 3,
+          "text": "If applicable, do you qualify for exemptions from child data protection requirements (e.g., educational institutions, healthcare providers)? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 11, Fourth Schedule</a>]",
+          "options": [
+            "Yes, we qualify for exemptions: The organization falls under categories exempted from obtaining verifiable parental consent for processing children's data, such as educational institutions, healthcare providers, or childcare services, provided that the processing is for specific purposes like education, health services, or child safety.",
+            "Partially, but we need further clarification: While the organization may fit into exempted categories, there is uncertainty about whether all activities qualify for exemptions or if additional conditions must be met.",
+            "No, we do not qualify for exemptions: The organization does not fall under any of the exempted categories and must comply with all child data protection requirements, including obtaining verifiable parental consent.",
+            "Not applicable: This option might apply if your organization does not handle children's data or if such exemptions are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but we need further clarification: While the organization may fit into exempted categories, there is uncertainty about whether all activities qualify for exemptions or if additional conditions must be met.": "Clarify the applicability of exemptions by conducting a legal review to determine whether the organization's activities qualify under DPDP Section 11 of the DPDP Act.",
+            "No, we do not qualify for exemptions: The organization does not fall under any of the exempted categories and must comply with all child data protection requirements, including obtaining verifiable parental consent.": "Ensure full compliance with child data protection regulations, including obtaining verifiable parental consent and implementing appropriate data handling safeguards."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Third-Party Processing",
+      "weight": 0.08,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Do you have valid contracts with third-party processors requiring compliance with necessary obligations? [Data Processor Contracts][<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6(f)</a>]",
+          "options": [
+            "Yes, with comprehensive contracts: The organization has established valid contracts with third-party processors that clearly outline the processors' responsibilities and obligations, including compliance with data protection laws, security measures, and breach notification requirements.",
+            "Partially, but contracts need improvement: While contracts exist, they may not fully address all necessary obligations or could be more detailed to ensure compliance with data protection regulations.",
+            "No, we lack valid contracts: The organization does not have contracts in place with third-party processors that require compliance with data protection obligations.",
+            "Not applicable: This option might apply if your organization does not engage third-party processors or if such contracts are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but contracts need improvement: While contracts exist, they may not fully address all necessary obligations or could be more detailed to ensure compliance with data protection regulations.": "Enhance third-party contracts by explicitly defining compliance requirements, security obligations, and breach notification responsibilities.",
+            "No, we lack valid contracts: The organization does not have contracts in place with third-party processors that require compliance with data protection obligations.": "Establish legally binding contracts with all third-party processors, ensuring they comply with DPDP DPDP Section 6(f) on data processor obligations."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Do your contracts with data processors include appropriate provisions for security safeguards? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6(1)(f)</a>]",
+          "options": [
+            "Yes, with comprehensive security provisions: The organization's contracts with data processors include detailed provisions for security safeguards, such as encryption, access controls, and breach notification requirements, ensuring compliance with data protection regulations.",
+            "Partially, but security provisions need improvement: While some security provisions exist, they may not fully address all necessary safeguards or could be more detailed to ensure robust data protection.",
+            "No, we lack adequate security provisions: The organization's contracts with data processors do not include sufficient provisions for security safeguards, which could leave data vulnerable to unauthorized access or breaches.",
+            "Not applicable: This option might apply if your organization does not engage data processors or if such provisions are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but security provisions need improvement: While some security provisions exist, they may not fully address all necessary safeguards or could be more detailed to ensure robust data protection.": "Strengthen security provisions in contracts by specifying encryption requirements, role-based access controls, and incident response protocols.",
+            "No, we lack adequate security provisions: The organization's contracts with data processors do not include sufficient provisions for security safeguards, which could leave data vulnerable to unauthorized access or breaches.": "Revise third-party agreements to include mandatory security safeguards, aligning with DPDP Section 6(1)(f) to mitigate risks associated with data processing."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cross-Border Data Transfers",
+      "weight": 0.06,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Do you comply with existing data localization norms by regulators (RBI, IRDAI)? [Existing Sectoral Data Regulations]",
+          "options": [
+            "Yes, with full compliance: The organization fully complies with data localization norms set by regulators such as the RBI and IRDAI, ensuring that all relevant data (e.g., payment system data, insurance records) is stored within India as required.",
+            "Partially, but compliance needs improvement: While some efforts are made to comply with data localization norms, there may be areas where compliance is incomplete or inconsistent, requiring further adjustments to meet regulatory requirements.",
+            "No, we do not comply with data localization norms: The organization does not comply with existing data localization regulations, which could lead to regulatory issues and potential penalties.",
+            "Not applicable: This option might apply if your organization does not handle data subject to RBI or IRDAI regulations, such as payment system data or insurance records."
+          ],
+          "recommendations": {
+            "Partially, but compliance needs improvement": "Strengthen compliance with data localization norms by reviewing current storage practices and ensuring full adherence to RBI and IRDAI regulations.\n\n**Informatica Solution:** Utilize Informatica Data Engineering Integration with its comprehensive data lineage capabilities to track and ensure data remains within Indian borders as required by regulations.",
+            "No, we do not comply with data localization norms": "Implement necessary measures to ensure compliance with sectoral data localization norms, including storing all required data within India.\n\n**Informatica Solution:** Deploy Informatica Cloud Data Integration with region-specific processing to maintain data residency compliance for RBI and IRDAI regulations."
+          }
+        },
+        {
+          "id": 2,
+          "text": "For significant data fiduciaries, do you ensure that specified personal data and traffic data are not transferred outside India? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 12(4)</a>]",
+          "options": [
+            "Yes, with strict compliance: The organization ensures that specified personal data and traffic data, as designated by the Central Government, are processed domestically and not transferred outside India, in compliance with the DPDP Rules.",
+            "Partially, but compliance needs improvement: While efforts are made to comply with data localization requirements, there may be instances where data is transferred outside India without proper authorization or exemptions.",
+            "No, we do not comply with data localization requirements: The organization does not adhere to the requirement to keep specified personal data and traffic data within India, which could lead to regulatory issues.",
+            "Not applicable: This option might apply if your organization is not classified as a significant data fiduciary or if such data localization requirements do not apply to your operations."
+          ],
+          "recommendations": {
+            "Partially, but compliance needs improvement": "While efforts are made to comply with data localization requirements, there may be instances where data is transferred outside India without proper authorization or exemptions. Ensure strict enforcement of data localization policies by preventing unauthorized cross-border transfers of specified personal and traffic data.",
+            "No, we do not comply with data localization requirements": "The organization does not adhere to the requirement to keep specified personal data and traffic data within India, which could lead to regulatory issues. Establish controls to restrict the transfer of specified personal and traffic data outside India, aligning with DPDP Section 12(4)."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Do you meet requirements specified by the Central Government for making personal data available to foreign entities? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 14</a>]",
+          "options": [
+            "Yes, with full compliance: The organization fully complies with the Central Government's requirements for making personal data available to foreign entities, adhering to any restrictions or conditions set forth by the government regarding cross-border data transfers.",
+            "Partially, but compliance needs improvement: While efforts are made to comply with government requirements, there may be areas where compliance is incomplete or inconsistent, requiring further adjustments to meet regulatory standards.",
+            "No, we do not comply with government requirements: The organization does not adhere to the Central Government's requirements for making personal data available to foreign entities, which could lead to regulatory issues.",
+            "Not applicable: This option might apply if your organization does not handle personal data that is subject to Central Government regulations regarding cross-border transfers or if such requirements do not apply to your operations."
+          ],
+          "recommendations": {
+            "Partially, but compliance needs improvement": "While efforts are made to comply with government requirements, there may be areas where compliance is incomplete or inconsistent, requiring further adjustments to meet regulatory standards. Review and update policies to fully align with Central Government requirements on making personal data available to foreign entities.",
+            "No, we do not comply with government requirements": "The organization does not adhere to the Central Government's requirements for making personal data available to foreign entities, which could lead to regulatory issues. Develop and implement a compliance framework to meet Central Government regulations on cross-border data transfers under DPDP Section 14."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Significant Data Fiduciary Obligations",
+      "weight": 0.10,
+      "questions": [
+        {
+          "id": 1,
+          "text": "If classified as a significant data fiduciary, do you conduct Data Protection Impact Assessments and audits every 12 months? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 12(1)</a>]",
+          "options": [
+            "Yes, with regular DPIAs and audits: The organization conducts Data Protection Impact Assessments (DPIAs) and audits annually, as required for Significant Data Fiduciaries, to evaluate data processing risks and ensure compliance with the DPDP Act.",
+            "Partially, but frequency or scope needs improvement: While DPIAs and audits are conducted, they may not be performed annually or may not cover all necessary aspects, requiring adjustments to meet regulatory requirements.",
+            "No, we do not conduct regular DPIAs and audits: The organization does not conduct DPIAs and audits as required for Significant Data Fiduciaries, which could lead to non-compliance and potential penalties.",
+            "Not applicable: This option might apply if your organization is not classified as a Significant Data Fiduciary or if such requirements do not apply to your operations."
+          ],
+          "recommendations": {
+            "Partially, but frequency or scope needs improvement: While DPIAs and audits are conducted, they may not be performed annually or may not cover all necessary aspects, requiring adjustments to meet regulatory requirements.": "Ensure Data Protection Impact Assessments (DPIAs) and audits are conducted every 12 months, covering all necessary risk assessments.",
+            "No, we do not conduct regular DPIAs and audits: The organization does not conduct DPIAs and audits as required for Significant Data Fiduciaries, which could lead to non-compliance and potential penalties.": "Establish a formal process for conducting annual DPIAs and audits to comply with DPDP Section 12(1) of the DPDP Act."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Do you submit reports containing significant observations from these assessments to the Data Protection Board? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 12(2)</a>]",
+          "options": [
+            "Yes, with regular submissions: The organization submits reports containing significant observations from Data Protection Impact Assessments (DPIAs) and audits to the Data Protection Board as required, ensuring transparency and compliance with regulatory obligations.",
+            "Partially, but reporting needs improvement: While some reports are submitted, they may not fully capture all significant observations or may not be submitted in a timely manner, requiring adjustments to meet regulatory standards.",
+            "No, we do not submit such reports: The organization does not submit reports containing significant observations from DPIAs and audits to the Data Protection Board, which could lead to non-compliance and potential penalties.",
+            "Not applicable: This option might apply if your organization is not classified as a Significant Data Fiduciary or if such reporting requirements do not apply to your operations."
+          ],
+          "recommendations": {
+            "Partially, but reporting needs improvement: While some reports are submitted, they may not fully capture all significant observations or may not be submitted in a timely manner, requiring adjustments to meet regulatory standards.": "Ensure reports on significant DPIA observations are submitted to the Data Protection Board on time and with complete findings.",
+            "No, we do not submit such reports: The organization does not submit reports containing significant observations from DPIAs and audits to the Data Protection Board, which could lead to non-compliance and potential penalties.": "Implement a structured reporting process to submit DPIA and audit findings to the Data Protection Board as per DPDP Section 12(2)."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Have you implemented due diligence to verify that algorithmic software used for processing personal data doesn't pose risks to data principals' rights? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 12(3)</a>]",
+          "options": [
+            "Yes, with robust due diligence processes: The organization has implemented thorough due diligence processes to verify that algorithmic software used for processing personal data does not pose risks to the rights of data principals, ensuring compliance with regulatory requirements.",
+            "Partially, but due diligence needs improvement: While some due diligence measures are in place, they may not fully ensure that algorithmic software is risk-free for data principals, requiring further enhancements to meet regulatory standards.",
+            "No, we lack due diligence processes: The organization does not have specific due diligence processes in place to verify the safety of algorithmic software used for personal data processing, which could lead to compliance issues.",
+            "Not applicable: This option might apply if your organization does not use algorithmic software for processing personal data or if such due diligence requirements do not apply to your operations."
+          ],
+          "recommendations": {
+            "Partially, but due diligence needs improvement: While some due diligence measures are in place, they may not fully ensure that algorithmic software is risk-free for data principals, requiring further enhancements to meet regulatory standards.": "Improve algorithmic due diligence processes by conducting regular risk assessments and ensuring transparency in data processing.",
+            "No, we lack due diligence processes: The organization does not have specific due diligence processes in place to verify the safety of algorithmic software used for personal data processing, which could lead to compliance issues.": "Develop a formal due diligence framework to verify that algorithmic software does not pose risks to data principals’ rights under DPDP Section 12(3)."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Grievance Redressal",
+      "weight": 0.05,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Have you established a grievance redressal mechanism to respond to complaints from data principals? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 13(3)</a>]",
+          "options": [
+            "Yes, with a comprehensive mechanism: The organization has established a robust grievance redressal mechanism that includes dedicated channels for receiving and handling complaints, such as a customer service desk, email address, or online portal. This mechanism ensures timely responses to data principals' grievances regarding their personal data processing.",
+            "Partially, but the mechanism needs improvement: While some grievance redressal processes exist, they may not fully meet the requirements of being readily available or effective in resolving data principals' complaints, requiring further enhancements.",
+            "No, we lack a grievance redressal mechanism: The organization does not have a specific mechanism in place to address grievances from data principals, which could lead to non-compliance with the DPDP Act.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such grievance redressal mechanisms are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but the mechanism needs improvement: While some grievance redressal processes exist, they may not fully meet the requirements of being readily available or effective in resolving data principals' complaints, requiring further enhancements.": "Enhance grievance redressal mechanisms by introducing dedicated complaint handling teams and clear resolution timelines.",
+            "No, we lack a grievance redressal mechanism: The organization does not have a specific mechanism in place to address grievances from data principals, which could lead to non-compliance with the DPDP Act.": "Establish a formal grievance redressal mechanism, including accessible complaint submission channels, to comply with DPDP Section 13(3)."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Have you published the timeframe for responding to grievances on your website/app? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 13(3)</a>]",
+          "options": [
+            "Yes, with clear publication: The organization has clearly published the timeframe for responding to grievances on its website and/or app, ensuring transparency and compliance with regulatory requirements.",
+            "Partially, but publication needs improvement: While some information about grievance response timelines is available, it may not be clearly published or easily accessible on the website or app, requiring further enhancements.",
+            "No, we have not published the timeframe: The organization has not published the timeframe for responding to grievances on its website or app, which could lead to non-compliance with the DPDP Act's transparency requirements.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such publication requirements do not apply to your operations."
+          ],
+          "recommendations": {
+            "Partially, but publication needs improvement: While some information about grievance response timelines is available, it may not be clearly published or easily accessible on the website or app, requiring further enhancements.": "Ensure grievance response timelines are clearly displayed on the website and app for full transparency.",
+            "No, we have not published the timeframe: The organization has not published the timeframe for responding to grievances on its website or app, which could lead to non-compliance with the DPDP Act's transparency requirements.": "Update public-facing policies to include explicit response timelines for grievance redressal under DPDP Section 13(3)."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Have you implemented technical and organizational measures to ensure the effectiveness of the grievance redressal system? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 13(3)</a>]",
+          "options": [
+            "Yes, with robust measures: The organization has implemented comprehensive technical and organizational measures to ensure the effectiveness of the grievance redressal system, including dedicated channels for submitting grievances, clear timelines for resolution, and a robust monitoring system to analyze performance and identify trends.",
+            "Partially, but measures need improvement: While some technical and organizational measures exist, they may not fully ensure the effectiveness of the grievance redressal system, requiring further enhancements to meet regulatory standards.",
+            "No, we lack effective measures: The organization does not have specific technical and organizational measures in place to ensure the effectiveness of the grievance redressal system, which could lead to inefficiencies and non-compliance.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such grievance redressal requirements do not apply to your operations."
+          ],
+          "recommendations": {
+            "Partially, but measures need improvement: While some technical and organizational measures exist, they may not fully ensure the effectiveness of the grievance redressal system, requiring further enhancements to meet regulatory standards.": "Implement additional technical and organizational controls, such as automated tracking and escalation mechanisms, to improve grievance resolution.",
+            "No, we lack effective measures: The organization does not have specific technical and organizational measures in place to ensure the effectiveness of the grievance redressal system, which could lead to inefficiencies and non-compliance.": "Develop robust grievance handling processes, incorporating automation and oversight, to ensure compliance with DPDP Section 13(3)."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Exemptions",
+      "weight": 0.03,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Are you aware of the exemptions from certain obligations when processing personal data for:\nPreventing, detecting, or investigating offenses (e.g., credit card fraud)\nChecking financial information of loan defaulters\nEnforcing legal rights or claims (e.g., using health data for insurance claims)\n[<a href='https://datainfa.com/dpdp-act/' target='_blank'>Exemptions DPDP Section</a>][<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 7</a>]",
+          "options": [
+            "Yes, we are aware of these exemptions: The organization is aware of the exemptions under the DPDP Act that allow for processing personal data without consent for specific purposes, such as preventing or investigating offenses, assessing financial information of loan defaulters, and enforcing legal rights or claims.",
+            "Partially, but awareness needs improvement: While some awareness exists about these exemptions, there may be a lack of clarity or understanding about their scope and application, requiring further education or guidance.",
+            "No, we are not aware of these exemptions: The organization is not aware of the exemptions related to processing personal data for preventing offenses, checking loan defaulters' financial information, or enforcing legal rights, which could lead to non-compliance.",
+            "Not applicable: This option might apply if your organization does not handle personal data in contexts where these exemptions are relevant."
+          ],
+          "recommendations": {
+            "Partially, but awareness needs improvement: While some awareness exists about these exemptions, there may be a lack of clarity or understanding about their scope and application, requiring further education or guidance.": "Enhance staff awareness of DPDP exemptions through training programs and internal policy documents, ensuring clarity on legal exemptions for processing personal data.",
+            "No, we are not aware of these exemptions: The organization is not aware of the exemptions related to processing personal data for preventing offenses, checking loan defaulters' financial information, or enforcing legal rights, which could lead to non-compliance.": "Develop internal guidelines and legal reference materials to educate employees on DPDP exemptions under DPDP Section 7, ensuring compliance with lawful data processing activities."
+          }
+        },
+        {
+          "id": 2,
+          "text": "If applicable, have you received exemptions from the government based on volume and nature of personal data processed? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>Exemptions DPDP Section</a>]",
+          "options": [
+            "Yes, we have received exemptions: The organization has been granted exemptions by the government based on the volume and nature of personal data processed, which may apply to startups or other entities meeting specific criteria.",
+            "No, we have not received exemptions: The organization has not been granted any exemptions by the government related to the volume and nature of personal data processed.",
+            "Not applicable: This option might apply if your organization does not meet the criteria for receiving such exemptions or if such exemptions are not relevant to your operations."
+          ],
+          "recommendations": {
+            "No, we have not received exemptions: The organization has not been granted any exemptions by the government related to the volume and nature of personal data processed.": "Review eligibility for government exemptions under the DPDP Act and, if applicable, apply for relevant exemptions to optimize compliance requirements."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Documentation and Compliance",
+      "weight": 0.06,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Have you documented all processes related to personal data protection to demonstrate compliance? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6</a>]",
+          "options": [
+            "Yes, with comprehensive documentation: The organization has thoroughly documented all processes related to personal data protection, including records of processing activities, data protection impact assessments (DPIAs), technical and organizational measures (TOMs), and policies for handling personal data. This documentation is maintained in a granular and meaningful way, ensuring compliance with data protection regulations.",
+            "Partially, but documentation needs improvement: While some documentation exists, it may not fully cover all necessary processes or may lack clarity, requiring further enhancements to meet regulatory standards.",
+            "No, we lack comprehensive documentation: The organization does not have adequate documentation of its personal data protection processes, which could lead to compliance issues and difficulties in demonstrating accountability.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such documentation requirements do not apply to your operations."
+          ],
+          "recommendations": {
+            "Partially, but documentation needs improvement: While some documentation exists, it may not fully cover all necessary processes or may lack clarity, requiring further enhancements to meet regulatory standards.": "Expand documentation to include all data protection processes, risk assessments, and compliance measures, ensuring alignment with DPDP Section 6 requirements.\n\n**Informatica Solution:** Implement Informatica Cloud Data Governence to create comprehensive documentation of all data protection processes with full auditability.",
+            "No, we lack comprehensive documentation: The organization does not have adequate documentation of its personal data protection processes, which could lead to compliance issues and difficulties in demonstrating accountability.": "Develop a structured documentation framework covering all data processing activities, security measures, and compliance policies.\n\n**Informatica Solution:** Deploy Informatica Enterprise Data Catalog integrated with Cloud Data Governence to automate documentation of data flows, processing activities, and protection measures."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Do you regularly review and update your data protection policies and procedures? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6</a>]",
+          "options": [
+            "Yes, with regular reviews and updates: The organization regularly reviews and updates its data protection policies and procedures to ensure they remain effective, compliant with evolving regulations, and aligned with organizational changes.",
+            "Partially, but reviews and updates need improvement: While some reviews and updates occur, they may not be as frequent or comprehensive as needed, requiring further enhancements to maintain compliance and effectiveness.",
+            "No, we do not regularly review or update our policies: The organization does not have a regular process for reviewing and updating its data protection policies and procedures, which could lead to outdated practices and compliance issues.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such reviews and updates are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but reviews and updates need improvement: While some reviews and updates occur, they may not be as frequent or comprehensive as needed, requiring further enhancements to maintain compliance and effectiveness.": "Establish a formalized review cycle for data protection policies, ensuring regular updates based on regulatory changes and industry best practices.",
+            "No, we do not regularly review or update our policies: The organization does not have a regular process for reviewing and updating its data protection policies and procedures, which could lead to outdated practices and compliance issues.": "Implement a scheduled policy review process to maintain compliance and address evolving regulatory requirements."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Have you appointed a Data Protection Officer or designated someone to answer questions about data processing? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 9</a>]",
+          "options": [
+            "Yes, with a designated DPO: The organization has appointed a Data Protection Officer (DPO) who is responsible for overseeing data protection practices, ensuring compliance with regulations, and serving as a point of contact for data subjects and regulatory authorities.",
+            "Yes, with a designated person (not a formal DPO): While not formally appointing a DPO, the organization has designated a person responsible for answering questions about data processing and ensuring compliance with data protection regulations.",
+            "No, we have not appointed a DPO or designated person: The organization does not have a DPO or a designated person responsible for data protection, which could lead to compliance issues and difficulties in managing data-related inquiries.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such appointments are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Yes, with a designated person (not a formal DPO): While not formally appointing a DPO, the organization has designated a person responsible for answering questions about data processing and ensuring compliance with data protection regulations.": "Consider formally appointing a Data Protection Officer (DPO) to oversee compliance, as recommended under DPDP Section 9 of the DPDP Act.",
+            "No, we have not appointed a DPO or designated person: The organization does not have a DPO or a designated person responsible for data protection, which could lead to compliance issues and difficulties in managing data-related inquiries.": "Designate a Data Protection Officer (DPO) or compliance lead to ensure accountability in data protection practices."
+          }
+        },
+        {
+          "id": 4,
+          "text": "Have you trained your staff on DPDP compliance requirements? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6</a>]",
+          "options": [
+            "Yes, with comprehensive training programs: The organization conducts regular and comprehensive training sessions for all staff on DPDP compliance requirements. These sessions cover key aspects such as data protection principles, consent management, data security, and handling personal data breaches, ensuring that employees are well-informed and compliant.",
+            "Partially, but training needs improvement: While some training is provided, it may not be regular or comprehensive enough to fully address all DPDP compliance requirements, requiring further enhancements.",
+            "No, we have not trained our staff: The organization does not provide training on DPDP compliance requirements, which could lead to non-compliance and increased risk of data breaches due to lack of awareness.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such training is not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but training needs improvement: While some training is provided, it may not be regular or comprehensive enough to fully address all DPDP compliance requirements, requiring further enhancements.": "Enhance staff training programs to cover all DPDP compliance requirements, including handling personal data breaches and legal obligations.",
+            "No, we have not trained our staff: The organization does not provide training on DPDP compliance requirements, which could lead to non-compliance and increased risk of data breaches due to lack of awareness.": "Implement mandatory training sessions to educate employees on DPDP compliance and data security practices."
+          }
+        },
+        {
+          "id": 5,
+          "text": "Do you have a process to stay updated on changes to data protection regulations? [<a href='https://datainfa.com/dpdp-act/' target='_blank'>DPDP Section 6</a>]",
+          "options": [
+            "Yes, with a structured process: The organization has a well-defined process to monitor and stay updated on changes to data protection regulations. This includes engaging legal counsel, participating in industry groups, subscribing to regulatory updates, and regularly reviewing global and local data protection laws.",
+            "Partially, but the process needs improvement: While some efforts are made to monitor changes, such as occasional reviews or informal updates, the process is not systematic or comprehensive enough to ensure full compliance with evolving regulations.",
+            "No, we do not have a process: The organization does not have a specific process in place to stay updated on changes to data protection regulations, which could lead to compliance gaps and potential risks.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if staying updated on data protection regulations is not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but the process needs improvement: While some efforts are made to monitor changes, such as occasional reviews or informal updates, the process is not systematic or comprehensive enough to ensure full compliance with evolving regulations.": "Establish a structured regulatory monitoring system, including legal subscriptions, industry alerts, and compliance audits.",
+            "No, we do not have a process: The organization does not have a specific process in place to stay updated on changes to data protection regulations, which could lead to compliance gaps and potential risks.": "Develop a formal process for monitoring regulatory changes, including engagement with legal experts and industry bodies."
+          }
+        }
+      ]
+    }
+  ],
+
+  "answer_points": {
+    "Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.": 1.0,
+    "Yes, with detailed itemization: The notice provides a clear, detailed list of all personal data collected and specifies the exact purposes for their use.": 1.0,
+    "Yes, with clear affirmative action required: Consent is obtained through explicit actions (e.g., ticking a box, clicking an 'I agree' button) that clearly indicate agreement to the specified purposes.": 1.0,
+    "Yes, with strict adherence to purpose limitation: The organization ensures that personal data is processed only for the specific purposes outlined in the notice, aligning with the principle of purpose limitation.": 1.0,
+    "Yes, with clear verification processes: The organization has established procedures to verify that data is provided voluntarily for specific purposes where consent exemptions apply, ensuring compliance with DPDP Act requirements.": 1.0,
+    "Yes, with clear, accessible channels: The organization provides straightforward and user-friendly methods for data principals to request access, correction, or erasure of their personal data, aligning with DPDP Act requirements.": 1.0,
+    "Yes, with a dedicated web form: The organization provides a specific web form or feature on its website/portal that allows customers to easily submit requests to exercise their rights (e.g., access, correction, erasure).": 1.0,
+    "Yes, with established processes and timelines: The organization has developed internal mechanisms to ensure timely responses to data principal requests, typically within the specified timeframe (e.g., 30 days).": 1.0,
+    "Yes, with clear timelines displayed: The organization clearly publishes the response timeframe for addressing grievances on its website or app, ensuring transparency and compliance with DPDP Act requirements.": 1.0,
+    "Yes, with clear nomination procedures: The organization provides a straightforward process for data principals to nominate representatives to exercise their rights, especially in cases of incapacity or death.": 1.0,
+    "Yes, with comprehensive implementation: The organization has fully implemented a combination of data security measures such as encryption, obfuscation, masking, and virtual tokens to protect personal data.": 1.0,
+    "Yes, with robust access controls: The organization has implemented strong access controls, including authentication mechanisms, authorization protocols, and access logs to ensure that only authorized personnel can access computer resources handling personal data.": 1.0,
+    "Yes, with comprehensive logging and monitoring: The organization has implemented robust logging, monitoring, and review systems to detect unauthorized access to personal data, ensuring timely identification and response to security incidents.": 1.0,
+    "Yes, with comprehensive backup and recovery measures: The organization has implemented robust data backup and recovery mechanisms to ensure continued processing in case of data compromise.": 1.0,
+    "Yes, with retention for at least one year: The organization retains logs and relevant personal data for a minimum of one year to facilitate the detection and investigation of unauthorized access, as required by the DPDP Act.": 1.0,
+    "Yes, with immediate notification procedures: The organization has established procedures to notify affected data principals promptly and without delay in the event of a personal data breach, ensuring compliance with DPDP Act requirements.": 1.0,
+    "Yes, with comprehensive details: The breach notification includes a clear description of the breach (nature, timing, and location), its likely consequences for affected data principals, measures implemented to mitigate risks, and safety measures data principals can take to protect themselves.": 1.0,
+    "Yes, with established procedures for timely notification: The organization has implemented processes to ensure that the Data Protection Board is notified within 72 hours of becoming aware of a breach, as required by the DPDP Act.": 1.0,
+    "Yes, with automated processes for data erasure: The organization has implemented automated processes to erase personal data promptly upon withdrawal of consent or request for erasure by the data principal, as required by the DPDP Act.": 1.0,
+    "Yes, with automated processes for data erasure: The organization has implemented automated processes to erase personal data when it is no longer necessary for the specified purpose or when the customer has not approached for data processing within the prescribed time period.": 1.0,
+    "Yes, with consistent 48-hour notice: The organization provides a minimum of 48 hours' notice to customers before deleting their personal data, as required by the DPDP Act.": 1.0,
+    "Yes, with comprehensive implementation: The organization has fully implemented recognized secure erasure standards (e.g., NIST 800-88, DoD 5220.22-M) to ensure that personal data is irretrievably removed from storage devices.": 1.0,
+    "Yes: We have robust processes in place to ensure that all underlying records are complete, accurate, and consistent when processing data for customer decisions.": 1.0,
+    "Yes, with comprehensive audit logging: The organization has implemented robust audit logs that track all database modifications, including details such as the user, timestamp, type of operation (insert, update, delete), and affected records. These logs are designed to ensure traceability and compliance with security standards.": 1.0,
+    "Yes, with robust mechanisms for verifiable consent: The organization has implemented robust mechanisms to obtain verifiable parental consent before processing children's data, ensuring compliance with legal requirements and ensuring that consent is genuine and authorized by a parent or guardian.": 1.0,
+    "Yes, with robust identity verification methods: The organization uses advanced technical measures such as biometric verification, document-based verification (e.g., government IDs), or digital tokens to verify the identity and age of parents, ensuring compliance with legal requirements.": 1.0,
+    "Yes, we qualify for exemptions: The organization falls under categories exempted from obtaining verifiable parental consent for processing children's data, such as educational institutions, healthcare providers, or childcare services, provided that the processing is for specific purposes like education, health services, or child safety.": 1.0,
+    "Yes, with comprehensive contracts: The organization has established valid contracts with third-party processors that clearly outline the processors' responsibilities and obligations, including compliance with data protection laws, security measures, and breach notification requirements.": 1.0,
+    "Yes, with comprehensive security provisions: The organization's contracts with data processors include detailed provisions for security safeguards, such as encryption, access controls, and breach notification requirements, ensuring compliance with data protection regulations.": 1.0,
+    "Yes, with full compliance: The organization fully complies with data localization norms set by regulators such as the RBI and IRDAI, ensuring that all relevant data (e.g., payment system data, insurance records) is stored within India as required.": 1.0,
+    "Yes, with strict compliance: The organization ensures that specified personal data and traffic data, as designated by the Central Government, are processed domestically and not transferred outside India, in compliance with the DPDP Rules.": 1.0,
+    "Yes, with full compliance: The organization fully complies with the Central Government's requirements for making personal data available to foreign entities, adhering to any restrictions or conditions set forth by the government regarding cross-border data transfers.": 1.0,
+    "Yes, with regular DPIAs and audits: The organization conducts Data Protection Impact Assessments (DPIAs) and audits annually, as required for Significant Data Fiduciaries, to evaluate data processing risks and ensure compliance with the DPDP Act.": 1.0,
+    "Yes, with regular submissions: The organization submits reports containing significant observations from Data Protection Impact Assessments (DPIAs) and audits to the Data Protection Board as required, ensuring transparency and compliance with regulatory obligations.": 1.0,
+    "Yes, with robust due diligence processes: The organization has implemented thorough due diligence processes to verify that algorithmic software used for processing personal data does not pose risks to the rights of data principals, ensuring compliance with regulatory requirements.": 1.0,
+    "Yes, with a comprehensive mechanism: The organization has established a robust grievance redressal mechanism that includes dedicated channels for receiving and handling complaints, such as a customer service desk, email address, or online portal. This mechanism ensures timely responses to data principals' grievances regarding their personal data processing.": 1.0,
+    "Yes, with clear publication: The organization has clearly published the timeframe for responding to grievances on its website and/or app, ensuring transparency and compliance with regulatory requirements.": 1.0,
+    "Yes, with robust measures: The organization has implemented comprehensive technical and organizational measures to ensure the effectiveness of the grievance redressal system, including dedicated channels for submitting grievances (e.g., online portals, email), clear timelines for resolution, and a robust monitoring system to analyze performance and identify trends.": 1.0,
+    "Yes, we are aware of these exemptions: The organization is aware of the exemptions under the DPDP Act that allow for processing personal data without consent for specific purposes, such as preventing or investigating offenses, assessing financial information of loan defaulters, and enforcing legal rights or claims.": 1.0,
+    "Yes, we have received exemptions: The organization has been granted exemptions by the government based on the volume and nature of personal data processed, which may apply to startups or other entities meeting specific criteria.": 1.0,
+    "Yes, with comprehensive documentation: The organization has thoroughly documented all processes related to personal data protection, including records of processing activities, data protection impact assessments (DPIAs), technical and organizational measures (TOMs), and policies for handling personal data. This documentation is maintained in a granular and meaningful way, ensuring compliance with data protection regulations.": 1.0,
+    "Yes, with regular reviews and updates: The organization regularly reviews and updates its data protection policies and procedures to ensure they remain effective, compliant with evolving regulations, and aligned with organizational changes.": 1.0,
+    "Yes, with a designated DPO: The organization has appointed a Data Protection Officer (DPO) who is responsible for overseeing data protection practices, ensuring compliance with regulations, and serving as a point of contact for data subjects and regulatory authorities.": 1.0,
+    "Yes, with a designated person (not a formal DPO): While not formally appointing a DPO, the organization has designated a person responsible for answering questions about data processing and ensuring compliance with data protection regulations.": 1.0,
+    "Yes, with comprehensive training programs: The organization conducts regular and comprehensive training sessions for all staff on DPDP compliance requirements. These sessions cover key aspects such as data protection principles, consent management, data security, and handling personal data breaches, ensuring that employees are well-informed and compliant.": 1.0,
+    "Yes, with a structured process: The organization has a well-defined process to monitor and stay updated on changes to data protection regulations. This includes engaging legal counsel, participating in industry groups, subscribing to regulatory updates, and regularly reviewing global and local data protection laws.": 1.0,
+ 
+    "No, Work is in progress to implement this requirement.": 0.5,
+    "Partially, but needs more detail: The notice includes some itemization and purpose descriptions, but lacks clarity or completeness.": 0.5,
+    "Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.": 0.5,
+    "Partially, but some processing may exceed specified purposes: While efforts are made to limit processing to specified purposes, there may be instances where data is used beyond those purposes.": 0.5,
+    "Partially, but verification processes need improvement: While some verification processes exist, they may not fully align with DPDP Act standards or could be more robust.": 0.5,
+    "Partially, but processes need simplification: While some mechanisms exist, they may be cumbersome or not fully accessible to all data principals.": 0.5,
+    "Partially, but the feature needs improvement: While some mechanism exists, it may not be fully accessible or user-friendly, requiring further enhancements.": 0.5,
+    "Partially, but response times can be inconsistent: While some processes exist, response times may vary and not always meet the required deadlines.": 0.5,
+    "Partially, but timelines are not clearly communicated: While some information about grievance response times may be available, it is not clearly displayed or communicated to users.": 0.5,
+    "Partially, but nomination processes need clarification: While some mechanism exists, it may not be fully clear or accessible to all data principals.": 0.5,
+    "Partially, but some measures need enhancement: While some data security measures are in place, they may not cover all necessary techniques or could be improved for better protection.": 0.5,
+    "Partially, but access controls need enhancement: While some access controls exist, they may not be comprehensive or could be improved to better secure computer resources.": 0.5,
+    "Partially, but logging and monitoring need improvement: While some logging and monitoring systems exist, they may not be comprehensive or could be enhanced for better detection and response.": 0.5,
+    "Partially, but backup and recovery processes need improvement: While some measures exist, they may not be fully reliable or comprehensive in case of data compromise.": 0.5,
+    "Partially, but retention period is less than one year: While some logs and data are retained, the retention period is shorter than one year.": 0.5,
+    "Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification to all affected data principals.": 0.5,
+    "Partially, but some details are missing: While some information is provided, the notification lacks one or more of the required details, such as the description of the breach, consequences, mitigation measures, or safety advice.": 0.5,
+    "Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification within the 72-hour timeframe.": 0.5,
+    "Partially, but erasure processes need improvement: While some processes exist, they may not be fully automated or could be more efficient to ensure timely erasure.": 0.5,
+    "Partially, but erasure processes need improvement: While some mechanisms exist, they may not be fully automated or could be more efficient to ensure timely erasure.": 0.5,
+    "Partially, but notice period may vary: While some form of notice is provided, it may not consistently meet the 48-hour requirement.": 0.5,
+    "Partially, but erasure standards need improvement: While some secure erasure methods are in place, they may not fully align with recognized standards or could be more efficient.": 0.5,
+    "Partially: We have some measures in place to ensure data quality, but our processes need improvement to fully guarantee completeness, accuracy, and consistency.": 0.5,
+    "Partially, but audit logging needs improvement: Some audit logging mechanisms are in place, but they may not cover all database modifications or lack critical details such as user identification or timestamps.": 0.5,
+    "Partially, but consent mechanisms need improvement: While some mechanisms exist, they may not fully ensure that parental consent is verifiable or that it meets all legal standards for processing children's data.": 0.5,
+    "Partially, but verification methods need improvement: While some technical measures exist, they may not fully ensure accurate verification of parental identity and age or could be more efficient.": 0.5,
+    "Partially, but we need further clarification: While the organization may fit into exempted categories, there is uncertainty about whether all activities qualify for exemptions or if additional conditions must be met.": 0.5,
+    "Partially, but contracts need improvement: While contracts exist, they may not fully address all necessary obligations or could be more detailed to ensure compliance with data protection regulations.": 0.5,
+    "Partially, but security provisions need improvement: While some security provisions exist, they may not fully address all necessary safeguards or could be more detailed to ensure robust data protection.": 0.5,
+    "Partially, but compliance needs improvement: While some efforts are made to comply with data localization norms, there may be areas where compliance is incomplete or inconsistent, requiring further adjustments to meet regulatory requirements.": 0.5,
+    "Partially, but compliance needs improvement: While efforts are made to comply with data localization requirements, there may be instances where data is transferred outside India without proper authorization or exemptions.": 0.5,
+    "Partially, but compliance needs improvement: While efforts are made to comply with government requirements, there may be areas where compliance is incomplete or inconsistent, requiring further adjustments to meet regulatory standards.": 0.5,
+    "Partially, but frequency or scope needs improvement: While DPIAs and audits are conducted, they may not be performed annually or may not cover all necessary aspects, requiring adjustments to meet regulatory requirements.": 0.5,
+    "Partially, but reporting needs improvement: While some reports are submitted, they may not fully capture all significant observations or may not be submitted in a timely manner, requiring adjustments to meet regulatory standards.": 0.5,
+    "Partially, but due diligence needs improvement: While some due diligence measures are in place, they may not fully ensure that algorithmic software is risk-free for data principals, requiring further enhancements to meet regulatory standards.": 0.5,
+    "Partially, but the mechanism needs improvement: While some grievance redressal processes exist, they may not fully meet the requirements of being readily available or effective in resolving data principals' complaints, requiring further enhancements.": 0.5,
+    "Partially, but publication needs improvement: While some information about grievance response timelines is available, it may not be clearly published or easily accessible on the website or app, requiring further enhancements.": 0.5,
+    "Partially, but measures need improvement: While some technical and organizational measures exist, they may not fully ensure the effectiveness of the grievance redressal system, requiring further enhancements to meet regulatory standards.": 0.5,
+    "Partially, but awareness needs improvement: While some awareness exists about these exemptions, there may be a lack of clarity or understanding about their scope and application, requiring further education or guidance.": 0.5,
+    "Partially, but documentation needs improvement: While some documentation exists, it may not fully cover all necessary processes or may lack clarity, requiring further enhancements to meet regulatory standards.": 0.5,
+    "Partially, but reviews and updates need improvement: While some reviews and updates occur, they may not be as frequent or comprehensive as needed, requiring further enhancements to maintain compliance and effectiveness.": 0.5,
+    "Partially, but training needs improvement: While some training is provided, it may not be regular or comprehensive enough to fully address all DPDP compliance requirements, requiring further enhancements.": 0.5,
+    "Partially, but the process needs improvement: While some efforts are made to monitor changes, such as occasional reviews or informal updates, the process is not systematic or comprehensive enough to ensure full compliance with evolving regulations.": 0.5,
+ 
+    "Notices are not provided in all required languages.": 0.0,
+    "No, the notice lacks itemization and purpose details: The notice does not provide an itemized list or specify the purposes for data use.": 0.0,
+    "No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.":0.0,
+    "No, we rely on implicit consent or lack clear affirmative action: Consent is assumed without explicit action or is not clearly tied to specific purposes.": 0.0,
+    "No, we lack procedures for verifying voluntary data provision: The organization does not have specific procedures in place to verify voluntary data provision under consent exemptions.": 0.0,
+    "No, we lack a dedicated feature for submitting requests: The organization does not have a specific feature or web form for customers to submit requests related to their data rights.": 0.0,
+    "No, we lack adequate internal capacity for timely responses: The organization does not have sufficient resources or processes in place to respond to data principal requests within the specified time limits.": 0.0,
+    "No, we do not publish response timelines: The organization does not provide any information about the timeframe for responding to grievances on its website or app.": 0.0,
+    "No, we lack a nomination process: The organization does not have a process in place for data principals to nominate representatives.": 0.0,
+    "No, we lack robust data security measures: The organization does not have adequate data security measures in place, such as encryption, obfuscation, masking, or virtual tokens.": 0.0,
+    "No, we lack adequate access controls: The organization does not have sufficient access controls in place to protect computer resources from unauthorized access.": 0.0,
+    "No, we lack adequate logging and monitoring systems: The organization does not have sufficient logging, monitoring, and review systems in place to detect unauthorized access.": 0.0,
+    "No, we lack adequate backup and recovery measures: The organization does not have sufficient mechanisms in place for continued processing in case of data compromise.": 0.0,
+    "No, we do not retain logs and data for the required period: The organization does not retain logs and personal data for at least one year, which could hinder the detection and investigation of unauthorized access.": 0.0,
+    "No, we lack procedures for immediate breach notification: The organization does not have specific procedures in place to notify affected data principals in case of a breach.": 0.0,
+    "No, the notification lacks essential details: The breach notification does not include a description of the breach, its consequences, mitigation measures, or safety measures for data principals.": 0.0,
+    "No, we lack procedures for timely breach notification to the Board: The organization does not have specific procedures in place to notify the Data Protection Board within the required timeframe.": 0.0,
+    "No, we lack procedures for timely data erasure: The organization does not have specific procedures in place to erase personal data upon withdrawal of consent or request for erasure.": 0.0,
+    "No, we lack procedures for timely data erasure: The organization does not have specific procedures in place to erase personal data when it is no longer necessary or when the customer has not approached for data processing within the prescribed time period.": 0.0,
+    "No, we do not provide advance notice: The organization does not provide any advance notice to customers before deleting their personal data.": 0.0,
+    "No, we lack secure erasure standards: The organization does not have specific secure erasure standards or procedures in place to ensure that personal data is properly erased.": 0.0,
+    "No: We do not currently have specific procedures to ensure that underlying records are complete, accurate, and consistent.": 0.0,
+    "No, we lack audit logging mechanisms: The organization does not have processes in place to track database modifications through audit logs, which could hinder traceability and compliance efforts.": 0.0,
+    "No, we lack mechanisms for obtaining verifiable parental consent: The organization does not have specific mechanisms in place to obtain verifiable parental consent before processing children's data.": 0.0,
+    "No, we lack technical measures for verification: The organization does not have specific technical measures in place to verify the identity and age of parents.": 0.0,
+    "No, we do not qualify for exemptions: The organization does not fall under any of the exempted categories and must comply with all child data protection requirements, including obtaining verifiable parental consent.": 0.0,
+    "No, we lack valid contracts: The organization does not have contracts in place with third-party processors that require compliance with data protection obligations.": 0.0,
+    "No, we lack adequate security provisions: The organization's contracts with data processors do not include sufficient provisions for security safeguards, which could leave data vulnerable to unauthorized access or breaches.": 0.0,
+    "No, we do not comply with data localization norms: The organization does not comply with existing data localization regulations, which could lead to regulatory issues and potential penalties.": 0.0,
+    "No, we do not comply with data localization requirements: The organization does not adhere to the requirement to keep specified personal data and traffic data within India, which could lead to regulatory issues.": 0.0,
+    "No, we do not comply with government requirements: The organization does not adhere to the Central Government's requirements for making personal data available to foreign entities, which could lead to regulatory issues.": 0.0,
+    "No, we do not conduct regular DPIAs and audits: The organization does not conduct DPIAs and audits as required for Significant Data Fiduciaries, which could lead to non-compliance and potential penalties.": 0.0,
+    "No, we do not submit such reports: The organization does not submit reports containing significant observations from DPIAs and audits to the Data Protection Board, which could lead to non-compliance and potential penalties.": 0.0,
+    "No, we lack due diligence processes: The organization does not have specific due diligence processes in place to verify the safety of algorithmic software used for personal data processing, which could lead to compliance issues.": 0.0,
+    "No, we lack a grievance redressal mechanism: The organization does not have a specific mechanism in place to address grievances from data principals, which could lead to non-compliance with the DPDP Act.": 0.0,
+    "No, we have not published the timeframe: The organization has not published the timeframe for responding to grievances on its website or app, which could lead to non-compliance with the DPDP Act's transparency requirements.": 0.0,
+    "No, we lack effective measures: The organization does not have specific technical and organizational measures in place to ensure the effectiveness of the grievance redressal system, which could lead to inefficiencies and non-compliance.": 0.0,
+    "No, we are not aware of these exemptions: The organization is not aware of the exemptions related to processing personal data for preventing offenses, checking loan defaulters' financial information, or enforcing legal rights, which could lead to non-compliance.": 0.0,
+    "No, we have not received exemptions: The organization has not been granted any exemptions by the government related to the volume and nature of personal data processed.": 0.0,
+    "No, we lack comprehensive documentation: The organization does not have adequate documentation of its personal data protection processes, which could lead to compliance issues and difficulties in demonstrating accountability.": 0.0,
+    "No, we do not regularly review or update our policies: The organization does not have a regular process for reviewing and updating its data protection policies and procedures, which could lead to outdated practices and compliance issues.": 0.0,
+    "No, we have not appointed a DPO or designated person: The organization does not have a DPO or a designated person responsible for data protection, which could lead to compliance issues and difficulties in managing data-related inquiries.": 0.0,
+    "No, we have not trained our staff: The organization does not provide training on DPDP compliance requirements, which could lead to non-compliance and increased risk of data breaches due to lack of awareness.": 0.0,
+    "No, we do not have a process: The organization does not have a specific process in place to stay updated on changes to data protection regulations, which could lead to compliance gaps and potential risks.": 0.0,
+  
+    "Not applicable: This option might apply if your organization does not collect personal data or if the notice is not required due to exemptions.": null,
+    "Not applicable: This option might apply if consent is not required due to exemptions (e.g., legal obligations).": null,
+    "Not applicable: This option might apply if your organization does not process personal data or if the notice requirement is exempt under specific circumstances.": null,
+    "Not applicable: This option might apply if your organization does not handle data under consent exemptions or if such exemptions are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such rights are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such requests are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such grievances are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such nominations are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such measures are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such controls are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such systems are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such retention is not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if breach notifications are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle children's data or if such verification is not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle children's data or if such exemptions are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not engage third-party processors or if such contracts are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not engage data processors or if such provisions are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle data subject to RBI or IRDAI regulations, such as payment system data or insurance records.": null,
+    "Not applicable: This option might apply if your organization is not classified as a significant data fiduciary or if such data localization requirements do not apply to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data that is subject to Central Government regulations regarding cross-border transfers or if such requirements do not apply to your operations.": null,
+    "Not applicable: This option might apply if your organization is not classified as a Significant Data Fiduciary or if such requirements do not apply to your operations.": null,
+    "Not applicable: This option might apply if your organization is not classified as a Significant Data Fiduciary or if such reporting requirements do not apply to your operations.": null,
+    "Not applicable: This option might apply if your organization does not use algorithmic software for processing personal data or if such due diligence requirements do not apply to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such grievance redressal mechanisms are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such publication requirements do not apply to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such grievance redressal requirements do not apply to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data in contexts where these exemptions are relevant.": null,
+    "Not applicable: This option might apply if your organization does not meet the criteria for receiving such exemptions or if such exemptions are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such documentation requirements do not apply to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such reviews and updates are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such appointments are not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such training is not relevant to your operations.": null,
+    "Not applicable: This option might apply if your organization does not handle personal data or if staying updated on data protection regulations is not relevant to your operations.": null,
+    
+    "The Processes are in place, but they are not strictly time-bound: The organization has procedures for notifying the Data Protection Board, but they do not strictly adhere to the 72-hour deadline.":0,
+
+    "Manual processes are in place, but they are effective: The organization uses manual processes for erasing personal data, which are effective but may not be as efficient as automated systems.":0,
+
+    "The Manual processes are in place, but they are effective: The organization uses manual processes for erasing personal data, which are effective but may not be as efficient as automated systems.":0,
+
+    "Manual processes are in place, but they are effective: The organization uses manual processes to notify customers, which are effective but may not always ensure timely notice.":0,
+
+    "Manual processes are in place, but they are effective: The organization uses manual processes for data erasure, which are effective but may not be as efficient or compliant with recognized standards as automated solutions.":0,
+
+    "Manual tracking is used instead of automated logs: The organization relies on manual methods or basic tracking systems for monitoring database changes, which may not be as efficient or reliable as automated audit logs.":0,
+
+    "Yes, notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.": 1.0,
+    "Not Applicable: Our organization does not handle personal data or process customer decisions based on such data.": null,
+    "No, communication channels are lacking or complex: The organization does not have established or accessible channels for data principals to exercise their rights.": 0.0,
+    "Yes, with robust measures: The organization has implemented comprehensive technical and organizational measures to ensure the effectiveness of the grievance redressal system, including dedicated channels for submitting grievances (e.g., online portals, email), clear timelines for resolution, and a robust monitoring system to analyze performance and identify trends.": 1.0
+  }
+}

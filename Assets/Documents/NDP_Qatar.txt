@@ -1,0 +1,1074 @@
+National Data Policy
+National Planning Council
+
+Date: October 2024 | Version:1.0  | Ref: P001
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Legal Mandate
+The Qatar National Data Policy is designed and created by the National Planning Council (NPC), and is enacted in 
+accordance with the following:
+
+1. Qatar National Vision 2030:
+
+The policy aligns with the objectives set forth in the Qatar National Vision 2030, which emphasizes the use of data 
+as a strategic asset for promoting economic, social, and technological development in Qatar. This policy supports the 
+nation’s vision of building a knowledge-based economy driven by data-driven decision-
+making.
+
+2. Law No. (13) of 2016 On Personal Data Privacy Protection:
+
+The policy operates in full compliance with Qatar’s Personal Data Privacy Protection Law, which safeguards the privacy 
+of individuals and outlines strict regulations on the collection, processing, and use of personal data. This law provides the 
+foundation for the ethical use and management of data across all sectors in Qatar, ensuring compliance with global privacy 
+standards.
+
+3. Law No. (14) of 2014 On Cybercrime Prevention:
+
+In line with the Cybercrime Prevention Law, the policy mandates robust data protection measures and cybersecurity 
+protocols to prevent data breaches and unauthorized access. It reinforces the need for government and semi-government 
+entities to adhere to strict security standards to protect Qatar’s critical data infrastructure.
+
+4. Law No. (9) On the Regulation of the Right to Access Information:
+
+The policy aligns with the principles set forth in the Right to Access Information Law, promoting transparency by ensuring 
+that public data is accessible to authorized users. At the same time, it enforces strict controls over sensitive and
+classified information. The law also limits the collection of data to what is necessary for the entity’s legitimate purposes, 
+preventing unnecessary data accumulation and ensuring responsible data usage.
+
+5. Emiri Decision No. (13) of 2024 on the Establishment of the National Planning Council:
+
+The NPC, under its legal mandate, holds the authority to establish national level data policies, set data governance standards, 
+and enforce compliance across government entities. The NPC is responsible for the continuous oversight, evaluation, and 
+amendment of the policy to ensure it remains relevant and aligned with Qatar’s evolving digital landscape.
+
+REF: P001 V1.0    2
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+6. National Information Assurance Standards (released 2023):
+
+The policy integrates the requirements of the National Information Assurance Standards, ensuring that data handling, 
+storage, and sharing practices across government entities comply with national security guidelines and international
+best practices.
+
+7. International Alignment:
+
+This policy is crafted to fulfil Qatar’s international commitments to data protection, security, and governance. It is aligned 
+with global standards such as the EU General Data Protection Regulation (GDPR) and other internationally
+recognized frameworks for data privacy and governance, enhancing Qatar’s standing as a trusted partner in the global digital 
+economy.
+
+Jurisdiction:
+This policy in enforceable within the geographic boundaries or legal jurisdiction of the State of Qatar, as outlined below:
+
+Government and Semi-government Entities
+This policy applies to all governmental and semi-governmental entities that create, collect, receive, transmit, exchange, 
+store, or process data and information in any form within the scope of their operational, administrative, or research 
+activities. These entities are required to adhere to the principles outlined in this policy
+
+Private Sector Entities
+This policy is non-binding for entities operating in the private sector; however, we encourage these entities to align with the 
+principles outlined herein. The National Planning Council will issue specific principles and standards for the private sector, 
+which will enhance data management practices in the State of Qatar
+
+RREEFF::  PP000011  VV11..00  33
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Strategic Alignment
+Build world-class 
+
+Qatar National infrastructure with efficient 
+Vision 2030 Economic and effective delivery 
+
+development mechanisms for public 
+services and institutions. 
+
+Plan for the next phase of 
+Third National 
+Development Building a Qatar’s development 
+
+Sustainable Future journey towards realizing 
+Strategy 2024 - 2030 the Qatar National Vision 
+
+2030
+
+Oversee and ensure the 
+Personal Data safety and reliability of the 
+Privacy Protection National Cyber national Qatar cyber 
+Regulations Security Agency security ecosystem 
+by NCSA through; delivering robust 
+
+cyber security services.
+
+RREEFF: :P P000011 V V1.10.0     44
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+RREEFF::  PP000011  VV11..00  55
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Document Summary
+Name National Data Policy
+
+Version V1.0
+
+Document 
+P001
+
+Reference
+Document 
+
+Policy
+Type
+
+This policy, overseen by NPC, aims to establish a unified, government-wide approach to 
+data management across all government entities in the State of Qatar. By implementing 
+robust data management and governance, the policy ensures that data is managed as a 
+strategic asset. This approach facilitates data convergence and sharing, seamless service 
+
+Summary integration, robust analytics and statistics, improved data maturity and quality, ethical data 
+usage, and supports the once-only data collection principle. By harnessing high-quality data, 
+Qatar positions itself as a leader in data management and digital services, fostering 
+informed decision-making and public trust, and setting the stage for a technologically 
+advanced future. Each entity is guided to tailor its data management programs to meet 
+specific operational needs, ensuring accurate, complete, reliable, and timely data.
+
+Publishing 
+October 2024
+
+Date 
+
+Recifitication of All those addressed by the provisions of this policy must regularize their status in 
+Status accordance with its provisions within one year from the date of its publication
+
+Owner National Planning Council (NPC)
+
+Copyright © 2024
+State of Qatar 
+National Planning Council
+http://www.npc.qa/
+
+* For any feedback or inquiries, please contact INFO@NPC.QA REF: P001 V1.0    6
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Acronyms
+NPC DAMA DMBOK NCSA
+
+National Data Data Management National Cyber 
+Planning Council Management Association Book of Knowledge Security Agency
+
+NDS ISO DCMI TOGAF
+
+National International Organization Dublin Core The Open Group 
+Development Strategy for Standardization Metadata Initiative Architecture Framework
+
+NQAF GSBPM
+
+National Quality Generic Statistical 
+Assurance Framework Business Process Model
+
+REF: P001 V1.0 7
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Glossary of Terms and Definitions
+Term Definition
+
+Government Entity Ministries, government bodies, authorities, or public institutions, as applicable.
+
+Semi-government Private institutions of public benefit, sports institutions, associations, and similar 
+Entity entities whose budgets are funded or partially supported by the country.
+
+Private Sector Commercial companies operating in the country, whether owned by the country, with 
+participation from the country, or owned by private sector individuals.
+
+All data and information available in electronic format, which entities record, retrieve, 
+Digital Data share, or process in order to provide electronic services to the pub-lic, visitors, and 
+
+companies.
+
+Structured data is data that is organized and stored in the form of tables and databases 
+Structured Data with a fixed format, such as columns and rows, making it easier to access and analyze 
+
+using data analysis tools. Examples include data from financial database tables or 
+customer data.
+
+Unstructured data is data that does not follow a specific format or fixed structure, 
+Unstructured Data making its analysis and organization more complex. Unstructured data includes random 
+
+text, images, videos, emails, and textual documents like Word and PDF files.
+
+Data assets Any system, database, or document containing data, essential for decision-making (e.g., 
+a database of customer records).
+
+Data Management
+Association (DAMA) A not-for-profit, vendor-independent, international association of technical and business 
+
+professionals dedicated to advancing the concepts and prac-tices of data management.
+
+Carrying out any operation or set of operations on data, including the collec-tion, 
+Data processing receipt, recording, organizing, storing, adaptation, alteration, retrieval, consultation, use, 
+
+disclosure, dissemination, transmission, blocking, erasure, or destruction of such data 
+and information.
+
+Data sharing Disclosure of data from one or more entity to a third-party entity or entities, or the 
+sharing of data between parts of an entity.
+
+REF: P001 V1.0    8
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Term Definition
+Data of an individual whose identity is defined or can be reasonably defined, whether 
+
+Personal data through such personal data or through the combination of such data with any other 
+data. 
+
+Master Data Core data essential for business operations (e.g., customer details, product information).
+
+Reference Data Standardized data used to categorize other data (e.g., country codes, cur-rency codes).
+
+Artificial Intelli-gence The simulation of human intelligence in machines that are programmed to think, learn, 
+and perform tasks typically requiring human intelligence, such as decision-making, 
+
+(AI) problem-solving, and language understanding.
+
+Generative AI A subset of AI that uses algorithms and models to create new content, such as text, 
+images, or music, based on training data, enabling machines to generate human-like 
+
+(GenAI) responses and outputs.
+
+Data Operating A structured framework that outlines how data is managed, governed, and utilized 
+Model within an organization, including roles, processes, and technologies.
+
+Data Strategy A plan that outlines how an organization will collect, manage, and use data to achieve its 
+goals and objectives.
+
+Data Catalog A centralized repository that provides information about the data assets within an 
+organization, including metadata and data lineage.
+
+Data Integration The process of combining data from different sources to provide a unified view and 
+improve data accessibility and usability.
+
+Analytical Enter-prise A framework that structures and integrates data across an entity to support analytics 
+Data Model (EDM) and reporting, ensuring consistency and accuracy.
+
+Key Performance Metrics used to measure the effectiveness of data management practices and initiatives 
+Indicators (KPIs) within an organization (e.g., data quality score).
+
+Statistics and Ana- Transforms data into insights for informed decision-making. Statistics mainly covers 
+descriptive and diagnostic analysis of past and present data, while Analytics extends to 
+
+lytics predictive and prescriptive analysis for future outcomes.
+
+Set of information collected and utilized by an organization to support its op-erations, 
+Corporate Data decision-making, and strategic objectives. It includes operational, financial, and 
+
+marketing data that define and differentiate the corporate enti-ty.
+
+Environment Data Refers to information about environmental conditions and factors, such as air quality, 
+temperature, and pollution levels, used for monitoring and analy-sis.
+
+REF: P001 V1.0 9
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Table of Contents
+1. 	  Introduction 13
+
+1.1	   Policy Scope and Applicability 15
+1.2	   National Data Management Framework 16
+1.3	   Guiding Principles 21
+
+2.  	  Policy Objectives 22
+
+3. 	  Data Management Program Requirements 24
+
+3.1	   Data Management Strategy and Governance 24
+3.2	   Data Architecture and Modeling 24
+3.3	   Data Quality Management 25
+3.4	   Master and Reference Data Management 25
+3.5	   Document and Content Management 26
+3.6	   Data Catalog and Metadata Management 26
+3.7	   Data Storage and Operations 26
+3.8	   Data Sharing, Integration and Interoperability 27
+3.9	   Statistics and Analytics 27
+3.10	   Data Monetization 28
+3.11	   Data Security, Privacy, and Other Regulations 28
+3.12	   Data Culture & Literacy 28
+
+REF: P001 V1.0    10
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+4. 	  Roles and Responsibilities 29
+
+4.1	   National Planning Council (NPC) 29
+4.2	   Qatar Government & Semi-Government Entities 30
+
+5.  	  Related Legislation, References, and Documents 31
+
+6. 	  Document Control 32
+
+REF: P001 V1.0 11
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Table of Figures
+
+Figure 1   -  National Data Management Framework 18
+
+Figure 2  -  PEARL Principles 21
+
+REF: P001 V1.0    12
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+1.  Introduction
+In the digital era, data is often referred to as the “new oil” due to its significance in driving innovation, economic 
+growth, and societal advancement. Effective data management and governance optimize the value of this asset, 
+ensuring data accuracy, security, and accessibility. Data governance sets the policies, standards, and practices 
+necessary for managing data throughout its lifecycle, serving as the foundation for informed decision-making. 
+Proper governance and effective data management are especially crucial in supporting Qatar’s 
+vision of becoming a leader in data management, digital services, and information technology, in 
+alignment with the broader objectives of the Third National Development Strategy (NDS3.0). 
+By promoting a culture of data quality and transparency, data management practices facilitate easy 
+collaboration and information sharing across entities. This step not only enhances the efficiency and 
+effectiveness of digital services but also paves the way for the implementation of innovative solutions 
+and the utilization of emerging technologies, such as Artificial Intelligence (AI) and Generative AI. These 
+technologies rely on high-quality, comprehensive datasets to train AI models and automate complex processes. 
+The National Data Policy is designed to support Qatar’s vision of establishing a data-driven economy. It provides 
+guidance to entities within its scope for the primary and strategic management of data. This policy serves as the 
+foundational reference for all entities in Qatar, aiming to ensure data management across all sectors with the 
+highest levels of accuracy, consistency, and excellence. It also clearly defines roles, responsibilities, and ownership, 
+establishing accountability for adhering to data management practices across the country, thereby supporting Qatar’s 
+vision of a technologically advanced, data-driven future. Accordingly, the National Data Standards - developed 
+by NPC - are a crucial component in supporting this policy. These standards outline the essential procedures for 
+effective data management, ensuring regulatory compliance and promoting best practices across all entities. They 
+provide detailed guidance, facilitating a structured and consistent approach to data management within Qatar.
+In addition to the National Data Standards, this policy is supported by a range of other key laws, 
+policies, and standards, including:
+
+01 Personal Data Privacy Protection Law 05 National Data Classification Policy
+
+02 Cybercrime Prevention Law 06 Cloud First Policy
+
+03 Right to Access Information Law 07 National Information Assurance 
+Standard
+
+04 Qatar’s Open Data Policy 08 National Framework for Quality 
+Assurance of Official Statistics 
+
+By establishing standardized processes and governance frameworks across entities in Qatar, this policy 
+lays the foundation for a future where data-driven strategic insights significantly enhance decision-
+making and improve public services.
+
+REF: P001 V1.0 13
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+14 REF: P001 V1.0    REF::  P001  V1..0     14
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+ 1.1   Policy Scope and Applicability  
+
+The Policy applies to all data (digital, structured or unstructured) and related systems that create, 
+collect and maintain information as part of their official business functions and used or shared for 
+the provision of services. Examples of data include:
+
+Customer data (such Non-customer  Organizational data Unstructured data (such 
+as personal data and data (such as (such as HR, finance, as word processor   
+corporate data) environment data) asset and procurement- documents, 
+
+related data) presentation slides, 
+pictures, videos and 
+audios) including both 
+text-based and 
+bitmap-based data
+
+REF: P001 V1.0 15
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+1.2   National Data Management Framework
+
+The National Data Management Framework (NDMF) stands as a strategic foundation for 
+Qatar’s data maturity journey, aligning data practices across entities and sectors to harness the 
+transformative power of data. The National Data Management Framework has been structured 
+across 5 distinct layers and 12 Data Management Domains (refer to Figure 1 below).
+
+01 Oversight layer is the overarching layer that shall anchor the Data Management journey of 
+every entity and is comprised of 1 Data Management Domain: Data Strategy & Governance.
+
+The Data Enablement layer is the foundational layer that shall convert the entity’s data into 
+a discoverable, interoperable, and high-quality asset that is ready for value extraction and 
+
+02 utilization. This layer is comprised of 6 distinct Data Management Domains: Data Architecture 
+& Modeling, Data Quality Management, Master and Reference Data Management, Document 
+and Content Management, Data Catalog and Metadata Management, Data Storage and 
+Operations.
+
+The Data Impact Realization layer is the layer that shall extract value from the Data asset. 
+
+03 Most of today’s effort and visibility by entities is focused on this layer as it produces tangible 
+direct and indirect outcomes. This layer is comprised of 3 Data Management Domains: Data 
+Sharing, Integration and Interoperability, Statistics and Analytics, Data Monetization.
+
+The Data Protection & Privacy / Data Defense and Resilience layer is the layer that shall 
+
+04 ensure the Data asset is adequately classified and secured both from a security as well as 
+privacy perspectives. This layer is comprised of 1 Data Management Domain: Data Security, 
+Privacy and Other Regulations.
+
+Culture and Change layer is the last and fifth layer, This layer shall ensure that Data talent 
+and Data culture are adequately built for a sustainable data maturity journey by the entities. 
+
+05 Considering the expected fast changing technology landscape and disruptions, this layer 
+should be of strategic and consistent focus by the entities. Finally, this layer is comprised of 1 
+Data Management Domain: Data Culture and Literacy.
+
+These domains align with established standards and frameworks such as DAMA International’s Data Management 
+Body of Knowledge (DMBOK), The Open Group Architecture Framework (TOGAF) and Unified Modeling 
+Language (UML), methodologies like Six Sigma and Total Quality Management (TQM) along with standards like 
+ISO 8000 for data quality, Dublin Core Metadata Initiative (DCMI), ISO 32000 for PDFs and ISO 15489 for 
+records management. These standards ensure that Qatar’s data management practices are robust, interoperable, 
+and aligned with global best practices, enabling efficient data governance and utilization across diverse sectors.
+
+REF: P001 V1.0    16
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+REF: P001 V1.0 17
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+QATAR NATIONAL DATA MANAGEMENT FRAMEWORK
+
+OVERSIGHT
+
+01 Data Management Strategy and Governance
+
+Data Enablement Data Impact Realization
+
+02 Data 05 Document 08 Data Sharing, Integration 
+Architecture and Content & Interoperability
+and Modeling Management
+
+03 Data Quality 06 Data Catalog 09 Statistics & Analytics
+Management and Metadata 
+
+Management
+
+04 Master and 07 Data Storage 10 Data Monetization
+Reference Data and Operations
+Management
+
+Data Defense and Resilience
+11 Data Security, Privacy and Other Regulations
+
+Culture and Change
+12 Data Culture and Literacy
+
+Figure 1 - National Data Management Framework
+
+RREEFF: :P P000011 V V11.0.0     1188
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+1.	 Data Management Strategy and Governance: 10.	 Data Monetization:
+Develops an overarching data strategy and Generates economic benefits from data through 
+establishes policies and oversight to manage and various means such as data trading and data-driven 
+govern data assets effectively, in alignment with the products.
+entity’s data and business strategy. 11.	 Data Security, Privacy, and Other Regulations: 
+
+2.	 Data Architecture and Modeling: Protects data against unauthorized access 
+Designs and defines data structures and and ensures compliance with privacy laws and 
+relationships to support data consistency regulations
+
+3.	 Data Quality Management: 12.	 Data Culture & Literacy: 
+Ensures that data is accurate, complete, and reliable Promotes a data-centric mindset & skills across the 
+for decision-making entity
+
+4.	 Master and Reference Data Management: 
+Manages core data assets to ensure accuracy and 
+consistency across systems
+
+5.	 Document and Content Management:
+Manages documents and content lifecycle from 
+creation to disposal
+
+6.	 Data Catalog and Metadata Management: 
+Organizes data and metadata into a searchable 
+resource, enhancing data discoverability and 
+usability
+
+7.	 Data Storage and Operations:
+Involves secure data storage and efficient data 
+handling operations
+
+8.	 Data Sharing, Integration and Interoperability: 
+Facilitates the exchange and functional compatibility 
+of data across diverse systems
+
+9.	 Statistics and Analytics:
+Systematic application of statistical and analytical 
+techniques to interpret and transform data into 
+actionable insights
+
+RREEFF: :P P000011 V V11.0.0  1199
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+REF::  P001  V1..0     20
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+1.3   National Data Management Guiding Principles
+
+To ensure effective and comprehensive data management in support of national objectives, the “PEARL” guiding 
+principles have been developed to provide a comprehensive framework for data management. These principles serve as 
+a foundation for improving data, protecting it, and ensuring access to it, thereby contributing to the enhancement of an 
+effective data management environment and maximizing the value of data to support the country’s economic growth.
+
+W
+
+PROTECTED LEVERAGED
+
+Secure data assets - Maximize Data Value 
+Ensure the protection PEARL – Leverage data as a 
+of data through robust GUIDING strategic asset to drive 
+security Measures, PRINCIPLES innovation, efficiency, 
+safeguarding against and improvement 
+unauthorized access, data in services, thereby 
+breaches, and ensuring enhancing Qatar’s 
+privacy in compliance with competitive edge in the 
+national and international global digital economy
+regulations
+
+RESPONSIBLE
+ENHANCED
+
+Ethical Use & 
+Improve Qata Quality 
+and Utility - Continuously ACCESSIBLE AI Governance - Promote 
+
+responsible data management 
+enhance the quality, accuracy, 
+completeness, and relevance Ensure Data Accessibility and Sharing by implementing governance 
+
+frameworks that ensure 
+of data to ensure its utility in - Facilitate ease of access to data for 
+decision-making, operations, and authorized users, promoting sharing ethical data use aligned 
+
+service delivery and collaboration while maintaining with the standards of data 
+adherence to data privacy and security ownership, data sharing, 
+constraints data security and quality of 
+
+produced data
+
+Figure 2 - PEARL Principles
+
+REF: P001 V1.0 21
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+2.  Policy Objectives
+The State of Qatar is committed to managing its data to the highest standards, aligning with its goal of becoming a global 
+leader in governmental data management. This Policy is designed to ensure that all data held by Qatari Entities is managed 
+effectively to drive national development, support informed decision-making, and enhance Qatar’s competitive position in 
+the global digital economy.
+
+To achieve these goals, this document outlines the following key objectives:
+
+Enhancing Data 
+Management Standardize and elevate data management practices across all entities, ensuring 
+
+consistency, quality, and excellence in alignment with local and global benchmarks.
+Practices: 
+
+Promoting 
+Data-Driven Empower entities to leverage data as a strategic asset to support entities initiatives 
+
+through facilitating informed policy-making and operational decisions
+Decision Making: 
+
+Defining Roles and Clearly outline the roles, responsibilities, and ownership of data management across all 
+sectors within Qatar to ensure accountability and effective governance, which are critical 
+
+Responsibilities: for achieving the broader goals of the policy.
+
+ Improving Data Focus on enhancing the accuracy, reliability, and consistency of data across all entities to 
+Quality and Integrity: ensure effective decision-making and service delivery.
+
+ Ensuring Data Protect the privacy and security of data in accordance with national and international 
+Privacy and Security: standards to safeguard sensitive data while enabling its effective use.
+
+RREEFF: :P P0001 1V V1.10.0     2222
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+Facilitating Data- Support the application of emerging technologies, such as artificial intelligence and 
+Driven Innovation:  advanced analytics, to harness the full potential of data. 
+
+Supporting 
+Interoperability Promote seamless data sharing and interoperability within and across entities to optimize 
+
+service delivery and enhance collaboration.
+and Integration:
+
+Building Data Enhance education and awareness of data management practices to build a culture of data 
+Literacy and Culture: literacy across all levels of society.
+
+Engaging in Commit the National Planning Council (NPC) to engage in international collaborations to 
+International continuously adopt and influence global data standards and practices, reinforcing Qatar’s 
+Collaboration: role in the global digital economy.
+
+Driving National Ensure entities align with objectives of national strategies, such the National Development 
+Development Strategy 3.0, by leveraging data to drive national development by identifying opportunities 
+
+for economic growth, improving public services, and enhancing the quality of life for all 
+through Data: citizens.
+
+REF: P001 V1.0 23
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+3.	 Data Management Program Requirements
+3.1  Data Management Strategy and Governance 
+
+The Entity Shall:
+
+3.1.1    Develop and refresh on a yearly basis a Data Management Strategy spanning across 4 years in alignment with 
+the National Data and Statistics Strategy. The strategy shall outline comprehensively the Entity’s data strategic 
+objectives and initiatives tailored across all 12 domains of National Data Management Framework.
+
+3.1.2     Align and comply its data management strategy with the Digital agenda 2030 and the Third National Development 
+Strategy strategic objectives.
+
+3.1.3     Design and activate a Data Operating Model to support the implementation of the data management strategy. The 
+Operating Model shall define the data organization structure, including data committee, and working groups charters 
+for the Entity. Additionally, it will specify the essential data management roles across the Entity, in alignment with 
+the National Data Standards.
+
+3.1.4   Develop and publish a data governance policy in alignment with the statements provisioned in this policy and 
+the structure provided in the National Data standards to provide a strong mandate to the Entity data program 
+and initiatives. The policy shall support the activation of the data operating model, including the appointment 
+and fulfillment of the essential data management roles necessary for the Entity in alignment with the National 
+Data Standards.
+
+3.1.5     In defining the strategic roadmap and its initiatives, the Entity shall prioritize the development of the related NDS3.0 
+indicators provided by the National Planning Council.
+
+3.2 Data Architecture and Modeling
+
+The Entity Shall:
+
+3.2.1	 Design,build, and maintain an Enterprise Data Architecture to ensure consistent management of data across the 
+Entity. The Enterprise Data Architecture shall support data quality, integration, sharing, and interoperability, 
+aligning with the Entity’s Data Management Strategy.
+
+ 3.2.2	 Design, build, and maintain an Analytical Enterprise Data Model (EDM) to support business intelligence and 
+analytics demand across all its business domains. The Enterprise Data Model shall support the analytical use cases 
+implementation covering Descriptive, Diagnostic, Predictive, and Prescriptive analytics.
+
+3.2.3	 Refer to and utilize the reference data architecture and analytical data modeling guidelines published by the National 
+Planning Council (NPC) as mandated by NPC.
+
+3.2.4	 Ensure the review and approval of analytical data architecture and models by the NPC to ensure alignment with the 
+national objectives outlined in NDS3.0
+
+REF: P001 V1.0    24
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+3.3   Data Quality Management
+
+The Entity Shall:
+
+3.3.1	 Develop and publish a Data Quality Policy in alignment with its strategic data objectives to guide the systematic 
+improvement of data quality across critical business domains. The Policy shall be aligned to the structure suggested 
+in the National Data Standards and the statements provisioned in this policy.
+
+3.3.2	 Establish a Data Quality program in alignment with its strategic data objectives, guided by a detailed assessment 
+of data assets and resulting in a detailed data quality plan. The program shall prioritize continuous assessment, root 
+cause analysis, and enhancement of data quality to support informed decision-making and operational efficiency.
+
+3.3.3	 Adhereto the principles and standards outlined in the National Quality Assurance Framework (NQAF) published by 
+the NPC to ensure data is qualified for statistics and analytics purposes.
+
+3.3.4	 Develop a data quality scorecard across all its data assets in alignment with the data quality dimensions defined in 
+the National Data Standards.
+
+3.3.5	 In defining the data quality program and its plan, the Entity shall prioritize the quality uplift of data assets related to 
+the NDS3.0 indicators provided by the National Planning Council.
+
+3.4   Master and Reference Data Management
+The Entity Shall:
+
+3.4.1	 Develop and publish a Master and Reference Data Management Policy to ensure a consistent and accurate single 
+source of truth for data. The Policy shall be aligned to the structure suggested in the National Data Standards and 
+the statements provisioned in this policy.
+
+3.4.2	 Establish a Master Data Management (MDM) program, guided by prioritized data domains with high business 
+impact and resulting in a detailed master data management plan. The program shall identify the master data model, 
+Master Data Management Architecture, to implement data standardization and consolidation across different 
+systems within the entity.
+
+3.4.3	 Refer to and apply the reference data and statistical classifications published by the NPC for application when 
+issuing statistical reports and sharing data with other entities, as outlined in the National Data Standards document. 
+NPC has been established as the authoritative data source for all reference data and statistical classifications in the 
+State of Qatar.
+
+3.4.4	 Ensure coordination with NPC to develop any new reference data and statistical classifications and ensure obtaining 
+the Council’s approval on them.
+
+REF: P001 V1.0 25
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+3.5	  Document and Content Management
+
+The Entity Shall:
+
+3.5.1	 Develop and publish a Document and Content Management Policy, in coordination with the relevant entities, 
+to ensure secured and standardized handling and management of its documents, covering the entire lifecycle of 
+documents and content. The Policy shall be aligned to the structure suggested in the National Data Standards and 
+the statements provisioned in this policy.
+
+3.5.2	 Establish a Document and Content Management program guided by document prioritization, resulting in a detailed 
+Document and Content Management plan with focus on enabling document and content catalog for digitized 
+documents for information extraction. The program shall also be responsible for managing the Document and 
+Content Management Policy.
+
+3.5.3	 Commit to working towards a fully digital government aiming to significantly reduce and eventually eliminate the 
+use non digital methods in its operations, in alignment with the IT and Digital services cluster strategic objectives as 
+defined in NDS3.0. 
+
+3.6   Data Catalog and Metadata Management
+
+The Entity Shall:
+
+3.6.1	 Develop and publish a Data Catalog and Metadata Management Policy to guide the discovery, description, and 
+interoperability of data across different business domains. The Policy shall be aligned to the structure suggested in 
+the National Data Standards and the statements provisioned in this policy.
+
+3.6.2	 Develop, implement, and operate an automated digital Data Catalog for all its data assets leveraging Data Catalog 
+tools. The Metadata structure of the Entity data catalog shall be aligned to the frameworks and standards published 
+by NPC.
+
+3.6.3	 In implementation of the data catalog, the Entity shall prioritize the data assets related to the NDS3.0 indicators 
+provided by the National Planning Council.
+
+3.7   Data Storage and Operations
+The Entity Shall:
+3.7.1	 Develop and publish a Data Storage and Retention Policy that governs the secure and efficient storage of data, 
+
+ensuring compliance with laws and regulations. The Policy shall be aligned to the structure suggested in the National 
+Data Standards and the statements provisioned in this policy.
+
+3.7.2	 Establish a Data Storage and Operations Program guided by prioritized systems based on the business criticality, 
+resulting in a detailed Data Storage and Operations plan considering the real-time data generated by sensors and 
+near real-time data generated by logs. The program shall support the Entity’s strategic objectives and provides 
+scalable, secure infrastructure capabilities for managing data storage needs.
+
+3.7.3	 Comply to and align its practices with the related national regulations, ensuring secure storage and processing of 
+personal data to protect its confidentiality, integrity, and availability.
+
+3.7.4	 Ensure that Data Storage solutions that use the cloud environment must in alignment with the national regulations 
+related to the cloud services.
+
+REF: P001 V1.0    26
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+3.8   Data Sharing, Integration and Interoperability
+
+The Entity Shall:
+
+3.8.1	 Develop and publish Data Sharing & Integration Policy to ensure secure, efficient, and compliant data sharing 
+and integration across various internal functions/systems and external Entities. The Policy shall be aligned to the 
+structure suggested in the National Data Standards and the statements provisioned in this policy.
+
+3.8.2	 Enable and maximize Data Sharing practice with entities and complying to National Data Standards published by 
+NPC.
+
+3.8.3	 Leverage the National Data Marketplace to share its data with other government and semi-government entities 
+to enhance data accessibility, promote collaboration, and ensure the efficient and secure exchange of data across 
+sectors.
+
+3.9   Statistics and Analytics
+The Entity Shall:
+
+3.9.1	 Develop, document, and maintain statistics indicators and analytics use case portfolio covering Descriptive, 
+Diagnostic, Predictive, and Prescriptive analytics to ensure a structured and systematic analytics approach and 
+planning.
+
+3.9.2	 Establisha Statistics and Analytics program guided by the statistics indicators and analytics use case portfolio, 
+resulting in a detailed plan for Statistics and Analytics portfolio implementation. The program shall align with both 
+the Entity’s strategic objectives and national priorities, ensuring that data-driven insights are effectively leveraged to 
+support decision-making and drive the Entity’s goals.
+
+3.9.3	 Monitor the performance of the deployed portfolio, monitor their adoption and efficiency, and identify areas of 
+improvement and future scaling opportunities.
+
+3.9.4	 In developing the statistics indicators and analytics use case portfolio, the Entity shall prioritize the indicators 
+provided by the National Planning Council.
+
+3.9.5	 Comply with the National Quality Assurance Framework (NQAF) developed by NPC as well as the international 
+Generic statistical Business Process Model (GSBPM) for the production of official statistics. 
+
+REF: P001 V1.0 27
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+3.10  Data Monetization
+
+Motivate the Entity to:
+
+3.10.1  Identify opportunities to generate revenue from data while ensuring compliance with the applicable laws in the State 
+of Qatar, particularly the Personal Data Privacy Protection Law.
+
+3.10.2 Establish a program to support data monetization opportunities, with a focus on priority data products, resulting in 
+a detailed plan for the development and adoption of these products. This program must include the creation of the 
+necessary technological infrastructure, drafting of data contracts, and activation of operational functions to ensure 
+effective implementation at the market level.
+
+3.11   Data Security, Privacy, and Other Regulations
+
+The Entity Shall:
+
+3.11.1	 Comply to the Personal Data Privacy and Protection Law and Right to Access Information Law, to ensure the 
+security, privacy and ethical use of data.
+
+3.11.2	 Classify all its data assets in alignment with the National Data Classification Policy and the National Data Standards 
+and implement data classification automated systems for applying classification labels and publish classification 
+levels as Metadata attributes in the Data Catalog.
+
+3.12  Data Culture & Literacy
+
+The Entity Shall:
+
+3.12.1	 Establish a Data Culture & Literacy program, guided by a comprehensive assessment of the current state of data 
+culture and literacy within the Entity, resulting in a detailed change management plan to elevate data management 
+culture across the Entity.
+
+3.12.2	 Align its data culture and literacy program with NPC government and semi-government entity enablement program 
+to define training curriculums and learning path for identified learning personas for the Entity.
+
+REEFF::  P000011  V11.0.0     28
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+4.  Roles and Responsibilities
+The National Data Policy serves as a mandatory framework for Government Entities in Qatar to implement enhanced data 
+management practices, under the strategic guidance of NPC. Private Sector Entities are encouraged to adopt these 
+guidelines to align their data management practices to national standards. Successful execution relies on each entity’s 
+commitment to these standards, facilitated by the leadership and support of NPC.
+
+This section details the responsibilities of stakeholders involved in upholding and promoting the principles of the National 
+Data Policy. It clarifies the obligations for each party to support the effective realization of the policy’s objectives.
+
+4.1   National Planning Council (NPC)
+
+NPC shall provide leadership and strategic direction for the National Data Policy and shall develop the necessary guidelines 
+to ensure that data management is effectively implemented and maintained across all sectors in Qatar. These responsibilities 
+shall include, but are not limited to:
+
+•	 Overall oversight, management, and update of the National Data Policy
+
+•	 Ensure the policy remains aligned with Qatar’s national goals and international data management best 
+practices
+
+•	 Provide continuous support and guidance to both entities to facilitate compliance with the policy. 
+
+•	 Develop and maintain a compliance framework to assess the adherence to the policy across all sectors, and 
+implement regular audits, inspections, and reviews
+
+•	 Advocate for strong data management practices and raise awareness about the importance and benefits of 
+the policy through various communication channels and platforms.
+
+•	 Engage with various stakeholders to ensure the policy meets the diverse needs of all sectors and to gather 
+feedback for ongoing policy improvement
+
+REF::  P0011  V11..0  29
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+4.2  Government & Semi-Government Entities
+All Government and Semi-Government Entities shall bear the primary responsibility for ensuring that the Data 
+Management Program is effectively implemented within their respective organizations. They have explicit responsibility 
+to protect and maximize the value of data assets within their custody. This includes ensuring that data practices align with 
+national cybersecurity, compliance, and policy objectives. Additional responsibilities shall include, but are not limited to:
+
+•	 Ensure that the National Data Policy is implemented effectively within their operations. This includes 
+integrating policy guidelines into existing processes and systems
+
+•	 Conduct regular assessments and audits to ensure compliance with National Data Standards and policies
+
+•	 Set up robust data governance frameworks that clearly define data ownership, stewardship, and 
+accountability within the entity
+
+•	 Implement stringent security measures to protect sensitive and confidential government data against 
+unauthorized access, breaches, and other cyber threats
+
+•	 Provide ongoing training and awareness programs for employees on data management practices, policy 
+compliance, and data security
+
+•	 Regularly report to NPC on data management activities, compliance status, and any challenges encountered 
+by the entity
+
+•	 Establish clear mechanisms for accountability in data management, ensuring that responsibilities are 
+understood and enacted at all levels
+
+RREEFF::  PP000011  VV11..00     3300
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+5.  Related Legislation, 
+References, & Documents
+The following table provides links to all documents and papers related to, or referred in, this policy. 
+Every effort has been made to ensure these links are valid, but there may be times when some or all 
+of their resources may not be available due to their source having been deleted, moved, or replaced.
+
+•	 Law No. (7) of 2002 Protection of Copyright and Neighboring Rights
+
+•	 Law No. (2) of 2011 on Official Statistics
+
+Legislation •	 Law No. (13) of 2016 on Personal Data Privacy Protection
+
+•	 Law No. (9) of 2022 Regulating the Right to Access Information
+
+•	 Law No. (14) of 2014 on Cybercrime Prevention
+
+•	 National Data Classification Policy (May 2023, Version 3.0)
+
+•	 National Information Assurance Standard (May 2023, Version 2.1)
+
+•	 Open Data Policy (November 2014, Version 1.0.2, Ref. P002)
+Policies, •	 Cloud First Policy (April 2024, Version 1.0.0, Ref. P005)
+Standards, or 
+
+•	 Qatar National Quality Assurance Framework for Official Statistics in 
+Frameworks
+
+the State of Qatar
+
+•	 National Metadata Framework
+
+•	 National Metadata Schema
+
+•	 3nd National Development Strategy
+
+•	 Qatar National Vision 2030
+
+•	 QDG NextGen Strategy 2023-2026
+
+•	 Qatar National Digital Agenda 2030
+Other Links
+
+•	 Definition of Data Management and Integration, IT Glossary
+
+•	 Government Data Exchange System
+
+•	 Personal Data Privacy Guidelines
+
+•	 DAMA International Foundation
+
+REF: P001 V1.0 31
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+6.  Document Control
+Version Date Amendments Author
+
+1.0 October 2024 National Data Policy 
+Release NPC
+
+This document will be reviewed and updated when changes to the Data Management Policy are required. These 
+amendments may relate to changes in roles and responsibilities, technical infrastructure, or new or changed requirements 
+for the Data Management Policy. Amendments will be approved by NPC (in consultation with appropriate parties).
+
+When approved, a new version of the National Data Policy will be issued, and affected personnel in the entities will be 
+advised of the changes.
+
+REF: P001 V1.0    32
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+REF::  P001  V1..0  33
+
+
+
+ NATIONAL PLANNING COUNCIL
+
+REF: P001 V1.0    34

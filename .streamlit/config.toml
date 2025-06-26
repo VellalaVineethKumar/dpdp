@@ -1,0 +1,16 @@
+[theme]
+# Complete custom theme configuration
+primaryColor = "#FF4B4B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
+base = "dark" # Optionally, you can set a base theme if you want
+
+[server]
+enableXsrfProtection = true # This is the default, so not strictly needed unless changing from false
+enableCORS = true           # This is the default, so not strictly needed unless changing from false
+
+[browser]
+gatherUsageStats = false
+

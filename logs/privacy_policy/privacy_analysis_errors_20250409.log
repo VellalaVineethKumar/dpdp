@@ -1,0 +1,28 @@
+2025-04-09 18:51:40,268 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: HTTPSConnectionPool(host='www.aramco.com', port=443): Read timed out. (read timeout=20)
+2025-04-09 18:52:25,711 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 18:52:34,185 - privacy_policy_analyzer - ERROR - Law file not found: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets/Documents/PDPL_Saudi.txt
+2025-04-09 18:52:34,185 - privacy_policy_analyzer - ERROR - Privacy policy analysis error: Could not load content for law: pdpl_saudi
+2025-04-09 19:01:44,931 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:04:06,999 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: name 'DEFAULT_ANALYSIS_PROMPT' is not defined
+2025-04-09 19:05:31,866 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-09 19:08:28,643 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:10:11,646 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:13:57,189 - privacy_policy_analyzer - ERROR - Connection failed after 3 attempts
+2025-04-09 19:14:44,053 - privacy_policy_analyzer - ERROR - SSL verification failed after 3 attempts
+2025-04-09 20:15:23,695 - privacy_policy_analyzer - ERROR - Error generating PDF: cannot access local variable 'law_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\privacy_policy_analyzer.py", line 486, in generate_privacy_policy_pdf
+    pdf.meta["subject"] = f"Privacy Policy Analysis against {law_name}"
+                                                             ^^^^^^^^
+UnboundLocalError: cannot access local variable 'law_name' where it is not associated with a value
+2025-04-10 09:29:39,158 - privacy_policy_analyzer - ERROR - No content extracted from URL
+2025-04-10 09:30:21,644 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html: 403 Client Error: Forbidden for url: https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html

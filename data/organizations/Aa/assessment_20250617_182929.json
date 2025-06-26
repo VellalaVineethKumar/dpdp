@@ -1,0 +1,28 @@
+{
+  "organization_name": "Aa",
+  "assessment_date": "2025-06-17",
+  "selected_regulation": "OAIC",
+  "selected_industry": "General",
+  "responses": {
+    "s0_q0": "Yes: The organization has a comprehensive, current privacy policy addressing personal information management.",
+    "s0_q1": "Yes: All these elements are clearly addressed in the policy.",
+    "s0_q2": "No: The policy is not available free of charge or in an appropriate form.",
+    "s0_q3": "Partially: The organization tries but may not always accommodate requests.",
+    "s1_q0": "Yes: Individuals can interact anonymously or with a pseudonym in most cases.",
+    "s1_q1": "Yes: Exceptions are only made when legally required or impracticable.",
+    "s2_q0": "Partially: Most information is necessary, but some may not be.",
+    "s2_q1": "Yes: Sensitive information is collected only with consent or as legally permitted.",
+    "s2_q2": "Yes: Collection methods are always lawful and fair.",
+    "s2_q3": "Yes: Information is collected directly unless an exception applies.",
+    "s3_q0": "Partially: Assessment occurs inconsistently.",
+    "s3_q1": "Partially: Information is occasionally retained unnecessarily.",
+    "s4_q0": "Partially: Notification is incomplete or inconsistent.",
+    "s5_q0": "Partially: Use/disclosure for secondary purposes occurs without proper basis.",
+    "s5_q1": "Partially: Secondary use/disclosure is sometimes unrelated or unexpected.",
+    "s5_q2": "Partially: Guidelines are only partially followed.",
+    "s5_q3": "Yes: Information is de-identified as required before disclosure.",
+    "s6_q0": "Partially: Direct marketing occurs without proper consent or authority."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-06-17T18:29:29.467569"
+}

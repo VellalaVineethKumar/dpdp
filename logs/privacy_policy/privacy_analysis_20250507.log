@@ -1,0 +1,42 @@
+2025-05-07 13:57:42,646 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: infosys in country: Qatar
+2025-05-07 13:57:43,496 - privacy_policy_analyzer - INFO - Found privacy policy URL for infosys: https://www.infosys.com/privacy-statement.html
+2025-05-07 13:57:43,501 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.infosys.com/privacy-statement.html
+2025-05-07 13:57:43,951 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.infosys.com/privacy-statement.html on attempt 1
+2025-05-07 13:57:44,505 - privacy_policy_analyzer - DEBUG - Removed 31 unwanted elements
+2025-05-07 13:57:44,520 - privacy_policy_analyzer - DEBUG - Found content using selector: article
+2025-05-07 13:57:44,521 - privacy_policy_analyzer - INFO - Successfully extracted 29 characters of content
+2025-05-07 13:57:44,584 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-07 13:58:35,106 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-07 13:58:35,109 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-07 13:58:35,124 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-07 13:58:35,219 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpxv1kytuw.pdf
+2025-05-07 13:58:35,220 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpxv1kytuw.pdf
+2025-05-07 13:58:35,275 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpxv1kytuw.pdf
+2025-05-07 13:58:35,278 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpxv1kytuw.pdf
+2025-05-07 13:58:35,324 - privacy_policy_analyzer - INFO - Successfully read 151772 bytes from PDF
+2025-05-07 13:58:35,326 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpxv1kytuw.pdf
+2025-05-07 15:21:08,463 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: Qatar
+2025-05-07 15:21:09,044 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-07 15:21:09,058 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-07 15:21:09,193 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-qa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-qa/privacy-policy
+2025-05-07 15:21:18,421 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lulu in country: Saudi Arabia
+2025-05-07 15:21:18,938 - privacy_policy_analyzer - INFO - Found privacy policy URL for lulu: https://gcc.luluhypermarket.com/en-sa/privacy-policy
+2025-05-07 15:21:18,942 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://gcc.luluhypermarket.com/en-sa/privacy-policy
+2025-05-07 15:21:18,997 - privacy_policy_analyzer - ERROR - Error fetching URL https://gcc.luluhypermarket.com/en-sa/privacy-policy: 403 Client Error: Forbidden for url: https://gcc.luluhypermarket.com/en-sa/privacy-policy
+2025-05-07 18:54:35,355 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: QIA in country: Qatar
+2025-05-07 18:54:35,958 - privacy_policy_analyzer - INFO - Found privacy policy URL for QIA: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-05-07 18:54:35,959 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-05-07 18:54:37,104 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.qia.qa/en/Pages/Privacy.aspx on attempt 1
+2025-05-07 18:54:37,153 - privacy_policy_analyzer - DEBUG - Removed 77 unwanted elements
+2025-05-07 18:54:37,159 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-05-07 18:54:37,161 - privacy_policy_analyzer - INFO - Successfully extracted 469 characters of content
+2025-05-07 18:54:37,166 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-05-07 18:55:46,821 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-07 18:55:46,824 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-07 18:55:46,830 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-07 18:55:46,874 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp4esixwg6.pdf
+2025-05-07 18:55:46,875 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp4esixwg6.pdf
+2025-05-07 18:55:46,900 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp4esixwg6.pdf
+2025-05-07 18:55:46,900 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp4esixwg6.pdf
+2025-05-07 18:55:46,917 - privacy_policy_analyzer - INFO - Successfully read 154642 bytes from PDF
+2025-05-07 18:55:46,918 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp4esixwg6.pdf

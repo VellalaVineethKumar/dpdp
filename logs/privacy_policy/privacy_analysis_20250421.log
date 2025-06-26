@@ -1,0 +1,143 @@
+2025-04-21 11:16:20,218 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates
+2025-04-21 11:16:21,279 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/privacy-policy
+2025-04-21 11:16:21,280 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-21 11:16:22,759 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy on attempt 1
+2025-04-21 11:16:23,014 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-04-21 11:16:23,016 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-21 11:16:23,018 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-21 11:16:23,027 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for DPDP Act (India) analysis
+2025-04-21 11:16:57,892 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-21 11:16:57,893 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-21 11:16:57,899 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\V Vineeth Kumar\Downloads\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-21 11:16:57,986 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\VVINEE~1\AppData\Local\Temp\tmp08am935d.pdf
+2025-04-21 11:16:57,986 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\VVINEE~1\AppData\Local\Temp\tmp08am935d.pdf
+2025-04-21 11:16:58,028 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\VVINEE~1\AppData\Local\Temp\tmp08am935d.pdf
+2025-04-21 11:16:58,029 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\VVINEE~1\AppData\Local\Temp\tmp08am935d.pdf
+2025-04-21 11:16:58,059 - privacy_policy_analyzer - INFO - Successfully read 558496 bytes from PDF
+2025-04-21 11:16:58,060 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\VVINEE~1\AppData\Local\Temp\tmp08am935d.pdf
+2025-04-21 11:22:12,181 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Pfizer
+2025-04-21 11:22:13,004 - privacy_policy_analyzer - INFO - Found privacy policy URL for Pfizer: https://www.pfizer.com/privacy
+2025-04-21 11:22:13,006 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.pfizer.com/privacy
+2025-04-21 11:22:13,861 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.pfizer.com/privacy on attempt 1
+2025-04-21 11:22:13,991 - privacy_policy_analyzer - DEBUG - Removed 26 unwanted elements
+2025-04-21 11:22:13,992 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-21 11:22:13,994 - privacy_policy_analyzer - INFO - Successfully extracted 30979 characters of content
+2025-04-21 11:22:14,009 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for HIPAA (USA) analysis
+2025-04-21 11:23:58,306 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-21 11:23:58,306 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-21 11:23:58,308 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\V Vineeth Kumar\Downloads\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-21 11:23:58,313 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\VVINEE~1\AppData\Local\Temp\tmpuqzbu3wx.pdf
+2025-04-21 11:23:58,313 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\VVINEE~1\AppData\Local\Temp\tmpuqzbu3wx.pdf
+2025-04-21 11:23:58,317 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\VVINEE~1\AppData\Local\Temp\tmpuqzbu3wx.pdf
+2025-04-21 11:23:58,317 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\VVINEE~1\AppData\Local\Temp\tmpuqzbu3wx.pdf
+2025-04-21 11:23:58,328 - privacy_policy_analyzer - INFO - Successfully read 122954 bytes from PDF
+2025-04-21 11:23:58,329 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\VVINEE~1\AppData\Local\Temp\tmpuqzbu3wx.pdf
+2025-04-21 11:24:48,944 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Pfizer
+2025-04-21 11:24:51,379 - privacy_policy_analyzer - INFO - Found privacy policy URL for Pfizer: https://www.pfizer.com/privacy
+2025-04-21 11:24:51,380 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.pfizer.com/privacy
+2025-04-21 11:24:51,624 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.pfizer.com/privacy on attempt 1
+2025-04-21 11:24:51,671 - privacy_policy_analyzer - DEBUG - Removed 26 unwanted elements
+2025-04-21 11:24:51,672 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-21 11:24:51,673 - privacy_policy_analyzer - INFO - Successfully extracted 30979 characters of content
+2025-04-21 11:24:51,680 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for HIPAA (USA) analysis
+2025-04-21 11:25:52,581 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-21 11:25:52,582 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-21 11:25:52,584 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\V Vineeth Kumar\Downloads\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-21 11:25:52,694 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\VVINEE~1\AppData\Local\Temp\tmp4wh3upge.pdf
+2025-04-21 11:25:52,707 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\VVINEE~1\AppData\Local\Temp\tmp4wh3upge.pdf
+2025-04-21 11:25:52,793 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\VVINEE~1\AppData\Local\Temp\tmp4wh3upge.pdf
+2025-04-21 11:25:52,814 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\VVINEE~1\AppData\Local\Temp\tmp4wh3upge.pdf
+2025-04-21 11:25:52,872 - privacy_policy_analyzer - INFO - Successfully read 175594 bytes from PDF
+2025-04-21 11:25:52,875 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\VVINEE~1\AppData\Local\Temp\tmp4wh3upge.pdf
+2025-04-21 11:31:45,379 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Pfizer
+2025-04-21 11:31:48,040 - privacy_policy_analyzer - INFO - Found privacy policy URL for Pfizer: https://www.pfizer.com/privacy
+2025-04-21 11:31:48,041 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.pfizer.com/privacy
+2025-04-21 11:31:48,461 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.pfizer.com/privacy on attempt 1
+2025-04-21 11:31:48,525 - privacy_policy_analyzer - DEBUG - Removed 26 unwanted elements
+2025-04-21 11:31:48,527 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-21 11:31:48,529 - privacy_policy_analyzer - INFO - Successfully extracted 30979 characters of content
+2025-04-21 11:31:49,858 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Pfizer
+2025-04-21 11:31:52,448 - privacy_policy_analyzer - INFO - Found privacy policy URL for Pfizer: https://www.pfizer.com/privacy
+2025-04-21 11:31:52,449 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.pfizer.com/privacy
+2025-04-21 11:31:52,602 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.pfizer.com/privacy on attempt 1
+2025-04-21 11:31:52,645 - privacy_policy_analyzer - DEBUG - Removed 26 unwanted elements
+2025-04-21 11:31:52,645 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-21 11:31:52,646 - privacy_policy_analyzer - INFO - Successfully extracted 30979 characters of content
+2025-04-21 11:31:52,654 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for HIPAA (USA) analysis
+2025-04-21 11:32:30,924 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-21 11:32:30,925 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-21 11:32:30,926 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\V Vineeth Kumar\Downloads\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-21 11:32:30,948 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\VVINEE~1\AppData\Local\Temp\tmpf24a8ydk.pdf
+2025-04-21 11:32:30,949 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\VVINEE~1\AppData\Local\Temp\tmpf24a8ydk.pdf
+2025-04-21 11:32:30,955 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\VVINEE~1\AppData\Local\Temp\tmpf24a8ydk.pdf
+2025-04-21 11:32:30,955 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\VVINEE~1\AppData\Local\Temp\tmpf24a8ydk.pdf
+2025-04-21 11:32:30,970 - privacy_policy_analyzer - INFO - Successfully read 147623 bytes from PDF
+2025-04-21 11:32:30,971 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\VVINEE~1\AppData\Local\Temp\tmpf24a8ydk.pdf
+2025-04-21 11:56:53,032 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: amgen
+2025-04-21 11:56:53,721 - privacy_policy_analyzer - INFO - Found privacy policy URL for amgen: https://www.amgen.com/privacy-statement
+2025-04-21 11:56:53,723 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.amgen.com/privacy-statement
+2025-04-21 11:56:55,732 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.amgen.com/privacy-statement on attempt 1
+2025-04-21 11:56:55,895 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-21 11:56:55,927 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-04-21 11:56:55,931 - privacy_policy_analyzer - INFO - Successfully extracted 51488 characters of content
+2025-04-21 11:56:55,940 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for HIPAA (USA) analysis
+2025-04-21 11:57:49,180 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-21 11:57:49,180 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-21 11:57:49,181 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\V Vineeth Kumar\Downloads\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-21 11:57:49,245 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\VVINEE~1\AppData\Local\Temp\tmp39hm1rkf.pdf
+2025-04-21 11:57:49,246 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\VVINEE~1\AppData\Local\Temp\tmp39hm1rkf.pdf
+2025-04-21 11:57:49,276 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\VVINEE~1\AppData\Local\Temp\tmp39hm1rkf.pdf
+2025-04-21 11:57:49,277 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\VVINEE~1\AppData\Local\Temp\tmp39hm1rkf.pdf
+2025-04-21 11:57:49,325 - privacy_policy_analyzer - INFO - Successfully read 212320 bytes from PDF
+2025-04-21 11:57:49,327 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\VVINEE~1\AppData\Local\Temp\tmp39hm1rkf.pdf
+2025-04-21 12:58:17,713 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates
+2025-04-21 12:58:20,249 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/privacy-policy
+2025-04-21 12:58:20,250 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-21 12:58:21,123 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy on attempt 1
+2025-04-21 12:58:21,222 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-04-21 12:58:21,223 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-21 12:58:21,224 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-21 12:58:21,231 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for DPDP Act (India) analysis
+2025-04-21 12:58:50,638 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-21 12:58:50,638 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-21 12:58:50,640 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\V Vineeth Kumar\Downloads\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-21 12:58:50,664 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\VVINEE~1\AppData\Local\Temp\tmpc8npjf_8.pdf
+2025-04-21 12:58:50,665 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\VVINEE~1\AppData\Local\Temp\tmpc8npjf_8.pdf
+2025-04-21 12:58:50,680 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\VVINEE~1\AppData\Local\Temp\tmpc8npjf_8.pdf
+2025-04-21 12:58:50,681 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\VVINEE~1\AppData\Local\Temp\tmpc8npjf_8.pdf
+2025-04-21 12:58:50,709 - privacy_policy_analyzer - INFO - Successfully read 555398 bytes from PDF
+2025-04-21 12:58:50,709 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\VVINEE~1\AppData\Local\Temp\tmpc8npjf_8.pdf
+2025-04-21 16:31:38,975 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: omantel
+2025-04-21 16:31:40,150 - privacy_policy_analyzer - INFO - Found privacy policy URL for omantel: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-04-21 16:31:40,234 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-04-21 16:31:41,371 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.omantel.om/Footer2/Privacy%20Policy on attempt 1
+2025-04-21 16:31:42,851 - privacy_policy_analyzer - DEBUG - Removed 24 unwanted elements
+2025-04-21 16:31:42,921 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-04-21 16:31:42,959 - privacy_policy_analyzer - INFO - Successfully extracted 10887 characters of content
+2025-04-21 16:31:43,435 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for PDPP (Oman) analysis
+2025-04-21 16:33:25,612 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-21 16:33:26,213 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-21 16:33:26,632 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\V Vineeth Kumar\Downloads\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-21 16:33:27,667 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\VVINEE~1\AppData\Local\Temp\tmp_0jzjybn.pdf
+2025-04-21 16:33:27,669 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\VVINEE~1\AppData\Local\Temp\tmp_0jzjybn.pdf
+2025-04-21 16:33:28,049 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\VVINEE~1\AppData\Local\Temp\tmp_0jzjybn.pdf
+2025-04-21 16:33:28,137 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\VVINEE~1\AppData\Local\Temp\tmp_0jzjybn.pdf
+2025-04-21 16:33:28,783 - privacy_policy_analyzer - INFO - Successfully read 122965 bytes from PDF
+2025-04-21 16:33:28,973 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\VVINEE~1\AppData\Local\Temp\tmp_0jzjybn.pdf
+2025-04-21 16:36:40,076 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: omantel
+2025-04-21 16:36:41,156 - privacy_policy_analyzer - INFO - Found privacy policy URL for omantel: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-04-21 16:36:41,213 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.omantel.om/Footer2/Privacy%20Policy
+2025-04-21 16:36:42,370 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.omantel.om/Footer2/Privacy%20Policy on attempt 1
+2025-04-21 16:36:44,121 - privacy_policy_analyzer - DEBUG - Removed 24 unwanted elements
+2025-04-21 16:36:44,136 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-04-21 16:36:44,143 - privacy_policy_analyzer - INFO - Successfully extracted 10887 characters of content
+2025-04-21 16:36:45,917 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for PDPP (Oman) analysis
+2025-04-21 16:37:09,377 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-21 16:37:09,380 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-21 16:37:09,388 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\V Vineeth Kumar\Downloads\DPDP-main\DPDP-main\Assets\@logo.png
+2025-04-21 16:37:09,909 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\VVINEE~1\AppData\Local\Temp\tmpk264sscp.pdf
+2025-04-21 16:37:09,912 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\VVINEE~1\AppData\Local\Temp\tmpk264sscp.pdf
+2025-04-21 16:37:10,066 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\VVINEE~1\AppData\Local\Temp\tmpk264sscp.pdf
+2025-04-21 16:37:10,148 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\VVINEE~1\AppData\Local\Temp\tmpk264sscp.pdf
+2025-04-21 16:37:10,614 - privacy_policy_analyzer - INFO - Successfully read 575033 bytes from PDF
+2025-04-21 16:37:10,621 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\VVINEE~1\AppData\Local\Temp\tmpk264sscp.pdf

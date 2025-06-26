@@ -1,0 +1,16 @@
+{
+  "organization_name": "Qatar Airways",
+  "assessment_date": "2025-06-10",
+  "selected_regulation": "PDPPL",
+  "selected_industry": "Oil and Gas",
+  "responses": {
+    "s0_q0": "Yes, with comprehensive documentation",
+    "s1_q0": "Partially implemented",
+    "s1_q1": "Yes, fully documented",
+    "s2_q0": "Yes - Successfully completed",
+    "s2_q1": "No - Not Applicable",
+    "s2_q2": "Yes - Successfully completed"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-06-10T18:29:59.208011"
+}

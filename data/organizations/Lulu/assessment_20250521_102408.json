@@ -1,0 +1,13 @@
+{
+  "organization_name": "Lulu",
+  "assessment_date": "2025-05-21",
+  "selected_regulation": "ndp_qatar",
+  "selected_industry": "general",
+  "responses": {
+    "s0_q0": "Yes, with comprehensive documentation",
+    "s1_q0": "Partially implemented",
+    "s1_q1": "Yes, fully documented"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-21T10:24:08.477816"
+}

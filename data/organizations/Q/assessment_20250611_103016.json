@@ -1,0 +1,15 @@
+{
+  "organization_name": "Q",
+  "assessment_date": "2025-06-11",
+  "selected_regulation": "PDPPL",
+  "selected_industry": "Oil and Gas",
+  "responses": {
+    "s0_q0": "Yes, with comprehensive documentation",
+    "s1_q0": "Partially implemented",
+    "s1_q1": "Yes, fully documented",
+    "s2_q1": "Yes - Successfully completed",
+    "s2_q2": "No - Not yet completed"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-06-11T10:30:16.221860"
+}

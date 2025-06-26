@@ -1,0 +1,495 @@
+2025-04-09 13:31:09,178 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Informatica
+2025-04-09 13:31:10,256 - privacy_policy_analyzer - INFO - Found privacy policy URL for Informatica: https://www.informatica.com/privacy-policy.html
+2025-04-09 13:31:10,257 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-04-09 13:31:10,425 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html
+2025-04-09 13:31:10,505 - privacy_policy_analyzer - DEBUG - Removed 37 unwanted elements
+2025-04-09 13:31:10,511 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 13:31:10,513 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-04-09 13:31:10,517 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 13:31:10,518 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 13:31:10,518 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 13:31:36,287 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_133136.json
+2025-04-09 13:31:36,288 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 13:35:12,199 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Informatica
+2025-04-09 13:35:13,202 - privacy_policy_analyzer - INFO - Found privacy policy URL for Informatica: https://www.informatica.com/privacy-policy.html
+2025-04-09 13:35:13,203 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-04-09 13:35:13,802 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html
+2025-04-09 13:35:13,879 - privacy_policy_analyzer - DEBUG - Removed 37 unwanted elements
+2025-04-09 13:35:13,880 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 13:35:13,881 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-04-09 13:35:13,888 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 13:35:13,888 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 13:35:13,889 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 13:35:43,767 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_133543.json
+2025-04-09 13:35:43,768 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 13:39:05,867 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Informatica
+2025-04-09 13:39:06,794 - privacy_policy_analyzer - INFO - Found privacy policy URL for Informatica: https://www.informatica.com/privacy-policy.html
+2025-04-09 13:39:06,796 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-04-09 13:39:07,049 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html
+2025-04-09 13:39:07,129 - privacy_policy_analyzer - DEBUG - Removed 37 unwanted elements
+2025-04-09 13:39:07,130 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 13:39:07,131 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-04-09 13:39:07,136 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 13:39:07,136 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 13:39:07,138 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 13:39:51,809 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_133951.json
+2025-04-09 13:39:51,810 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 13:41:25,521 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates
+2025-04-09 13:41:26,533 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/privacy-policy
+2025-04-09 13:41:26,536 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-09 13:41:27,310 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy
+2025-04-09 13:41:27,408 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-04-09 13:41:27,410 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 13:41:27,411 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-09 13:41:27,417 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 13:41:27,417 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 13:41:27,419 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 13:42:09,457 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_134209.json
+2025-04-09 13:42:09,459 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 13:48:21,372 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates
+2025-04-09 13:48:21,839 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/privacy-policy
+2025-04-09 13:48:21,840 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-09 13:48:22,816 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy
+2025-04-09 13:48:22,911 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-04-09 13:48:22,912 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 13:48:22,914 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-09 13:48:22,919 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 13:48:22,920 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 13:48:22,921 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 13:49:14,039 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_134914.json
+2025-04-09 13:49:14,041 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 14:02:02,476 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates
+2025-04-09 14:02:03,611 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/privacy-policy
+2025-04-09 14:02:03,613 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-09 14:02:04,356 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy
+2025-04-09 14:02:04,530 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-04-09 14:02:04,532 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 14:02:04,533 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-09 14:02:04,542 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 14:02:04,542 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 14:02:04,544 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 14:02:23,709 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_140223.json
+2025-04-09 14:02:23,711 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 15:32:38,012 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: iNFORMATICA
+2025-04-09 15:32:38,767 - privacy_policy_analyzer - INFO - Found privacy policy URL for iNFORMATICA: https://www.informatica.com/privacy-policy.html
+2025-04-09 15:32:38,769 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-04-09 15:32:39,200 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html
+2025-04-09 15:32:39,360 - privacy_policy_analyzer - DEBUG - Removed 37 unwanted elements
+2025-04-09 15:32:39,362 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 15:32:39,364 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-04-09 15:32:39,380 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 15:32:39,381 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 15:32:39,382 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 15:33:04,600 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_153304.json
+2025-04-09 15:33:04,602 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 15:40:22,532 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates
+2025-04-09 15:40:23,400 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/privacy-policy
+2025-04-09 15:40:23,402 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-09 15:40:24,239 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy
+2025-04-09 15:40:24,422 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-04-09 15:40:24,424 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 15:40:24,425 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-09 15:40:24,434 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 15:40:24,434 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 15:40:24,434 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 15:40:58,998 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_154058.json
+2025-04-09 15:40:58,998 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 18:02:09,817 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: qia
+2025-04-09 18:02:10,585 - privacy_policy_analyzer - INFO - Found privacy policy URL for qia: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-04-09 18:02:10,586 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-04-09 18:02:11,388 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.qia.qa/en/Pages/Privacy.aspx
+2025-04-09 18:02:11,427 - privacy_policy_analyzer - DEBUG - Removed 77 unwanted elements
+2025-04-09 18:02:11,431 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-04-09 18:02:11,432 - privacy_policy_analyzer - INFO - Successfully extracted 469 characters of content
+2025-04-09 18:02:11,448 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: Unknown
+2025-04-09 18:02:11,451 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 18:02:11,454 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 18:02:24,914 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_Unknown_20250409_180224.json
+2025-04-09 18:02:24,914 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 18:50:24,807 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC
+2025-04-09 18:50:25,725 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 18:50:25,725 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 18:50:25,960 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 18:50:26,198 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-04-09 18:50:26,239 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-04-09 18:50:26,243 - privacy_policy_analyzer - INFO - Successfully extracted 73241 characters of content
+2025-04-09 18:50:26,244 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: HDFC against law: dpdp_india
+2025-04-09 18:50:26,246 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 18:50:26,246 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 18:50:48,101 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_HDFC_20250409_185048.json
+2025-04-09 18:50:48,103 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 18:51:19,327 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: aramco
+2025-04-09 18:51:19,916 - privacy_policy_analyzer - INFO - Found privacy policy URL for aramco: https://www.aramco.com/en/privacy-notice
+2025-04-09 18:51:19,917 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aramco.com/en/privacy-notice
+2025-04-09 18:51:40,268 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: HTTPSConnectionPool(host='www.aramco.com', port=443): Read timed out. (read timeout=20)
+2025-04-09 18:52:05,926 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: aramco
+2025-04-09 18:52:06,400 - privacy_policy_analyzer - INFO - Found privacy policy URL for aramco: https://www.aramco.com/en/privacy-notice
+2025-04-09 18:52:06,401 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aramco.com/en/privacy-notice
+2025-04-09 18:52:25,711 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 18:52:32,100 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs
+2025-04-09 18:52:32,685 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs: https://www.zs.com/privacy-policy
+2025-04-09 18:52:32,685 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-09 18:52:34,080 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy
+2025-04-09 18:52:34,181 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-04-09 18:52:34,182 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 18:52:34,183 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-09 18:52:34,184 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: zs against law: pdpl_saudi
+2025-04-09 18:52:34,185 - privacy_policy_analyzer - ERROR - Law file not found: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets/Documents/PDPL_Saudi.txt
+2025-04-09 18:52:34,185 - privacy_policy_analyzer - ERROR - Privacy policy analysis error: Could not load content for law: pdpl_saudi
+2025-04-09 18:54:11,333 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs
+2025-04-09 18:54:11,860 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs: https://www.zs.com/privacy-policy
+2025-04-09 18:54:11,860 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/privacy-policy
+2025-04-09 18:54:12,275 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/privacy-policy
+2025-04-09 18:54:12,379 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-04-09 18:54:12,381 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 18:54:12,382 - privacy_policy_analyzer - INFO - Successfully extracted 13187 characters of content
+2025-04-09 18:54:12,384 - privacy_policy_analyzer - INFO - Starting privacy policy analysis for organization: zs against law: pdpl_saudi
+2025-04-09 18:54:12,385 - privacy_policy_analyzer - DEBUG - Preparing analysis prompt
+2025-04-09 18:54:12,385 - privacy_policy_analyzer - INFO - Sending request to AI API
+2025-04-09 18:54:29,142 - privacy_policy_analyzer - INFO - Analysis results saved to C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\logs\privacy_policy\analysis_results\analysis_zs_20250409_185429.json
+2025-04-09 18:54:29,143 - privacy_policy_analyzer - INFO - Successfully completed privacy policy analysis
+2025-04-09 19:01:24,588 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: aramco
+2025-04-09 19:01:25,164 - privacy_policy_analyzer - INFO - Found privacy policy URL for aramco: https://www.aramco.com/en/privacy-notice
+2025-04-09 19:01:25,165 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aramco.com/en/privacy-notice
+2025-04-09 19:01:44,931 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:04:05,734 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC
+2025-04-09 19:04:06,481 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:04:06,482 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:04:06,712 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:04:06,949 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-04-09 19:04:06,987 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-04-09 19:04:06,991 - privacy_policy_analyzer - INFO - Successfully extracted 73241 characters of content
+2025-04-09 19:04:06,995 - privacy_policy_analyzer - INFO - Policy content length: 73241 characters
+2025-04-09 19:04:06,995 - privacy_policy_analyzer - INFO - Policy content preview: You've Been Logged Out
+For security reasons, we have logged you out of HDFC Bank NetBanking. We do t
+2025-04-09 19:04:06,998 - privacy_policy_analyzer - INFO - Law content length: 33040 characters
+2025-04-09 19:04:06,998 - privacy_policy_analyzer - INFO - Law content preview: Personal Data Protection Law
+Article 1
+For the purpose of implementing this Law, the following terms
+2025-04-09 19:04:06,999 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: name 'DEFAULT_ANALYSIS_PROMPT' is not defined
+2025-04-09 19:05:28,832 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC
+2025-04-09 19:05:31,335 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:05:31,336 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:05:31,601 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:05:31,818 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-04-09 19:05:31,853 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-04-09 19:05:31,857 - privacy_policy_analyzer - INFO - Successfully extracted 73241 characters of content
+2025-04-09 19:05:31,862 - privacy_policy_analyzer - INFO - Policy content length: 73241 characters
+2025-04-09 19:05:31,862 - privacy_policy_analyzer - INFO - Policy content preview: You've Been Logged Out
+For security reasons, we have logged you out of HDFC Bank NetBanking. We do t
+2025-04-09 19:05:31,864 - privacy_policy_analyzer - INFO - Law content length: 33040 characters
+2025-04-09 19:05:31,864 - privacy_policy_analyzer - INFO - Law content preview: Personal Data Protection Law
+Article 1
+For the purpose of implementing this Law, the following terms
+2025-04-09 19:05:31,865 - privacy_policy_analyzer - INFO - Sending analysis request to OpenAI
+2025-04-09 19:05:31,866 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-04-09 19:06:39,775 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC
+2025-04-09 19:06:42,325 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:06:42,326 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:06:42,546 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:06:42,768 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-04-09 19:06:42,805 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-04-09 19:06:42,809 - privacy_policy_analyzer - INFO - Successfully extracted 73241 characters of content
+2025-04-09 19:06:42,813 - privacy_policy_analyzer - INFO - Policy content length: 73241 characters
+2025-04-09 19:06:42,813 - privacy_policy_analyzer - INFO - Policy content preview: You've Been Logged Out
+For security reasons, we have logged you out of HDFC Bank NetBanking. We do t
+2025-04-09 19:06:42,816 - privacy_policy_analyzer - INFO - Law content length: 33040 characters
+2025-04-09 19:06:42,816 - privacy_policy_analyzer - INFO - Law content preview: Personal Data Protection Law
+Article 1
+For the purpose of implementing this Law, the following terms
+2025-04-09 19:06:42,817 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 19:06:59,207 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 19:08:08,303 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: aramco
+2025-04-09 19:08:09,220 - privacy_policy_analyzer - INFO - Found privacy policy URL for aramco: https://www.aramco.com/en/privacy-notice
+2025-04-09 19:08:09,221 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aramco.com/en/privacy-notice
+2025-04-09 19:08:28,643 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:09:49,679 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: aramco
+2025-04-09 19:09:52,208 - privacy_policy_analyzer - INFO - Found privacy policy URL for aramco: https://www.aramco.com/en/privacy-notice
+2025-04-09 19:09:52,209 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aramco.com/en/privacy-notice
+2025-04-09 19:10:11,646 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.aramco.com/en/privacy-notice: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:10:27,242 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC
+2025-04-09 19:10:29,725 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:10:29,726 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:10:29,972 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:10:30,198 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-04-09 19:10:30,235 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-04-09 19:10:30,238 - privacy_policy_analyzer - INFO - Successfully extracted 73241 characters of content
+2025-04-09 19:10:30,242 - privacy_policy_analyzer - INFO - Policy content length: 73241 characters
+2025-04-09 19:10:30,243 - privacy_policy_analyzer - INFO - Policy content preview: You've Been Logged Out
+For security reasons, we have logged you out of HDFC Bank NetBanking. We do t
+2025-04-09 19:10:30,245 - privacy_policy_analyzer - INFO - Law content length: 33040 characters
+2025-04-09 19:10:30,245 - privacy_policy_analyzer - INFO - Law content preview: Personal Data Protection Law
+Article 1
+For the purpose of implementing this Law, the following terms
+2025-04-09 19:10:30,246 - privacy_policy_analyzer - INFO - Analysis prompt length: 107581 characters
+2025-04-09 19:10:30,246 - privacy_policy_analyzer - INFO - Analysis prompt preview: 
+        You are a privacy policy compliance expert. Analyze the following privacy policy against the requirements of the Personal Data Protection Law (PDPL) of Saudi Arabia.
+
+        Privacy Policy C...
+2025-04-09 19:10:30,246 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 19:11:18,016 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 19:12:09,126 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC
+2025-04-09 19:12:11,604 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:12:11,605 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-04-09 19:12:11,832 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-04-09 19:12:12,052 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-04-09 19:12:12,087 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-04-09 19:12:12,092 - privacy_policy_analyzer - INFO - Successfully extracted 73241 characters of content
+2025-04-09 19:12:12,098 - privacy_policy_analyzer - INFO - Policy content length: 73241 characters
+2025-04-09 19:12:12,099 - privacy_policy_analyzer - INFO - Policy content preview: You've Been Logged Out
+For security reasons, we have logged you out of HDFC Bank NetBanking. We do t
+2025-04-09 19:12:12,101 - privacy_policy_analyzer - INFO - Law content length: 33040 characters
+2025-04-09 19:12:12,101 - privacy_policy_analyzer - INFO - Law content preview: Personal Data Protection Law
+Article 1
+For the purpose of implementing this Law, the following terms
+2025-04-09 19:12:12,101 - privacy_policy_analyzer - INFO - Analysis prompt length: 107581 characters
+2025-04-09 19:12:12,101 - privacy_policy_analyzer - INFO - Analysis prompt preview: 
+        You are a privacy policy compliance expert. Analyze the following privacy policy against the requirements of the Personal Data Protection Law (PDPL) of Saudi Arabia.
+
+        Privacy Policy C...
+2025-04-09 19:12:12,102 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 19:12:31,624 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 19:12:54,088 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: aramco
+2025-04-09 19:12:54,943 - privacy_policy_analyzer - INFO - Found privacy policy URL for aramco: https://www.aramco.com/en/privacy-notice
+2025-04-09 19:12:54,944 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aramco.com/en/privacy-notice
+2025-04-09 19:13:14,317 - privacy_policy_analyzer - WARNING - Connection error on attempt 1: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:13:35,754 - privacy_policy_analyzer - WARNING - Connection error on attempt 2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:13:57,187 - privacy_policy_analyzer - WARNING - Connection error on attempt 3: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-04-09 19:13:57,189 - privacy_policy_analyzer - ERROR - Connection failed after 3 attempts
+2025-04-09 19:14:32,025 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Alrajhi 
+2025-04-09 19:14:33,613 - privacy_policy_analyzer - INFO - Found privacy policy URL for Alrajhi : https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 19:14:33,614 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 19:14:36,105 - privacy_policy_analyzer - WARNING - SSL Error on attempt 1: HTTPSConnectionPool(host='www.alrajhibank.com.sa', port=443): Max retries exceeded with url: /en/Privacy-Policy (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-04-09 19:14:38,540 - privacy_policy_analyzer - WARNING - SSL Error on attempt 2: HTTPSConnectionPool(host='www.alrajhibank.com.sa', port=443): Max retries exceeded with url: /en/Privacy-Policy (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-04-09 19:14:44,052 - privacy_policy_analyzer - WARNING - SSL Error on attempt 3: HTTPSConnectionPool(host='www.alrajhibank.com.sa', port=443): Max retries exceeded with url: /en/Privacy-Policy (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
+2025-04-09 19:14:44,053 - privacy_policy_analyzer - ERROR - SSL verification failed after 3 attempts
+2025-04-09 19:15:58,340 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Alrajhi 
+2025-04-09 19:15:59,637 - privacy_policy_analyzer - INFO - Found privacy policy URL for Alrajhi : https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 19:15:59,638 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 19:16:02,819 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 19:16:04,232 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 19:16:04,295 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 19:16:04,296 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 19:16:04,298 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 19:16:04,305 - privacy_policy_analyzer - INFO - Policy content length: 16476 characters
+2025-04-09 19:16:04,306 - privacy_policy_analyzer - INFO - Policy content preview: Privacy Policy
+Privacy Policy
+Privacy Policy
+The privacy of your
+Personal Data
+is very important to 
+2025-04-09 19:16:04,309 - privacy_policy_analyzer - INFO - Law content length: 33040 characters
+2025-04-09 19:16:04,310 - privacy_policy_analyzer - INFO - Law content preview: Personal Data Protection Law
+Article 1
+For the purpose of implementing this Law, the following terms
+2025-04-09 19:16:04,311 - privacy_policy_analyzer - INFO - Analysis prompt length: 50816 characters
+2025-04-09 19:16:04,311 - privacy_policy_analyzer - INFO - Analysis prompt preview: 
+        You are a privacy policy compliance expert. Analyze the following privacy policy against the requirements of the Personal Data Protection Law (PDPL) of Saudi Arabia.
+
+        Privacy Policy C...
+2025-04-09 19:16:04,312 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 19:16:48,964 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 19:17:42,036 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: almarai
+2025-04-09 19:17:44,666 - privacy_policy_analyzer - INFO - Found privacy policy URL for almarai: https://www.almarai.com/en/privacy-policy
+2025-04-09 19:17:44,668 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.almarai.com/en/privacy-policy
+2025-04-09 19:17:48,799 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.almarai.com/en/privacy-policy on attempt 1
+2025-04-09 19:17:48,821 - privacy_policy_analyzer - DEBUG - Removed 17 unwanted elements
+2025-04-09 19:17:48,831 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-09 19:17:48,832 - privacy_policy_analyzer - INFO - Successfully extracted 10283 characters of content
+2025-04-09 19:17:48,836 - privacy_policy_analyzer - INFO - Policy content length: 10283 characters
+2025-04-09 19:17:48,850 - privacy_policy_analyzer - INFO - Law content length: 33040 characters
+2025-04-09 19:17:48,850 - privacy_policy_analyzer - INFO - Law content preview: Personal Data Protection Law
+Article 1
+For the purpose of implementing this Law, the following terms
+2025-04-09 19:17:48,851 - privacy_policy_analyzer - INFO - Analysis prompt length: 44623 characters
+2025-04-09 19:17:48,851 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 19:18:21,703 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 19:20:12,548 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: almarai
+2025-04-09 19:20:13,418 - privacy_policy_analyzer - INFO - Found privacy policy URL for almarai: https://www.almarai.com/en/privacy-policy
+2025-04-09 19:20:13,419 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.almarai.com/en/privacy-policy
+2025-04-09 19:20:13,587 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.almarai.com/en/privacy-policy on attempt 1
+2025-04-09 19:20:13,607 - privacy_policy_analyzer - DEBUG - Removed 17 unwanted elements
+2025-04-09 19:20:13,616 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-09 19:20:13,618 - privacy_policy_analyzer - INFO - Successfully extracted 10283 characters of content
+2025-04-09 19:20:13,623 - privacy_policy_analyzer - INFO - Policy content length: 10283 characters
+2025-04-09 19:20:13,636 - privacy_policy_analyzer - INFO - Law content length: 59180 characters
+2025-04-09 19:20:13,636 - privacy_policy_analyzer - INFO - Analysis prompt length: 70789 characters
+2025-04-09 19:20:13,637 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 19:20:36,068 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 19:21:14,040 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Ooredoo
+2025-04-09 19:21:14,859 - privacy_policy_analyzer - INFO - Found privacy policy URL for Ooredoo: https://www.ooredoo.qa/web/en/website-privacy-policy/
+2025-04-09 19:21:14,860 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.ooredoo.qa/web/en/website-privacy-policy/
+2025-04-09 19:21:17,234 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.ooredoo.qa/web/en/website-privacy-policy/ on attempt 1
+2025-04-09 19:21:17,297 - privacy_policy_analyzer - DEBUG - Removed 29 unwanted elements
+2025-04-09 19:21:17,302 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-04-09 19:21:17,303 - privacy_policy_analyzer - INFO - Successfully extracted 11128 characters of content
+2025-04-09 19:21:17,308 - privacy_policy_analyzer - INFO - Policy content length: 11128 characters
+2025-04-09 19:21:17,309 - privacy_policy_analyzer - INFO - Policy content preview: Search
+What are you looking for today?
+Back
+Plans & Promotions
+Looking for a new SIM, or you great n
+2025-04-09 19:21:17,311 - privacy_policy_analyzer - INFO - Law content length: 21607 characters
+2025-04-09 19:21:17,312 - privacy_policy_analyzer - INFO - Analysis prompt length: 34028 characters
+2025-04-09 19:21:17,312 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 19:21:38,692 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:01:01,942 - privacy_policy_analyzer - INFO - Searching privacy policy for organization:  Alrajhi Bank
+2025-04-09 20:01:02,815 - privacy_policy_analyzer - INFO - Found privacy policy URL for  Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:01:02,816 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:01:04,295 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 20:01:05,989 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 20:01:06,039 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 20:01:06,040 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 20:01:06,042 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 20:01:06,049 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 20:01:57,292 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:04:43,859 - privacy_policy_analyzer - INFO - Searching privacy policy for organization:  Alrajhi Bank
+2025-04-09 20:04:44,727 - privacy_policy_analyzer - INFO - Found privacy policy URL for  Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:04:44,728 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:04:48,430 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 20:04:49,577 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 20:04:49,625 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 20:04:49,626 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 20:04:49,627 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 20:04:49,634 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 20:05:36,985 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:06:34,847 - privacy_policy_analyzer - INFO - Searching privacy policy for organization:  Alrajhi Bank
+2025-04-09 20:06:35,558 - privacy_policy_analyzer - INFO - Found privacy policy URL for  Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:06:35,559 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:06:38,684 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 20:06:39,900 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 20:06:39,961 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 20:06:39,962 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 20:06:39,964 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 20:06:39,970 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 20:06:57,246 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:09:19,998 - privacy_policy_analyzer - INFO - Searching privacy policy for organization:  Alrajhi Bank
+2025-04-09 20:09:21,047 - privacy_policy_analyzer - INFO - Found privacy policy URL for  Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:09:21,048 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:09:21,774 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 20:09:22,990 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 20:09:23,037 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 20:09:23,038 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 20:09:23,039 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 20:09:23,047 - privacy_policy_analyzer - INFO - Sending analysis request to OpenRouter
+2025-04-09 20:09:53,163 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:15:05,857 - privacy_policy_analyzer - INFO - Searching privacy policy for organization:  Alrajhi Bank
+2025-04-09 20:15:06,327 - privacy_policy_analyzer - INFO - Found privacy policy URL for  Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:15:06,329 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:15:08,105 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 20:15:09,200 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 20:15:09,251 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 20:15:09,251 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 20:15:09,253 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 20:15:23,645 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:15:23,655 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-09 20:15:23,695 - privacy_policy_analyzer - ERROR - Error generating PDF: cannot access local variable 'law_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\privacy_policy_analyzer.py", line 486, in generate_privacy_policy_pdf
+    pdf.meta["subject"] = f"Privacy Policy Analysis against {law_name}"
+                                                             ^^^^^^^^
+UnboundLocalError: cannot access local variable 'law_name' where it is not associated with a value
+2025-04-09 20:17:03,029 - privacy_policy_analyzer - INFO - Searching privacy policy for organization:  Alrajhi Bank
+2025-04-09 20:17:03,691 - privacy_policy_analyzer - INFO - Found privacy policy URL for  Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:17:03,692 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:17:05,203 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 20:17:06,843 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 20:17:06,893 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 20:17:06,893 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 20:17:06,895 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 20:17:40,404 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:17:40,406 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-09 20:17:40,434 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmpjx1a6b0a.pdf
+2025-04-09 20:17:40,435 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmpjx1a6b0a.pdf
+2025-04-09 20:17:40,458 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmpjx1a6b0a.pdf
+2025-04-09 20:17:40,459 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmpjx1a6b0a.pdf
+2025-04-09 20:17:40,478 - privacy_policy_analyzer - INFO - Successfully read 559960 bytes from PDF
+2025-04-09 20:17:40,480 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmpjx1a6b0a.pdf
+2025-04-09 20:22:08,727 - privacy_policy_analyzer - INFO - Searching privacy policy for organization:  Alrajhi Bank
+2025-04-09 20:22:09,159 - privacy_policy_analyzer - INFO - Found privacy policy URL for  Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:22:09,160 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:22:13,084 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 20:22:14,249 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 20:22:14,299 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 20:22:14,300 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 20:22:14,301 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 20:22:41,428 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:22:41,429 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-09 20:22:41,447 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmpjbjmu7_u.pdf
+2025-04-09 20:22:41,447 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmpjbjmu7_u.pdf
+2025-04-09 20:22:41,468 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmpjbjmu7_u.pdf
+2025-04-09 20:22:41,469 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmpjbjmu7_u.pdf
+2025-04-09 20:22:41,488 - privacy_policy_analyzer - INFO - Successfully read 560109 bytes from PDF
+2025-04-09 20:22:41,489 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmpjbjmu7_u.pdf
+2025-04-09 20:26:14,613 - privacy_policy_analyzer - INFO - Searching privacy policy for organization:  Alrajhi Bank
+2025-04-09 20:26:15,135 - privacy_policy_analyzer - INFO - Found privacy policy URL for  Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:26:15,136 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-04-09 20:26:17,213 - privacy_policy_analyzer - WARNING - SSL verification failed on attempt 1, trying without verification
+2025-04-09 20:26:18,839 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-04-09 20:26:18,924 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-04-09 20:26:18,925 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-09 20:26:18,926 - privacy_policy_analyzer - INFO - Successfully extracted 16476 characters of content
+2025-04-09 20:26:18,941 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for PDPL (Saudi Arabia) analysis
+2025-04-09 20:26:50,382 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-09 20:26:50,384 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-09 20:26:50,389 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-09 20:26:50,408 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmp9ictdx4p.pdf
+2025-04-09 20:26:50,409 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmp9ictdx4p.pdf
+2025-04-09 20:26:50,420 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmp9ictdx4p.pdf
+2025-04-09 20:26:50,420 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmp9ictdx4p.pdf
+2025-04-09 20:26:50,440 - privacy_policy_analyzer - INFO - Successfully read 159648 bytes from PDF
+2025-04-09 20:26:50,440 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmp9ictdx4p.pdf
+2025-04-10 09:29:37,644 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: google
+2025-04-10 09:29:38,576 - privacy_policy_analyzer - INFO - Found privacy policy URL for google: https://policies.google.com/privacy?hl=en-US
+2025-04-10 09:29:38,576 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://policies.google.com/privacy?hl=en-US
+2025-04-10 09:29:39,088 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://policies.google.com/privacy?hl=en-US on attempt 1
+2025-04-10 09:29:39,143 - privacy_policy_analyzer - DEBUG - Removed 28 unwanted elements
+2025-04-10 09:29:39,157 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-04-10 09:29:39,158 - privacy_policy_analyzer - ERROR - No content extracted from URL
+2025-04-10 09:30:19,080 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: intel
+2025-04-10 09:30:21,439 - privacy_policy_analyzer - INFO - Found privacy policy URL for intel: https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html
+2025-04-10 09:30:21,439 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html
+2025-04-10 09:30:21,644 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html: 403 Client Error: Forbidden for url: https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html
+2025-04-10 09:32:25,141 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: lenovo India
+2025-04-10 09:32:25,971 - privacy_policy_analyzer - INFO - Found privacy policy URL for lenovo India: https://www.lenovo.com/in/en/privacy/?srsltid=AfmBOoq-HxFqBlc-xl6_LCo2g20HtA0gSX9UTETMngiW2oaywQYxxG8O
+2025-04-10 09:32:25,972 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.lenovo.com/in/en/privacy/?srsltid=AfmBOoq-HxFqBlc-xl6_LCo2g20HtA0gSX9UTETMngiW2oaywQYxxG8O
+2025-04-10 09:32:26,560 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.lenovo.com/in/en/privacy/?srsltid=AfmBOoq-HxFqBlc-xl6_LCo2g20HtA0gSX9UTETMngiW2oaywQYxxG8O on attempt 1
+2025-04-10 09:32:26,812 - privacy_policy_analyzer - DEBUG - Removed 49 unwanted elements
+2025-04-10 09:32:26,813 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-04-10 09:32:26,816 - privacy_policy_analyzer - INFO - Successfully extracted 109739 characters of content
+2025-04-10 09:32:26,841 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for DPDP Act (India) analysis
+2025-04-10 09:32:51,011 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-10 09:32:51,011 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-10 09:32:51,014 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-10 09:32:51,045 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmpb9_0f5pz.pdf
+2025-04-10 09:32:51,045 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmpb9_0f5pz.pdf
+2025-04-10 09:32:51,066 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmpb9_0f5pz.pdf
+2025-04-10 09:32:51,067 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmpb9_0f5pz.pdf
+2025-04-10 09:32:51,095 - privacy_policy_analyzer - INFO - Successfully read 618700 bytes from PDF
+2025-04-10 09:32:51,096 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmpb9_0f5pz.pdf
+2025-04-10 19:58:39,784 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: QIA
+2025-04-10 19:58:40,928 - privacy_policy_analyzer - INFO - Found privacy policy URL for QIA: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-04-10 19:58:40,929 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.qia.qa/en/Pages/Privacy.aspx
+2025-04-10 19:58:42,929 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.qia.qa/en/Pages/Privacy.aspx on attempt 1
+2025-04-10 19:58:42,999 - privacy_policy_analyzer - DEBUG - Removed 77 unwanted elements
+2025-04-10 19:58:43,007 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-04-10 19:58:43,008 - privacy_policy_analyzer - INFO - Successfully extracted 469 characters of content
+2025-04-10 19:58:43,017 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for PDPL (Qatar) analysis
+2025-04-10 19:59:19,975 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-04-10 19:59:19,978 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-04-10 19:59:19,996 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\vella\Downloads\DPDPAssesment\Modular_code\Modular_code\Assets\@logo.png
+2025-04-10 19:59:20,085 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\vella\AppData\Local\Temp\tmp0ta9dft3.pdf
+2025-04-10 19:59:20,088 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\vella\AppData\Local\Temp\tmp0ta9dft3.pdf
+2025-04-10 19:59:20,147 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\vella\AppData\Local\Temp\tmp0ta9dft3.pdf
+2025-04-10 19:59:20,148 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\vella\AppData\Local\Temp\tmp0ta9dft3.pdf
+2025-04-10 19:59:20,175 - privacy_policy_analyzer - INFO - Successfully read 148277 bytes from PDF
+2025-04-10 19:59:20,177 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\vella\AppData\Local\Temp\tmp0ta9dft3.pdf

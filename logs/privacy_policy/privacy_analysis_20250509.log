@@ -1,0 +1,34 @@
+2025-05-09 23:54:54,298 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-05-09 23:54:54,665 - privacy_policy_analyzer - INFO - Found privacy policy URL for HDFC: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-09 23:54:54,667 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-05-09 23:54:54,781 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-05-09 23:54:55,268 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-05-09 23:54:55,310 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-05-09 23:54:55,314 - privacy_policy_analyzer - INFO - Successfully extracted 72946 characters of content
+2025-05-09 23:54:55,317 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-09 23:56:44,553 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-09 23:56:44,556 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-09 23:56:44,558 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-09 23:56:44,591 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:44,592 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:44,606 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:44,607 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:56:44,634 - privacy_policy_analyzer - INFO - Successfully read 592644 bytes from PDF
+2025-05-09 23:56:44,635 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpm5962my6.pdf
+2025-05-09 23:58:04,157 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: zs associates in country: India
+2025-05-09 23:58:04,600 - privacy_policy_analyzer - INFO - Found privacy policy URL for zs associates: https://www.zs.com/india-privacy-policy
+2025-05-09 23:58:04,602 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.zs.com/india-privacy-policy
+2025-05-09 23:58:05,435 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.zs.com/india-privacy-policy on attempt 1
+2025-05-09 23:58:05,633 - privacy_policy_analyzer - DEBUG - Removed 33 unwanted elements
+2025-05-09 23:58:05,635 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-05-09 23:58:05,636 - privacy_policy_analyzer - INFO - Successfully extracted 4245 characters of content
+2025-05-09 23:58:05,641 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-05-09 23:59:09,502 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-05-09 23:59:09,511 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-05-09 23:59:09,514 - privacy_policy_analyzer - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@logo.png
+2025-05-09 23:59:09,532 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,532 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,539 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,540 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf
+2025-05-09 23:59:09,566 - privacy_policy_analyzer - INFO - Successfully read 148271 bytes from PDF
+2025-05-09 23:59:09,567 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp97yk3avp.pdf

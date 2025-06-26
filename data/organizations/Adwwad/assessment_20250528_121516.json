@@ -1,0 +1,14 @@
+{
+  "organization_name": "Adwwad",
+  "assessment_date": "2025-05-28",
+  "selected_regulation": "NPC",
+  "selected_industry": "general",
+  "responses": {
+    "s0_q0": "Partially: A strategy exists but is incomplete, outdated, or only partially aligned with national strategies.",
+    "s0_q1": "Partially: Some governance roles or committees exist, but not a full unit or office.",
+    "s0_q2": "Yes: The policy is published, communicated, and aligned with NDP requirements.",
+    "s0_q3": "Partially: Some roles are defined, but not comprehensively or not assigned."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-28T12:15:16.684397"
+}

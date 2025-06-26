@@ -1,0 +1,18 @@
+{
+  "organization_name": "Qatar Airways",
+  "assessment_date": "2025-06-10",
+  "selected_regulation": "PDPPL",
+  "selected_industry": "Oil and Gas",
+  "responses": {
+    "s0_q0": "Yes, with comprehensive documentation",
+    "s1_q0": "No audits conducted",
+    "s1_q1": "No RoPA maintained",
+    "s2_q0": "Yes - Successfully completed",
+    "s2_q1": "No - Not yet completed",
+    "s2_q2": "Yes - Successfully completed",
+    "s3_q0": "No - Not yet completed",
+    "s3_q1": "No - Not yet completed"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-06-10T18:24:32.386479"
+}

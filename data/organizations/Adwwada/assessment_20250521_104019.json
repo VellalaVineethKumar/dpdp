@@ -1,0 +1,25 @@
+{
+  "organization_name": "Adwwada",
+  "assessment_date": "2025-05-21",
+  "selected_regulation": "ndp_qatar",
+  "selected_industry": "general",
+  "responses": {
+    "s0_q0": "Yes, with comprehensive documentation",
+    "s1_q0": "Yes, with full documentation",
+    "s1_q1": "Partially documented",
+    "s2_q0": "No - Not yet completed",
+    "s2_q1": "Yes - Successfully completed",
+    "s2_q2": "Yes - Successfully completed",
+    "s3_q0": "No - Not Applicable",
+    "s3_q1": "No - Not Applicable",
+    "s4_q0": "No - Not yet completed",
+    "s4_q1": "Yes - Successfully completed",
+    "s5_q0": "Yes - Successfully completed",
+    "s5_q1": "Yes - Successfully completed",
+    "s5_q2": "No - Not yet completed",
+    "s6_q0": "No - Not yet completed",
+    "s6_q1": "Yes - Successfully completed"
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-05-21T10:40:19.453798"
+}

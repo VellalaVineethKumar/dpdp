@@ -1,0 +1,14 @@
+{
+  "organization_name": "Ahh",
+  "assessment_date": "2025-06-20",
+  "selected_regulation": "OAIC",
+  "selected_industry": "General",
+  "responses": {
+    "s0_q0": "Yes: The organization has a comprehensive, current privacy policy addressing personal information management.",
+    "s0_q1": "Partially: Some, but not all, elements are addressed.",
+    "s0_q2": "Partially: The policy is available but may not always be free or easily accessible.",
+    "s0_q3": "No: The organization does not provide the policy in different formats."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-06-20T13:35:12.815333"
+}

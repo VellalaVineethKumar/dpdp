@@ -1,0 +1,367 @@
+Personal Data
+Protection Policy
+
+March 2024
+
+Table of Contents
+Introduction
+
+3
+
+Terms and Definitions
+
+3
+
+Objectives
+
+5
+
+Purpose
+
+5
+
+Scope of Implementation:
+
+5
+
+Policy Terms:
+
+5
+
+Document Management
+
+8
+
+Policy Compliance
+
+8
+
+Ministry of Transport, Communications
+and Information Technology
+
+Personal Data Protection Policy
+
+Version
+1
+
+Issuance Date
+March 2024
+
+Page
+
+2
+
+Introduction
+Countries around the world are seeking to exploit the value of data as an economic resource that
+drives innovation, supports economic transformations, and enhances the competitive factors of
+countries. At the national level, government entities collect and process huge amounts of data that
+can be utilized to contribute to economic growth and elevate the Sultanate of Oman to leadership in
+data-based economic resources. In view of the 2040 Vision, the Sultanate of Oman is pursuing a new
+era that enhances the performance of government entities, increases their level of transparency and
+responsibility, and promotes economic diversification and the utilization of data-driven services.
+Therefore, when handling personal data, the government entities should act as custodians of such
+data, manage it and ensure its security in line with relevant laws and policies. They shall also develop
+rules for its secure exchange within them and among each other.
+
+Terms and Definitions
+Ministry: Ministry of Transport, Communications and Information Technology
+Units of the State’s Administrative Apparatus: As defined in Royal Decree No. 75 /2020 regarding
+the Administrative Apparatus of the State, hereinafter referred to as the Control Unit and Processing
+Unit.
+Control Unit:. This unit determines the purpose of processing personal data and the methods for
+carrying out that processing, whether the data processing is conducted by this unit or by the
+Processing Unit
+Processing Unit: The unit responsible for processing personal data on behalf of the Control Unit.
+Third-Party: An entity operating under the supervision of either the Control Unit or the Processing
+Unit authorized to process data on behalf of the Control Unit or Processing Unit with its headquarters
+located in the Sultanate of Oman.
+Personal data: Data that identifies or makes a natural person identifiable, directly or indirectly
+through one or more identifiers, including, but not limited to, name, civil number, electronic
+identifiers, electronic data, spatial data, and one or more factors related to genetic, physical, mental,
+psychological, social, cultural, or economic identity.
+
+Personal Data Subject: A natural person who can be identified by their personal data.
+Processing: Any operation conducted on personal data using any means, either manual or automated,
+including, but not limited to, the following operations: collection, registration, analysis, organization,
+storage, alteration, retrieval, review, coordination, combination, blocking, deletion, cancellation, and
+disclosure, including sending, distributing, transferring, or otherwise making it available ..
+
+Ministry of Transport, Communications
+and Information Technology
+
+Personal Data Protection Policy
+
+Version
+1
+
+Issuance Date
+March 2024
+
+Page
+
+3
+
+Personal Data Breach: Unauthorized access to personal data that results in unlawful destruction, alteration,
+disclosure, or unauthorized processing.
+
+Disclosure:Allowing individuals, other than the Control Unit, to obtain, use or access Personal Data
+by any means and for any purpose whatsoever.
+Destruction: Any action that leads to the removal of Personal Data, rendering it inaccessible or
+irretrievable.
+Cross-Border Data Transfer: Making personal data available, displaying, using, publishing,
+exchanging, storing, recording, retrieving, receiving or sending personal data across the borders of
+Oman Sultanate of Oman.
+
+Ministry of Transport, Communications
+and Information Technology
+
+Personal Data Protection Policy
+
+Version
+1
+
+Issuance Date
+March 2024
+
+Page
+
+4
+
+Objectives
+This policy aims to achieve several objectives, including:
+-
+
+-
+
+Leveraging the value of data as an economic resource that fosters innovation and supports economic
+transformations .
+Enhancing the data subject's trust in the capacity of government entities to manage personal data by
+ensuring compliance with relevant laws and policies .
+Adopting best global practices in personal data protection policies and controls, and maximizing the
+value of personal data to enhance performance, productivity, and the efficiency of public service
+delivery.
+Establishing a framework that balances individuals' rights to protect their personal data while
+permitting the processing and retention of data within the context of cyberspace and the growth of
+big data and artificial intelligenc.
+
+Purpose
+This policy aims to establish a comprehensive set of controls for the protection of personal data, including
+its processing, storage, disclosure, access, modification, and review .
+
+Scope of Implementation:
+This Policy apply to the units of the State’s Administrative Apparatus.
+
+Policy Terms:
+1. Control Unit Obligations
+
+Ministry of Transport, Communications
+and Information Technology
+
+Personal Data Protection Policy
+
+Version
+1
+
+Issuance Date
+March 2024
+
+Page
+
+5
+
+1.1 To achieve the objectives of this policy, the Control Unit is committed to protecting all
+personal information and data in its possession, including information and data received from
+or disclosed to other units.
+
+1.2 In processing personal data, the Control Unit shall consider the following:
+
+
+Data must be collected through lawful and fair means and must be limited to what is
+necessary to meet its legal obligations or related to its core business activities
+
+
+
+Data processing must be conducted fairly and lawfully .
+
+
+
+Data must be correct and accurate, and must be updated as necessary .
+
+
+
+Data must not be retained in a form that allows the identification of the data subject once
+the purpose for which it was collected or subsequently processed has been achieved .
+
+1.3 To carry out its duties, the Control Unit shall request the minimum data and documents from
+the data subject to complete service transactions if the information is not available
+electronically or cannot be exchanged electronically with any other government unit .
+
+1.4 The Control Unit must ensure that the data subject is informed and has provided
+consent for the processing of their data through a statement indicating that by applying
+for the service, they consent to the processing or disclosure of their data to other
+governmental units within the Sultanate of Oman to fulfill their current and future
+requests for government services.
+1.5 The Control Unit must implement security and organizational measures to safeguard
+the data from accidental or unauthorized destruction, accidental or unauthorized
+destruction, loss, alteration, disclosure, hacking, or any other unauthorized processing.
+
+1.6 The Control Unit must establish appropriate security measures for all systems and
+storage media involved in data handling to prevent any potential breach.
+1.7 When assigning the Processing Unit or any third party to process personal data, the
+Control Unit must ensure that appropriate safeguards are in place:
+
+Ministry of Transport, Communications
+and Information Technology
+
+Personal Data Protection Policy
+
+Version
+1
+
+Issuance Date
+March 2024
+
+Page
+
+6
+
+
+
+Ensure that the Processing Unit or third party provides sufficient assurances regarding
+the implementation of technical and organizational measures for data processing, and
+take necessary steps to verify their compliance.
+
+
+
+Conduct the Processing in accordance with a written contract between the
+Control Unit and the Processing Unit /third party that processes the data on its
+behalf or under its supervision.
+Include clear provisions in the contract that specify conditions for data retention
+periods and arrangements for the deletion of any data sent or received.
+Include clear provisions in the contract regarding the Control Unit's right to audit
+the security measures implemented by the Processing Unit or the third party to protect
+personal data.
+
+
+
+
+1.8 The Control Unit must disclose the acquired or generated data to the Processing Unit
+or third party – provided there is a clear and valid purpose for the disclosure - in
+compliance with legal obligations and privacy considerations.
+1.9.The Control Unit must publish the Privacy Statement on its websites as an
+attachment.
+1.10.The Control Unit must establish mechanisms to ensure the secure distruction of
+personal data to prevent unauthorized access.
+1.11.The Control Unit must notify the Cyber Defense Center in the event of any leakage,
+loss, or breach of personal data
+1.12 The Control Unit must process personal data within the geographical boundaries of
+the Sultanate of Oman to ensure the maintenance of national sovereignty over such data
+while protecting the privacy of data subjects. Personal data may not be transferred or
+processed outside the Sultanate except in the following cases:
+
+
+
+
+
+Executing a contract to which the data subject is a party.
+Initiating procedures to assert and defend legal rights.
+Protecting the vital interests of the data subject.
+
+Ministry of Transport, Communications
+and Information Technology
+
+Personal Data Protection Policy
+
+Version
+1
+
+Issuance Date
+March 2024
+
+Page
+
+7
+
+1.13 The Control Unit shall obtain the approval of the Cyber Defense Center before
+transferring personal data outside the geographical boundaries of the Sultanate of
+Oman for processing.
+2- Obligations of the Processing Unit/Third Party
+In order to achieve the objectives of this Policy, the Processing Unit/Third Party muts comply
+with the following:
+2.1 Protect all personal information and data in its possession, including data received
+from or disclosed to other units.
+2.2 It shall not carry out any processing except as instructed by the Control Unit.
+
+Document Management
+1. This Policy is owned by the Ministry of Transport, Communications and Information
+Technology and will be subject to review whenever necessary.
+2. The Policy shall be adopted after 24 months from the date of its approval and
+circulation by the Ministry of Transport, Communications and Information
+Technology.
+
+Policy Compliance
+1. The Ministry of Transport, Communications and Information Technology is
+responsible for monitoring the Compliance of the State’s Administrative Apparatus
+Units with the Policy and presenting the results of compliance and commitment to the
+Council of Ministers.
+
+Relevant Publications
+ Personal Data Protection Law (2022)
+ Open Data Policies (2020).
+
+Ministry of Transport, Communications
+and Information Technology
+
+Personal Data Protection Policy
+
+Version
+1
+
+Issuance Date
+March 2024
+
+Page
+
+8
+
+(Attachment)
+Privacy Notice
+A privacy notice that aims to inform personal data subjects shall include the purpose for which their
+personal data is being processed (e.g.: the Human Resources Department collects CVs of potential
+candidates for job roles in the Entity. The specific purpose is to examine whether the new candidates
+are suitable for the required job roles in the Entity), in addition to the following information:
+1- The purpose for which his personal data is collected, whether all or part of it is mandatory or
+optional, and informing him that his data shall not be subsequently processed in a manner
+inconsistent with the purpose for which it is collected.
+2- The types of personal data that shall be collected.
+3- The means used to collect, process, store and destroy personal data.
+4- Identity of the collector of his personal data.
+5- The unit or units to which the personal data shall be disclosed, its description, and whether
+the personal data shall be transferred, disclosed or processed outside the Sultanate of Oman.
+6- The potential consequences and risks of not completing the personal data collection
+procedure.
+7- The rights of the data subject are as follows:
+ The right to be knowledgeable, including being informed of the purpose for which his
+data is being collected.
+ The right to access his personal data available to the Control Unit in accordance with
+the relevant regulations and policies.
+ The right to request to receive his personal data available with the Control Unit in a
+legible and clear format.
+ The right to request correction, completion or updating of his personal data that is
+available with the Control Unit.
+
+Ministry of Transport, Communications
+and Information Technology
+
+Personal Data Protection Policy
+
+Version
+1
+
+Issuance Date
+March 2024
+
+Page
+
+9
+

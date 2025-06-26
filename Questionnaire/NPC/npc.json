@@ -1,0 +1,625 @@
+{
+	"sections": [
+	  {
+		"name": "Data Management Strategy & Governance",
+		"weight": 0.12,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Does your entity have a documented Data Management Strategy aligned with the National Data and Statistics Strategy and Qatar's Digital Agenda 2030? [NDP Section 3.1.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: The strategy is documented, covers all 12 NDP domains, and is reviewed/updated annually.",
+			  "Partially: A strategy exists but is incomplete, outdated, or only partially aligned with national strategies.",
+			  "No: No documented strategy exists."
+			],
+			"recommendations": {
+			  "Partially: A strategy exists but is incomplete, outdated, or only partially aligned with national strategies.": "Review your current strategy, identify gaps against NDP requirements, and update it to address all 12 domains and national alignment. Use NPC guides and templates to ensure completeness.",
+			  "No: No documented strategy exists.": "Initiate the development of a comprehensive data management strategy using the NPC's practical guidelines and frameworks. Engage stakeholders and align with national objectives."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Is there a Data Governance Unit or Data Office established within your entity? [NDP Section 3.1.3] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A formal, dedicated unit or office is operational and has clear responsibilities.",
+			  "Partially: Some governance roles or committees exist, but not a full unit or office.",
+			  "No: No such unit or office exists."
+			],
+			"recommendations": {
+			  "Partially: Some governance roles or committees exist, but not a full unit or office.": "Formalize the governance structure, clarify roles, and ensure the unit is empowered. Use NPC's templates for establishing governance.",
+			  "No: No such unit or office exists.": "Set up a dedicated Data Governance Unit or Office, referencing NPC's frameworks for structure and responsibilities."
+			}
+		  },
+		  {
+			"id": 3,
+			"text": "Does your entity have a published Data Governance Policy aligned with the National Data Policy? [NDP Section 3.1.4] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: The policy is published, communicated, and aligned with NDP requirements.",
+			  "Partially: A policy exists but is not fully aligned or not widely communicated.",
+			  "No: No policy exists."
+			],
+			"recommendations": {
+			  "Partially: A policy exists but is not fully aligned or not widely communicated.": "Revise the policy to fully align with NDP and publish it internally. Refer to NPC's policy templates for structure and content.",
+			  "No: No policy exists.": "Develop and publish a data governance policy using NPC's standards and tools to ensure alignment and effectiveness."
+			}
+		  },
+		  {
+			"id": 4,
+			"text": "Are data management roles, responsibilities, and ownership clearly defined and assigned within your entity? [NDP Section 3.1.3] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: All roles and responsibilities are documented and assigned.",
+			  "Partially: Some roles are defined, but not comprehensively or not assigned.",
+			  "No: No clear roles or responsibilities."
+			],
+			"recommendations": {
+			  "Partially: Some roles are defined, but not comprehensively or not assigned.": "Complete the assignment of all roles and communicate them across the entity. Use NPC's best practice templates for clarity.",
+			  "No: No clear roles or responsibilities.": "Define and assign all necessary data management roles, using NPC's frameworks for guidance."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Data Architecture & Modeling",
+		"weight": 0.1,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Has your entity developed and maintained an Enterprise Data Architecture supporting data quality, integration, and interoperability? [NDP Section 3.2.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A comprehensive architecture exists, is documented, and regularly updated.",
+			  "Partially: Architecture is partially developed or not regularly maintained.",
+			  "No: No enterprise data architecture exists."
+			],
+			"recommendations": {
+			  "Partially: Architecture is partially developed or not regularly maintained.": "Update and expand the architecture to cover all domains. Use NPC's architectural guides and frameworks.",
+			  "No: No enterprise data architecture exists.": "Develop an enterprise data architecture from scratch, leveraging NPC's tools and best practices."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Is there an Analytical Enterprise Data Model (EDM) in place to support business intelligence and analytics? [NDP Section 3.2.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: An EDM is in place, covering descriptive, diagnostic, predictive, and prescriptive analytics.",
+			  "Partially: An EDM exists but is incomplete or not fully utilized.",
+			  "No: No EDM exists."
+			],
+			"recommendations": {
+			  "Partially: An EDM exists but is incomplete or not fully utilized.": "Expand the EDM to cover all analytics use cases and ensure it is integrated with business processes.",
+			  "No: No EDM exists.": "Build an EDM using NPC's modeling standards and ensure it supports all analytics domains."
+			}
+		  },
+		  {
+			"id": 3,
+			"text": "Are your data architecture and models reviewed and approved by the NPC? [NDP Section 3.2.4] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: All models are reviewed and approved by NPC.",
+			  "Partially: Some models have been submitted or reviewed, but not all.",
+			  "No: No models have been reviewed or approved by NPC."
+			],
+			"recommendations": {
+			  "Partially: Some models have been submitted or reviewed, but not all.": "Submit all outstanding models for NPC review and address any feedback.",
+			  "No: No models have been reviewed or approved by NPC.": "Initiate the process for NPC review and approval of all data architectures and models."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Data Quality Management",
+		"weight": 0.1,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Has your entity published a Data Quality Policy in line with national standards? [NDP Section 3.3.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: The policy is published and aligned with national standards.",
+			  "Partially: A policy exists but is not fully aligned or not published.",
+			  "No: No data quality policy exists."
+			],
+			"recommendations": {
+			  "Partially: A policy exists but is not fully aligned or not published.": "Update the policy to ensure full alignment with NDP and publish it entity-wide.",
+			  "No: No data quality policy exists.": "Develop and publish a data quality policy using NPC's guidelines and templates."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Is there a Data Quality Program with continuous assessment and improvement mechanisms? [NDP Section 3.3.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A formal program is in place, with regular assessments and improvements.",
+			  "Partially: Some activities are conducted, but not systematically or regularly.",
+			  "No: No data quality program exists."
+			],
+			"recommendations": {
+			  "Partially: Some activities are conducted, but not systematically or regularly.": "Expand the program to include regular assessments and continuous improvement cycles.",
+			  "No: No data quality program exists.": "Establish a formal data quality program, referencing NPC's practical guides."
+			}
+		  },
+		  {
+			"id": 3,
+			"text": "Are data quality scorecards and key performance indicators (KPIs) implemented and monitored? [NDP Section 3.3.4] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Scorecards and KPIs are implemented and actively monitored.",
+			  "Partially: Some KPIs or scorecards exist, but monitoring is inconsistent.",
+			  "No: No scorecards or KPIs are in use."
+			],
+			"recommendations": {
+			  "Partially: Some KPIs or scorecards exist, but monitoring is inconsistent.": "Implement missing KPIs and ensure consistent monitoring and reporting.",
+			  "No: No scorecards or KPIs are in use.": "Develop and deploy data quality scorecards and KPIs using NPC's recommended frameworks."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Master & Reference Data Management",
+		"weight": 0.08,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Is there a Master and Reference Data Management Policy in place? [NDP Section 3.4.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A formal, published policy exists and is aligned with national standards.",
+			  "Partially: A policy exists but is incomplete or not aligned.",
+			  "No: No such policy exists."
+			],
+			"recommendations": {
+			  "Partially: A policy exists but is incomplete or not aligned.": "Revise the policy for full coverage and alignment with NDP and NPC standards.",
+			  "No: No such policy exists.": "Develop and publish a master and reference data management policy using NPC templates."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Has your entity established a Master Data Management (MDM) program and plan? [NDP Section 3.4.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A comprehensive MDM program and plan are operational.",
+			  "Partially: Some elements of MDM are in place, but not fully implemented.",
+			  "No: No MDM program or plan exists."
+			],
+			"recommendations": {
+			  "Partially: Some elements of MDM are in place, but not fully implemented.": "Expand the MDM program to cover all relevant domains and ensure proper implementation.",
+			  "No: No MDM program or plan exists.": "Establish a comprehensive MDM program and plan, leveraging NPC's best practice resources."
+			}
+		  },
+		  {
+			"id": 3,
+			"text": "Are reference data and statistical classifications coordinated with and approved by the NPC? [NDP Section 3.4.3] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: All reference data/classifications are coordinated and approved by NPC.",
+			  "Partially: Some coordination/approval has occurred, but not comprehensively.",
+			  "No: No coordination or approval with NPC."
+			],
+			"recommendations": {
+			  "Partially: Some coordination/approval has occurred, but not comprehensively.": "Complete coordination and approval for all outstanding reference data and classifications.",
+			  "No: No coordination or approval with NPC.": "Initiate coordination with NPC and seek approval for all reference data and classifications."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Document & Content Management",
+		"weight": 0.06,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Has your entity developed a Document and Content Management Policy and program for the entire document lifecycle? [NDP Section 3.5.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Policy and program exist and cover the full lifecycle.",
+			  "Partially: Policy/program exists but is incomplete or covers only part of the lifecycle.",
+			  "No: No such policy or program exists."
+			],
+			"recommendations": {
+			  "Partially: Policy/program exists but is incomplete or covers only part of the lifecycle.": "Expand the policy/program to cover the full lifecycle and ensure comprehensive implementation.",
+			  "No: No such policy or program exists.": "Develop and implement a document and content management policy and program using NPC's standards."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Are efforts underway to reduce non-digital methods and move towards a fully digital government? [NDP Section 3.5.3] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: There is a clear plan and active implementation to digitize processes.",
+			  "Partially: Some digitalization efforts are underway, but not comprehensive.",
+			  "No: No efforts to reduce non-digital methods."
+			],
+			"recommendations": {
+			  "Partially: Some digitalization efforts are underway, but not comprehensive.": "Accelerate digital transformation initiatives and set clear targets for full digitalization.",
+			  "No: No efforts to reduce non-digital methods.": "Launch a digital transformation program to replace non-digital processes, using NPC's digitalization guidelines."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Data Catalog & Metadata Management",
+		"weight": 0.06,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Does your entity maintain a Data Catalog and Metadata Management system? [NDP Section 3.6.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A comprehensive catalog and metadata system is in place and maintained.",
+			  "Partially: Some cataloging/metadata management exists, but not fully implemented.",
+			  "No: No catalog or metadata system exists."
+			],
+			"recommendations": {
+			  "Partially: Some cataloging/metadata management exists, but not fully implemented.": "Expand and update the catalog to cover all data assets; improve metadata management with NPC tools.",
+			  "No: No catalog or metadata system exists.": "Implement a data catalog and metadata management system as required by NDP, using NPC's frameworks."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Is the metadata structure aligned with NPC-published frameworks and standards? [NDP Section 3.6.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Metadata structure fully aligns with NPC standards.",
+			  "Partially: Some alignment exists, but not comprehensive.",
+			  "No: No alignment with NPC standards."
+			],
+			"recommendations": {
+			  "Partially: Some alignment exists, but not comprehensive.": "Align all metadata structures fully with NPC frameworks and standards.",
+			  "No: No alignment with NPC standards.": "Redesign metadata structures to comply with NPC frameworks and standards."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Data Storage & Operations",
+		"weight": 0.07,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Are data storage and retention policies compliant with national regulations and aligned with the National Data Standards? [NDP Section 3.7.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Policies are documented, compliant, and regularly reviewed.",
+			  "Partially: Some policies exist, but not fully compliant or reviewed.",
+			  "No: No such policies exist."
+			],
+			"recommendations": {
+			  "Partially: Some policies exist, but not fully compliant or reviewed.": "Update policies to address all gaps and ensure full compliance with NPC standards.",
+			  "No: No such policies exist.": "Develop and implement compliant data storage and retention policies, using NPC's templates."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Are secure, scalable, and efficient data storage solutions, including cloud services, in place and compliant with regulations? [NDP Section 3.7.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: All storage solutions are secure, scalable, and compliant.",
+			  "Partially: Some solutions are compliant, but not all.",
+			  "No: No compliant storage solutions exist."
+			],
+			"recommendations": {
+			  "Partially: Some solutions are compliant, but not all.": "Upgrade or replace non-compliant or inadequate storage solutions as per NPC recommendations.",
+			  "No: No compliant storage solutions exist.": "Implement secure, scalable, and compliant storage solutions, including cloud options if appropriate, using NPC best practices."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Data Sharing, Integration & Interoperability",
+		"weight": 0.09,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Has your entity published a Data Sharing & Integration Policy? [NDP Section 3.8.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A formal, published policy exists.",
+			  "Partially: Policy exists but is not published or fully implemented.",
+			  "No: No such policy exists."
+			],
+			"recommendations": {
+			  "Partially: Policy exists but is not published or fully implemented.": "Update and publish the policy to ensure full coverage and alignment with NDP and NPC standards.",
+			  "No: No such policy exists.": "Develop and publish a data sharing and integration policy using NPC's guides and frameworks."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Is data sharing conducted securely and in compliance with the National Data Standards? [NDP Section 3.8.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: All data sharing is secure and compliant.",
+			  "Partially: Some data sharing is secure/compliant, but not all.",
+			  "No: Data sharing is not secure or compliant."
+			],
+			"recommendations": {
+			  "Partially: Some data sharing is secure/compliant, but not all.": "Address any gaps in secure and compliant data sharing; provide training and update processes as needed.",
+			  "No: Data sharing is not secure or compliant.": "Implement secure and compliant data sharing practices immediately, referencing NPC's standards."
+			}
+		  },
+		  {
+			"id": 3,
+			"text": "Does your entity participate in the National Data Marketplace for inter-entity data sharing? [NDP Section 3.8.3] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Actively participates in the National Data Marketplace.",
+			  "Partially: Limited or occasional participation.",
+			  "No: Does not participate."
+			],
+			"recommendations": {
+			  "Partially: Limited or occasional participation.": "Increase participation and leverage the marketplace for broader data sharing and collaboration.",
+			  "No: Does not participate.": "Register and begin participating in the National Data Marketplace, using NPC's onboarding resources."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Statistics & Analytics",
+		"weight": 0.1,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Are statistics and analytics programs aligned with both entity and national strategic objectives? [NDP Section 3.9.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Programs are fully aligned and regularly reviewed.",
+			  "Partially: Some alignment exists, but not comprehensive.",
+			  "No: No alignment with strategic objectives."
+			],
+			"recommendations": {
+			  "Partially: Some alignment exists, but not comprehensive.": "Complete alignment with all relevant objectives and update programs accordingly, using NPC's analytics frameworks.",
+			  "No: No alignment with strategic objectives.": "Develop statistics and analytics programs that align with both entity and national objectives, leveraging NPC's guidance."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Is there a structured portfolio of analytics use cases (descriptive, diagnostic, predictive, prescriptive)? [NDP Section 3.9.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A documented and structured portfolio exists.",
+			  "Partially: Some use cases exist, but not a full portfolio.",
+			  "No: No structured analytics portfolio."
+			],
+			"recommendations": {
+			  "Partially: Some use cases exist, but not a full portfolio.": "Develop a comprehensive portfolio covering all analytics types, referencing NPC's recommended approaches.",
+			  "No: No structured analytics portfolio.": "Initiate the development of a structured analytics use case portfolio using NPC's templates and best practices."
+			}
+		  },
+		  {
+			"id": 3,
+			"text": "Are official statistics produced in compliance with the National Quality Assurance Framework (NQAF) and international standards? [NDP Section 3.9.5] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: All official statistics follow NQAF and international standards.",
+			  "Partially: Some compliance, but not comprehensive.",
+			  "No: No compliance with NQAF/international standards."
+			],
+			"recommendations": {
+			  "Partially: Some compliance, but not comprehensive.": "Address any gaps in compliance and provide additional training for staff using NPC's quality assurance resources.",
+			  "No: No compliance with NQAF/international standards.": "Implement processes to ensure all official statistics comply with NQAF and international standards, referencing NPC documentation."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Data Monetization",
+		"weight": 0.04,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Has your entity identified opportunities for data monetization in compliance with applicable laws? [NDP Section 3.10.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Opportunities are identified and documented, with legal compliance.",
+			  "Partially: Some opportunities identified, but not fully compliant or documented.",
+			  "No: No data monetization opportunities identified."
+			],
+			"recommendations": {
+			  "Partially: Some opportunities identified, but not fully compliant or documented.": "Ensure all monetization activities are fully compliant and documented, referencing NPC's legal and operational guides.",
+			  "No: No data monetization opportunities identified.": "Identify and evaluate data monetization opportunities, ensuring compliance with applicable laws and NPC recommendations."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Is there a program and plan for developing and adopting data products? [NDP Section 3.10.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A formal program and plan exist.",
+			  "Partially: Some efforts or plans exist, but not comprehensive.",
+			  "No: No such program or plan."
+			],
+			"recommendations": {
+			  "Partially: Some efforts or plans exist, but not comprehensive.": "Expand the program and formalize plans for data product development using NPC's program templates.",
+			  "No: No such program or plan.": "Develop a program and plan for data product development and adoption, leveraging NPC's frameworks."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Data Security, Privacy & Other Regulations",
+		"weight": 0.12,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Does your entity comply with the Personal Data Privacy Protection Law and the Right to Access Information Law? [NDP Section 3.11.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Full compliance with both laws.",
+			  "Partially: Some compliance, but gaps remain.",
+			  "No: No compliance."
+			],
+			"recommendations": {
+			  "Partially: Some compliance, but gaps remain.": "Address compliance gaps and reinforce training and monitoring using NPC's compliance checklists.",
+			  "No: No compliance.": "Implement immediate measures to achieve full legal compliance, referencing NPC and national legal requirements."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Are all data assets classified according to the National Data Classification Policy? [NDP Section 3.11.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: All assets are classified per policy.",
+			  "Partially: Some assets classified, but not all.",
+			  "No: No classification in place."
+			],
+			"recommendations": {
+			  "Partially: Some assets classified, but not all.": "Complete classification of all assets and address any inconsistencies using NPC's classification tools.",
+			  "No: No classification in place.": "Begin classification of all data assets per the National Data Classification Policy, using NPC's resources."
+			}
+		  },
+		  {
+			"id": 3,
+			"text": "Are automated systems in place for data classification and labeling? [NDP Section 3.11.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Automated systems are fully operational.",
+			  "Partially: Some automation exists, but not comprehensive.",
+			  "No: No automated systems."
+			],
+			"recommendations": {
+			  "Partially: Some automation exists, but not comprehensive.": "Expand automation to cover all data assets, using NPC's recommended technologies.",
+			  "No: No automated systems.": "Implement automated systems for classification and labeling, leveraging NPC's guidance and tools."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Data Culture & Literacy",
+		"weight": 0.03,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Is there a Data Culture and Literacy program to promote data awareness and skills across the entity? [NDP Section 3.12.1] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: A formal program is in place and active.",
+			  "Partially: Some initiatives exist, but not a full program.",
+			  "No: No such program."
+			],
+			"recommendations": {
+			  "Partially: Some initiatives exist, but not a full program.": "Expand the program's reach and ensure alignment with NDP objectives and NPC enablement resources.",
+			  "No: No such program.": "Develop and launch a data culture and literacy program using NPC's training and awareness frameworks."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Are training curriculums and learning paths defined and aligned with NPC enablement programs? [NDP Section 3.12.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Curriculums and learning paths are defined and aligned.",
+			  "Partially: Some training exists, but not fully aligned or defined.",
+			  "No: No training curriculums or learning paths."
+			],
+			"recommendations": {
+			  "Partially: Some training exists, but not fully aligned or defined.": "Complete curriculum development and ensure alignment with NPC enablement programs.",
+			  "No: No training curriculums or learning paths.": "Define and implement training curriculums and learning paths based on NPC's enablement resources."
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Compliance & Continuous Improvement",
+		"weight": 0.03,
+		"questions": [
+		  {
+			"id": 1,
+			"text": "Are regular audits and compliance reviews conducted to ensure adherence to the National Data Policy? [NDP Section 4.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Regular audits and reviews are conducted and documented.",
+			  "Partially: Some reviews/audits occur, but not regularly or comprehensively.",
+			  "No: No audits or reviews."
+			],
+			"recommendations": {
+			  "Partially: Some reviews/audits occur, but not regularly or comprehensively.": "Increase audit frequency and address outstanding issues using NPC's compliance frameworks.",
+			  "No: No audits or reviews.": "Establish a schedule and process for regular audits and compliance reviews, referencing NPC's audit guidelines."
+			}
+		  },
+		  {
+			"id": 2,
+			"text": "Are there clear mechanisms for accountability and reporting on data management activities? [NDP Section 4.2] [<a href='https://www.npc.qa/en/nationaldataprogram/Documents/EnNationalDataPolicy.pdf' target='_blank'>National Data Policy PDF</a>]",
+			"options": [
+			  "Yes: Mechanisms are documented, communicated, and enforced.",
+			  "Partially: Some mechanisms exist, but not comprehensive or enforced.",
+			  "No: No mechanisms in place."
+			],
+			"recommendations": {
+			  "Partially: Some mechanisms exist, but not comprehensive or enforced.": "Clarify and formalize accountability and reporting processes using NPC's templates and best practices.",
+			  "No: No mechanisms in place.": "Establish clear mechanisms for accountability and reporting, leveraging NPC's frameworks and tools."
+			}
+		  }
+		]
+	  }
+	],
+	"answer_points": {
+	  "Yes: The strategy is documented, covers all 12 NDP domains, and is reviewed/updated annually.": 1.0,
+	  "Yes: A formal, dedicated unit or office is operational and has clear responsibilities.": 1.0,
+	  "Yes: The policy is published, communicated, and aligned with NDP requirements.": 1.0,
+	  "Yes: All roles and responsibilities are documented and assigned.": 1.0,
+	  "Yes: A comprehensive architecture exists, is documented, and regularly updated.": 1.0,
+	  "Yes: An EDM is in place, covering descriptive, diagnostic, predictive, and prescriptive analytics.": 1.0,
+	  "Yes: All models are reviewed and approved by NPC.": 1.0,
+	  "Yes: The policy is published and aligned with national standards.": 1.0,
+	  "Yes: A formal program is in place, with regular assessments and improvements.": 1.0,
+	  "Yes: Scorecards and KPIs are implemented and actively monitored.": 1.0,
+	  "Yes: A formal, published policy exists and is aligned with national standards.": 1.0,
+	  "Yes: A comprehensive MDM program and plan are operational.": 1.0,
+	  "Yes: All reference data/classifications are coordinated and approved by NPC.": 1.0,
+	  "Yes: Policy and program exist and cover the full lifecycle.": 1.0,
+	  "Yes: There is a clear plan and active implementation to digitize processes.": 1.0,
+	  "Yes: A comprehensive catalog and metadata system is in place and maintained.": 1.0,
+	  "Yes: Metadata structure fully aligns with NPC standards.": 1.0,
+	  "Yes: Policies are documented, compliant, and regularly reviewed.": 1.0,
+	  "Yes: All storage solutions are secure, scalable, and compliant.": 1.0,
+	  "Yes: A formal, published policy exists.": 1.0,
+	  "Yes: All data sharing is secure and compliant.": 1.0,
+	  "Yes: Actively participates in the National Data Marketplace.": 1.0,
+	  "Yes: Programs are fully aligned and regularly reviewed.": 1.0,
+	  "Yes: A documented and structured portfolio exists.": 1.0,
+	  "Yes: All official statistics follow NQAF and international standards.": 1.0,
+	  "Yes: Opportunities are identified and documented, with legal compliance.": 1.0,
+	  "Yes: A formal program and plan exist.": 1.0,
+	  "Yes: Full compliance with both laws.": 1.0,
+	  "Yes: All assets are classified per policy.": 1.0,
+	  "Yes: Automated systems are fully operational.": 1.0,
+	  "Yes: A formal program is in place and active.": 1.0,
+	  "Yes: Curriculums and learning paths are defined and aligned.": 1.0,
+	  "Yes: Regular audits and reviews are conducted and documented.": 1.0,
+	  "Yes: Mechanisms are documented, communicated, and enforced.": 1.0,
+	  "Partially: A strategy exists but is incomplete, outdated, or only partially aligned with national strategies.": 0.5,
+	  "Partially: Some governance roles or committees exist, but not a full unit or office.": 0.5,
+	  "Partially: A policy exists but is not fully aligned or not widely communicated.": 0.5,
+	  "Partially: Some roles are defined, but not comprehensively or not assigned.": 0.5,
+	  "Partially: Architecture is partially developed or not regularly maintained.": 0.5,
+	  "Partially: An EDM exists but is incomplete or not fully utilized.": 0.5,
+	  "Partially: Some models have been submitted or reviewed, but not all.": 0.5,
+	  "Partially: A policy exists but is not fully aligned or not published.": 0.5,
+	  "Partially: Some activities are conducted, but not systematically or regularly.": 0.5,
+	  "Partially: Some KPIs or scorecards exist, but monitoring is inconsistent.": 0.5,
+	  "Partially: A policy exists but is incomplete or not aligned.": 0.5,
+	  "Partially: Some elements of MDM are in place, but not fully implemented.": 0.5,
+	  "Partially: Some coordination/approval has occurred, but not comprehensively.": 0.5,
+	  "Partially: Policy/program exists but is incomplete or covers only part of the lifecycle.": 0.5,
+	  "Partially: Some digitalization efforts are underway, but not comprehensive.": 0.5,
+	  "Partially: Some cataloging/metadata management exists, but not fully implemented.": 0.5,
+	  "Partially: Some alignment exists, but not comprehensive.": 0.5,
+	  "Partially: Some policies exist, but not fully compliant or reviewed.": 0.5,
+	  "Partially: Some solutions are compliant, but not all.": 0.5,
+	  "Partially: Policy exists but is not published or fully implemented.": 0.5,
+	  "Partially: Some data sharing is secure/compliant, but not all.": 0.5,
+	  "Partially: Limited or occasional participation.": 0.5,
+	  "Partially: Some use cases exist, but not a full portfolio.": 0.5,
+	  "Partially: Some compliance, but not comprehensive.": 0.5,
+	  "Partially: Some opportunities identified, but not fully compliant or documented.": 0.5,
+	  "Partially: Some efforts or plans exist, but not comprehensive.": 0.5,
+	  "Partially: Some compliance, but gaps remain.": 0.5,
+	  "Partially: Some assets classified, but not all.": 0.5,
+	  "Partially: Some automation exists, but not comprehensive.": 0.5,
+	  "Partially: Some initiatives exist, but not a full program.": 0.5,
+	  "Partially: Some training exists, but not fully aligned or defined.": 0.5,
+	  "Partially: Some reviews/audits occur, but not regularly or comprehensively.": 0.5,
+	  "Partially: Some mechanisms exist, but not comprehensive or enforced.": 0.5,
+	  "No: No documented strategy exists.": 0.0,
+	  "No: No such unit or office exists.": 0.0,
+	  "No: No policy exists.": 0.0,
+	  "No: No clear roles or responsibilities.": 0.0,
+	  "No: No enterprise data architecture exists.": 0.0,
+	  "No: No EDM exists.": 0.0,
+	  "No: No models have been reviewed or approved by NPC.": 0.0,
+	  "No: No data quality policy exists.": 0.0,
+	  "No: No data quality program exists.": 0.0,
+	  "No: No scorecards or KPIs are in use.": 0.0,
+	  "No: No such policy exists.": 0.0,
+	  "No: No MDM program or plan exists.": 0.0,
+	  "No: No coordination or approval with NPC.": 0.0,
+	  "No: No such policy or program exists.": 0.0,
+	  "No: No efforts to reduce non-digital methods.": 0.0,
+	  "No: No catalog or metadata system exists.": 0.0,
+	  "No: No alignment with NPC standards.": 0.0,
+	  "No: No compliant storage solutions exist.": 0.0,
+	  "No: Data sharing is not secure or compliant.": 0.0,
+	  "No: Does not participate.": 0.0,
+	  "No: No alignment with strategic objectives.": 0.0,
+	  "No: No structured analytics portfolio.": 0.0,
+	  "No: No compliance with NQAF/international standards.": 0.0,
+	  "No: No data monetization opportunities identified.": 0.0,
+	  "No: No such program or plan.": 0.0,
+	  "No: No compliance.": 0.0,
+	  "No: No classification in place.": 0.0,
+	  "No: No automated systems.": 0.0,
+	  "No: No such program.": 0.0,
+	  "No: No training curriculums or learning paths.": 0.0,
+	  "No: No audits or reviews.": 0.0,
+	  "No: No mechanisms in place.": 0.0
+	}
+  }

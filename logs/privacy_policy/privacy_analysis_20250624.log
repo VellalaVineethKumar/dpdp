@@ -1,0 +1,23 @@
+2025-06-24 23:42:29,968 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Aramco in country: Saudi Arabia
+2025-06-24 23:42:30,469 - privacy_policy_analyzer - INFO - Found privacy policy URL for Aramco: https://www.aramco.com/en/privacy-notice
+2025-06-24 23:42:30,470 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aramco.com/en/privacy-notice
+2025-06-24 23:43:00,068 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Alrajhi Bank in country: Saudi Arabia
+2025-06-24 23:43:00,459 - privacy_policy_analyzer - INFO - Found privacy policy URL for Alrajhi Bank: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-06-24 23:43:00,460 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.alrajhibank.com.sa/en/Privacy-Policy
+2025-06-24 23:43:00,888 - privacy_policy_analyzer - WARNING - Timeout error on attempt 1: HTTPSConnectionPool(host='www.aramco.com', port=443): Read timed out. (read timeout=30)
+2025-06-24 23:43:04,116 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.alrajhibank.com.sa/en/Privacy-Policy on attempt 1
+2025-06-24 23:43:04,173 - privacy_policy_analyzer - DEBUG - Removed 142 unwanted elements
+2025-06-24 23:43:04,174 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-06-24 23:43:04,177 - privacy_policy_analyzer - INFO - Successfully extracted 16829 characters of content
+2025-06-24 23:43:04,179 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Saudi Arabia analysis
+2025-06-24 23:43:24,535 - privacy_policy_analyzer - WARNING - Connection error on attempt 2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-24 23:43:48,202 - privacy_policy_analyzer - WARNING - Connection error on attempt 3: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-24 23:43:48,202 - privacy_policy_analyzer - ERROR - Connection failed after 3 attempts
+2025-06-24 23:43:54,666 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-06-24 23:43:54,667 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-06-24 23:43:54,766 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,768 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,804 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,805 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf
+2025-06-24 23:43:54,840 - privacy_policy_analyzer - INFO - Successfully read 993506 bytes from PDF
+2025-06-24 23:43:54,842 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpno9jgqz_.pdf

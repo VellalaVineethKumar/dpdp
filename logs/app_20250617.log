@@ -1,0 +1,606 @@
+2025-06-17 18:27:19,950 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:20,756 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-06-17 18:27:24,861 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:24,972 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:25,007 - helpers - INFO - Admin token validated
+2025-06-17 18:27:25,084 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:31,630 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:34,048 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:38,081 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:38,112 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:27:38,119 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182738.json
+2025-06-17 18:27:38,235 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:38,271 - views - INFO - Starting assessment for Aa
+2025-06-17 18:27:38,271 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-17 18:27:38,272 - data_storage - INFO - Triggering start notification email for Aa
+2025-06-17 18:27:38,272 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-17 18:27:41,459 - data_storage - INFO - Assessment notification email sent for Aa
+2025-06-17 18:27:41,461 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182741.json
+2025-06-17 18:27:41,461 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-17 18:27:41,562 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:27:41,594 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: General
+2025-06-17 18:27:41,595 - assessment - INFO - Looking for questionnaire for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-17 18:27:41,598 - assessment - WARNING - No PDPPL questionnaire found for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL, using default
+2025-06-17 18:27:41,598 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 18:27:41,599 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 18:27:41,600 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-17 18:27:41,601 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-17 18:27:41,602 - views - INFO - [render_assessment] Session selected_country: Australia
+2025-06-17 18:27:41,603 - views - INFO - [render_assessment] Session selected_industry: General
+2025-06-17 18:27:41,603 - views - INFO - [render_assessment] Mapped industry_for_loader: General
+2025-06-17 18:27:41,603 - views - INFO - [render_assessment] Using regulation: OAIC for country: Australia
+2025-06-17 18:27:41,604 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: General
+2025-06-17 18:27:41,604 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\general.json
+2025-06-17 18:27:41,604 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\general.json
+2025-06-17 18:27:41,605 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+	{
+  "name": "Open and Transparent Management of Personal Information",
+  "weight"...
+2025-06-17 18:27:41,608 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Open and Transparent Management of Personal Information'
+2025-06-17 18:27:41,610 - views - INFO - [render_assessment] Loaded questionnaire for regulation: OAIC, industry: General
+2025-06-17 18:27:41,620 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: npc
+2025-06-17 18:27:41,621 - assessment - WARNING - No questionnaire found for npc, using default
+2025-06-17 18:27:41,621 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:27:41,622 - assessment - ERROR - [CACHE] File does not exist: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:27:41,623 - assessment - ERROR - Error loading questionnaire: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\assessment.py", line 136, in get_questionnaire
+    with open(file_path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+2025-06-17 18:28:09,750 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:09,871 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:09,911 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='General'
+2025-06-17 18:28:09,913 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='General'
+2025-06-17 18:28:09,915 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'General')
+2025-06-17 18:28:09,917 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/General
+2025-06-17 18:28:09,917 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-06-17 18:28:09,922 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-06-17 18:28:09,922 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-06-17 18:28:09,922 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-06-17 18:28:09,922 - assessment - INFO - Answer points dictionary has 10 entries
+2025-06-17 18:28:09,923 - assessment - WARNING - Response 'Yes: The organization has a comprehensive, current privacy policy addressing personal information management.' not found in answer_points
+2025-06-17 18:28:09,923 - assessment - WARNING - Response 'Yes: All these elements are clearly addressed in the policy.' not found in answer_points
+2025-06-17 18:28:09,923 - assessment - WARNING - Response 'No: The policy is not available free of charge or in an appropriate form.' not found in answer_points
+2025-06-17 18:28:09,924 - assessment - WARNING - Response 'Partially: The organization tries but may not always accommodate requests.' not found in answer_points
+2025-06-17 18:28:09,924 - assessment - INFO - Processing scores for 10 sections
+2025-06-17 18:28:09,924 - assessment - INFO - Found responses for section indices: [0]
+2025-06-17 18:28:09,924 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-06-17 18:28:09,925 - assessment - INFO - Question 1: Response = 'Yes: The organization has a comprehensive, current privacy policy addressing personal information management.'
+2025-06-17 18:28:09,925 - assessment - WARNING - No points assigned for response: 'Yes: The organization has a comprehensive, current privacy policy addressing personal information management.'
+2025-06-17 18:28:09,925 - assessment - INFO - Section 'Applicability of the PDPPL' has all full compliance responses - should have perfect score
+2025-06-17 18:28:09,925 - assessment - INFO - Correcting Applicability of the PDPPL score from 0.0 to 1.0 based on full compliance pattern
+2025-06-17 18:28:09,926 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-06-17 18:28:09,926 - assessment - INFO - Section Applicability of the PDPPL: total_points=0.0, max_points=1
+2025-06-17 18:28:09,926 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-06-17 18:28:09,926 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,926 - assessment - INFO - Question 2: No response provided
+2025-06-17 18:28:09,927 - assessment - WARNING - Empty responses for section Principles of Data Privacy, using raw score None
+2025-06-17 18:28:09,927 - assessment - INFO - Section Principles of Data Privacy score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,927 - assessment - INFO - Section Principles of Data Privacy: No responses, score set to None
+2025-06-17 18:28:09,927 - assessment - INFO - Section Principles of Data Privacy: total_points=0.0, max_points=2
+2025-06-17 18:28:09,927 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-06-17 18:28:09,927 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,929 - assessment - INFO - Question 2: No response provided
+2025-06-17 18:28:09,931 - assessment - INFO - Question 3: No response provided
+2025-06-17 18:28:09,931 - assessment - WARNING - Empty responses for section Permitted Reasons, using raw score None
+2025-06-17 18:28:09,933 - assessment - INFO - Section Permitted Reasons score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,933 - assessment - INFO - Section Permitted Reasons: No responses, score set to None
+2025-06-17 18:28:09,933 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-06-17 18:28:09,934 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-06-17 18:28:09,935 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,935 - assessment - INFO - Question 2: No response provided
+2025-06-17 18:28:09,935 - assessment - WARNING - Empty responses for section Special Nature Processing & Security, using raw score None
+2025-06-17 18:28:09,936 - assessment - INFO - Section Special Nature Processing & Security score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,936 - assessment - INFO - Section Special Nature Processing & Security: No responses, score set to None
+2025-06-17 18:28:09,936 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-06-17 18:28:09,937 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-06-17 18:28:09,937 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,937 - assessment - INFO - Question 2: No response provided
+2025-06-17 18:28:09,938 - assessment - WARNING - Empty responses for section Individuals' Rights & Complaints, using raw score None
+2025-06-17 18:28:09,938 - assessment - INFO - Section Individuals' Rights & Complaints score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,938 - assessment - INFO - Section Individuals' Rights & Complaints: No responses, score set to None
+2025-06-17 18:28:09,939 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-06-17 18:28:09,939 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-06-17 18:28:09,940 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,940 - assessment - INFO - Question 2: No response provided
+2025-06-17 18:28:09,941 - assessment - INFO - Question 3: No response provided
+2025-06-17 18:28:09,941 - assessment - WARNING - Empty responses for section Governance & Training Awareness, using raw score None
+2025-06-17 18:28:09,941 - assessment - INFO - Section Governance & Training Awareness score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,942 - assessment - INFO - Section Governance & Training Awareness: No responses, score set to None
+2025-06-17 18:28:09,942 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-06-17 18:28:09,942 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-06-17 18:28:09,942 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,943 - assessment - INFO - Question 2: No response provided
+2025-06-17 18:28:09,943 - assessment - WARNING - Empty responses for section Data Privacy Impact Assessment (DPIA) & Privacy by Design, using raw score None
+2025-06-17 18:28:09,944 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,944 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: No responses, score set to None
+2025-06-17 18:28:09,945 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-06-17 18:28:09,948 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-06-17 18:28:09,950 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,950 - assessment - INFO - Question 2: No response provided
+2025-06-17 18:28:09,951 - assessment - WARNING - Empty responses for section Cross Border Data Flows & Third Party Agreements, using raw score None
+2025-06-17 18:28:09,951 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,951 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: No responses, score set to None
+2025-06-17 18:28:09,951 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-06-17 18:28:09,953 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-06-17 18:28:09,953 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,953 - assessment - WARNING - Empty responses for section Data Breaches, using raw score None
+2025-06-17 18:28:09,954 - assessment - INFO - Section Data Breaches score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,954 - assessment - INFO - Section Data Breaches: No responses, score set to None
+2025-06-17 18:28:09,954 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-06-17 18:28:09,954 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-06-17 18:28:09,955 - assessment - INFO - Question 1: No response provided
+2025-06-17 18:28:09,955 - assessment - WARNING - Empty responses for section Children's Websites, using raw score None
+2025-06-17 18:28:09,955 - assessment - INFO - Section Children's Websites score: AFTER=0.0% (Raw score was None)
+2025-06-17 18:28:09,955 - assessment - INFO - Section Children's Websites: No responses, score set to None
+2025-06-17 18:28:09,956 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-06-17 18:28:09,956 - assessment - INFO - Verifying all sections have scores...
+2025-06-17 18:28:09,956 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': None, 'Permitted Reasons': None, 'Special Nature Processing & Security': None, "Individuals' Rights & Complaints": None, 'Governance & Training Awareness': None, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': None, 'Cross Border Data Flows & Third Party Agreements': None, 'Data Breaches': None, "Children's Websites": None}
+2025-06-17 18:28:09,956 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-17 18:28:09,956 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-06-17 18:28:09,956 - assessment - INFO - Section Principles of Data Privacy: SKIPPED (no score)
+2025-06-17 18:28:09,958 - assessment - INFO - Section Permitted Reasons: SKIPPED (no score)
+2025-06-17 18:28:09,958 - assessment - INFO - Section Special Nature Processing & Security: SKIPPED (no score)
+2025-06-17 18:28:09,958 - assessment - INFO - Section Individuals' Rights & Complaints: SKIPPED (no score)
+2025-06-17 18:28:09,958 - assessment - INFO - Section Governance & Training Awareness: SKIPPED (no score)
+2025-06-17 18:28:09,959 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: SKIPPED (no score)
+2025-06-17 18:28:09,959 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: SKIPPED (no score)
+2025-06-17 18:28:09,959 - assessment - INFO - Section Data Breaches: SKIPPED (no score)
+2025-06-17 18:28:09,960 - assessment - INFO - Section Children's Websites: SKIPPED (no score)
+2025-06-17 18:28:09,962 - assessment - INFO - Total weighted score: 0.06, Total weight: 0.06
+2025-06-17 18:28:09,965 - assessment - INFO - Overall score calculation: (0.06 / total_weight) * 100 = 100.00%
+2025-06-17 18:28:13,475 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:44,145 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:44,263 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:47,016 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:47,052 - helpers - INFO - Saved response for s1_q0: 'Yes: Individuals can interact anonymously or with a pseudonym in most cases.'
+2025-06-17 18:28:47,052 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:28:47,053 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182847.json
+2025-06-17 18:28:47,055 - helpers - INFO - Saved response for s1_q1: 'Yes: Exceptions are only made when legally required or impracticable.'
+2025-06-17 18:28:47,056 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:28:47,058 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182847.json
+2025-06-17 18:28:47,141 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:50,122 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:50,154 - helpers - INFO - Saved response for s2_q0: 'Partially: Most information is necessary, but some may not be.'
+2025-06-17 18:28:50,155 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:28:50,158 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182850.json
+2025-06-17 18:28:50,160 - helpers - INFO - Saved response for s2_q1: 'Yes: Sensitive information is collected only with consent or as legally permitted.'
+2025-06-17 18:28:50,161 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:28:50,164 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182850.json
+2025-06-17 18:28:50,166 - helpers - INFO - Saved response for s2_q2: 'Yes: Collection methods are always lawful and fair.'
+2025-06-17 18:28:50,166 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:28:50,169 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182850.json
+2025-06-17 18:28:52,840 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:52,890 - helpers - INFO - Saved response for s2_q3: 'Yes: Information is collected directly unless an exception applies.'
+2025-06-17 18:28:52,891 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:28:52,898 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182852.json
+2025-06-17 18:28:53,015 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:56,305 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-17 18:28:56,307 - config - INFO - Loaded 3 API key(s).
+2025-06-17 18:28:56,309 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:28:56,508 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: General
+2025-06-17 18:28:56,511 - assessment - INFO - Looking for questionnaire for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-17 18:28:56,513 - assessment - WARNING - No PDPPL questionnaire found for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL, using default
+2025-06-17 18:28:56,514 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 18:28:56,514 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 18:28:56,515 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-17 18:28:56,516 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-17 18:28:56,531 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: npc
+2025-06-17 18:28:56,532 - assessment - WARNING - No questionnaire found for npc, using default
+2025-06-17 18:28:56,534 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:28:56,535 - assessment - ERROR - [CACHE] File does not exist: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:28:56,536 - assessment - ERROR - Error loading questionnaire: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\assessment.py", line 136, in get_questionnaire
+    with open(file_path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+2025-06-17 18:28:56,543 - helpers - INFO - Saved response for s3_q0: 'Partially: Assessment occurs inconsistently.'
+2025-06-17 18:28:56,546 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:28:56,554 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182856.json
+2025-06-17 18:28:56,556 - helpers - INFO - Saved response for s3_q1: 'Partially: Information is occasionally retained unnecessarily.'
+2025-06-17 18:28:56,559 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:28:56,565 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182856.json
+2025-06-17 18:28:56,707 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:00,697 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-17 18:29:00,699 - config - INFO - Loaded 3 API key(s).
+2025-06-17 18:29:00,701 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:00,814 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: General
+2025-06-17 18:29:00,815 - assessment - INFO - Looking for questionnaire for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-17 18:29:00,816 - assessment - WARNING - No PDPPL questionnaire found for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL, using default
+2025-06-17 18:29:00,816 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 18:29:00,816 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 18:29:00,816 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-17 18:29:00,818 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-17 18:29:00,829 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: npc
+2025-06-17 18:29:00,830 - assessment - WARNING - No questionnaire found for npc, using default
+2025-06-17 18:29:00,830 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:29:00,831 - assessment - ERROR - [CACHE] File does not exist: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:29:00,831 - assessment - ERROR - Error loading questionnaire: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\assessment.py", line 136, in get_questionnaire
+    with open(file_path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+2025-06-17 18:29:00,834 - __main__ - ERROR - Error in main application: With forms, callbacks can only be defined on the `st.form_submit_button`. Defining callbacks on other widgets inside a form is not allowed.
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\app.py", line 133, in main
+    render_assessment()
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\views.py", line 608, in render_assessment
+    response = st.radio(
+               ^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 397, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\elements\widgets\radio.py", line 216, in radio
+    return self._radio(
+           ^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\elements\widgets\radio.py", line 252, in _radio
+    check_callback_rules(self.dg, on_change)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\elements\utils.py", line 48, in check_callback_rules
+    raise StreamlitAPIException(
+streamlit.errors.StreamlitAPIException: With forms, callbacks can only be defined on the `st.form_submit_button`. Defining callbacks on other widgets inside a form is not allowed.
+2025-06-17 18:29:18,220 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-17 18:29:18,222 - config - INFO - Loaded 3 API key(s).
+2025-06-17 18:29:18,223 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:18,330 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: General
+2025-06-17 18:29:18,331 - assessment - INFO - Looking for questionnaire for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-17 18:29:18,331 - assessment - WARNING - No PDPPL questionnaire found for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL, using default
+2025-06-17 18:29:18,332 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 18:29:18,332 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 18:29:18,334 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-17 18:29:18,335 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-17 18:29:18,345 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: npc
+2025-06-17 18:29:18,348 - assessment - WARNING - No questionnaire found for npc, using default
+2025-06-17 18:29:18,348 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:29:18,349 - assessment - ERROR - [CACHE] File does not exist: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:29:18,349 - assessment - ERROR - Error loading questionnaire: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\assessment.py", line 136, in get_questionnaire
+    with open(file_path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+2025-06-17 18:29:20,169 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:20,210 - helpers - INFO - Saved response for s4_q0: 'Partially: Notification is incomplete or inconsistent.'
+2025-06-17 18:29:20,211 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:20,214 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182920.json
+2025-06-17 18:29:20,314 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:27,606 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:27,645 - helpers - INFO - Saved response for s5_q0: 'Partially: Use/disclosure for secondary purposes occurs without proper basis.'
+2025-06-17 18:29:27,645 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:27,649 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182927.json
+2025-06-17 18:29:27,650 - helpers - INFO - Saved response for s5_q1: 'Partially: Secondary use/disclosure is sometimes unrelated or unexpected.'
+2025-06-17 18:29:27,651 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:27,652 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182927.json
+2025-06-17 18:29:27,653 - helpers - INFO - Saved response for s5_q2: 'Partially: Guidelines are only partially followed.'
+2025-06-17 18:29:27,659 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:27,663 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182927.json
+2025-06-17 18:29:27,664 - helpers - INFO - Saved response for s5_q3: 'Yes: Information is de-identified as required before disclosure.'
+2025-06-17 18:29:27,665 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:27,667 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182927.json
+2025-06-17 18:29:27,784 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:29,423 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:29,464 - helpers - INFO - Saved response for s6_q0: 'Partially: Direct marketing occurs without proper consent or authority.'
+2025-06-17 18:29:29,466 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:29,468 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182929.json
+2025-06-17 18:29:29,581 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:30,941 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:30,978 - helpers - INFO - Saved response for s7_q0: 'Yes: All overseas disclosures are assessed for compliance or equivalent protection.'
+2025-06-17 18:29:30,979 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:30,985 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182930.json
+2025-06-17 18:29:31,084 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:33,862 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:33,904 - helpers - INFO - Saved response for s8_q0: 'Partially: There are occasional exceptions without legal basis.'
+2025-06-17 18:29:33,904 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:33,909 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182933.json
+2025-06-17 18:29:34,043 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:35,524 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:35,572 - helpers - INFO - Saved response for s9_q0: 'Partially: Information is reviewed occasionally.'
+2025-06-17 18:29:35,573 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:35,580 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182935.json
+2025-06-17 18:29:35,699 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:35,832 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:38,073 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:38,117 - helpers - INFO - Saved response for s10_q0: 'Yes: Robust security measures are in place.'
+2025-06-17 18:29:38,117 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:38,122 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182938.json
+2025-06-17 18:29:38,234 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:39,622 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:39,663 - helpers - INFO - Saved response for s11_q0: 'Partially: Access is inconsistently provided.'
+2025-06-17 18:29:39,664 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:39,666 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182939.json
+2025-06-17 18:29:39,780 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:41,032 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:41,068 - helpers - INFO - Saved response for s12_q0: 'Partially: Corrections are made inconsistently.'
+2025-06-17 18:29:41,069 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 18:29:41,074 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_182941.json
+2025-06-17 18:29:41,078 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='OAIC', industry_code='General'
+2025-06-17 18:29:41,079 - assessment - INFO - [CALC] Using passed parameters: regulation='OAIC', industry='General'
+2025-06-17 18:29:41,079 - assessment - INFO - [CALC] About to call get_questionnaire('OAIC', 'General')
+2025-06-17 18:29:41,079 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: General
+2025-06-17 18:29:41,080 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\general.json
+2025-06-17 18:29:41,081 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\general.json
+2025-06-17 18:29:41,081 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+	{
+  "name": "Open and Transparent Management of Personal Information",
+  "weight"...
+2025-06-17 18:29:41,082 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Open and Transparent Management of Personal Information'
+2025-06-17 18:29:41,082 - assessment - INFO - [CALC] Loaded questionnaire has 13 sections for OAIC/General
+2025-06-17 18:29:41,084 - assessment - INFO - [CALC] First 3 section names: ['Open and Transparent Management of Personal Information', 'Anonymity and Pseudonymity', 'Collection of Solicited Personal Information']
+2025-06-17 18:29:41,084 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Open and Transparent Management of Personal Information', 'Anonymity and Pseudonymity', 'Collection of Solicited Personal Information', 'Dealing with Unsolicited Personal Information', 'Notification of Collection', 'Use or Disclosure of Personal Information', 'Direct Marketing', 'Cross-Border Disclosure', 'Adoption, Use or Disclosure of Government Related Identifiers', 'Quality of Personal Information', 'Security of Personal Information', 'Access to Personal Information', 'Correction of Personal Information']
+2025-06-17 18:29:41,084 - assessment - WARNING - [CALC] UNKNOWN: Questionnaire type unclear for OAIC
+2025-06-17 18:29:41,085 - assessment - INFO - [CALC] Answer points dictionary has 72 entries
+2025-06-17 18:29:41,085 - assessment - INFO - Answer points dictionary has 72 entries
+2025-06-17 18:29:41,090 - assessment - INFO - Processing scores for 13 sections
+2025-06-17 18:29:41,090 - assessment - INFO - Found responses for section indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+2025-06-17 18:29:41,091 - assessment - INFO - ===== Calculating score for section: Open and Transparent Management of Personal Information =====
+2025-06-17 18:29:41,092 - assessment - INFO - Question 1: Response = 'Yes: The organization has a comprehensive, current privacy policy addressing personal information management.'
+2025-06-17 18:29:41,094 - assessment - INFO - Question 1: Points = 1.0
+2025-06-17 18:29:41,094 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-17 18:29:41,095 - assessment - INFO - Question 2: Response = 'Yes: All these elements are clearly addressed in the policy.'
+2025-06-17 18:29:41,095 - assessment - INFO - Question 2: Points = 1.0
+2025-06-17 18:29:41,096 - assessment - INFO - Question 2: Adding 1.0 points, running total = 2.0/2
+2025-06-17 18:29:41,096 - assessment - INFO - Question 3: Response = 'No: The policy is not available free of charge or in an appropriate form.'
+2025-06-17 18:29:41,096 - assessment - INFO - Question 3: Points = 0.0
+2025-06-17 18:29:41,096 - assessment - INFO - Question 3: Adding 0.0 points, running total = 2.0/3
+2025-06-17 18:29:41,097 - assessment - INFO - Question 4: Response = 'Partially: The organization tries but may not always accommodate requests.'
+2025-06-17 18:29:41,097 - assessment - INFO - Question 4: Points = 0.5
+2025-06-17 18:29:41,097 - assessment - INFO - Question 4: Adding 0.5 points, running total = 2.5/4
+2025-06-17 18:29:41,097 - assessment - INFO - Section Open and Transparent Management of Personal Information score: BEFORE=62.5%, AFTER=62.5% (Corrected)
+2025-06-17 18:29:41,097 - assessment - INFO - Section Open and Transparent Management of Personal Information: total_points=2.5, max_points=4
+2025-06-17 18:29:41,098 - assessment - INFO - ===== Calculating score for section: Anonymity and Pseudonymity =====
+2025-06-17 18:29:41,098 - assessment - INFO - Question 1: Response = 'Yes: Individuals can interact anonymously or with a pseudonym in most cases.'
+2025-06-17 18:29:41,098 - assessment - INFO - Question 1: Points = 1.0
+2025-06-17 18:29:41,098 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-17 18:29:41,099 - assessment - INFO - Question 2: Response = 'Yes: Exceptions are only made when legally required or impracticable.'
+2025-06-17 18:29:41,099 - assessment - INFO - Question 2: Points = 1.0
+2025-06-17 18:29:41,099 - assessment - INFO - Question 2: Adding 1.0 points, running total = 2.0/2
+2025-06-17 18:29:41,099 - assessment - INFO - Section Anonymity and Pseudonymity score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-17 18:29:41,099 - assessment - INFO - Section Anonymity and Pseudonymity: total_points=2.0, max_points=2
+2025-06-17 18:29:41,101 - assessment - INFO - ===== Calculating score for section: Collection of Solicited Personal Information =====
+2025-06-17 18:29:41,101 - assessment - INFO - Question 1: Response = 'Partially: Most information is necessary, but some may not be.'
+2025-06-17 18:29:41,101 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,101 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,105 - assessment - INFO - Question 2: Response = 'Yes: Sensitive information is collected only with consent or as legally permitted.'
+2025-06-17 18:29:41,105 - assessment - INFO - Question 2: Points = 1.0
+2025-06-17 18:29:41,106 - assessment - INFO - Question 2: Adding 1.0 points, running total = 1.5/2
+2025-06-17 18:29:41,107 - assessment - INFO - Question 3: Response = 'Yes: Collection methods are always lawful and fair.'
+2025-06-17 18:29:41,108 - assessment - INFO - Question 3: Points = 1.0
+2025-06-17 18:29:41,110 - assessment - INFO - Question 3: Adding 1.0 points, running total = 2.5/3
+2025-06-17 18:29:41,110 - assessment - INFO - Question 4: Response = 'Yes: Information is collected directly unless an exception applies.'
+2025-06-17 18:29:41,111 - assessment - INFO - Question 4: Points = 1.0
+2025-06-17 18:29:41,113 - assessment - INFO - Question 4: Adding 1.0 points, running total = 3.5/4
+2025-06-17 18:29:41,113 - assessment - INFO - Section Collection of Solicited Personal Information score: BEFORE=87.5%, AFTER=87.5% (Corrected)
+2025-06-17 18:29:41,113 - assessment - INFO - Section Collection of Solicited Personal Information: total_points=3.5, max_points=4
+2025-06-17 18:29:41,115 - assessment - INFO - ===== Calculating score for section: Dealing with Unsolicited Personal Information =====
+2025-06-17 18:29:41,115 - assessment - INFO - Question 1: Response = 'Partially: Assessment occurs inconsistently.'
+2025-06-17 18:29:41,115 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,116 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,116 - assessment - INFO - Question 2: Response = 'Partially: Information is occasionally retained unnecessarily.'
+2025-06-17 18:29:41,116 - assessment - INFO - Question 2: Points = 0.5
+2025-06-17 18:29:41,116 - assessment - INFO - Question 2: Adding 0.5 points, running total = 1.0/2
+2025-06-17 18:29:41,116 - assessment - INFO - Section Dealing with Unsolicited Personal Information score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-17 18:29:41,117 - assessment - INFO - Section Dealing with Unsolicited Personal Information: total_points=1.0, max_points=2
+2025-06-17 18:29:41,117 - assessment - INFO - ===== Calculating score for section: Notification of Collection =====
+2025-06-17 18:29:41,117 - assessment - INFO - Question 1: Response = 'Partially: Notification is incomplete or inconsistent.'
+2025-06-17 18:29:41,117 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,119 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,119 - assessment - INFO - Section Notification of Collection score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-17 18:29:41,120 - assessment - INFO - Section Notification of Collection: total_points=0.5, max_points=1
+2025-06-17 18:29:41,120 - assessment - INFO - ===== Calculating score for section: Use or Disclosure of Personal Information =====
+2025-06-17 18:29:41,120 - assessment - INFO - Question 1: Response = 'Partially: Use/disclosure for secondary purposes occurs without proper basis.'
+2025-06-17 18:29:41,121 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,121 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,121 - assessment - INFO - Question 2: Response = 'Partially: Secondary use/disclosure is sometimes unrelated or unexpected.'
+2025-06-17 18:29:41,121 - assessment - INFO - Question 2: Points = 0.5
+2025-06-17 18:29:41,123 - assessment - INFO - Question 2: Adding 0.5 points, running total = 1.0/2
+2025-06-17 18:29:41,123 - assessment - INFO - Question 3: Response = 'Partially: Guidelines are only partially followed.'
+2025-06-17 18:29:41,123 - assessment - INFO - Question 3: Points = 0.5
+2025-06-17 18:29:41,125 - assessment - INFO - Question 3: Adding 0.5 points, running total = 1.5/3
+2025-06-17 18:29:41,126 - assessment - INFO - Question 4: Response = 'Yes: Information is de-identified as required before disclosure.'
+2025-06-17 18:29:41,127 - assessment - INFO - Question 4: Points = 1.0
+2025-06-17 18:29:41,127 - assessment - INFO - Question 4: Adding 1.0 points, running total = 2.5/4
+2025-06-17 18:29:41,127 - assessment - INFO - Section Use or Disclosure of Personal Information score: BEFORE=62.5%, AFTER=62.5% (Corrected)
+2025-06-17 18:29:41,128 - assessment - INFO - Section Use or Disclosure of Personal Information: total_points=2.5, max_points=4
+2025-06-17 18:29:41,128 - assessment - INFO - ===== Calculating score for section: Direct Marketing =====
+2025-06-17 18:29:41,128 - assessment - INFO - Question 1: Response = 'Partially: Direct marketing occurs without proper consent or authority.'
+2025-06-17 18:29:41,128 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,129 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,129 - assessment - INFO - Section Direct Marketing score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-17 18:29:41,129 - assessment - INFO - Section Direct Marketing: total_points=0.5, max_points=1
+2025-06-17 18:29:41,129 - assessment - INFO - ===== Calculating score for section: Cross-Border Disclosure =====
+2025-06-17 18:29:41,130 - assessment - INFO - Question 1: Response = 'Yes: All overseas disclosures are assessed for compliance or equivalent protection.'
+2025-06-17 18:29:41,130 - assessment - INFO - Question 1: Points = 1.0
+2025-06-17 18:29:41,130 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-17 18:29:41,131 - assessment - INFO - Section Cross-Border Disclosure score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-17 18:29:41,131 - assessment - INFO - Section Cross-Border Disclosure: total_points=1.0, max_points=1
+2025-06-17 18:29:41,131 - assessment - INFO - ===== Calculating score for section: Adoption, Use or Disclosure of Government Related Identifiers =====
+2025-06-17 18:29:41,131 - assessment - INFO - Question 1: Response = 'Partially: There are occasional exceptions without legal basis.'
+2025-06-17 18:29:41,131 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,132 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,132 - assessment - INFO - Section Adoption, Use or Disclosure of Government Related Identifiers score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-17 18:29:41,132 - assessment - INFO - Section Adoption, Use or Disclosure of Government Related Identifiers: total_points=0.5, max_points=1
+2025-06-17 18:29:41,132 - assessment - INFO - ===== Calculating score for section: Quality of Personal Information =====
+2025-06-17 18:29:41,132 - assessment - INFO - Question 1: Response = 'Partially: Information is reviewed occasionally.'
+2025-06-17 18:29:41,132 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,134 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,134 - assessment - INFO - Section Quality of Personal Information score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-17 18:29:41,135 - assessment - INFO - Section Quality of Personal Information: total_points=0.5, max_points=1
+2025-06-17 18:29:41,135 - assessment - INFO - ===== Calculating score for section: Security of Personal Information =====
+2025-06-17 18:29:41,135 - assessment - INFO - Question 1: Response = 'Yes: Robust security measures are in place.'
+2025-06-17 18:29:41,136 - assessment - INFO - Question 1: Points = 1.0
+2025-06-17 18:29:41,136 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-06-17 18:29:41,136 - assessment - INFO - Section Security of Personal Information score: BEFORE=100.0%, AFTER=100.0% (Corrected)
+2025-06-17 18:29:41,137 - assessment - INFO - Section Security of Personal Information: total_points=1.0, max_points=1
+2025-06-17 18:29:41,137 - assessment - INFO - ===== Calculating score for section: Access to Personal Information =====
+2025-06-17 18:29:41,137 - assessment - INFO - Question 1: Response = 'Partially: Access is inconsistently provided.'
+2025-06-17 18:29:41,137 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,138 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,138 - assessment - INFO - Section Access to Personal Information score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-17 18:29:41,139 - assessment - INFO - Section Access to Personal Information: total_points=0.5, max_points=1
+2025-06-17 18:29:41,139 - assessment - INFO - ===== Calculating score for section: Correction of Personal Information =====
+2025-06-17 18:29:41,139 - assessment - INFO - Question 1: Response = 'Partially: Corrections are made inconsistently.'
+2025-06-17 18:29:41,140 - assessment - INFO - Question 1: Points = 0.5
+2025-06-17 18:29:41,140 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-06-17 18:29:41,141 - assessment - INFO - Section Correction of Personal Information score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-06-17 18:29:41,142 - assessment - INFO - Section Correction of Personal Information: total_points=0.5, max_points=1
+2025-06-17 18:29:41,143 - assessment - INFO - Verifying all sections have scores...
+2025-06-17 18:29:41,143 - assessment - INFO - Calculated section scores: {'Open and Transparent Management of Personal Information': 0.625, 'Anonymity and Pseudonymity': 1.0, 'Collection of Solicited Personal Information': 0.875, 'Dealing with Unsolicited Personal Information': 0.5, 'Notification of Collection': 0.5, 'Use or Disclosure of Personal Information': 0.625, 'Direct Marketing': 0.5, 'Cross-Border Disclosure': 1.0, 'Adoption, Use or Disclosure of Government Related Identifiers': 0.5, 'Quality of Personal Information': 0.5, 'Security of Personal Information': 1.0, 'Access to Personal Information': 0.5, 'Correction of Personal Information': 0.5}
+2025-06-17 18:29:41,143 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-06-17 18:29:41,143 - assessment - INFO - Section Open and Transparent Management of Personal Information: score=0.62, weight=0.12, contribution=0.07
+2025-06-17 18:29:41,144 - assessment - INFO - Section Anonymity and Pseudonymity: score=1.00, weight=0.05, contribution=0.05
+2025-06-17 18:29:41,144 - assessment - INFO - Section Collection of Solicited Personal Information: score=0.88, weight=0.11, contribution=0.10
+2025-06-17 18:29:41,144 - assessment - INFO - Section Dealing with Unsolicited Personal Information: score=0.50, weight=0.07, contribution=0.04
+2025-06-17 18:29:41,144 - assessment - INFO - Section Notification of Collection: score=0.50, weight=0.09, contribution=0.04
+2025-06-17 18:29:41,144 - assessment - INFO - Section Use or Disclosure of Personal Information: score=0.62, weight=0.11, contribution=0.07
+2025-06-17 18:29:41,145 - assessment - INFO - Section Direct Marketing: score=0.50, weight=0.06, contribution=0.03
+2025-06-17 18:29:41,145 - assessment - INFO - Section Cross-Border Disclosure: score=1.00, weight=0.07, contribution=0.07
+2025-06-17 18:29:41,145 - assessment - INFO - Section Adoption, Use or Disclosure of Government Related Identifiers: score=0.50, weight=0.06, contribution=0.03
+2025-06-17 18:29:41,146 - assessment - INFO - Section Quality of Personal Information: score=0.50, weight=0.06, contribution=0.03
+2025-06-17 18:29:41,146 - assessment - INFO - Section Security of Personal Information: score=1.00, weight=0.10, contribution=0.10
+2025-06-17 18:29:41,146 - assessment - INFO - Section Access to Personal Information: score=0.50, weight=0.07, contribution=0.04
+2025-06-17 18:29:41,146 - assessment - INFO - Section Correction of Personal Information: score=0.50, weight=0.03, contribution=0.01
+2025-06-17 18:29:41,147 - assessment - INFO - Total weighted score: 0.68, Total weight: 1.0
+2025-06-17 18:29:41,147 - assessment - INFO - Overall score calculation: (0.68 / total_weight) * 100 = 68.00%
+2025-06-17 18:29:41,238 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:29:43,281 - views - INFO - Requesting AI report generation with the following configuration:
+2025-06-17 18:29:43,282 - views - INFO - AI enabled: True
+2025-06-17 18:29:43,282 - views - INFO - API key available: Yes
+2025-06-17 18:29:43,282 - views - INFO - API provider: openrouter
+2025-06-17 18:29:43,283 - nlg_report - INFO - AI API is fully configured and enabled
+2025-06-17 18:29:43,283 - nlg_report - INFO - Configuring OpenRouter API client
+2025-06-17 18:29:43,880 - nlg_report - INFO - OpenRouter client configured with model: deepseek/deepseek-chat-v3-0324:free
+2025-06-17 18:29:43,880 - nlg_report - INFO - Creating AI prompt for markdown format from context data
+2025-06-17 18:29:43,882 - nlg_report - INFO - Created prompt with length: 6739 characters
+2025-06-17 18:29:43,882 - nlg_report - INFO - Making API request attempt 1/3
+2025-06-17 18:29:43,882 - nlg_report - INFO - Sending request to OpenRouter API
+2025-06-17 18:29:47,621 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 18:30:07,130 - nlg_report - INFO - Received full API response
+2025-06-17 18:30:07,130 - nlg_report - INFO - API call completed successfully in 23.25 seconds
+2025-06-17 18:30:07,130 - nlg_report - INFO - Received valid response with content length: 4137 characters
+2025-06-17 18:30:07,290 - views - INFO - Report generation completed in 24.01 seconds
+2025-06-17 18:30:07,291 - views - INFO - Report length: 4137 characters
+2025-06-17 18:30:07,295 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-06-17 18:30:07,305 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-06-17 18:30:07,357 - views - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpg9uhmsif.pdf
+2025-06-17 18:30:07,358 - views - INFO - Attempting conversion and save to: C:\Users\HP\AppData\Local\Temp\tmpg9uhmsif.pdf
+2025-06-17 18:30:07,393 - views - INFO - markdown-pdf save operation completed for C:\Users\HP\AppData\Local\Temp\tmpg9uhmsif.pdf
+2025-06-17 18:30:07,393 - views - INFO - Output PDF file exists: C:\Users\HP\AppData\Local\Temp\tmpg9uhmsif.pdf
+2025-06-17 18:30:07,425 - views - INFO - Successfully read 145166 bytes from C:\Users\HP\AppData\Local\Temp\tmpg9uhmsif.pdf
+2025-06-17 18:30:07,426 - views - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpg9uhmsif.pdf
+2025-06-17 18:30:07,489 - views - INFO - [render_assessment] Mapped regulation_for_loader: OAIC
+2025-06-17 18:38:19,613 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-17 18:38:19,614 - config - INFO - Loaded 3 API key(s).
+2025-06-17 18:38:19,616 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 18:38:19,751 - assessment - INFO - [CACHE] CLEARING ALL QUESTIONNAIRE CACHES due to clear_questionnaire_cache flag
+2025-06-17 18:38:19,751 - assessment - INFO - [CACHE] Manual cache also cleared
+2025-06-17 18:38:19,752 - assessment - INFO - [CACHE] Cache clearing completed for regulation: OAIC, industry: npc
+2025-06-17 18:38:19,752 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: npc
+2025-06-17 18:38:19,752 - assessment - WARNING - No questionnaire found for npc, using default
+2025-06-17 18:38:19,752 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:38:19,753 - assessment - ERROR - [CACHE] File does not exist: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\Banking and finance.json
+2025-06-17 18:38:19,753 - assessment - ERROR - Error loading questionnaire: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\assessment.py", line 136, in get_questionnaire
+    with open(file_path, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\OneDrive - DataInfa Solution Private Limited\\Projects\\DPDP-main\\DPDP-main\\Questionnaire\\OAIC\\Banking and finance.json'
+2025-06-17 18:38:19,927 - views - INFO - [render_assessment] Mapped regulation_for_loader: OAIC
+2025-06-17 19:34:17,446 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-06-17 19:34:17,457 - config - INFO - Loaded 3 API key(s).
+2025-06-17 19:34:17,476 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:34:19,340 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:34:19,372 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: npc
+2025-06-17 19:34:19,374 - assessment - WARNING - No OAIC questionnaire found for npc, using General.json
+2025-06-17 19:34:19,375 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\General.json
+2025-06-17 19:34:19,375 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\General.json
+2025-06-17 19:34:19,376 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+	{
+  "name": "Open and Transparent Management of Personal Information",
+  "weight"...
+2025-06-17 19:34:19,382 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Open and Transparent Management of Personal Information'
+2025-06-17 19:34:19,613 - views - INFO - [render_assessment] Mapped regulation_for_loader: OAIC
+2025-06-17 19:51:47,409 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:51:48,328 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-06-17 19:51:53,563 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:51:53,704 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:51:53,736 - helpers - INFO - Admin token validated
+2025-06-17 19:51:53,806 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:45,578 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:47,825 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:48,837 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:50,219 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:50,876 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:52,899 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:55,279 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:55,306 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-06-17 19:52:55,309 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_195255.json
+2025-06-17 19:52:55,429 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:55,464 - views - INFO - Starting assessment for Aa
+2025-06-17 19:52:55,465 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-06-17 19:52:55,467 - data_storage - INFO - Triggering start notification email for Aa
+2025-06-17 19:52:55,467 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-06-17 19:52:58,525 - data_storage - INFO - Assessment notification email sent for Aa
+2025-06-17 19:52:58,528 - data_storage - INFO - Saved assessment data for Aa to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\Aa\assessment_20250617_195258.json
+2025-06-17 19:52:58,529 - helpers - INFO - Navigating to page: assessment from welcome
+2025-06-17 19:52:58,613 - __main__ - INFO - Application started - Logging initialized
+2025-06-17 19:52:58,652 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: General
+2025-06-17 19:52:58,654 - assessment - INFO - Looking for questionnaire for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-06-17 19:52:58,655 - assessment - WARNING - No PDPPL questionnaire found for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL, using default
+2025-06-17 19:52:58,656 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 19:52:58,657 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-06-17 19:52:58,658 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-06-17 19:52:58,659 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-06-17 19:52:58,659 - views - INFO - [render_assessment] Session selected_country: Australia
+2025-06-17 19:52:58,660 - views - INFO - [render_assessment] Session selected_industry: General
+2025-06-17 19:52:58,660 - views - INFO - [render_assessment] Mapped industry_for_loader: General
+2025-06-17 19:52:58,660 - views - INFO - [render_assessment] Using regulation: OAIC for country: Australia
+2025-06-17 19:52:58,662 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: General
+2025-06-17 19:52:58,664 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\general.json
+2025-06-17 19:52:58,664 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\general.json
+2025-06-17 19:52:58,665 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+	{
+  "name": "Open and Transparent Management of Personal Information",
+  "weight"...
+2025-06-17 19:52:58,667 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Open and Transparent Management of Personal Information'
+2025-06-17 19:52:58,668 - views - INFO - [render_assessment] Loaded questionnaire for regulation: OAIC, industry: General
+2025-06-17 19:52:58,681 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: npc
+2025-06-17 19:52:58,682 - assessment - WARNING - No OAIC questionnaire found for npc, using General.json
+2025-06-17 19:52:58,683 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\General.json
+2025-06-17 19:52:58,684 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\General.json
+2025-06-17 19:52:58,685 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+	{
+  "name": "Open and Transparent Management of Personal Information",
+  "weight"...
+2025-06-17 19:52:58,686 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Open and Transparent Management of Personal Information'

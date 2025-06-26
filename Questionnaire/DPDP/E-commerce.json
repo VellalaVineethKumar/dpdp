@@ -1,0 +1,285 @@
+{
+  "sections": [
+    {
+      "name": "DPDP Data Collection and Processing",
+      "weight": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization provide customers with a notice specifying the purposes of processing in English and all official Indian languages? [Section 3 - Notice requirements]",
+          "options": [
+            "Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.",
+            "Partially, Notices are not provided in all required languages.",
+            "No, Work is in progress to implement this requirement."
+          ],
+          "recommendations": {
+            "Notices are not provided in all required languages.": "Ensure that customer notices are available in English and all 22 official Indian languages, as required by the DPDP Act.",
+            "Work is in progress to implement this requirement.": "Accelerate the implementation of multilingual notices to meet compliance standards."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your notice include an itemized description of personal data collected and the specific purposes for which it will be used? [Section 3(b)(i) and (ii)]",
+          "options": [
+            "Yes, with detailed itemization: The notice provides a clear, detailed list of all personal data collected and specifies the exact purposes for their use.",
+            "Partially, but needs more detail: The notice includes some itemization and purpose descriptions, but lacks clarity or completeness.",
+            "No, the notice lacks itemization and purpose details: The notice does not provide an itemized list or specify the purposes for data use.",
+            "Not applicable: This option might apply if your organization does not collect personal data or if the notice is not required due to exemptions."
+          ],
+          "recommendations": {
+            "Partially, but needs more detail: The notice includes some itemization and purpose descriptions, but lacks clarity or completeness.": "Enhance the notice by providing a fully itemized list of personal data collected and explicitly stating the purposes for which each data type will be used.",
+            "No, the notice lacks itemization and purpose details: The notice does not provide an itemized list or specify the purposes for data use.": "Revise the notice to include a clear, structured breakdown of personal data collected and its specific purposes, ensuring compliance with DPDP Section 3(b)(i) and (ii)."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Do you enable consent through clear, affirmative action for the specified purposes? [Requirements for Processing Personal Data][Section 3(b)]",
+          "options": [
+            "Yes, with clear affirmative action required: Consent is obtained through explicit actions (e.g., ticking a box, clicking an 'I agree' button) that clearly indicate agreement to the specified purposes.",
+            "Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.",
+            "No, we rely on implicit consent or lack clear affirmative action: Consent is assumed without explicit action or is not clearly tied to specific purposes.",
+            "Not applicable: This option might apply if consent is not required due to exemptions (e.g., legal obligations)."
+          ],
+          "recommendations": {
+            "Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.": "Improve consent mechanisms by requiring clear, affirmative action such as opt-in checkboxes or explicit confirmation buttons.",
+            "No, we rely on implicit consent or lack clear affirmative action: Consent is assumed without explicit action or is not clearly tied to specific purposes.": "Replace implicit consent with explicit, informed consent mechanisms that require users to actively agree to the specified purposes of data processing."
+          }
+        },
+        {
+          "id": 4,
+          "text": "Have you implemented mechanisms to ensure processing is limited only to the purposes specified in the notice? [Requirements for Processing Personal Data][Section 3(b)]",
+          "options": [
+            "Yes, with strict adherence to purpose limitation: The organization ensures that personal data is processed only for the specific purposes outlined in the notice, aligning with the principle of purpose limitation.",
+            "Partially, but some processing may exceed specified purposes: While efforts are made to limit processing to specified purposes, there may be instances where data is used beyond those purposes.",
+            "No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.",
+            "Not applicable: This option might apply if your organization does not process personal data or if the notice requirement is exempt under specific circumstances."
+          ],
+          "recommendations": {
+            "Partially, but some processing may exceed specified purposes: While efforts are made to limit processing to specified purposes, there may be instances where data is used beyond those purposes.": "Implement stricter controls to ensure personal data is processed solely for the stated purposes, avoiding any unauthorized repurposing.",
+            "No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.": "Establish and enforce a robust purpose limitation policy to ensure compliance with DPDP processing restrictions."
+          }
+        },
+        {
+          "id": 5,
+          "text": "Do you have procedures to verify if data is provided voluntarily for specified purposes (e.g., passport or ID proof for account opening) where consent exemptions apply? [Consent Exemption Provisions][Section 5]",
+          "options": [
+            "Yes, with clear verification processes: The organization has established procedures to verify that data is provided voluntarily for specific purposes where consent exemptions apply, ensuring compliance with DPDP Act requirements.",
+            "Partially, but verification processes need improvement: While some verification processes exist, they may not fully align with DPDP Act standards or could be more robust.",
+            "No, we lack procedures for verifying voluntary data provision: The organization does not have specific procedures in place to verify voluntary data provision under consent exemptions.",
+            "Not applicable: This option might apply if your organization does not handle data under consent exemptions or if such exemptions are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but verification processes need improvement: While some verification processes exist, they may not fully align with DPDP Act standards or could be more robust.": "Strengthen verification mechanisms to ensure data is provided voluntarily in cases where consent exemptions apply, reducing risks of non-compliance.",
+            "No, we lack procedures for verifying voluntary data provision: The organization does not have specific procedures in place to verify voluntary data provision under consent exemptions.": "Develop and implement verification protocols to confirm that data provided under consent exemptions is truly voluntary, ensuring compliance with Section 5 of the DPDP Act."
+          }
+        }
+      ]
+    },
+    {
+      "name": "DPDP Data Principal Rights",
+      "weight": 0.5,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Have you established easy ways for customers to communicate and take action to access/correct/erase their data? [Section 13 - Rights of Data Principal]",
+          "options": [
+            "Yes, with clear, accessible channels: The organization provides straightforward and user-friendly methods for data principals to request access, correction, or erasure of their personal data, aligning with DPDP Act requirements.",
+            "Partially, but processes need simplification: While some mechanisms exist, they may be cumbersome or not fully accessible to all data principals.",
+            "No, communication channels are lacking or complex: The organization does not have established or accessible channels for data principals to exercise their rights.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such rights are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but processes need simplification: While some mechanisms exist, they may be cumbersome or not fully accessible to all data principals.": "Simplify and enhance the accessibility of data principal request mechanisms to ensure easy access, correction, or erasure of personal data.",
+            "No, communication channels are lacking or complex: The organization does not have established or accessible channels for data principals to exercise their rights.": "Establish clear, accessible channels such as web portals, email, or dedicated customer support lines to facilitate data principal rights requests."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Have you added a 'requests' feature to your website/portal for customers to exercise their rights? [Section 13(1)(a)]",
+          "options": [
+            "Yes, with a dedicated web form: The organization provides a specific web form or feature on its website/portal that allows customers to easily submit requests to exercise their rights (e.g., access, correction, erasure).",
+            "Partially, but the feature needs improvement: While some mechanism exists, it may not be fully accessible or user-friendly, requiring further enhancements.",
+            "No, we lack a dedicated feature for submitting requests: The organization does not have a specific feature or web form for customers to submit requests related to their data rights.",
+            "Not applicable: This option might apply if your organization does not handle the personal data or if such rights are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but the feature needs improvement: While some mechanism exists, it may not be fully accessible or user-friendly, requiring further enhancements.": "Enhance the 'requests' feature on your website/portal by making it more user-friendly, ensuring easy submission of access, correction, and erasure requests.",
+            "No, we lack a dedicated feature for submitting requests: The organization does not have a specific feature or web form for customers to submit requests related to their data rights.": "Develop a dedicated web form or portal feature allowing customers to submit requests for accessing, correcting, or erasing their data in compliance with Section 13(1)(a)."
+          }
+        },
+        {
+          "id": 3,
+          "text": "Have you built internal capacity to respond to data principal requests within time limits? [Section 13(3)]",
+          "options": [
+            "Yes, with established processes and timelines: The organization has developed internal mechanisms to ensure timely responses to data principal requests, typically within the specified timeframe (e.g., 30 days).",
+            "Partially, but response times can be inconsistent: While some processes exist, response times may vary and not always meet the required deadlines.",
+            "No, we lack adequate internal capacity for timely responses: The organization does not have sufficient resources or processes in place to respond to data principal requests within the specified time limits.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such requests are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but response times can be inconsistent: While some processes exist, response times may vary and not always meet the required deadlines.": "Optimize internal processes to ensure consistent response times for data principal requests, aligning with the DPDP Act's required timeframe (e.g., 30 days).",
+            "No, we lack adequate internal capacity for timely responses: The organization does not have sufficient resources or processes in place to respond to data principal requests within the specified time limits.": "Strengthen internal capacity by designating a team or automated system to handle data principal requests efficiently and within the required deadlines."
+          }
+        },
+        {
+          "id": 4,
+          "text": "Do you publish the timeframe for responding to customer grievances on your website/app? [Section 13(3)]",
+          "options": [
+            "Yes, with clear timelines displayed: The organization clearly publishes the response timeframe for addressing grievances on its website or app, ensuring transparency and compliance with DPDP Act requirements.",
+            "Partially, but timelines are not clearly communicated: While some information about grievance response times may be available, it is not clearly displayed or communicated to users.",
+            "No, we do not publish response timelines: The organization does not provide any information about the timeframe for responding to grievances on its website or app.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such grievances are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but timelines are not clearly communicated: While some information about grievance response times may be available, it is not clearly displayed or communicated to users.": "Ensure that grievance response timelines are prominently displayed on your website/app to provide transparency to users.",
+            "No, we do not publish response timelines: The organization does not provide any information about the timeframe for responding to grievances on its website or app.": "Publish clear and legally compliant response timelines on your website/app to improve transparency and regulatory adherence."
+          }
+        },
+        {
+          "id": 5,
+          "text": "Have you implemented a process for customers to nominate individuals who can exercise rights on their behalf? [Section 13(4)]",
+          "options": [
+            "Yes, with clear nomination procedures: The organization provides a straightforward process for data principals to nominate representatives to exercise their rights, especially in cases of incapacity or death.",
+            "Partially, but nomination processes need clarification: While some mechanism exists, it may not be fully clear or accessible to all data principals.",
+            "No, we lack a nomination process: The organization does not have a process in place for data principals to nominate representatives.",
+            "Not applicable: This option might apply if your organization does not handle personal data or if such nominations are not relevant to your operations."
+          ],
+          "recommendations": {
+            "Partially, but nomination processes need clarification: While some mechanism exists, it may not be fully clear or accessible to all data principals.": "Clarify and document the nomination process for data principals to delegate rights to representatives, ensuring accessibility and transparency.",
+            "No, we lack a nomination process: The organization does not have a process in place for data principals to nominate representatives.": "Implement a formal nomination process allowing data principals to designate representatives who can exercise their rights on their behalf, in line with Section 13(4)."
+          }
+        }
+      ]
+    },
+    {
+      "name": "DPDP Data Breach and Security",
+      "weight": 0.2,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Have you implemented measures to notify affected data principals promptly in case of a data breach? [Section 9]",
+          "options": [
+            "Yes, with immediate notification procedures: The organization has established procedures to notify affected data principals promptly and without delay in the event of a personal data breach, ensuring compliance with DPDP Act requirements.",
+            "Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification within the 72-hour timeframe.",
+            "No, we lack breach notification procedures: The organization does not have specific procedures in place to notify data principals in the event of a personal data breach."
+          ],
+          "recommendations": {
+            "Partially, but notification procedures need improvement": "Enhance data breach notification procedures to ensure affected data principals are notified promptly within the required timeframe.",
+            "No, we lack breach notification procedures": "Develop and implement procedures for notifying affected data principals promptly in case of a data breach, as required by Section 9 of the DPDP Act."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Does your organization have procedures for timely data erasure? [Section 10]",
+          "options": [
+            "Yes, with automated processes for data erasure: The organization has implemented automated processes to erase personal data promptly upon withdrawal of consent or request for erasure by the data principal, as required by the DPDP Act.",
+            "Partially, but erasure processes need improvement: While some processes exist, they may not be fully efficient or timely in erasing personal data as required.",
+            "No, we lack procedures for timely data erasure: The organization does not have specific procedures in place to erase personal data when it is no longer necessary or when the customer has not approached for data processing within the prescribed time period."
+          ],
+          "recommendations": {
+            "Partially, but erasure processes need improvement": "Enhance data erasure processes to ensure timely and efficient removal of personal data in compliance with Section 10 of DPDP Act.",
+            "No, we lack procedures for timely data erasure": "Implement robust procedures for timely erasure of personal data when consent is withdrawn or data is no longer necessary for processing."
+          }
+        }
+      ]
+    },
+    {
+      "name": " DPDP Governance and Documentation",
+      "weight": 0.3,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Does your organization maintain comprehensive documentation related to data protection compliance?",
+          "options": [
+            "Yes, with comprehensive documentation: The organization has thoroughly documented all processes related to personal data protection, including records of processing activities, data protection impact assessments (DPIAs), technical and organizational measures (TOMs), and policies for handling personal data. This documentation is maintained in a granular and meaningful way, ensuring compliance with data protection regulations.",
+            "Partially, but documentation needs improvement: While some documentation exists, it may not be comprehensive or regularly updated, potentially falling short of regulatory requirements.",
+            "No, we lack adequate documentation: The organization does not maintain specific documentation related to data protection compliance."
+          ],
+          "recommendations": {
+            "Partially, but documentation needs improvement": "Enhance documentation of all data protection processes, ensuring they are comprehensive, updated regularly, and aligned with DPDP Act requirements.",
+            "No, we lack adequate documentation": "Develop comprehensive documentation of data protection processes including processing records, impact assessments, and handling policies."
+          }
+        },
+        {
+          "id": 2,
+          "text": "Have you appointed a Data Protection Officer (DPO) or designated person responsible for data protection?",
+          "options": [
+            "Yes, with clear responsibilities and authority: The organization has appointed a DPO or designated person with well-defined responsibilities and sufficient authority to ensure compliance with data protection regulations.",
+            "Partially, but the role needs strengthening: While someone is responsible for data protection, their role may not be clearly defined or they may lack the necessary authority or resources.",
+            "No, we have not appointed a DPO or designated person: The organization does not have a DPO or a designated person responsible for data protection, which could lead to compliance issues and difficulties in managing data-related inquiries."
+          ],
+          "recommendations": {
+            "Partially, but the role needs strengthening": "Strengthen the DPO or designated person's role by clearly defining responsibilities and ensuring they have adequate authority and resources.",
+            "No, we have not appointed a DPO or designated person": "Appoint a Data Protection Officer or designate a responsible person to oversee compliance with the DPDP Act."
+          }
+        }
+      ]
+    }
+  ],
+  "answer_points": {
+    "Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.": 1.0,
+    "Partially, Notices are not provided in all required languages.": 0.5,
+    "No, Work is in progress to implement this requirement.": 0.0,
+    
+    "Yes, with detailed itemization: The notice provides a clear, detailed list of all personal data collected and specifies the exact purposes for their use.": 1.0,
+    "Partially, but needs more detail: The notice includes some itemization and purpose descriptions, but lacks clarity or completeness.": 0.5,
+    "No, the notice lacks itemization and purpose details: The notice does not provide an itemized list or specify the purposes for data use.": 0.0,
+    "Not applicable: This option might apply if your organization does not collect personal data or if the notice is not required due to exemptions.": null,
+    
+    "Yes, with clear affirmative action required: Consent is obtained through explicit actions (e.g., ticking a box, clicking an 'I agree' button) that clearly indicate agreement to the specified purposes.": 1.0,
+    "Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.": 0.5,
+    "No, we rely on implicit consent or lack clear affirmative action: Consent is assumed without explicit action or is not clearly tied to specific purposes.": 0.0,
+    "Not applicable: This option might apply if consent is not required due to exemptions (e.g., legal obligations).": null,
+    
+    "Yes, with strict adherence to purpose limitation: The organization ensures that personal data is processed only for the specific purposes outlined in the notice, aligning with the principle of purpose limitation.": 1.0,
+    "Partially, but some processing may exceed specified purposes: While efforts are made to limit processing to specified purposes, there may be instances where data is used beyond those purposes.": 0.5,
+    "No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.": 0.0,
+    "Not applicable: This option might apply if your organization does not process personal data or if the notice requirement is exempt under specific circumstances.": null,
+    
+    "Yes, with clear verification processes: The organization has established procedures to verify that data is provided voluntarily for specific purposes where consent exemptions apply, ensuring compliance with DPDP Act requirements.": 1.0,
+    "Partially, but verification processes need improvement: While some verification processes exist, they may not fully align with DPDP Act standards or could be more robust.": 0.5, 
+    "No, we lack procedures for verifying voluntary data provision: The organization does not have specific procedures in place to verify voluntary data provision under consent exemptions.": 0.0,
+    "Not applicable: This option might apply if your organization does not handle data under consent exemptions or if such exemptions are not relevant to your operations.": null,
+    
+    "Yes, with clear, accessible channels: The organization provides straightforward and user-friendly methods for data principals to request access, correction, or erasure of their personal data, aligning with DPDP Act requirements.": 1.0,
+    "Partially, but processes need simplification: While some mechanisms exist, they may be cumbersome or not fully accessible to all data principals.": 0.5,
+    "No, communication channels are lacking or complex: The organization does not have established or accessible channels for data principals to exercise their rights.": 0.0,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such rights are not relevant to your operations.": null,
+    
+    "Yes, with a dedicated web form: The organization provides a specific web form or feature on its website/portal that allows customers to easily submit requests to exercise their rights (e.g., access, correction, erasure).": 1.0,
+    "Partially, but the feature needs improvement: While some mechanism exists, it may not be fully accessible or user-friendly, requiring further enhancements.": 0.5,
+    "No, we lack a dedicated feature for submitting requests: The organization does not have a specific feature or web form for customers to submit requests related to their data rights.": 0.0,
+    "Not applicable: This option might apply if your organization does not handle the personal data or if such rights are not relevant to your operations.": null,
+    
+    "Yes, with established processes and timelines: The organization has developed internal mechanisms to ensure timely responses to data principal requests, typically within the specified timeframe (e.g., 30 days).": 1.0,
+    "Partially, but response times can be inconsistent: While some processes exist, response times may vary and not always meet the required deadlines.": 0.5,
+    "No, we lack adequate internal capacity for timely responses: The organization does not have sufficient resources or processes in place to respond to data principal requests within the specified time limits.": 0.0,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such requests are not relevant to your operations.": null,
+    
+    "Yes, with clear timelines displayed: The organization clearly publishes the response timeframe for addressing grievances on its website or app, ensuring transparency and compliance with DPDP Act requirements.": 1.0,
+    "Partially, but timelines are not clearly communicated: While some information about grievance response times may be available, it is not clearly displayed or communicated to users.": 0.5,
+    "No, we do not publish response timelines: The organization does not provide any information about the timeframe for responding to grievances on its website or app.": 0.0,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such grievances are not relevant to your operations.": null,
+    
+    "Yes, with clear nomination procedures: The organization provides a straightforward process for data principals to nominate representatives to exercise their rights, especially in cases of incapacity or death.": 1.0,
+    "Partially, but nomination processes need clarification: While some mechanism exists, it may not be fully clear or accessible to all data principals.": 0.5,
+    "No, we lack a nomination process: The organization does not have a process in place for data principals to nominate representatives.": 0.0,
+    "Not applicable: This option might apply if your organization does not handle personal data or if such nominations are not relevant to your operations.": null,
+
+    "Yes, with immediate notification procedures: The organization has established procedures to notify affected data principals promptly and without delay in the event of a personal data breach, ensuring compliance with DPDP Act requirements.": 1.0,
+    "Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification within the 72-hour timeframe.": 0.5,
+    "No, we lack breach notification procedures: The organization does not have specific procedures in place to notify data principals in the event of a personal data breach.": 0.0,
+    
+    "Yes, with automated processes for data erasure: The organization has implemented automated processes to erase personal data promptly upon withdrawal of consent or request for erasure by the data principal, as required by the DPDP Act.": 1.0,
+    "Partially, but erasure processes need improvement: While some processes exist, they may not be fully efficient or timely in erasing personal data as required.": 0.5,
+    "No, we lack procedures for timely data erasure: The organization does not have specific procedures in place to erase personal data when it is no longer necessary or when the customer has not approached for data processing within the prescribed time period.": 0.0,
+    
+    "Yes, with comprehensive documentation: The organization has thoroughly documented all processes related to personal data protection, including records of processing activities, data protection impact assessments (DPIAs), technical and organizational measures (TOMs), and policies for handling personal data. This documentation is maintained in a granular and meaningful way, ensuring compliance with data protection regulations.": 1.0,
+    "Partially, but documentation needs improvement: While some documentation exists, it may not be comprehensive or regularly updated, potentially falling short of regulatory requirements.": 0.5,
+    "No, we lack adequate documentation: The organization does not maintain specific documentation related to data protection compliance.": 0.0,
+    
+    "Yes, with clear responsibilities and authority: The organization has appointed a DPO or designated person with well-defined responsibilities and sufficient authority to ensure compliance with data protection regulations.": 1.0,
+    "Partially, but the role needs strengthening: While someone is responsible for data protection, their role may not be clearly defined or they may lack the necessary authority or resources.": 0.5,
+    "No, we have not appointed a DPO or designated person: The organization does not have a DPO or a designated person responsible for data protection, which could lead to compliance issues and difficulties in managing data-related inquiries.": 0.0
+  }
+}
