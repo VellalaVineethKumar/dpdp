@@ -731,7 +731,11 @@ def generate_natural_language_report(results: Dict[str, Any]) -> str:
     return report
 
 def render_report():
-    """Render the compliance report"""
+    """
+    Render the compliance report page, displaying assessment results, visualizations, recommendations, AI-generated analysis, and regulation-specific penalties.
+    
+    This function presents a comprehensive compliance report after assessment completion. It ensures data consistency by detecting and auto-correcting stale or mismatched results, recalculating scores as needed. The report includes overall and section-wise compliance scores with visual charts, a table of section scores and risk statuses, and highlights top recommended actions. It embeds implementation and framework diagrams, lists questions marked as "Not Applicable," and generates a detailed AI analysis summary with options to download as PDF or regenerate the report. The page also displays Gartner Magic Quadrant recognitions and regulation-specific penalties in styled tables, and provides quick navigation to AI Data Discovery and admin-only Excel downloads when applicable.
+    """
     if not st.session_state.assessment_complete:
         st.info("Complete the assessment to view your compliance report")
         if st.button("Go to Assessment", type="primary"):

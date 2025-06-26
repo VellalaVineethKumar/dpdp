@@ -119,7 +119,18 @@ AI_PROVIDER = "openrouter"
 # --- Read API keys: Prioritize Streamlit Secrets, fallback to environment variables --- #
 
 def get_secret_or_env(secret_name: str, env_var_name: str) -> Optional[str]:
-    """Helper to get key first from st.secrets, then from os.getenv."""
+    """
+    Retrieve a secret value from Streamlit secrets or environment variables.
+    
+    Attempts to obtain the specified secret first from Streamlit's `st.secrets`, and if not found, from the corresponding environment variable. Cleans the retrieved value by stripping whitespace and surrounding quotes.
+    
+    Parameters:
+        secret_name (str): The key name to look up in Streamlit secrets.
+        env_var_name (str): The environment variable name to use as a fallback.
+    
+    Returns:
+        Optional[str]: The cleaned secret value if found, otherwise None.
+    """
     key = None
     try:
         # Check if running in Streamlit context and secrets exist
