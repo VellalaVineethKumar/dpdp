@@ -2896,7 +2896,7 @@ def render_privacy_policy_analyzer() -> None:
                 button_clicked = st.button(
                     "Start Assessment",
                     type="primary",
-                    use_container_width=False,
+                    use_container_width=True,
                     key="ppa_start_assessment_btn"
                 )
                 st.markdown('</div>', unsafe_allow_html=True)
