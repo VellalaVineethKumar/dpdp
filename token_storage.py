@@ -200,16 +200,17 @@ def revoke_token(token: str) -> bool:
         
         with open(TOKENS_FILE, 'r') as f:
             reader = csv.DictReader(f)
-            rows.append(next(reader))  # Header row
+            header = reader.fieldnames or []
             for row in reader:
                 if row['token'] != token:
                     rows.append(row)
                 else:
                     token_found = True
-        
+
         if token_found:
             with open(TOKENS_FILE, 'w', newline='') as f:
-                writer = csv.writer(f)
+                writer = csv.DictWriter(f, fieldnames=header)
+                writer.writeheader()
                 writer.writerows(rows)
             logger.info(f"Revoked token: {token}")
             return True
@@ -232,7 +233,7 @@ def cleanup_expired_tokens() -> int:
         
         with open(TOKENS_FILE, 'r') as f:
             reader = csv.DictReader(f)
-            rows.append(next(reader))  # Header row
+            header = reader.fieldnames or []
             for row in reader:
                 expires_at = datetime.fromisoformat(row['expires_at'])
                 if current_time <= expires_at:
@@ -242,7 +243,8 @@ def cleanup_expired_tokens() -> int:
         
         if expired_count > 0:
             with open(TOKENS_FILE, 'w', newline='') as f:
-                writer = csv.writer(f)
+                writer = csv.DictWriter(f, fieldnames=header)
+                writer.writeheader()
                 writer.writerows(rows)
             logger.info(f"Removed {expired_count} expired tokens")
         
