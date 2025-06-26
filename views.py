@@ -95,8 +95,10 @@ def render_header():
             padding: 0;
             line-height: 1;
         }
-        /* Remove all Streamlit spacing */
-        .element-container, div[data-testid="stMarkdown"], div[data-testid="stVerticalBlock"] {
+        /* Remove Streamlit spacing only within the header */
+        .app-header .element-container,
+        .app-header div[data-testid="stMarkdown"],
+        .app-header div[data-testid="stVerticalBlock"] {
             margin: 0 !important;
             padding: 0 !important;
         }
