@@ -965,7 +965,9 @@ def render_report():
             section_data.append({
                 "Section": section,
                 "Score (%)": f"{score * 100:.1f}%",
-                "Weight": f"{next((s['weight'] * 100 for s in get_questionnaire(*get_regulation_and_industry_for_loader())["sections"] if s['name'] == section), 0):.1f}%",
+                "Weight": (
+                    f"{next((s['weight'] * 100 for s in get_questionnaire(*get_regulation_and_industry_for_loader())['sections'] if s['name'] == section), 0):.1f}%"
+                ),
                 "Status": status
             })
         else:
