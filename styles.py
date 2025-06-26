@@ -146,10 +146,7 @@ def get_landing_page_css():
             margin-bottom: 2rem;
         }
         .footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
+            position: relative;
             padding: 1rem;
             text-align: center;
             font-size: 0.8rem;
