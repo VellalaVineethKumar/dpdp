@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 import re
-from typing import Dict, Optional
+from typing import Dict, Optional, Any
 from googlesearch import search
 import logging
 import openai
@@ -13,7 +13,11 @@ import time
 import base64
 import tempfile
 from markdown_pdf import MarkdownPdf, Section
-
+import time
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import WebDriverException
 # Define available privacy laws
 PRIVACY_LAWS = {
     "dpdp_india": {
@@ -423,13 +427,55 @@ def find_privacy_policy_url(organization_name: str, country: str = None, num_res
         logger.error(f"Error finding privacy policy URL for {organization_name}: {e}")
         return None
 
+def fetch_with_selenium(url: str) -> Optional[str]:
+    """
+    Fetch page content using Selenium as a fallback for sites with bot protection.
+
+    Args:
+        url (str): The URL to fetch.
+
+    Returns:
+        Optional[str]: The visible text content of the page, or None if fetching fails.
+    """
+    try:
+
+
+        chrome_options = Options()
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        chrome_options.add_argument('--window-size=1920,1080')
+        chrome_options.add_argument('--lang=en-US')
+        chrome_options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36')
+
+        driver = webdriver.Chrome(options=chrome_options)
+        driver.get(url)
+        time.sleep(3)  # Wait for JS to load
+        body = driver.find_element(By.TAG_NAME, 'body')
+        text = body.text
+        driver.quit()
+        if text:
+            logger.info(f"Selenium successfully fetched {len(text)} characters from {url}")
+            return text
+        else:
+            logger.error(f"Selenium fetched no text from {url}")
+            return None
+    except WebDriverException as e:
+        logger.error(f"Selenium WebDriver error: {e}")
+        return None
+    except Exception as e:
+        logger.error(f"Unexpected error in Selenium fetch: {e}")
+        return None
+
 def fetch_policy_content(url: str, max_retries: int = 3, retry_delay: int = 2, verify_ssl: bool = True) -> Optional[str]:
     """Fetch and extract privacy policy content from URL."""
     logger.info(f"Fetching privacy policy content from: {url}")
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.5',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Referer': 'https://www.google.com/',
         'Connection': 'keep-alive',
     }
 
@@ -448,9 +494,20 @@ def fetch_policy_content(url: str, max_retries: int = 3, retry_delay: int = 2, v
                 response.raise_for_status()
             except requests.exceptions.SSLError as ssl_error:
                 logger.warning(f"SSL verification failed on attempt {attempt + 1}, trying without verification")
-                # If SSL verification fails, try without verification
                 response = session.get(url, headers=headers, timeout=30, verify=False)
                 response.raise_for_status()
+            except requests.exceptions.HTTPError as http_err:
+                if response.status_code == 403:
+                    logger.error(f"403 Forbidden error encountered for URL: {url}. Trying Selenium fallback.")
+                    selenium_text = fetch_with_selenium(url)
+                    if selenium_text:
+                        # Post-process as with normal fetch
+                        lines = [line.strip() for line in selenium_text.split('\n')]
+                        selenium_text = '\n'.join(line for line in lines if line)
+                        return selenium_text
+                    else:
+                        logger.error(f"Selenium fallback failed for {url}.")
+                raise
             
             logger.debug(f"Successfully fetched content from {url} on attempt {attempt + 1}")
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -483,14 +540,19 @@ def fetch_policy_content(url: str, max_retries: int = 3, retry_delay: int = 2, v
             if not content:
                 logger.warning("No specific content container found, using body or full document")
                 content = soup.body if soup.body else soup
-                
+
             # Clean up the text
             text = content.get_text(separator='\n', strip=True)
-            
+
+            # Fallback: If still no text, try extracting all visible text from <body>
+            if not text and soup.body:
+                logger.warning("No text extracted from main container, attempting to extract all visible text from <body>")
+                text = soup.body.get_text(separator='\n', strip=True)
+
             # Post-processing
             lines = [line.strip() for line in text.split('\n')]
             text = '\n'.join(line for line in lines if line)
-            
+
             if not text:
                 logger.error("No content extracted from URL")
                 return None

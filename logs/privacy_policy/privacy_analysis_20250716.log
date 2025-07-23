@@ -1,0 +1,39 @@
+2025-07-17 13:38:30,728 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Sbi in country: Qatar
+2025-07-17 13:38:31,615 - privacy_policy_analyzer - INFO - Found privacy policy URL for Sbi: https://sbi.co.in/web/nri/information/privacy-statement
+2025-07-17 13:38:31,618 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://sbi.co.in/web/nri/information/privacy-statement
+2025-07-17 13:38:33,001 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://sbi.co.in/web/nri/information/privacy-statement on attempt 1
+2025-07-17 13:38:33,383 - privacy_policy_analyzer - DEBUG - Removed 71 unwanted elements
+2025-07-17 13:38:33,388 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-07-17 13:38:33,388 - privacy_policy_analyzer - INFO - Successfully extracted 8015 characters of content
+2025-07-17 13:38:33,400 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-07-17 13:39:04,838 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-07-17 13:39:04,838 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-07-17 13:39:05,060 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpazeqg_a0.pdf
+2025-07-17 13:39:05,068 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpazeqg_a0.pdf
+2025-07-17 13:39:05,139 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpazeqg_a0.pdf
+2025-07-17 13:39:05,139 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpazeqg_a0.pdf
+2025-07-17 13:39:05,238 - privacy_policy_analyzer - INFO - Successfully read 983163 bytes from PDF
+2025-07-17 13:39:05,240 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpazeqg_a0.pdf
+2025-07-17 13:39:14,115 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Sbi in country: India
+2025-07-17 13:39:14,702 - privacy_policy_analyzer - INFO - Found privacy policy URL for Sbi: https://www.onlinesbi.sbi/sbijava/Privacy_Statement.html
+2025-07-17 13:39:14,705 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.onlinesbi.sbi/sbijava/Privacy_Statement.html
+2025-07-17 13:39:14,848 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.onlinesbi.sbi/sbijava/Privacy_Statement.html on attempt 1
+2025-07-17 13:39:14,868 - privacy_policy_analyzer - DEBUG - Removed 4 unwanted elements
+2025-07-17 13:39:14,878 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-07-17 13:39:14,878 - privacy_policy_analyzer - INFO - Successfully extracted 6669 characters of content
+2025-07-17 13:39:14,890 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-07-17 13:39:57,309 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-07-17 13:39:57,312 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-07-17 13:39:57,397 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp5fhna2y_.pdf
+2025-07-17 13:39:57,399 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp5fhna2y_.pdf
+2025-07-17 13:39:57,479 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp5fhna2y_.pdf
+2025-07-17 13:39:57,483 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp5fhna2y_.pdf
+2025-07-17 13:39:57,557 - privacy_policy_analyzer - INFO - Successfully read 586934 bytes from PDF
+2025-07-17 13:39:57,559 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp5fhna2y_.pdf
+2025-07-17 14:20:43,435 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Air India in country: India
+2025-07-17 14:20:44,008 - privacy_policy_analyzer - INFO - Found privacy policy URL for Air India: https://www.airindia.com/in/en/privacy-notice.html
+2025-07-17 14:20:44,010 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.airindia.com/in/en/privacy-notice.html
+2025-07-17 14:21:05,548 - privacy_policy_analyzer - WARNING - Connection error on attempt 1: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-17 14:21:29,088 - privacy_policy_analyzer - WARNING - Connection error on attempt 2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-17 14:22:01,113 - privacy_policy_analyzer - WARNING - Timeout error on attempt 3: HTTPSConnectionPool(host='www.airindia.com', port=443): Read timed out. (read timeout=30)
+2025-07-17 14:22:01,114 - privacy_policy_analyzer - ERROR - Request timed out after 3 attempts

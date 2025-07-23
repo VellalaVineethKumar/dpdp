@@ -1218,6 +1218,18 @@ def render_report():
                     cleaned_report = re.sub(r'</?div[^>]*>', '', cleaned_report, flags=re.IGNORECASE)
                     cleaned_report = cleaned_report.replace("[Insert Date]", st.session_state.get('assessment_date', 'Unknown Date'))
                     cleaned_report = cleaned_report.replace("[Insert Organization Name]", st.session_state.get('organization_name', 'Unknown Organization'))
+                    # Replace all occurrences of '****' with '-'
+                    cleaned_report = cleaned_report.replace('****', '-')
+                    # Replace any compliance score/level summary line in the body with improved formatting
+                    compliance_line_pattern = re.compile(r"\*\*Overall Compliance Score:\*\*\s*([0-9.]+)%\s*\*\*Compliance Level:\*\*\s*\*\*([^*]+)\*\*")
+                    def compliance_repl(match):
+                        score = match.group(1)
+                        level = match.group(2)
+                        color = get_compliance_level_color(level)
+                        # Use black text for PDF compatibility
+                        return f"<div style='font-size:1.1em; margin-bottom: 0.5em;'><b>Overall Compliance Score:</b> {score}%</div>" \
+                               f"<div style='font-size:1.1em; margin-bottom: 1em;'><b>Compliance Level:</b> <span style='background:{color}; color:black; padding:2px 10px; border-radius:12px; font-weight:bold;'>{level}</span></div>"
+                    cleaned_report = compliance_line_pattern.sub(compliance_repl, cleaned_report)
 
                     st.session_state.cached_ai_report = cleaned_report
                     st.session_state.ai_report_generated = True
@@ -1307,7 +1319,9 @@ def render_report():
                     color = get_compliance_level_color(level)
 
                     st.markdown(f"# {title}")
-                    st.markdown(f"**Overall Compliance Score: {score}%** **Compliance Level: {level}**")
+                    # Improved formatting: show score and level on separate lines with badge
+                    st.markdown(f"<div style='font-size:1.1em; margin-bottom: 0.5em;'><b>Overall Compliance Score:</b> {score}%</div>", unsafe_allow_html=True)
+                    st.markdown(f"<div style='font-size:1.1em; margin-bottom: 1em;'><b>Compliance Level:</b> <span style='background:{color}; color:white; padding:2px 10px; border-radius:12px; font-weight:bold;'>{level}</span></div>", unsafe_allow_html=True)
                     processed_lines = lines[1:]
                 else:
                     # Fallback: use session_state values for header if available
@@ -2428,8 +2442,8 @@ def render_welcome_page():
                 label_visibility="collapsed"
             )
             if org_name != st.session_state.organization_name:
-                # Capitalize the organization name
-                st.session_state.organization_name = org_name.strip().title()
+                # Convert the organization name to uppercase
+                st.session_state.organization_name = org_name.strip().upper()
                 # Save organization data
                 from data_storage import save_assessment_data
                 org_data = {
@@ -2765,7 +2779,7 @@ def render_privacy_policy_analyzer() -> None:
             )
             if org_name != st.session_state.get("ppa_org_name", ""):
                 # Capitalize the organization name
-                st.session_state.ppa_org_name = org_name.strip().title()
+                st.session_state.ppa_org_name = org_name.strip().upper()
                 # Clear previous analysis when org name changes
                 st.session_state.ppa_analysis_html = None
                 st.session_state.ppa_pdf_content = None

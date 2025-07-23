@@ -1,0 +1,33 @@
+2025-07-23 10:17:08,026 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI PRUDENTIAL in country: India
+2025-07-23 10:17:08,405 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI PRUDENTIAL: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:17:08,406 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:17:08,445 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Consider using Selenium or a headless browser for this site.
+2025-07-23 10:17:08,447 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.iciciprulife.com/privacy-policy.html: 403 Client Error: Forbidden for url: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:20:51,918 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI PRUDENTIAL in country: India
+2025-07-23 10:20:52,318 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI PRUDENTIAL: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:20:52,321 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:20:52,370 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
+2025-07-23 10:21:03,916 - privacy_policy_analyzer - INFO - Selenium successfully fetched 17453 characters from https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:21:03,919 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-07-23 10:21:47,942 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-07-23 10:21:47,942 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-07-23 10:21:48,042 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpc54sda6h.pdf
+2025-07-23 10:21:48,043 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpc54sda6h.pdf
+2025-07-23 10:21:48,108 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpc54sda6h.pdf
+2025-07-23 10:21:48,109 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpc54sda6h.pdf
+2025-07-23 10:21:48,142 - privacy_policy_analyzer - INFO - Successfully read 995983 bytes from PDF
+2025-07-23 10:21:48,143 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpc54sda6h.pdf
+2025-07-23 10:23:37,380 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI PRUDENTIAL in country: India
+2025-07-23 10:23:37,783 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI PRUDENTIAL: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:23:37,784 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:23:37,824 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
+2025-07-23 10:23:48,966 - privacy_policy_analyzer - INFO - Selenium successfully fetched 17453 characters from https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 10:23:48,971 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-07-23 10:24:26,354 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-07-23 10:24:26,355 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-07-23 10:24:26,414 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpvhheqh86.pdf
+2025-07-23 10:24:26,415 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpvhheqh86.pdf
+2025-07-23 10:24:26,428 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpvhheqh86.pdf
+2025-07-23 10:24:26,429 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpvhheqh86.pdf
+2025-07-23 10:24:26,468 - privacy_policy_analyzer - INFO - Successfully read 1039661 bytes from PDF
+2025-07-23 10:24:26,469 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpvhheqh86.pdf
