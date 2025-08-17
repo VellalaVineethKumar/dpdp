@@ -16,8 +16,7 @@ openai>=1.12.0,<2.0.0
 sqlparse>=0.4.4,<1.0.0
 
 # Document processing
-markdown-pdf>=0.1.0,<1.0.0
-
+markdown-pdf
 # Web scraping and search
 beautifulsoup4>=4.12.3,<5.0.0
 selenium>=4.15.0,<5.0.0
