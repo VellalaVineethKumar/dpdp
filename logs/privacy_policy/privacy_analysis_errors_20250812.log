@@ -1,0 +1,3 @@
+2025-08-12 15:36:03,841 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 'choices'
+2025-08-12 17:35:10,540 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 'choices'
+2025-08-12 19:12:13,111 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: ("Connection broken: InvalidChunkLength(got length b'', 0 bytes read)", InvalidChunkLength(got length b'', 0 bytes read))

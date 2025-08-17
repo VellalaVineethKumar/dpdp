@@ -1,17 +1,33 @@
-requests>=2.31.0
-streamlit>=1.32.0
-pandas>=2.2.0
-plotly>=5.18.0
-openai>=1.12.0
-openpyxl>=3.1.2
-sqlparse>=0.4.4
-pypandoc>=1.11
-python-dotenv>=1.0.0
-markdown-pdf>=0.1.0
-xlsxwriter>=3.1.9
-beautifulsoup4>=4.12.3
-googlesearch-python>=1.2.3
-httpx>=0.26.0
-typing-extensions>=4.9.0
-python-dateutil>=2.8.2
-pytz>=2024.1 
+# Core web framework
+streamlit>=1.32.0,<2.0.0
+
+# Data processing and analysis
+pandas>=2.2.0,<3.0.0
+plotly>=5.18.0,<6.0.0
+
+# HTTP and API libraries
+requests>=2.31.0,<3.0.0
+httpx>=0.26.0,<1.0.0
+
+# AI and machine learning
+openai>=1.12.0,<2.0.0
+
+# File parsing and processing
+sqlparse>=0.4.4,<1.0.0
+
+# Document processing
+markdown-pdf>=0.1.0,<1.0.0
+
+# Web scraping and search
+beautifulsoup4>=4.12.3,<5.0.0
+selenium>=4.15.0,<5.0.0
+googlesearch-python>=1.2.3,<2.0.0
+
+# Configuration and utilities
+python-dotenv>=1.0.0,<2.0.0
+
+# Development and testing (optional - uncomment if needed)
+# pytest>=7.4.0,<8.0.0
+# pytest-cov>=4.1.0,<5.0.0
+# black>=23.0.0,<24.0.0
+# ruff>=0.1.0,<1.0.0

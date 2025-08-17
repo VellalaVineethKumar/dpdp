@@ -1,0 +1,32 @@
+{
+  "organization_name": "ICICI",
+  "assessment_date": "2025-08-17",
+  "selected_regulation": "DPDP",
+  "selected_industry": "Banking and finance",
+  "responses": {
+    "s0_q0": "Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.",
+    "s0_q1": "Not applicable: This option might apply if your organization does not collect personal data or if the notice is not required due to exemptions.",
+    "s0_q2": "No, we rely on implicit consent or lack clear affirmative action: Consent is assumed without explicit action or is not clearly tied to specific purposes.",
+    "s0_q3": "No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.",
+    "s0_q4": "Yes, with clear verification processes: The organization has established procedures to verify that data is provided voluntarily for specific purposes where consent exemptions apply, ensuring compliance with DPDP Act requirements.",
+    "s1_q0": "Not applicable: This option might apply if your organization does not handle personal data or if such rights are not relevant to your operations.",
+    "s1_q1": "Yes, with a dedicated web form: The organization provides a specific web form or feature on its website/portal that allows customers to easily submit requests to exercise their rights (e.g., access, correction, erasure).",
+    "s1_q2": "No, we lack adequate internal capacity for timely responses: The organization does not have sufficient resources or processes in place to respond to data principal requests within the specified time limits.",
+    "s1_q3": "Not applicable: This option might apply if your organization does not handle personal data or if such grievances are not relevant to your operations.",
+    "s1_q4": "No, we lack a nomination process: The organization does not have a process in place for data principals to nominate representatives.",
+    "s2_q0": "Not applicable: This option might apply if your organization does not handle personal data or if such measures are not relevant to your operations.",
+    "s2_q1": "Yes, with robust access controls: The organization has implemented strong access controls, including authentication mechanisms, authorization protocols, and access logs to ensure that only authorized personnel can access computer resources handling personal data.",
+    "s2_q2": "Yes, with comprehensive logging and monitoring: The organization has implemented robust logging, monitoring, and review systems to detect unauthorized access to personal data, ensuring timely identification and response to security incidents.",
+    "s2_q3": "Partially, but backup and recovery processes need improvement: While some measures exist, they may not be fully reliable or comprehensive in case of data compromise.",
+    "s2_q4": "Not applicable: This option might apply if your organization does not handle personal data or if such retention is not relevant to your operations.",
+    "s3_q0": "Not applicable: This option might apply if your organization does not handle personal data or if breach notifications are not relevant to your operations.",
+    "s3_q1": "Partially, but some details are missing: While some information is provided, the notification lacks one or more of the required details, such as the description of the breach, consequences, mitigation measures, or safety advice.",
+    "s3_q2": "Yes, with established procedures for timely notification: The organization has implemented processes to ensure that the Data Protection Board is notified within 72 hours of becoming aware of a breach, as required by the DPDP Act.",
+    "s4_q0": "Manual processes are in place, but they are effective: The organization uses manual processes for erasing personal data, which are effective but may not be as efficient as automated systems.",
+    "s4_q1": "Partially, but erasure processes need improvement: While some mechanisms exist, they may not be fully automated or could be more efficient to ensure timely erasure.",
+    "s4_q2": "Manual processes are in place, but they are effective: The organization uses manual processes to notify customers, which are effective but may not always ensure timely notice.",
+    "s4_q3": "No, we lack secure erasure standards: The organization does not have specific secure erasure standards or procedures in place to ensure that personal data is properly erased."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-08-17T10:25:52.452087"
+}

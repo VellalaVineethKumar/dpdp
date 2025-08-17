@@ -1,0 +1,15 @@
+{
+  "organization_name": "ICICI PRUD",
+  "assessment_date": "2025-07-23",
+  "selected_regulation": "DPDP",
+  "selected_industry": "Banking and finance",
+  "responses": {
+    "s0_q0": "Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.",
+    "s0_q1": "Yes, with detailed itemization: The notice provides a clear, detailed list of all personal data collected and specifies the exact purposes for their use.",
+    "s0_q2": "Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.",
+    "s0_q3": "Yes, with strict adherence to purpose limitation: The organization ensures that personal data is processed only for the specific purposes outlined in the notice, aligning with the principle of purpose limitation.",
+    "s0_q4": "Yes, with clear verification processes: The organization has established procedures to verify that data is provided voluntarily for specific purposes where consent exemptions apply, ensuring compliance with DPDP Act requirements."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-07-23T11:14:33.660293"
+}

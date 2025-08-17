@@ -2,3 +2,4 @@
 2025-07-23 10:17:08,447 - privacy_policy_analyzer - ERROR - Error fetching URL https://www.iciciprulife.com/privacy-policy.html: 403 Client Error: Forbidden for url: https://www.iciciprulife.com/privacy-policy.html
 2025-07-23 10:20:52,370 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
 2025-07-23 10:23:37,824 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
+2025-07-23 11:20:26,087 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.

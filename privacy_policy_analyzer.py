@@ -41,7 +41,7 @@ DPDP Act Requirements:
 Your task is to:
 1. Identify any conflicts or gaps between the privacy policy and the DPDP Act requirements
 2. Highlight specific sections of the DPDP Act that are relevant to each finding, make sure to use hyperlink https://datainfa.com/dpdp-act/
-3. Provide recommendations for compliance
+3. Provide recommendations for compliance, including Informatica product recommendations where relevant (see context below)
 4. Clearly highlight key issues
 
 # Privacy Policy Analysis
@@ -53,14 +53,76 @@ Your task is to:
 - List specific gaps with references to DPDP Act requirements
 
 ## Recommendations
-- Provide actionable recommendations to address each gap
+- Provide actionable recommendations to address each gap, referencing Informatica products where appropriate.
 
 ## Detailed Analysis
 For each major section of the privacy policy, provide:
 - What was found
 - Relevant DPDP Act sections
 - Compliance status
-- Recommendations"""
+- Recommendations
+
+Information for your report on what products you can recommend based on the results:
+"1. Data gets Collected
+
+2. Data is discovered
+Discover Digital Personal Data.
+Identify Digital Personal Data Estate.
+Comply with data minimization, process limitation, and storage limitations.
+Relevant Informatica Products: Informatica Cloud Data Governance (CDGC), Metadata Command Center (MCC), Informatica Cloud Data Profiling (CDP), Informatica Data Privacy Management (DPM)
+
+3. Data is labeled based on sensitivity and protection needs
+Keep track of digital personal data.
+Respond to data principal access rights.
+Maintain accuracy and correctness.
+Keep track of personal data of children.
+Appropriately protect data.
+Relevant Informatica Products: Informatica Cloud Data Governance (CDGC), Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Integration (CDI)
+
+4. Data gets protected based on policies
+Safeguard personal data.
+Protect personal data from unauthorized processing.
+Track personal data.
+Relevant Informatica Products: Informatica Data Privacy Management (DPM), Informatica Cloud Data Access Management (CDAM), Informatica Cloud Data Governance (CDGC)
+
+5(a). Data Travel Across National Boundaries
+Close monitoring of data transfers.
+Location-based policies to restrict access from unauthorized locations.
+Relevant Informatica Products: Informatica Cloud Data Governance Catalog (CDGC), Informatica Cloud Data Privacy Management (CDPM), Informatica Cloud Data Access Management (CDAM)
+
+5(b). Personal data is processed
+Adherence to data minimization and remediation of data exposure.
+Track processing activity to ensure lawful and fair processing.
+Manage Data Principal Rights.
+Relevant Informatica Products: Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Privacy Management (CDPM), Informatica Cloud Data Governance (CDGC)
+
+5(c). Data activity is monitored
+Detect and respond to unauthorized access, transfer, or processing activities on personal data.
+Relevant Informatica Products: Informatica Cloud Application Integration (CAI), Informatica Cloud Data Governance Catalog (CDGC), CLAIRE GPT
+
+6. Data gets retired and deleted
+Retention and data lifecycle management.
+Mark documents as "Records".
+Disposition reviews to mark safe deletion.
+Relevant Informatica Products: Informatica Cloud Data Integration (CDI), Informatica Cloud Data Quality (CDQ), Informatica Cloud Master Data Management (CMDM), Informatica Cloud Data Access Management (CDAM)."
+
+Your report should include:
+1. An executive summary assessing the overall compliance status
+2. Analysis of each section with risk levels and implications
+3. Prioritized action items with clear descriptions
+4. Strategic recommendations for improving compliance posture (focus on Informatica Solutions provided in the context)
+
+IMPORTANT FORMATTING INSTRUCTIONS:
+- DO NOT prefix recommendations with "Informatica Solution:"
+- Present recommendations directly and concisely
+- When mentioning Informatica products, integrate them naturally into the recommendations
+
+Ensure the tone is professional but accessible, avoiding overly technical language.
+Use data-driven insights to provide specific, actionable recommendations.
+Include at the end -> Partner with Informatica experts to close gaps efficiently.
+Contact info@datainfa.com for further understanding and implementation.
+
+IMPORTANT: Ensure all HTML tags are properly balanced and there are no stray closing tags in the output."""
     },
 
     "gdpr_europe": {

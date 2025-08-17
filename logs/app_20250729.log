@@ -1,0 +1,38 @@
+2025-07-29 10:32:34,883 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:32:35,505 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-07-29 10:32:37,800 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:32:40,951 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:32:41,126 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:32:41,201 - helpers - INFO - Admin token validated
+2025-07-29 10:32:41,299 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:35:22,415 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:35:27,572 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:35:27,622 - helpers - INFO - Navigating to page: privacy from welcome
+2025-07-29 10:35:27,771 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:35:34,445 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:35:35,293 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:35:37,309 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:35:38,162 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:35:38,231 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI PRUD in country: India
+2025-07-29 10:35:38,886 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI PRUD: https://www.iciciprulife.com/privacy-policy.html
+2025-07-29 10:35:38,890 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.iciciprulife.com/privacy-policy.html
+2025-07-29 10:35:38,956 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
+2025-07-29 10:35:51,115 - privacy_policy_analyzer - INFO - Selenium successfully fetched 17453 characters from https://www.iciciprulife.com/privacy-policy.html
+2025-07-29 10:35:51,121 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-07-29 10:36:53,577 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-07-29 10:36:53,580 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-07-29 10:36:53,698 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpvf6e0k12.pdf
+2025-07-29 10:36:53,700 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpvf6e0k12.pdf
+2025-07-29 10:36:53,742 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpvf6e0k12.pdf
+2025-07-29 10:36:53,742 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpvf6e0k12.pdf
+2025-07-29 10:36:53,809 - privacy_policy_analyzer - INFO - Successfully read 642444 bytes from PDF
+2025-07-29 10:36:53,811 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpvf6e0k12.pdf
+2025-07-29 10:36:53,959 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:37:39,126 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:41:10,517 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:42:15,437 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:42:15,522 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 10:42:15,785 - helpers - INFO - Admin token validated
+2025-07-29 10:42:15,926 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 12:18:37,964 - __main__ - INFO - Application started - Logging initialized
+2025-07-29 12:37:52,356 - __main__ - INFO - Application started - Logging initialized

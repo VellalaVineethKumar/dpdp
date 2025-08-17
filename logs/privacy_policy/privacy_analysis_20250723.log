@@ -31,3 +31,17 @@
 2025-07-23 10:24:26,429 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpvhheqh86.pdf
 2025-07-23 10:24:26,468 - privacy_policy_analyzer - INFO - Successfully read 1039661 bytes from PDF
 2025-07-23 10:24:26,469 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpvhheqh86.pdf
+2025-07-23 11:20:25,617 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI PRUDENTIAL in country: India
+2025-07-23 11:20:26,025 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI PRUDENTIAL: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 11:20:26,027 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 11:20:26,087 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
+2025-07-23 11:20:38,001 - privacy_policy_analyzer - INFO - Selenium successfully fetched 17453 characters from https://www.iciciprulife.com/privacy-policy.html
+2025-07-23 11:20:38,004 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-07-23 11:21:07,563 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-07-23 11:21:07,564 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-07-23 11:21:07,602 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpp2igw2eh.pdf
+2025-07-23 11:21:07,603 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpp2igw2eh.pdf
+2025-07-23 11:21:07,652 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpp2igw2eh.pdf
+2025-07-23 11:21:07,654 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpp2igw2eh.pdf
+2025-07-23 11:21:07,681 - privacy_policy_analyzer - INFO - Successfully read 573439 bytes from PDF
+2025-07-23 11:21:07,683 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpp2igw2eh.pdf

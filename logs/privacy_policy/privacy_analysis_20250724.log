@@ -1,0 +1,28 @@
+2025-07-24 11:55:32,326 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICIC PRUD in country: India
+2025-07-24 11:55:32,903 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICIC PRUD: https://www.iciciprulife.com/privacy-policy.html
+2025-07-24 11:55:32,904 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.iciciprulife.com/privacy-policy.html
+2025-07-24 11:55:32,936 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
+2025-07-24 11:55:45,112 - privacy_policy_analyzer - INFO - Selenium successfully fetched 17453 characters from https://www.iciciprulife.com/privacy-policy.html
+2025-07-24 11:55:45,112 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-07-24 11:57:07,889 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-07-24 11:57:07,902 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-07-24 11:57:07,966 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpt2cyoj9x.pdf
+2025-07-24 11:57:07,967 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpt2cyoj9x.pdf
+2025-07-24 11:57:07,987 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpt2cyoj9x.pdf
+2025-07-24 11:57:07,987 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpt2cyoj9x.pdf
+2025-07-24 11:57:08,000 - privacy_policy_analyzer - INFO - Successfully read 152101 bytes from PDF
+2025-07-24 11:57:08,011 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpt2cyoj9x.pdf
+2025-07-29 09:32:51,246 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI PRUD in country: India
+2025-07-29 09:32:52,131 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI PRUD: https://www.iciciprulife.com/privacy-policy.html
+2025-07-29 09:32:52,134 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.iciciprulife.com/privacy-policy.html
+2025-07-29 09:32:52,407 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
+2025-07-29 09:33:04,450 - privacy_policy_analyzer - INFO - Selenium successfully fetched 17453 characters from https://www.iciciprulife.com/privacy-policy.html
+2025-07-29 09:33:04,458 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-07-29 09:35:19,975 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-07-29 09:35:19,975 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-07-29 09:35:20,073 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp_5xidyrq.pdf
+2025-07-29 09:35:20,074 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp_5xidyrq.pdf
+2025-07-29 09:35:20,118 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp_5xidyrq.pdf
+2025-07-29 09:35:20,119 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp_5xidyrq.pdf
+2025-07-29 09:35:20,172 - privacy_policy_analyzer - INFO - Successfully read 215099 bytes from PDF
+2025-07-29 09:35:20,173 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp_5xidyrq.pdf

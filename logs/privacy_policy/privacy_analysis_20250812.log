@@ -1,0 +1,84 @@
+2025-08-12 15:34:19,469 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: UNIQUS CONSULTECH in country: India
+2025-08-12 15:34:19,892 - privacy_policy_analyzer - INFO - Found privacy policy URL for UNIQUS CONSULTECH: https://uniqus.com/privacy-policy/
+2025-08-12 15:34:19,893 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://uniqus.com/privacy-policy/
+2025-08-12 15:34:20,354 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://uniqus.com/privacy-policy/ on attempt 1
+2025-08-12 15:34:20,503 - privacy_policy_analyzer - DEBUG - Removed 44 unwanted elements
+2025-08-12 15:34:20,505 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-08-12 15:34:20,507 - privacy_policy_analyzer - INFO - Successfully extracted 9283 characters of content
+2025-08-12 15:34:20,510 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-12 15:36:03,840 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-12 15:36:03,841 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 'choices'
+2025-08-12 17:07:03,340 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: UNIQUS CONSULTECH in country: India
+2025-08-12 17:07:04,530 - privacy_policy_analyzer - INFO - Found privacy policy URL for UNIQUS CONSULTECH: https://uniqus.com/privacy-policy/
+2025-08-12 17:07:04,533 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://uniqus.com/privacy-policy/
+2025-08-12 17:07:14,388 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: UNIQUS CONSULTECH in country: India
+2025-08-12 17:07:15,832 - privacy_policy_analyzer - INFO - Found privacy policy URL for UNIQUS CONSULTECH: https://uniqus.com/privacy-policy/
+2025-08-12 17:07:15,835 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://uniqus.com/privacy-policy/
+2025-08-12 17:07:34,505 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://uniqus.com/privacy-policy/ on attempt 1
+2025-08-12 17:07:34,591 - privacy_policy_analyzer - DEBUG - Removed 44 unwanted elements
+2025-08-12 17:07:34,592 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-08-12 17:07:34,593 - privacy_policy_analyzer - INFO - Successfully extracted 9283 characters of content
+2025-08-12 17:07:39,878 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://uniqus.com/privacy-policy/ on attempt 1
+2025-08-12 17:07:39,950 - privacy_policy_analyzer - DEBUG - Removed 44 unwanted elements
+2025-08-12 17:07:39,951 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-08-12 17:07:39,952 - privacy_policy_analyzer - INFO - Successfully extracted 9283 characters of content
+2025-08-12 17:07:39,958 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-12 17:08:11,753 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-12 17:08:11,754 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-08-12 17:08:11,913 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpa9xgwn8n.pdf
+2025-08-12 17:08:11,914 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpa9xgwn8n.pdf
+2025-08-12 17:08:12,003 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpa9xgwn8n.pdf
+2025-08-12 17:08:12,004 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpa9xgwn8n.pdf
+2025-08-12 17:08:12,078 - privacy_policy_analyzer - INFO - Successfully read 160592 bytes from PDF
+2025-08-12 17:08:12,080 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpa9xgwn8n.pdf
+2025-08-12 17:08:13,129 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: UNIQUS CONSULTECH in country: India
+2025-08-12 17:08:13,883 - privacy_policy_analyzer - INFO - Found privacy policy URL for UNIQUS CONSULTECH: https://uniqus.com/privacy-policy/
+2025-08-12 17:08:13,884 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://uniqus.com/privacy-policy/
+2025-08-12 17:08:15,437 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://uniqus.com/privacy-policy/ on attempt 1
+2025-08-12 17:08:15,648 - privacy_policy_analyzer - DEBUG - Removed 44 unwanted elements
+2025-08-12 17:08:15,650 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-08-12 17:08:15,652 - privacy_policy_analyzer - INFO - Successfully extracted 9283 characters of content
+2025-08-12 17:08:15,657 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-12 17:08:50,402 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-12 17:08:50,404 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-08-12 17:08:50,463 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpat8utumn.pdf
+2025-08-12 17:08:50,464 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpat8utumn.pdf
+2025-08-12 17:08:50,484 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpat8utumn.pdf
+2025-08-12 17:08:50,485 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpat8utumn.pdf
+2025-08-12 17:08:50,513 - privacy_policy_analyzer - INFO - Successfully read 155644 bytes from PDF
+2025-08-12 17:08:50,515 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpat8utumn.pdf
+2025-08-12 17:34:40,783 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: UNIQUS in country: India
+2025-08-12 17:34:41,654 - privacy_policy_analyzer - INFO - Found privacy policy URL for UNIQUS: https://uniqus.com/privacy-policy/
+2025-08-12 17:34:41,657 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://uniqus.com/privacy-policy/
+2025-08-12 17:34:42,432 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://uniqus.com/privacy-policy/ on attempt 1
+2025-08-12 17:34:42,618 - privacy_policy_analyzer - DEBUG - Removed 44 unwanted elements
+2025-08-12 17:34:42,619 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-08-12 17:34:42,621 - privacy_policy_analyzer - INFO - Successfully extracted 9283 characters of content
+2025-08-12 17:34:42,626 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-12 17:35:10,537 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-12 17:35:10,540 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 'choices'
+2025-08-12 18:23:07,163 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: UNIQUS in country: India
+2025-08-12 18:23:09,353 - privacy_policy_analyzer - INFO - Found privacy policy URL for UNIQUS: https://uniqus.com/privacy-policy/
+2025-08-12 18:23:09,355 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://uniqus.com/privacy-policy/
+2025-08-12 18:23:12,960 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://uniqus.com/privacy-policy/ on attempt 1
+2025-08-12 18:23:13,152 - privacy_policy_analyzer - DEBUG - Removed 44 unwanted elements
+2025-08-12 18:23:13,154 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-08-12 18:23:13,157 - privacy_policy_analyzer - INFO - Successfully extracted 9283 characters of content
+2025-08-12 18:23:13,163 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-12 18:24:06,755 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-12 18:24:06,756 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-08-12 18:24:06,814 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpc_pqxv5j.pdf
+2025-08-12 18:24:06,815 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpc_pqxv5j.pdf
+2025-08-12 18:24:06,846 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpc_pqxv5j.pdf
+2025-08-12 18:24:06,847 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpc_pqxv5j.pdf
+2025-08-12 18:24:06,901 - privacy_policy_analyzer - INFO - Successfully read 159005 bytes from PDF
+2025-08-12 18:24:06,903 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpc_pqxv5j.pdf
+2025-08-12 19:03:56,624 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: UNIQUS in country: India
+2025-08-12 19:03:57,433 - privacy_policy_analyzer - INFO - Found privacy policy URL for UNIQUS: https://uniqus.com/privacy-policy/
+2025-08-12 19:03:57,435 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://uniqus.com/privacy-policy/
+2025-08-12 19:03:58,785 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://uniqus.com/privacy-policy/ on attempt 1
+2025-08-12 19:03:58,874 - privacy_policy_analyzer - DEBUG - Removed 44 unwanted elements
+2025-08-12 19:03:58,874 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-08-12 19:03:58,876 - privacy_policy_analyzer - INFO - Successfully extracted 9283 characters of content
+2025-08-12 19:03:58,878 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-12 19:12:13,111 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: ("Connection broken: InvalidChunkLength(got length b'', 0 bytes read)", InvalidChunkLength(got length b'', 0 bytes read))
