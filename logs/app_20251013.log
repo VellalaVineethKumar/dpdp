@@ -457,3 +457,43 @@ TypeError: '<' not supported between instances of 'NoneType' and 'float'
 2025-10-13 10:30:09,081 - views - INFO - Successfully read 632423 bytes from C:\Users\HP\AppData\Local\Temp\tmpmn1pisax.pdf
 2025-10-13 10:30:09,082 - views - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpmn1pisax.pdf
 2025-10-13 10:30:09,142 - views - INFO - [render_assessment] Mapped regulation_for_loader: DPDP
+2025-10-13 12:48:36,806 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:48:37,919 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-10-13 12:48:38,762 - data_storage - WARNING - Email configuration falling back to environment variables: Invalid date or number (line 22 column 1 char 845)
+2025-10-13 12:49:39,407 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:49:39,411 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:49:40,147 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-10-13 12:49:47,475 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:49:49,959 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:49:50,105 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:49:50,143 - helpers - INFO - Admin token validated
+2025-10-13 12:49:50,238 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:49:56,759 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:49:56,799 - helpers - INFO - Navigating to page: privacy from welcome
+2025-10-13 12:49:56,956 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:50:01,449 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:50:02,412 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:50:03,255 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:50:03,302 - search_ai - INFO - Searching for: What is the privacy policy website url of ICICI India
+2025-10-13 12:50:03,957 - primp - INFO - response: https://www.bing.com/search?q=What+is+the+privacy+policy+website+url+of+ICICI+India 200
+2025-10-13 12:50:04,526 - search_ai - INFO - Found 5 search results
+2025-10-13 12:50:04,529 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.icicibank.com/privacy
+2025-10-13 12:50:04,548 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicibank.com/privacy
+2025-10-13 12:50:04,666 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.icicibank.com/privacy on attempt 1
+2025-10-13 12:50:05,059 - privacy_policy_analyzer - DEBUG - Removed 25 unwanted elements
+2025-10-13 12:50:05,095 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-10-13 12:50:05,099 - privacy_policy_analyzer - INFO - Successfully extracted 49445 characters of content
+2025-10-13 12:50:05,113 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 12:50:05,114 - config - INFO - Initializing Azure OpenAI client (endpoint=https://southindia.api.cognitive.microsoft.com/, version=2024-12-01-preview)
+2025-10-13 12:50:06,562 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 12:51:27,792 - httpx - INFO - HTTP Request: POST https://southindia.api.cognitive.microsoft.com/openai/deployments/gpt-5-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+2025-10-13 12:51:27,928 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:27,928 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:27,970 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:27,971 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:27,990 - privacy_policy_analyzer - INFO - Successfully read 966404 bytes from PDF
+2025-10-13 12:51:27,991 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:28,094 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:51:34,984 - __main__ - INFO - Application started - Logging initialized
+2025-10-13 12:51:35,009 - helpers - INFO - Navigating to page: welcome from privacy
+2025-10-13 12:51:35,137 - __main__ - INFO - Application started - Logging initialized

@@ -1,0 +1,14 @@
+2025-10-13 12:50:04,529 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.icicibank.com/privacy
+2025-10-13 12:50:04,548 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicibank.com/privacy
+2025-10-13 12:50:04,666 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.icicibank.com/privacy on attempt 1
+2025-10-13 12:50:05,059 - privacy_policy_analyzer - DEBUG - Removed 25 unwanted elements
+2025-10-13 12:50:05,095 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-10-13 12:50:05,099 - privacy_policy_analyzer - INFO - Successfully extracted 49445 characters of content
+2025-10-13 12:50:05,113 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 12:50:06,562 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 12:51:27,928 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:27,928 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:27,970 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:27,971 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 12:51:27,990 - privacy_policy_analyzer - INFO - Successfully read 966404 bytes from PDF
+2025-10-13 12:51:27,991 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
