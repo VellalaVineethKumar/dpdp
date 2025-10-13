@@ -120,12 +120,22 @@ AI_PROVIDER = os.getenv("AI_PROVIDER", "azure").lower()
 # --- Read API keys: Prioritize Streamlit Secrets, fallback to environment variables --- #
 
 def get_secret_or_env(secret_name: str, env_var_name: str) -> Optional[str]:
-    """Helper to get key first from st.secrets (only if secrets file exists), then from os.getenv.
+    """Return a secret value from Streamlit secrets or environment variables.
 
-    Avoids triggering Streamlit's "No secrets files found" warning by checking presence of
-    a secrets.toml file before accessing st.secrets.
+    This function first checks Streamlit's secrets for several possible key names
+    to accommodate different naming conventions used in ``secrets.toml``.
+    It will try, in order: ``secret_name``, ``env_var_name``, ``secret_name.upper()``,
+    and ``env_var_name.lower()``. If none are present, it falls back to
+    ``os.getenv(env_var_name)``.
+
+    Args:
+        secret_name: Preferred key to look up in ``st.secrets`` (usually lowercase).
+        env_var_name: Environment variable name to fall back to (usually uppercase).
+
+    Returns:
+        The resolved secret value if found; otherwise ``None``.
     """
-    key = None
+    key: Optional[str] = None
     try:
         # Check for a secrets.toml file in common locations before touching st.secrets
         user_secrets_path = os.path.join(os.path.expanduser('~'), '.streamlit', 'secrets.toml')
@@ -133,26 +143,38 @@ def get_secret_or_env(secret_name: str, env_var_name: str) -> Optional[str]:
         secrets_file_exists = os.path.exists(user_secrets_path) or os.path.exists(project_secrets_path)
 
         if secrets_file_exists and hasattr(st, 'secrets'):
-            if secret_name in st.secrets:
-                key_raw = st.secrets.get(secret_name)
-                if key_raw:
-                    # Clean the key: remove whitespace and surrounding quotes
-                    key = key_raw.strip().strip('"').strip("'")
-                    logger.debug(f"Loaded {secret_name} from Streamlit Secrets.")
-                    return key
+            # Support both lowercase and uppercase keys inside secrets.toml
+            candidate_keys = [
+                secret_name,
+                env_var_name,
+                secret_name.upper(),
+                env_var_name.lower(),
+            ]
+            for candidate in candidate_keys:
+                if candidate in st.secrets:
+                    key_raw = st.secrets.get(candidate)
+                    if key_raw is not None:
+                        # Ensure string and clean quotes/whitespace
+                        if not isinstance(key_raw, str):
+                            key_raw = str(key_raw)
+                        key = key_raw.strip().strip('"').strip("'")
+                        logger.debug(f"Loaded {candidate} from Streamlit Secrets.")
+                        return key
     except Exception as e:
         # st.secrets might not be available during certain phases or tests
-        logger.debug(f"Could not access st.secrets for {secret_name}: {e}")
+        logger.debug(f"Could not access st.secrets for {secret_name}/{env_var_name}: {e}")
 
     # Fallback to environment variable if not found in secrets or secrets inaccessible
     key_raw = os.getenv(env_var_name)
     if key_raw:
-         # Clean the key: remove whitespace and surrounding quotes
-         key = key_raw.strip().strip('"').strip("'")
-         logger.debug(f"Loaded {env_var_name} from environment variables.")
-         return key
+        # Clean the key: remove whitespace and surrounding quotes
+        key = key_raw.strip().strip('"').strip("'")
+        logger.debug(f"Loaded {env_var_name} from environment variables.")
+        return key
 
-    logger.warning(f"API Key not found in Streamlit Secrets ('{secret_name}') or environment ('{env_var_name}').")
+    logger.warning(
+        f"API Key not found in Streamlit Secrets ('{secret_name}'/'{env_var_name}') or environment ('{env_var_name}')."
+    )
     return None
 
 api_key_1 = get_secret_or_env("openrouter_api_key_1", "OPENROUTER_API_KEY_1")
