@@ -112,6 +112,10 @@ def validate_token(token: str) -> bool:
         logger.info("Admin token validated")
         return True
         
+    # Strip whitespace and normalize the input token
+    if token:
+        token = token.strip()
+    
     try:
         if not os.path.exists(TOKENS_FILE):
             logger.error(f"Token file not found at {TOKENS_FILE}")
@@ -130,7 +134,9 @@ def validate_token(token: str) -> bool:
                 return False
             
             for row in reader:
-                if row.get('token') == token:
+                # Strip whitespace from stored token as well for comparison
+                stored_token = row.get('token', '').strip()
+                if stored_token == token:
                     logger.info(f"Found matching token: {token[:8]}...")
                     
                     # Check expiration if available
@@ -177,10 +183,16 @@ def get_organization_for_token(token: str) -> Optional[str]:
         if not os.path.exists(TOKENS_FILE):
             return None
 
+        # Strip whitespace and normalize the input token
+        if token:
+            token = token.strip()
+
         with open(TOKENS_FILE, 'r', newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row.get('token') == token:
+                # Strip whitespace from stored token as well for comparison
+                stored_token = row.get('token', '').strip()
+                if stored_token == token:
                     org_name = row.get('organization_name') or row.get('organization')
                     return org_name.strip() if org_name else None
 
