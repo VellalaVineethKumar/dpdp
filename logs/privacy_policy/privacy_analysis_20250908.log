@@ -1,0 +1,14 @@
+2025-09-08 12:50:29,825 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AA in country: Qatar
+2025-09-08 12:50:30,328 - privacy_policy_analyzer - INFO - Found privacy policy URL for AA: https://www.aa.com/i18n/customer-service/support/privacy-policy.jsp
+2025-09-08 12:50:30,329 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.aa.com/i18n/customer-service/support/privacy-policy.jsp
+2025-09-08 12:50:30,417 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.aa.com/i18n/customer-service/support/privacy-policy.jsp. Trying Selenium fallback.
+2025-09-08 12:50:45,849 - privacy_policy_analyzer - INFO - Selenium successfully fetched 7508 characters from https://www.aa.com/i18n/customer-service/support/privacy-policy.jsp
+2025-09-08 12:50:45,855 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Qatar analysis
+2025-09-08 12:51:13,648 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-08 12:51:13,649 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-08 12:51:13,725 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpdrthkkno.pdf
+2025-09-08 12:51:13,725 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpdrthkkno.pdf
+2025-09-08 12:51:13,753 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpdrthkkno.pdf
+2025-09-08 12:51:13,753 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpdrthkkno.pdf
+2025-09-08 12:51:13,772 - privacy_policy_analyzer - INFO - Successfully read 550105 bytes from PDF
+2025-09-08 12:51:13,773 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpdrthkkno.pdf

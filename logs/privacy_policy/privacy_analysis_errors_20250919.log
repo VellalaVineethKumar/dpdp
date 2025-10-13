@@ -1,0 +1,4 @@
+2025-09-19 20:12:39,655 - privacy_policy_analyzer - ERROR - Law file not found: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets/Documents/OAIC.txt
+2025-09-19 20:12:39,655 - privacy_policy_analyzer - ERROR - No content found for law: oaic_australia
+2025-09-19 20:21:19,287 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-19 20:21:19,288 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}

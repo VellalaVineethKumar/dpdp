@@ -1,0 +1,177 @@
+2025-09-18 12:28:11,162 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:12,064 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-18 12:28:17,013 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:17,159 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:17,190 - helpers - INFO - Admin token validated
+2025-09-18 12:28:17,256 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:18,663 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:18,699 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-18 12:28:18,797 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:25,837 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:26,408 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:27,054 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:28:27,083 - privacy_policy_analyzer - INFO - Search query: site:informatica.com privacy policy (region=in-en)
+2025-09-18 12:28:27,523 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy 200
+2025-09-18 12:28:28,489 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=11&FORM=PERE 200
+2025-09-18 12:28:29,450 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=21&FORM=PERE1 200
+2025-09-18 12:28:30,419 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=31&FORM=PERE2 200
+2025-09-18 12:28:31,385 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=41&FORM=PERE3 200
+2025-09-18 12:28:31,455 - privacy_policy_analyzer - INFO - Search query: INFORMATICA privacy policy India (region=in-en)
+2025-09-18 12:28:31,703 - primp - INFO - response: https://www.bing.com/search?q=INFORMATICA+privacy+policy+India 200
+2025-09-18 12:28:31,784 - privacy_policy_analyzer - INFO - Selected privacy policy URL (fallback): https://bbs.csdn.net/topics/396124180
+2025-09-18 12:28:31,785 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://bbs.csdn.net/topics/396124180
+2025-09-18 12:28:32,908 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://bbs.csdn.net/topics/396124180 on attempt 1
+2025-09-18 12:28:32,943 - privacy_policy_analyzer - DEBUG - Removed 20 unwanted elements
+2025-09-18 12:28:32,951 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-09-18 12:28:32,951 - privacy_policy_analyzer - INFO - Successfully extracted 1018 characters of content
+2025-09-18 12:28:32,972 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:28:36,059 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-18 12:28:36,059 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-18 12:28:36,060 - config - INFO - Rotating to API key index 1
+2025-09-18 12:28:38,060 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:28:38,568 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 401
+2025-09-18 12:28:38,569 - privacy_policy_analyzer - WARNING - OpenRouter returned 401. Rotating API key and retrying...
+2025-09-18 12:28:38,569 - config - INFO - Rotating to API key index 2
+2025-09-18 12:28:42,570 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:28:44,230 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-18 12:28:44,232 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-18 12:28:44,233 - config - INFO - Rotating to API key index 0
+2025-09-18 12:28:52,234 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-18 12:28:52,234 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}
+2025-09-18 12:45:24,962 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-18 12:45:24,964 - config - INFO - Loaded 3 API key(s).
+2025-09-18 12:45:24,965 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:45:25,030 - privacy_policy_analyzer - INFO - Search query: site:informatica.com privacy policy (region=in-en)
+2025-09-18 12:45:25,319 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy 200
+2025-09-18 12:45:26,349 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=11&FORM=PERE 200
+2025-09-18 12:45:27,270 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=21&FORM=PERE1 200
+2025-09-18 12:45:28,245 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=31&FORM=PERE2 200
+2025-09-18 12:45:29,237 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=41&FORM=PERE3 200
+2025-09-18 12:45:29,297 - privacy_policy_analyzer - INFO - Search query: INFORMATICA privacy policy India (region=in-en)
+2025-09-18 12:45:29,547 - primp - INFO - response: https://www.bing.com/search?q=INFORMATICA+privacy+policy+India 200
+2025-09-18 12:45:32,740 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:45:35,133 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:45:36,008 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:45:36,045 - privacy_policy_analyzer - INFO - Search query: site:informatica.com privacy policy (region=in-en)
+2025-09-18 12:45:36,272 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy 200
+2025-09-18 12:45:37,217 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=11&FORM=PERE 200
+2025-09-18 12:45:38,411 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=21&FORM=PERE1 200
+2025-09-18 12:45:39,365 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=31&FORM=PERE2 200
+2025-09-18 12:45:40,352 - primp - INFO - response: https://www.bing.com/search?q=site%3Ainformatica.com+privacy+policy&first=41&FORM=PERE3 200
+2025-09-18 12:45:40,458 - privacy_policy_analyzer - INFO - Search query: INFORMATICA privacy policy India (region=in-en)
+2025-09-18 12:45:40,676 - primp - INFO - response: https://www.bing.com/search?q=INFORMATICA+privacy+policy+India 200
+2025-09-18 12:45:51,467 - privacy_policy_analyzer - INFO - Selected privacy policy URL (direct-domain heuristic): https://www.informatica.com/privacy-policy/
+2025-09-18 12:46:02,454 - privacy_policy_analyzer - INFO - Selected privacy policy URL (direct-domain heuristic): https://www.informatica.com/privacy-policy/
+2025-09-18 12:46:02,454 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy/
+2025-09-18 12:46:02,817 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy/ on attempt 1
+2025-09-18 12:46:02,913 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-18 12:46:02,914 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-18 12:46:02,915 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-18 12:46:02,917 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:46:04,696 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-18 12:46:04,697 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-18 12:46:04,697 - config - INFO - Rotating to API key index 1
+2025-09-18 12:46:06,698 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:46:07,642 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 401
+2025-09-18 12:46:07,642 - privacy_policy_analyzer - WARNING - OpenRouter returned 401. Rotating API key and retrying...
+2025-09-18 12:46:07,643 - config - INFO - Rotating to API key index 2
+2025-09-18 12:46:11,643 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:46:51,234 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-18 12:46:51,236 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-18 12:46:51,337 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp_9q79bt6.pdf
+2025-09-18 12:46:51,338 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp_9q79bt6.pdf
+2025-09-18 12:46:51,385 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp_9q79bt6.pdf
+2025-09-18 12:46:51,385 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp_9q79bt6.pdf
+2025-09-18 12:46:51,404 - privacy_policy_analyzer - INFO - Successfully read 156874 bytes from PDF
+2025-09-18 12:46:51,405 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp_9q79bt6.pdf
+2025-09-18 12:46:51,527 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:46:56,019 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:46:56,202 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:46:56,227 - privacy_policy_analyzer - INFO - Search query: site:google.com privacy policy (region=in-en)
+2025-09-18 12:46:56,468 - primp - INFO - response: https://www.bing.com/search?q=site%3Agoogle.com+privacy+policy 200
+2025-09-18 12:46:57,456 - primp - INFO - response: https://www.bing.com/search?q=site%3Agoogle.com+privacy+policy&first=11&FORM=PERE 200
+2025-09-18 12:46:58,450 - primp - INFO - response: https://www.bing.com/search?q=site%3Agoogle.com+privacy+policy&first=21&FORM=PERE1 200
+2025-09-18 12:46:59,533 - primp - INFO - response: https://www.bing.com/search?q=site%3Agoogle.com+privacy+policy&first=31&FORM=PERE2 200
+2025-09-18 12:47:00,465 - primp - INFO - response: https://www.bing.com/search?q=site%3Agoogle.com+privacy+policy&first=41&FORM=PERE3 200
+2025-09-18 12:47:00,510 - privacy_policy_analyzer - INFO - Search query: GOOGLE privacy policy India (region=in-en)
+2025-09-18 12:47:00,741 - primp - INFO - response: https://www.bing.com/search?q=GOOGLE+privacy+policy+India 200
+2025-09-18 12:47:00,853 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain-only): https://about.google/products/
+2025-09-18 12:47:00,855 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://about.google/products/
+2025-09-18 12:47:01,040 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://about.google/products/ on attempt 1
+2025-09-18 12:47:01,318 - privacy_policy_analyzer - DEBUG - Removed 11 unwanted elements
+2025-09-18 12:47:01,320 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-18 12:47:01,324 - privacy_policy_analyzer - INFO - Successfully extracted 4279 characters of content
+2025-09-18 12:47:01,328 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:47:02,397 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-18 12:47:02,398 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-18 12:47:02,398 - config - INFO - Rotating to API key index 0
+2025-09-18 12:47:04,399 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:47:05,676 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-18 12:47:05,677 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-18 12:47:05,677 - config - INFO - Rotating to API key index 1
+2025-09-18 12:47:09,679 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 12:47:09,889 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 401
+2025-09-18 12:47:09,889 - privacy_policy_analyzer - WARNING - OpenRouter returned 401. Rotating API key and retrying...
+2025-09-18 12:47:09,890 - config - INFO - Rotating to API key index 2
+2025-09-18 12:47:17,890 - privacy_policy_analyzer - ERROR - API error: 401
+2025-09-18 12:47:18,014 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"User not found.","code":401}}
+2025-09-18 12:50:23,507 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-18 12:50:23,510 - config - INFO - Loaded 3 API key(s).
+2025-09-18 12:50:23,512 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:50:23,679 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 12:50:23,707 - privacy_policy_analyzer - INFO - Search query: site:icici.com privacy policy (region=in-en)
+2025-09-18 12:50:23,956 - primp - INFO - response: https://www.bing.com/search?q=site%3Aicici.com+privacy+policy 200
+2025-09-18 12:50:24,954 - primp - INFO - response: https://www.bing.com/search?q=site%3Aicici.com+privacy+policy&first=11&FORM=PERE 200
+2025-09-18 12:50:25,906 - primp - INFO - response: https://www.bing.com/search?q=site%3Aicici.com+privacy+policy&first=21&FORM=PERE1 200
+2025-09-18 12:50:26,863 - primp - INFO - response: https://www.bing.com/search?q=site%3Aicici.com+privacy+policy&first=31&FORM=PERE2 200
+2025-09-18 12:50:27,856 - primp - INFO - response: https://www.bing.com/search?q=site%3Aicici.com+privacy+policy&first=41&FORM=PERE3 200
+2025-09-18 12:50:27,895 - privacy_policy_analyzer - INFO - Search query: ICICI privacy policy India (region=in-en)
+2025-09-18 12:50:28,125 - primp - INFO - response: https://www.bing.com/search?q=ICICI+privacy+policy+India 200
+2025-09-18 12:50:28,200 - privacy_policy_analyzer - DEBUG - Domain-only candidates lacked a privacy-looking path; deferring to direct-domain heuristic
+2025-09-18 12:50:56,584 - privacy_policy_analyzer - INFO - Selected privacy policy URL (direct-domain heuristic): https://icici.com/privacy
+2025-09-18 12:50:56,585 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://icici.com/privacy
+2025-09-18 12:51:17,632 - privacy_policy_analyzer - WARNING - Connection error on attempt 1: HTTPSConnectionPool(host='icici.com', port=443): Max retries exceeded with url: /privacy (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D5C5CBBC50>, 'Connection to icici.com timed out. (connect timeout=30)'))
+2025-09-18 12:51:31,976 - privacy_policy_analyzer - WARNING - Connection error on attempt 2: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-18 12:51:47,024 - privacy_policy_analyzer - WARNING - Connection error on attempt 3: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-18 12:51:47,025 - privacy_policy_analyzer - ERROR - Connection failed after 3 attempts
+2025-09-18 16:52:12,225 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 16:52:13,263 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-18 16:52:32,899 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:17,514 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:19,925 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:20,012 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:20,056 - helpers - INFO - Admin token validated
+2025-09-18 17:47:20,103 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:21,114 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:21,136 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-18 17:47:21,201 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:25,836 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:26,510 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:27,218 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:47:28,257 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.idfcfirstbank.com/privacy-policy
+2025-09-18 17:47:28,260 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.idfcfirstbank.com/privacy-policy
+2025-09-18 17:47:28,261 - privacy_policy_analyzer - ERROR - Error processing content from URL https://www.idfcfirstbank.com/privacy-policy: 'HttpUrl' object has no attribute 'startswith'
+2025-09-18 17:50:36,340 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-18 17:50:36,342 - config - INFO - Loaded 3 API key(s).
+2025-09-18 17:50:36,343 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:50:40,752 - __main__ - INFO - Application started - Logging initialized
+2025-09-18 17:50:41,811 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.idfcfirstbank.com/privacy-policy
+2025-09-18 17:50:41,813 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.idfcfirstbank.com/privacy-policy
+2025-09-18 17:50:41,931 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.idfcfirstbank.com/privacy-policy on attempt 1
+2025-09-18 17:50:42,321 - privacy_policy_analyzer - DEBUG - Removed 23 unwanted elements
+2025-09-18 17:50:42,359 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-09-18 17:50:42,361 - privacy_policy_analyzer - INFO - Successfully extracted 9418 characters of content
+2025-09-18 17:50:42,365 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 17:50:44,236 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-18 17:50:44,236 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-18 17:50:44,236 - config - INFO - Rotating to API key index 1
+2025-09-18 17:50:46,237 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 17:50:46,722 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 401
+2025-09-18 17:50:46,722 - privacy_policy_analyzer - WARNING - OpenRouter returned 401. Rotating API key and retrying...
+2025-09-18 17:50:46,724 - config - INFO - Rotating to API key index 2
+2025-09-18 17:50:50,725 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-18 17:50:52,577 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-18 17:50:52,578 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-18 17:50:52,578 - config - INFO - Rotating to API key index 0
+2025-09-18 17:51:00,580 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-18 17:51:00,581 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}

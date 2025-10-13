@@ -1,0 +1,354 @@
+2025-09-24 15:19:34,487 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:19:34,490 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:19:34,740 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 15:19:34,942 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 15:19:34,943 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 15:19:34,947 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 15:19:34,951 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 15:19:35,952 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 15:19:36,567 - privacy_policy_analyzer - ERROR - Azure OpenAI request failed (attempt 1/3): Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-09-24 15:19:37,569 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 2/3)
+2025-09-24 15:19:37,699 - privacy_policy_analyzer - ERROR - Azure OpenAI request failed (attempt 2/3): Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-09-24 15:19:39,702 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 3/3)
+2025-09-24 15:19:39,805 - privacy_policy_analyzer - ERROR - Azure OpenAI request failed (attempt 3/3): Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-09-24 15:22:20,010 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:22:20,011 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:22:20,107 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 15:22:20,200 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 15:22:20,202 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 15:22:20,204 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 15:22:20,206 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 15:22:20,680 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 15:22:21,205 - privacy_policy_analyzer - ERROR - Azure OpenAI request failed (attempt 1/3): Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-09-24 15:22:22,207 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 2/3)
+2025-09-24 15:22:22,311 - privacy_policy_analyzer - ERROR - Azure OpenAI request failed (attempt 2/3): Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-09-24 15:22:24,313 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 3/3)
+2025-09-24 15:22:24,411 - privacy_policy_analyzer - ERROR - Azure OpenAI request failed (attempt 3/3): Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-09-24 15:27:05,967 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:27:05,971 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:27:06,133 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 15:27:06,354 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 15:27:06,356 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 15:27:06,358 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 15:27:06,363 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 15:27:06,892 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 15:28:08,973 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpfs2ctn1x.pdf
+2025-09-24 15:28:08,973 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpfs2ctn1x.pdf
+2025-09-24 15:28:09,011 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpfs2ctn1x.pdf
+2025-09-24 15:28:09,012 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpfs2ctn1x.pdf
+2025-09-24 15:28:09,034 - privacy_policy_analyzer - INFO - Successfully read 955675 bytes from PDF
+2025-09-24 15:28:09,036 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpfs2ctn1x.pdf
+2025-09-24 15:39:45,990 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.icicibank.com/privacy
+2025-09-24 15:39:45,993 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicibank.com/privacy
+2025-09-24 15:39:46,141 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.icicibank.com/privacy on attempt 1
+2025-09-24 15:39:46,378 - privacy_policy_analyzer - DEBUG - Removed 25 unwanted elements
+2025-09-24 15:39:46,405 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-09-24 15:39:46,411 - privacy_policy_analyzer - INFO - Successfully extracted 49445 characters of content
+2025-09-24 15:39:46,414 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 15:39:46,906 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 15:40:46,067 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp9mgpvv06.pdf
+2025-09-24 15:40:46,068 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp9mgpvv06.pdf
+2025-09-24 15:40:46,075 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp9mgpvv06.pdf
+2025-09-24 15:40:46,077 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp9mgpvv06.pdf
+2025-09-24 15:40:46,093 - privacy_policy_analyzer - INFO - Successfully read 971761 bytes from PDF
+2025-09-24 15:40:46,094 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp9mgpvv06.pdf
+2025-09-24 15:43:36,260 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.icicibank.com/privacy
+2025-09-24 15:43:36,262 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicibank.com/privacy
+2025-09-24 15:43:36,327 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.icicibank.com/privacy on attempt 1
+2025-09-24 15:43:36,513 - privacy_policy_analyzer - DEBUG - Removed 25 unwanted elements
+2025-09-24 15:43:36,537 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-09-24 15:43:36,539 - privacy_policy_analyzer - INFO - Successfully extracted 49445 characters of content
+2025-09-24 15:43:36,541 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 15:43:37,382 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 15:44:28,589 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp4hng3nsp.pdf
+2025-09-24 15:44:28,591 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp4hng3nsp.pdf
+2025-09-24 15:44:28,605 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp4hng3nsp.pdf
+2025-09-24 15:44:28,606 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp4hng3nsp.pdf
+2025-09-24 15:44:28,627 - privacy_policy_analyzer - INFO - Successfully read 944589 bytes from PDF
+2025-09-24 15:44:28,629 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp4hng3nsp.pdf
+2025-09-24 15:48:06,337 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:48:06,341 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:48:06,419 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 15:48:06,570 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 15:48:06,571 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 15:48:06,573 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 15:48:06,577 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 15:48:07,014 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 15:48:59,869 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpra_tgbyu.pdf
+2025-09-24 15:48:59,871 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpra_tgbyu.pdf
+2025-09-24 15:48:59,884 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpra_tgbyu.pdf
+2025-09-24 15:48:59,885 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpra_tgbyu.pdf
+2025-09-24 15:48:59,906 - privacy_policy_analyzer - INFO - Successfully read 545575 bytes from PDF
+2025-09-24 15:48:59,908 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpra_tgbyu.pdf
+2025-09-24 15:54:36,527 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:54:36,529 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 15:54:36,793 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 15:54:36,881 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 15:54:36,882 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 15:54:36,884 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 15:54:36,886 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 15:54:37,113 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 15:55:54,001 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpjtrdgs77.pdf
+2025-09-24 15:55:54,003 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpjtrdgs77.pdf
+2025-09-24 15:55:54,020 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpjtrdgs77.pdf
+2025-09-24 15:55:54,021 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpjtrdgs77.pdf
+2025-09-24 15:55:54,046 - privacy_policy_analyzer - INFO - Successfully read 970977 bytes from PDF
+2025-09-24 15:55:54,048 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpjtrdgs77.pdf
+2025-09-24 16:00:02,255 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:00:02,260 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:00:02,329 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:00:02,445 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:00:02,446 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:00:02,448 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:00:02,450 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:00:02,902 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:01:14,115 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpg0vic90q.pdf
+2025-09-24 16:01:14,116 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpg0vic90q.pdf
+2025-09-24 16:01:14,133 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpg0vic90q.pdf
+2025-09-24 16:01:14,133 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpg0vic90q.pdf
+2025-09-24 16:01:14,169 - privacy_policy_analyzer - INFO - Successfully read 968871 bytes from PDF
+2025-09-24 16:01:14,171 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpg0vic90q.pdf
+2025-09-24 16:02:01,175 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:02:01,177 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:02:01,248 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:02:01,420 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:02:01,421 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:02:01,423 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:02:01,427 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:02:01,427 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:02:55,713 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp_suaqmvr.pdf
+2025-09-24 16:02:55,714 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp_suaqmvr.pdf
+2025-09-24 16:02:55,722 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp_suaqmvr.pdf
+2025-09-24 16:02:55,723 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp_suaqmvr.pdf
+2025-09-24 16:02:55,746 - privacy_policy_analyzer - INFO - Successfully read 954484 bytes from PDF
+2025-09-24 16:02:55,748 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp_suaqmvr.pdf
+2025-09-24 16:04:58,650 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:04:58,653 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:04:58,730 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:04:58,913 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:04:58,914 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:04:58,915 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:04:58,919 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:04:59,448 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:06:02,230 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpzpstv2z4.pdf
+2025-09-24 16:06:02,231 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpzpstv2z4.pdf
+2025-09-24 16:06:02,250 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpzpstv2z4.pdf
+2025-09-24 16:06:02,251 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpzpstv2z4.pdf
+2025-09-24 16:06:02,274 - privacy_policy_analyzer - INFO - Successfully read 966607 bytes from PDF
+2025-09-24 16:06:02,277 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpzpstv2z4.pdf
+2025-09-24 16:07:07,787 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:07:07,789 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:07:07,850 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:07:08,019 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:07:08,020 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:07:08,022 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:07:08,024 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:07:08,025 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:08:11,166 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpshlbhuxk.pdf
+2025-09-24 16:08:11,166 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpshlbhuxk.pdf
+2025-09-24 16:08:11,173 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpshlbhuxk.pdf
+2025-09-24 16:08:11,174 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpshlbhuxk.pdf
+2025-09-24 16:08:11,199 - privacy_policy_analyzer - INFO - Successfully read 969207 bytes from PDF
+2025-09-24 16:08:11,200 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpshlbhuxk.pdf
+2025-09-24 16:08:35,011 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:08:35,013 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:08:35,069 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:08:35,160 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:08:35,161 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:08:35,162 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:08:35,164 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:08:35,165 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:09:43,539 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpx9obd0ps.pdf
+2025-09-24 16:09:43,540 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpx9obd0ps.pdf
+2025-09-24 16:09:43,549 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpx9obd0ps.pdf
+2025-09-24 16:09:43,549 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpx9obd0ps.pdf
+2025-09-24 16:09:43,568 - privacy_policy_analyzer - INFO - Successfully read 953579 bytes from PDF
+2025-09-24 16:09:43,568 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpx9obd0ps.pdf
+2025-09-24 16:11:39,257 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:11:39,260 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:11:39,332 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:11:39,516 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:11:39,517 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:11:39,519 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:11:39,521 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:11:39,977 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:12:30,828 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpv9uys6nh.pdf
+2025-09-24 16:12:30,829 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpv9uys6nh.pdf
+2025-09-24 16:12:30,846 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpv9uys6nh.pdf
+2025-09-24 16:12:30,846 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpv9uys6nh.pdf
+2025-09-24 16:12:30,877 - privacy_policy_analyzer - INFO - Successfully read 956076 bytes from PDF
+2025-09-24 16:12:30,878 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpv9uys6nh.pdf
+2025-09-24 16:16:14,304 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/terms-of-use.html
+2025-09-24 16:16:14,308 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/terms-of-use.html
+2025-09-24 16:16:14,370 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/terms-of-use.html on attempt 1
+2025-09-24 16:16:14,556 - privacy_policy_analyzer - DEBUG - Removed 40 unwanted elements
+2025-09-24 16:16:14,559 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:16:14,562 - privacy_policy_analyzer - INFO - Successfully extracted 22173 characters of content
+2025-09-24 16:16:14,566 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:16:15,014 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:17:06,541 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmplwv0ia4w.pdf
+2025-09-24 16:17:06,542 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmplwv0ia4w.pdf
+2025-09-24 16:17:06,558 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmplwv0ia4w.pdf
+2025-09-24 16:17:06,559 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmplwv0ia4w.pdf
+2025-09-24 16:17:06,591 - privacy_policy_analyzer - INFO - Successfully read 955022 bytes from PDF
+2025-09-24 16:17:06,592 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmplwv0ia4w.pdf
+2025-09-24 16:19:42,746 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:19:42,749 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:19:42,810 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:19:43,002 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:19:43,003 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:19:43,005 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:19:43,008 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:19:43,526 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:20:45,660 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpg0kqrs6u.pdf
+2025-09-24 16:20:45,661 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpg0kqrs6u.pdf
+2025-09-24 16:20:45,674 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpg0kqrs6u.pdf
+2025-09-24 16:20:45,676 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpg0kqrs6u.pdf
+2025-09-24 16:20:45,706 - privacy_policy_analyzer - INFO - Successfully read 967071 bytes from PDF
+2025-09-24 16:20:45,708 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpg0kqrs6u.pdf
+2025-09-24 16:25:58,018 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:25:58,021 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:25:58,091 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:25:58,173 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:25:58,174 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:25:58,175 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:25:58,178 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:25:58,179 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:27:06,059 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp7dzb3qvw.pdf
+2025-09-24 16:27:06,061 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp7dzb3qvw.pdf
+2025-09-24 16:27:06,074 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp7dzb3qvw.pdf
+2025-09-24 16:27:06,074 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp7dzb3qvw.pdf
+2025-09-24 16:27:06,100 - privacy_policy_analyzer - INFO - Successfully read 539076 bytes from PDF
+2025-09-24 16:27:06,102 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp7dzb3qvw.pdf
+2025-09-24 16:35:54,043 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:35:54,045 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:35:54,121 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:35:54,307 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:35:54,309 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:35:54,310 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:35:54,313 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:35:54,657 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:41:56,382 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:41:56,386 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:41:56,450 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:41:56,597 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:41:56,598 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:41:56,600 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:41:56,603 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:41:57,546 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:42:52,967 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpwhip9szr.pdf
+2025-09-24 16:42:52,967 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpwhip9szr.pdf
+2025-09-24 16:42:52,982 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpwhip9szr.pdf
+2025-09-24 16:42:52,983 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpwhip9szr.pdf
+2025-09-24 16:42:53,005 - privacy_policy_analyzer - INFO - Successfully read 943728 bytes from PDF
+2025-09-24 16:42:53,006 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpwhip9szr.pdf
+2025-09-24 16:55:43,156 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:55:43,159 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 16:55:43,227 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 16:55:43,353 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 16:55:43,354 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 16:55:43,356 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 16:55:43,360 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 16:55:43,758 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 16:56:43,076 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp6hj_gb6s.pdf
+2025-09-24 16:56:43,077 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp6hj_gb6s.pdf
+2025-09-24 16:56:43,092 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp6hj_gb6s.pdf
+2025-09-24 16:56:43,093 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp6hj_gb6s.pdf
+2025-09-24 16:56:43,114 - privacy_policy_analyzer - INFO - Successfully read 954750 bytes from PDF
+2025-09-24 16:56:43,115 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp6hj_gb6s.pdf
+2025-09-24 17:07:36,898 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 17:07:36,901 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 17:07:36,979 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 17:07:37,116 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 17:07:37,118 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 17:07:37,119 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 17:07:37,123 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 17:07:37,517 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 17:08:36,153 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpxgg_et90.pdf
+2025-09-24 17:08:36,154 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpxgg_et90.pdf
+2025-09-24 17:08:36,163 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpxgg_et90.pdf
+2025-09-24 17:08:36,164 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpxgg_et90.pdf
+2025-09-24 17:08:36,185 - privacy_policy_analyzer - INFO - Successfully read 564167 bytes from PDF
+2025-09-24 17:08:36,189 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpxgg_et90.pdf
+2025-09-24 17:22:10,089 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 17:22:10,094 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 17:22:10,184 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 17:22:10,392 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 17:22:10,394 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 17:22:10,395 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 17:22:10,400 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 17:22:10,401 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 17:22:15,055 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 17:22:15,058 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 17:22:15,128 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 17:22:15,344 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 17:22:15,345 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 17:22:15,347 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 17:22:15,351 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 17:22:15,352 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 17:23:22,781 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpzflog93e.pdf
+2025-09-24 17:23:22,782 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpzflog93e.pdf
+2025-09-24 17:23:22,790 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpzflog93e.pdf
+2025-09-24 17:23:22,790 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpzflog93e.pdf
+2025-09-24 17:23:22,806 - privacy_policy_analyzer - INFO - Successfully read 959277 bytes from PDF
+2025-09-24 17:23:22,807 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpzflog93e.pdf
+2025-09-24 17:23:23,304 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmprwx2k40n.pdf
+2025-09-24 17:23:23,305 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmprwx2k40n.pdf
+2025-09-24 17:23:23,311 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmprwx2k40n.pdf
+2025-09-24 17:23:23,312 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmprwx2k40n.pdf
+2025-09-24 17:23:23,329 - privacy_policy_analyzer - INFO - Successfully read 953621 bytes from PDF
+2025-09-24 17:23:23,330 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmprwx2k40n.pdf
+2025-09-24 18:45:07,648 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 18:45:07,654 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 18:45:07,719 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 18:45:07,945 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 18:45:07,946 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 18:45:07,948 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 18:45:07,953 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 18:45:08,451 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 18:45:48,298 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://docs.informatica.com/integration-cloud/api-center/current-version/api-policies/privacy-policies.html
+2025-09-24 18:45:48,300 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://docs.informatica.com/integration-cloud/api-center/current-version/api-policies/privacy-policies.html
+2025-09-24 18:45:49,063 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://docs.informatica.com/integration-cloud/api-center/current-version/api-policies/privacy-policies.html on attempt 1
+2025-09-24 18:45:49,095 - privacy_policy_analyzer - DEBUG - Removed 20 unwanted elements
+2025-09-24 18:45:49,096 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 18:45:49,098 - privacy_policy_analyzer - INFO - Successfully extracted 2555 characters of content
+2025-09-24 18:45:49,101 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 18:45:49,102 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 18:46:14,852 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpzmr2fm_t.pdf
+2025-09-24 18:46:14,853 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpzmr2fm_t.pdf
+2025-09-24 18:46:14,866 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpzmr2fm_t.pdf
+2025-09-24 18:46:14,867 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpzmr2fm_t.pdf
+2025-09-24 18:46:14,895 - privacy_policy_analyzer - INFO - Successfully read 966616 bytes from PDF
+2025-09-24 18:46:14,896 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpzmr2fm_t.pdf
+2025-09-24 18:46:36,187 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp91zsnkyo.pdf
+2025-09-24 18:46:36,188 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp91zsnkyo.pdf
+2025-09-24 18:46:36,194 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp91zsnkyo.pdf
+2025-09-24 18:46:36,194 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp91zsnkyo.pdf
+2025-09-24 18:46:36,209 - privacy_policy_analyzer - INFO - Successfully read 522596 bytes from PDF
+2025-09-24 18:46:36,210 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp91zsnkyo.pdf
+2025-09-24 19:18:39,674 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.informatica.com/privacy-policy.html
+2025-09-24 19:18:39,679 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-24 19:18:39,748 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-24 19:18:39,937 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-24 19:18:39,939 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-24 19:18:39,941 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-24 19:18:39,948 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-24 19:18:40,456 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-24 19:19:44,785 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpz2565k3f.pdf
+2025-09-24 19:19:44,790 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpz2565k3f.pdf
+2025-09-24 19:19:44,814 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpz2565k3f.pdf
+2025-09-24 19:19:44,819 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpz2565k3f.pdf
+2025-09-24 19:19:44,858 - privacy_policy_analyzer - INFO - Successfully read 956390 bytes from PDF
+2025-09-24 19:19:44,859 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpz2565k3f.pdf
+2025-09-25 09:38:50,413 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.iciciprulife.com/privacy-policy.html
+2025-09-25 09:38:50,415 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.iciciprulife.com/privacy-policy.html
+2025-09-25 09:38:50,630 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.iciciprulife.com/privacy-policy.html. Trying Selenium fallback.
+2025-09-25 09:39:10,685 - privacy_policy_analyzer - INFO - Selenium successfully fetched 17413 characters from https://www.iciciprulife.com/privacy-policy.html
+2025-09-25 09:39:10,716 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-09-25 09:39:10,719 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-09-25 09:40:08,168 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpco5utfqp.pdf
+2025-09-25 09:40:08,170 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpco5utfqp.pdf
+2025-09-25 09:40:08,243 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpco5utfqp.pdf
+2025-09-25 09:40:08,245 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpco5utfqp.pdf
+2025-09-25 09:40:08,285 - privacy_policy_analyzer - INFO - Successfully read 608694 bytes from PDF
+2025-09-25 09:40:08,288 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpco5utfqp.pdf

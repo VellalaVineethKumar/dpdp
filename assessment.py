@@ -525,33 +525,34 @@ def calculate_compliance_score(regulation_code: str = None, industry_code: str =
         
         try:
             logger.info(f"===== Calculating score for section: {section_name} =====")
-            
+
             # Initialize scoring variables
             total_points = 0.0
             max_points = 0
             section_responses = []
-            
+
             # Check if we have responses for this section
             section_questions = section.get('questions', [])
-            max_points = len(section_questions)
-            
+
             # Collect all responses for this section for later verification
             for q_idx, question in enumerate(section_questions):
                 response_key = f"s{s_idx}_q{q_idx}"
-                
+
                 if response_key in st.session_state.responses:
                     response = st.session_state.responses[response_key]
-                    
+
                     # If response is not None, add to section_responses for verification later
                     if response is not None:
                         section_responses.append(response)
-                    
+
                     # Add detailed logging for debugging responses and points
                     logger.info(f"Question {q_idx+1}: Response = '{response}'")
-                    
-                    points = 0.0
+
+                    points = None
+                    matched_answer = False
                     if response in answer_points:
                         points = answer_points[response]
+                        matched_answer = True
                         logger.info(f"Question {q_idx+1}: Points = {points}")
                     else:
                         # Try partial match (case insensitive) if exact match fails
@@ -559,19 +560,22 @@ def calculate_compliance_score(regulation_code: str = None, industry_code: str =
                         for key, value in answer_points.items():
                             if key and response and key.lower() in response_lower:
                                 points = value
+                                matched_answer = True
                                 logger.info(f"Question {q_idx+1}: Points = {points} (partial match)")
                                 break
-                        
-                        if points == 0.0 and response:
+
+                    if points is None:
+                        if matched_answer:
+                            logger.info(f"Question {q_idx+1}: Response '{response}' marked as not applicable")
+                        elif response:
                             logger.warning(f"No points assigned for response: '{response}'")
-                    
-                    # Update total points only if it's not a None/null answer
-                    if answer_points.get(response) is not None:  
+                    else:
+                        max_points += 1
                         total_points += points
-                        logger.info(f"Question {q_idx+1}: Adding {points} points, running total = {total_points}/{q_idx+1}")
+                        logger.info(f"Question {q_idx+1}: Adding {points} points, running total = {total_points}/{max_points}")
                 else:
                     logger.info(f"Question {q_idx+1}: No response provided")
-            
+
             # Calculate raw score for this section (as a proportion)
             raw_score = None
             if max_points > 0 and section_responses:

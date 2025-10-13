@@ -1,0 +1,81 @@
+%%{init: {
+  "theme": "base",
+  "flowchart": {
+    "useMaxWidth": true,
+    "htmlLabels": true,
+    "nodeSpacing": 70,
+    "rankSpacing": 120,
+    "padding": 16,
+    "curve": "basis"
+  },
+  "themeVariables": {
+    "fontFamily": "Roboto, Poppins, Arial, sans-serif",
+    "primaryTextColor": "#221E1F",
+    "lineColor": "#221E1F"
+  }
+}}%%
+
+graph TD
+
+    %% ---------- OUTER CONTAINER ----------
+    subgraph CAT["Compliance Assessment Tool"]
+    direction TB
+
+        %% ---------- FRONTEND / ACCESS LAYER ----------
+        subgraph FE["Frontend Access"]
+        direction TB
+            F1["Web Interface"]
+            F2["REST API"]
+            F3["CSV Upload & Results Review"]
+        end
+
+        %% ---------- PROCESSING LAYER ----------
+        subgraph PL["Processing Layer"]
+        direction TB
+            P1["Ingestion (Questionnaires / CSV / API)"]
+            P2["Parsing & Normalization"]
+            P3["Intelligent Field Extraction & Mapping"]
+            P4["Validation"]
+        end
+
+        %% ---------- QUALITY LAYER ----------
+        subgraph QL["Quality Layer"]
+        direction TB
+            Q1["Completeness"]
+            Q2["Accuracy"]
+            Q3["Consistency"]
+            Q4["Integrity"]
+            Q5["Configurable Rules (10+)"]
+        end
+
+        %% ---------- DECISION ENGINE ----------
+        subgraph DL["Decision Engine"]
+        direction TB
+            D1["Rule Set (R1-RN)"]
+            D2["Automated Risk Scoring & Recommendations"]
+            D3["Steward Comments / Overrides"]
+        end
+
+        %% ---------- OUTPUT LAYER ----------
+        subgraph OL["Output Layer"]
+        direction TB
+            O1["Assessment Reports (PDF/MD/CSV)"]
+            O2["Comprehensive JSON Metadata"]
+            O3["Audit Trail"]
+        end
+    end
+
+    %% ---------- STACK FLOW ----------
+    FE --> PL --> QL --> DL --> OL
+
+    %% ---------- STYLES ----------
+    style CAT fill:#FFFFFF,stroke:#b60003,stroke-width:2px,rx:14,ry:14
+    style FE  fill:#FDF5F5,stroke:#b60003,stroke-width:2px,rx:14,ry:14
+    style PL  fill:#FFFFFF,stroke:#221E1F,stroke-width:2px,rx:14,ry:14
+    style QL  fill:#FDF5F5,stroke:#b60003,stroke-width:2px,rx:14,ry:14
+    style DL  fill:#FFFFFF,stroke:#221E1F,stroke-width:2px,rx:14,ry:14
+    style OL  fill:#FDF5F5,stroke:#b60003,stroke-width:2px,rx:14,ry:14
+
+    %% Inner nodes styled as "pills"
+    classDef card fill:#FFFFFF,stroke:#221E1F,stroke-width:1.2px,rx:10,ry:10,color:#221E1F;
+    class F1,F2,F3,P1,P2,P3,P4,Q1,Q2,Q3,Q4,Q5,D1,D2,D3,O1,O2,O3 card;

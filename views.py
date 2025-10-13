@@ -1004,7 +1004,7 @@ def render_report():
     
     # Add INFA Diagram
     st.subheader("Implementation Framework")
-    html_path = os.path.join(config.BASE_DIR, "Assets", "INFA.html")
+    html_path = os.path.join(config.BASE_DIR, "Assets", "final_4.drawio.html")
     if os.path.exists(html_path):
         with open(html_path, "r", encoding="utf-8") as f:
             html_content = f.read()
@@ -1076,74 +1076,11 @@ def render_report():
     # Add CLAIRE Diagram with reduced spacing
     st.markdown('<div style="margin-top: -60px;"></div>', unsafe_allow_html=True)
     st.subheader("Informatica CLAIRE Framework")
-    claire_path = os.path.join(config.BASE_DIR, "Assets", "CLAIRE.html")
-    if os.path.exists(claire_path):
-        with open(claire_path, "r", encoding="utf-8") as f:
-            claire_content = f.read()
-        # Use the same dark background and container style as INFA diagram
-        centered_html = f"""
-        <style>
-        .diagram-section-bg {{
-            background: #181c24; /* Dark background color */
-            border-radius: 12px;
-            padding: 32px 10px 10px 10px;
-            margin-bottom: -60px;
-            min-height: 520px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.10);
-        }}
-        .diagram-container {{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            padding: 0;
-            margin: 0;
-            overflow: auto;
-            min-height: 500px;
-            background: transparent;
-        }}
-        .diagram-content {{
-            position: relative;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }}
-        .diagram-content svg {{
-            max-width: 100%;
-            height: auto;
-            transform-origin: center;
-            transition: transform 0.3s ease;
-        }}
-        @media (max-width: 1200px) {{
-            .diagram-section-bg {{ min-height: 470px; }}
-            .diagram-content svg {{ transform: scale(0.85); }}
-        }}
-        @media (max-width: 992px) {{
-            .diagram-section-bg {{ min-height: 420px; }}
-            .diagram-content svg {{ transform: scale(0.75); }}
-        }}
-        @media (max-width: 768px) {{
-            .diagram-section-bg {{ min-height: 370px; }}
-            .diagram-content svg {{ transform: scale(0.65); }}
-        }}
-        @media (max-width: 576px) {{
-            .diagram-section-bg {{ min-height: 320px; }}
-            .diagram-content svg {{ transform: scale(0.5); }}
-        }}
-        </style>
-        <div class="diagram-section-bg">
-            <div class="diagram-container">
-                <div class="diagram-content">
-                    {claire_content}
-                </div>
-            </div>
-        </div>
-        """
-        st.components.v1.html(centered_html, height=700, scrolling=True)
+    claire_img_path = os.path.join(config.BASE_DIR, "Assets", "IDMC Agentic AI.png")
+    if os.path.exists(claire_img_path):
+        st.image(claire_img_path, use_column_width=True)
     else:
-        st.warning("CLAIRE Framework diagram not found.")
+        st.warning("CLAIRE Framework image not found.")
     # --- End of commented out section ---
 
     # Add Not Applicable answers section
@@ -2462,9 +2399,9 @@ def render_welcome_page():
             # Define allowed countries directly
             allowed_countries = ["Qatar", "India", "Europe", "Australia", "Saudi Arabia"]
             
-            # Initialize session state for country if not exists
+            # Initialize session state for country if not exists (default to India)
             if "selected_country" not in st.session_state:
-                st.session_state.selected_country = "Qatar"
+                st.session_state.selected_country = "India"
             
             # Create the selectbox with the current selection
             selected_country = st.selectbox(
@@ -2792,8 +2729,8 @@ def render_privacy_policy_analyzer() -> None:
             allowed_countries = ["Qatar", "India", "Europe", "Australia", "Saudi Arabia"]
             country_options = {k: v for k, v in country_options.items() if k in allowed_countries}
             country_names = list(country_options.keys())
-            # Set default to 'Qatar' if available, otherwise use the first country
-            selected_country = st.session_state.get("ppa_selected_country", "Qatar" if "Qatar" in country_names else country_names[0])
+            # Set default to 'India' if available, otherwise use the first country
+            selected_country = st.session_state.get("ppa_selected_country", "India" if "India" in country_names else country_names[0])
             selected_country = st.selectbox(
                 "Country *",
                 options=country_names,
@@ -2925,32 +2862,366 @@ def render_privacy_policy_analyzer() -> None:
         st.markdown(st.session_state.ppa_found_url_message, unsafe_allow_html=True)
     # Show analysis if any
     if st.session_state.get("ppa_analysis_html"):
-        st.markdown(get_ai_report_css(), unsafe_allow_html=True)
-        # Split the analysis_html into first line (header) and the rest
-        analysis_lines = st.session_state.ppa_analysis_html.split('\n', 1)
-        if analysis_lines:
-            # Inject custom CSS for a smaller header
-            st.markdown("""
-                <style>
-                .policy-analysis-header {
-                    font-size: 1.3em;
-                    font-weight: 600;
-                    color: #6fa8dc;
-                    margin-bottom: 0.5em;
-                    margin-top: 0.5em;
-                }
-                </style>
-            """, unsafe_allow_html=True)
-
-            # Render the header with the custom class, removing '#' and '**'
-            header_text = analysis_lines[0].replace('#', '').replace('**', '').strip()
-            st.markdown(f"<div class='policy-analysis-header'>{header_text}</div>", unsafe_allow_html=True)
-        rest_of_analysis = analysis_lines[1] if len(analysis_lines) > 1 else ""
-        st.markdown(f"""
-            <div class="ai-analysis-container">
-                {rest_of_analysis}
+        # Use the EXACT same CSS and approach as the working questionnaire section
+        st.markdown(get_ai_analysis_css(), unsafe_allow_html=True)
+        st.markdown("""
+            <div class="ai-analysis-container-header">
+                <h3 class="ai-analysis-header">🤖 AI Privacy Policy Analysis</h3>
             </div>
         """, unsafe_allow_html=True)
+        
+        # Use the EXACT same inline CSS styling as the working questionnaire section
+        st.markdown("""
+            <style>
+            .ai-analysis-container {
+                background: rgba(255, 255, 255, 0.05);
+                padding: 20px;
+                border-radius: 10px;
+                margin: 20px 0;
+            }
+            .ai-analysis-container h1 {
+                font-size: 1.8em;
+                font-weight: bold;
+                color: white;
+                margin-bottom: 25px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            }
+            .ai-analysis-container .report-header {
+                font-size: 1.8em;
+                font-weight: bold;
+                color: white;
+                margin-bottom: 25px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            }
+            .ai-analysis-container h2 {
+                color: #6fa8dc;
+                font-size: 1.5em;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+            .ai-analysis-container h3 {
+                color: #6fa8dc;
+                font-size: 1.3em;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+            .ai-analysis-container strong {
+                color: #f8aeae;
+            }
+            .ai-analysis-container ul {
+                margin-left: 20px;
+                margin-bottom: 15px;
+            }
+            .ai-analysis-container li {
+                margin-bottom: 10px;
+                line-height: 1.6;
+            }
+            .ai-analysis-container p {
+                line-height: 1.6;
+                margin-bottom: 15px;
+            }
+            </style>
+        """, unsafe_allow_html=True)
+        
+        # Process the analysis content EXACTLY like the working questionnaire section
+        ai_report = st.session_state.ppa_analysis_html
+        
+        # Process the report to fix the first line - EXACT same approach as working section
+        lines = ai_report.split('\n')
+        # Remove any lines before the first Markdown header
+        header_idx = next((i for i, l in enumerate(lines) if l.strip().startswith('# ')), 0)
+        lines = lines[header_idx:]
+        processed_lines = []
+
+        # Robust header extraction using regex - EXACT same as working section
+        import re
+        header_pattern = re.compile(r"^#\s*(.*?)\s*\*\*Overall Compliance Score: ([0-9.]+)%\*\*\s*\*\*Compliance Level: ([^*]+)\*\*")
+        header_match = header_pattern.match(lines[0]) if lines else None
+
+        if header_match:
+            title = header_match.group(1).strip()
+            # Round the score to one decimal place
+            try:
+                score = f"{float(header_match.group(2).strip()):.1f}"
+            except Exception:
+                score = header_match.group(2).strip()
+            level = header_match.group(3).strip()
+            color = get_compliance_level_color(level)
+
+            st.markdown(f"# {title}")
+            # Improved formatting: show score and level on separate lines with badge
+            st.markdown(f"<div style='font-size:1.1em; margin-bottom: 0.5em;'><b>Overall Compliance Score:</b> {score}%</div>", unsafe_allow_html=True)
+            st.markdown(f"<div style='font-size:1.1em; margin-bottom: 1em;'><b>Compliance Level:</b> <span style='background:{color}; color:white; padding:2px 10px; border-radius:12px; font-weight:bold;'>{level}</span></div>", unsafe_allow_html=True)
+            processed_lines = lines[1:]
+        else:
+            # Fallback: use session_state values for header if available
+            results = st.session_state.get('results') or {}
+            if not isinstance(results, dict):
+                results = {}
+            overall_score = results.get('overall_score', 'N/A')
+            compliance_level = results.get('compliance_level', 'N/A')
+            color = get_compliance_level_color(compliance_level) if compliance_level != 'N/A' else '#FF6B6B'
+            fallback_header = f"""<div class="report-header">
+                <div style="font-size: 1em; color: white; margin-bottom: 15px;">Privacy Policy Analysis Report</div>
+                <div style="font-size: 1em; line-height: 1.6;">
+                </div>
+            </div>"""
+            processed_lines.append(fallback_header)
+            processed_lines.extend(lines[1:] if lines else [])
+        
+        # Join the processed lines - EXACT same as working section
+        processed_report = '\n'.join(processed_lines)
+
+        # Convert markdown-like text to HTML so CSS styles (h1/h2/h3/strong/li) apply reliably
+        def _to_html_from_markdownish(text: str) -> str:
+            """Convert simple markdown-like content to HTML.
+
+            Handles headers (#, ##, ###), a special case for lines starting with
+            "Key findings" (mapped to <h2>), bold (**text**), links [t](url), and
+            ordered/bulleted lists. Returns an HTML string ready to be wrapped in
+            the styled container so that existing CSS rules apply.
+            """
+            import re
+
+            def _apply_inline_formats(value: str) -> str:
+                # bold
+                value = re.sub(r"\*\*(.*?)\*\*", r"<strong>\1</strong>", value)
+                # links
+                value = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r"<a href=\"\2\" target=\"_blank\">\1</a>", value)
+                # emphasize common labels
+                value = re.sub(r"^(Overall Compliance Score|Compliance Level|Risk Level|Implications|Key Actions|Score|Key Remediation Areas)\s*:\s*", r"<strong>\1:</strong> ", value, flags=re.IGNORECASE)
+                return value
+
+            lines_local = text.split('\n')
+            html_parts: list[str] = []
+            in_ol = False
+            in_ul = False
+            # Track special sections and last heading to prevent duplicates
+            in_key_issues_bullets = False
+            last_heading_lower: str | None = None
+
+            # Insert an Executive Summary header if content starts with that narrative
+            has_exec_header = any(re.match(r'^#+\s*Executive\s+Summary\s*$', ln.strip(), flags=re.IGNORECASE) for ln in lines_local[:15])
+            has_exec_phrase = any(re.match(r'^\s*Executive\s+summary\b', ln.strip(), flags=re.IGNORECASE) for ln in lines_local[:8])
+            if not has_exec_header and has_exec_phrase:
+                html_parts.append('<h2>Executive Summary</h2>')
+
+            encountered_key_findings = False
+
+            for raw in lines_local:
+                line = raw.strip()
+                if not line:
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    html_parts.append("<br>")
+                    continue
+
+                # headers
+                # Treat plain lines like "Executive Summary" as section headers
+                if re.match(r'^\s*Executive\s+Summary\s*$', line, flags=re.IGNORECASE):
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    html_parts.append("<h2>Executive Summary</h2>")
+                    continue
+                if line.startswith('### '):
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    heading_text = _apply_inline_formats(line[4:].strip())
+                    lower = heading_text.lower()
+                    if last_heading_lower != lower:
+                        html_parts.append(f"<h3>{heading_text}</h3>")
+                        last_heading_lower = lower
+                    in_key_issues_bullets = False
+                    continue
+                if line.startswith('## '):
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    heading_text = _apply_inline_formats(line[3:].strip())
+                    lower = heading_text.lower()
+                    if last_heading_lower != lower:
+                        html_parts.append(f"<h2>{heading_text}</h2>")
+                        last_heading_lower = lower
+                    in_key_issues_bullets = False
+                    continue
+                if line.startswith('# '):
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    heading_text = _apply_inline_formats(line[2:].strip())
+                    lower = heading_text.lower()
+                    if last_heading_lower != lower:
+                        html_parts.append(f"<h1>{heading_text}</h1>")
+                        last_heading_lower = lower
+                    in_key_issues_bullets = False
+                    continue
+
+                # Additional named sections → treat as headers
+                named_h2_patterns = [
+                    r'^Compliance\s*gaps\s*(—|-)?\s*mapped\s*to\s*DPDP\s*rules.*$',
+                    r'^Recommendations\s*(—|-)?\s*prioritized,\s*actionable.*$',
+                    r'^Longer\s*term\s*/\s*continuous\s*improvements$',
+                    r'^Detailed\s*analysis\s*(—|-)\s*section\s*by\s*section$',
+                    r'^Key\s*issues\s*\(.*\)\s*$',
+                    r'^Prioritized\s*action\s*items\s*\(.*\)\s*$',
+                    r'^Strategic\s*recommendations\s*\(.*\)\s*$',
+                    r'^Closing\s*statement\s*and\s*call\s*to\s*action$',
+                    r'^References$'
+                ]
+                for pat in named_h2_patterns:
+                    if re.match(pat, line, flags=re.IGNORECASE):
+                        if in_ol:
+                            html_parts.append("</ol>")
+                            in_ol = False
+                        if in_ul:
+                            html_parts.append("</ul>")
+                            in_ul = False
+                        heading_text = _apply_inline_formats(line)
+                        lower = heading_text.lower()
+                        if last_heading_lower != lower:
+                            html_parts.append(f"<h2>{heading_text}</h2>")
+                            last_heading_lower = lower
+                        # Enter key-issues implicit bullets mode when relevant
+                        in_key_issues_bullets = bool(re.match(r'^Key\s*issues', line, flags=re.IGNORECASE))
+                        continue
+
+                # Numeric section like "1) Major findings ..." -> h2
+                if re.match(r'^\d+\)\s+.+', line):
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    heading_text = _apply_inline_formats(line)
+                    lower = heading_text.lower()
+                    if last_heading_lower != lower:
+                        html_parts.append(f"<h2>{heading_text}</h2>")
+                        last_heading_lower = lower
+                    in_key_issues_bullets = False
+                    continue
+
+                # Lettered subsection like "A. Title" -> h3
+                if re.match(r'^[A-Z]\.\s+.+', line):
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    heading_text = _apply_inline_formats(line)
+                    lower = heading_text.lower()
+                    if last_heading_lower != lower:
+                        html_parts.append(f"<h3>{heading_text}</h3>")
+                        last_heading_lower = lower
+                    in_key_issues_bullets = False
+                    continue
+
+                # key findings heuristic → treat as section header
+                if re.match(r'^key\s+findings', line, flags=re.IGNORECASE):
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    html_parts.append(f"<h2>{_apply_inline_formats(line)}</h2>")
+                    encountered_key_findings = True
+                    continue
+
+                # lists
+                if re.match(r'^\d+\.\s+', line):
+                    if in_ul:
+                        html_parts.append("</ul>")
+                        in_ul = False
+                    if not in_ol:
+                        html_parts.append("<ol>")
+                        in_ol = True
+                    li_text = re.sub(r'^\d+\.\s+', '', line)
+                    html_parts.append(f"<li>{_apply_inline_formats(li_text)}</li>")
+                    continue
+
+                if re.match(r'^[-*]\s+', line):
+                    li_text = re.sub(r'^[-*]\s+', '', line)
+                    # Before "Key findings" render bullets as paragraphs to match questionnaire style
+                    if not encountered_key_findings:
+                        if in_ol:
+                            html_parts.append("</ol>")
+                            in_ol = False
+                        if in_ul:
+                            html_parts.append("</ul>")
+                            in_ul = False
+                        html_parts.append(f"<p>{_apply_inline_formats(li_text)}</p>")
+                    # Heuristic: treat long/summary-like dash lines as paragraphs, not bullets
+                    elif len(li_text) > 140 or re.match(r'^(Risk\s*level|Immediate\s+priorities|Overall|Summary)', li_text, flags=re.IGNORECASE):
+                        if in_ol:
+                            html_parts.append("</ol>")
+                            in_ol = False
+                        if in_ul:
+                            html_parts.append("</ul>")
+                            in_ul = False
+                        html_parts.append(f"<p>{_apply_inline_formats(li_text)}</p>")
+                    else:
+                        if in_ol:
+                            html_parts.append("</ol>")
+                            in_ol = False
+                        if not in_ul:
+                            html_parts.append("<ul>")
+                            in_ul = True
+                        html_parts.append(f"<li>{_apply_inline_formats(li_text)}</li>")
+                    continue
+
+                # Implicit bullets for Key issues (quick list): treat each non-empty line as a bullet
+                if in_key_issues_bullets and line:
+                    if in_ol:
+                        html_parts.append("</ol>")
+                        in_ol = False
+                    if not in_ul:
+                        html_parts.append("<ul>")
+                        in_ul = True
+                    html_parts.append(f"<li>{_apply_inline_formats(line)}</li>")
+                    continue
+
+                # normal paragraph
+                if in_ol:
+                    html_parts.append("</ol>")
+                    in_ol = False
+                if in_ul:
+                    html_parts.append("</ul>")
+                    in_ul = False
+                html_parts.append(f"<p>{_apply_inline_formats(line)}</p>")
+
+            if in_ol:
+                html_parts.append("</ol>")
+            if in_ul:
+                html_parts.append("</ul>")
+
+            return "\n".join(html_parts)
+
+        processed_html = _to_html_from_markdownish(processed_report)
+
+        # Wrap the report in the styled container - EXACT same as working section
+        st.markdown(f'<div class="ai-analysis-container">{processed_html}</div>', unsafe_allow_html=True)
         if st.session_state.get("ppa_pdf_content"):
             st.markdown(get_download_button_css(), unsafe_allow_html=True)
             st.download_button(
@@ -2965,7 +3236,7 @@ def render_privacy_policy_analyzer() -> None:
         # --- Insert extra sections here ---
         # 1. Implementation Framework
         st.subheader("Implementation Framework")
-        html_path = os.path.join(config.BASE_DIR, "Assets", "INFA.html")
+        html_path = os.path.join(config.BASE_DIR, "Assets", "final_4.drawio.html")
         if os.path.exists(html_path):
             with open(html_path, "r", encoding="utf-8") as f:
                 html_content = f.read()
@@ -3035,73 +3306,11 @@ def render_privacy_policy_analyzer() -> None:
         # 2. CLAIRE Framework
         st.markdown('<div style="margin-top: -60px;"></div>', unsafe_allow_html=True)
         st.subheader("Informatica CLAIRE Framework")
-        claire_path = os.path.join(config.BASE_DIR, "Assets", "CLAIRE.html")
-        if os.path.exists(claire_path):
-            with open(claire_path, "r", encoding="utf-8") as f:
-                claire_content = f.read()
-            centered_html = f"""
-            <style>
-            .diagram-section-bg {{
-                background: #181c24;
-                border-radius: 12px;
-                padding: 32px 10px 10px 10px;
-                margin-bottom: -60px;
-                min-height: 520px;
-                box-shadow: 0 2px 12px rgba(0,0,0,0.10);
-            }}
-            .diagram-container {{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-                margin: 0;
-                overflow: auto;
-                min-height: 500px;
-                background: transparent;
-            }}
-            .diagram-content {{
-                position: relative;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }}
-            .diagram-content svg {{
-                max-width: 100%;
-                height: auto;
-                transform-origin: center;
-                transition: transform 0.3s ease;
-            }}
-            @media (max-width: 1200px) {{
-                .diagram-section-bg {{ min-height: 470px; }}
-                .diagram-content svg {{ transform: scale(0.85); }}
-            }}
-            @media (max-width: 992px) {{
-                .diagram-section-bg {{ min-height: 420px; }}
-                .diagram-content svg {{ transform: scale(0.75); }}
-            }}
-            @media (max-width: 768px) {{
-                .diagram-section-bg {{ min-height: 370px; }}
-                .diagram-content svg {{ transform: scale(0.65); }}
-            }}
-            @media (max-width: 576px) {{
-                .diagram-section-bg {{ min-height: 320px; }}
-                .diagram-content svg {{ transform: scale(0.5); }}
-            }}
-            </style>
-            <div class="diagram-section-bg">
-                <div class="diagram-container">
-                    <div class="diagram-content">
-                        {claire_content}
-                    </div>
-                </div>
-            </div>
-            """
-            st.components.v1.html(centered_html, height=700, scrolling=True)
+        claire_img_path = os.path.join(config.BASE_DIR, "Assets", "IDMC Agentic AI.png")
+        if os.path.exists(claire_img_path):
+            st.image(claire_img_path, use_column_width=True)
         else:
-            st.warning("CLAIRE Framework diagram not found.")
+            st.warning("CLAIRE Framework image not found.")
         # 3. Gartner Magic Quadrant
         def get_image_base64(image_path):
             with open(image_path, "rb") as img_file:
@@ -3414,3 +3623,4 @@ def clear_ppa_analysis_state() -> None:
     st.session_state.ppa_pdf_content = None
     st.session_state.ppa_error = None
     st.session_state.ppa_found_url_message = None
+

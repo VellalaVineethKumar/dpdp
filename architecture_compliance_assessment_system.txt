@@ -1,0 +1,76 @@
+%%{init: {
+  "theme": "base",
+  "flowchart": {
+    "useMaxWidth": true,
+    "htmlLabels": true,
+    "nodeSpacing": 70,
+    "rankSpacing": 120,
+    "padding": 16,
+    "curve": "basis"
+  },
+  "themeVariables": {
+    "fontFamily": "Roboto, Poppins, Arial, sans-serif",
+    "primaryTextColor": "#221E1F",
+    "lineColor": "#221E1F"
+  }
+}}%%
+
+graph TD
+
+    %% ---------- OUTER CONTAINER ----------
+    subgraph ARCH["<span style='font-size:20px'>Compliance Assessment Tool - Architecture</span>"]
+    direction TB
+
+        %% ---------- LAYER 1: CLIENT ----------
+        subgraph L1["Client Environment"]
+        direction TB
+            U["User (Browser UI)"]
+        end
+
+        %% ---------- LAYER 2: APPLICATION ----------
+        subgraph L2["Application Layer"]
+        direction TB
+            AP1["Questionnaire Assessment"]
+            AP2["Privacy Policy AI Assessment"]
+            AP3["AI Data Discovery"]
+            AP4["Dashboard"]
+            AP5["Report (PDF)"]
+        end
+
+        %% ---------- LAYER 3: STORAGE (ABSTRACT) ----------
+        subgraph L3["Storage"]
+        direction TB
+            S1["Assessments & Results"]
+            S2["Reports (PDF)"]
+        end
+
+        %% ---------- LAYER 4: AI ENGINE ----------
+        subgraph L4["Datainfa AI Engine"]
+        direction TB
+            AI1["LLM Orchestration & Prompting"]
+        end
+    end
+
+    %% ---------- STACKED FLOW ----------
+    L1 --> L2 --> L3
+
+    %% ---------- AI CONNECTIONS (DASHED) ----------
+    AP2 -.-> L4
+    AP3 -.-> L4
+    AP5 -.-> L4
+
+    %% ---------- STORAGE FLOWS ----------
+    AP1 --> S1
+    AP4 --> S1
+    AP5 --> S2
+
+    %% ---------- STYLES ----------
+    style ARCH fill:#FFFFFF,stroke:#b60003,stroke-width:2px,rx:14,ry:14
+    style L1  fill:#FDF5F5,stroke:#b60003,stroke-width:2px,rx:14,ry:14
+    style L2  fill:#FFFFFF,stroke:#221E1F,stroke-width:2px,rx:14,ry:14
+    style L3  fill:#FDF5F5,stroke:#b60003,stroke-width:2px,rx:14,ry:14
+    style L4  fill:#FFFFFF,stroke:#221E1F,stroke-width:2px,rx:14,ry:14
+
+    %% Inner nodes styled as "pills"
+    classDef card fill:#FFFFFF,stroke:#221E1F,stroke-width:1.2px,rx:10,ry:10,color:#221E1F;
+    class U,AP1,AP2,AP3,AP4,AP5,S1,S2,AI1 card;

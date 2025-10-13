@@ -1,0 +1,246 @@
+2025-09-10 12:26:17,727 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 12:26:18,600 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-10 12:26:33,978 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 12:26:34,073 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 12:26:34,115 - helpers - INFO - Admin token validated
+2025-09-10 12:26:34,189 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 12:31:38,115 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 12:31:56,299 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 12:31:56,315 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 12:31:56,407 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 12:31:58,079 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 12:31:58,097 - helpers - INFO - Navigating to page: welcome from privacy
+2025-09-10 12:31:58,200 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:35:59,111 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:00,030 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-10 14:36:07,296 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:07,402 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:07,436 - helpers - INFO - Admin token validated
+2025-09-10 14:36:07,519 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:12,084 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:20,958 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:21,744 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:21,771 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 14:36:21,879 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:27,458 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:28,651 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:31,133 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:32,516 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 14:36:32,555 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 14:36:33,307 - privacy_policy_analyzer - INFO - Found privacy policy URL for AXIS: https://www.axisbank.com/privacy-policy
+2025-09-10 14:36:33,310 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axisbank.com/privacy-policy
+2025-09-10 14:36:33,471 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axisbank.com/privacy-policy on attempt 1
+2025-09-10 14:36:33,643 - privacy_policy_analyzer - DEBUG - Removed 35 unwanted elements
+2025-09-10 14:36:33,646 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-10 14:36:33,647 - privacy_policy_analyzer - INFO - Successfully extracted 7038 characters of content
+2025-09-10 14:36:33,650 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-10 14:37:19,088 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-10 14:37:19,089 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-10 14:37:19,227 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp8mkgkzu8.pdf
+2025-09-10 14:37:19,227 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp8mkgkzu8.pdf
+2025-09-10 14:37:19,270 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp8mkgkzu8.pdf
+2025-09-10 14:37:19,271 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp8mkgkzu8.pdf
+2025-09-10 14:37:19,340 - privacy_policy_analyzer - INFO - Successfully read 634639 bytes from PDF
+2025-09-10 14:37:19,342 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp8mkgkzu8.pdf
+2025-09-10 14:37:19,478 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:19:58,307 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:19:59,244 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:20:23,654 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:20:23,679 - helpers - INFO - Navigating to page: welcome from privacy
+2025-09-10 15:20:23,817 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:20:26,973 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:20:27,000 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 15:20:27,127 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:20:55,886 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 15:20:55,888 - config - INFO - Loaded 3 API key(s).
+2025-09-10 15:20:55,889 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:21:49,092 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 15:21:49,094 - config - INFO - Loaded 3 API key(s).
+2025-09-10 15:21:49,095 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:04,066 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 15:27:04,067 - config - INFO - Loaded 3 API key(s).
+2025-09-10 15:27:04,068 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:11,724 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:16,813 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:18,616 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:18,653 - helpers - INFO - Attempting to validate token: None...
+2025-09-10 15:27:18,655 - token_storage - WARNING - No matching token found: ...
+2025-09-10 15:27:18,656 - helpers - WARNING - Token validation failed
+2025-09-10 15:27:24,320 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:26,082 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:26,115 - helpers - INFO - Admin token validated
+2025-09-10 15:27:26,214 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:28,021 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:28,047 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 15:27:28,177 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:32,423 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:33,532 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:34,796 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:36,083 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:37,629 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:38,441 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 15:27:38,480 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 15:27:38,998 - privacy_policy_analyzer - INFO - Found privacy policy URL for AXIS: https://www.axisbank.com/privacy-policy
+2025-09-10 15:27:39,000 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axisbank.com/privacy-policy
+2025-09-10 15:27:39,152 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axisbank.com/privacy-policy on attempt 1
+2025-09-10 15:27:39,338 - privacy_policy_analyzer - DEBUG - Removed 35 unwanted elements
+2025-09-10 15:27:39,340 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-10 15:27:39,340 - privacy_policy_analyzer - INFO - Successfully extracted 7038 characters of content
+2025-09-10 15:27:39,343 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-10 15:28:18,881 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-10 15:28:18,882 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-10 15:28:18,903 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp9synwmdv.pdf
+2025-09-10 15:28:18,904 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp9synwmdv.pdf
+2025-09-10 15:28:18,911 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp9synwmdv.pdf
+2025-09-10 15:28:18,911 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp9synwmdv.pdf
+2025-09-10 15:28:18,927 - privacy_policy_analyzer - INFO - Successfully read 630282 bytes from PDF
+2025-09-10 15:28:18,928 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp9synwmdv.pdf
+2025-09-10 15:28:18,993 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:44:41,254 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:44:44,514 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:44:44,542 - helpers - INFO - Admin token validated
+2025-09-10 18:44:44,637 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:44:46,357 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:44:46,383 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 18:44:46,477 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:44:52,734 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:44:58,990 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:45:01,902 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:45:02,645 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:45:02,679 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI in country: India
+2025-09-10 18:45:02,957 - privacy_policy_analyzer - WARNING - No search results found for ICICI
+2025-09-10 18:45:16,283 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 18:45:16,314 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI in country: India
+2025-09-10 18:45:17,001 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI: https://www.icicilombard.com/legal/privacy-policy
+2025-09-10 18:45:17,002 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicilombard.com/legal/privacy-policy
+2025-09-10 18:45:17,051 - privacy_policy_analyzer - ERROR - 403 Forbidden error encountered for URL: https://www.icicilombard.com/legal/privacy-policy. Trying Selenium fallback.
+2025-09-10 18:45:28,914 - privacy_policy_analyzer - INFO - Selenium successfully fetched 61420 characters from https://www.icicilombard.com/legal/privacy-policy
+2025-09-10 18:45:28,935 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-10 18:46:31,563 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-10 18:46:31,565 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-10 18:46:31,661 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpplqu1j8k.pdf
+2025-09-10 18:46:31,663 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpplqu1j8k.pdf
+2025-09-10 18:46:31,741 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpplqu1j8k.pdf
+2025-09-10 18:46:31,742 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpplqu1j8k.pdf
+2025-09-10 18:46:31,780 - privacy_policy_analyzer - INFO - Successfully read 160657 bytes from PDF
+2025-09-10 18:46:31,781 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpplqu1j8k.pdf
+2025-09-10 18:46:31,864 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 19:28:36,099 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 19:30:45,162 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 19:30:45,168 - config - INFO - Loaded 3 API key(s).
+2025-09-10 19:30:45,172 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 19:33:29,690 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 19:33:29,692 - config - INFO - Loaded 3 API key(s).
+2025-09-10 19:33:29,695 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 19:35:04,935 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 19:35:04,937 - config - INFO - Loaded 3 API key(s).
+2025-09-10 19:35:04,937 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 19:35:05,085 - __main__ - ERROR - Error in main application: ImageMixin.image() got an unexpected keyword argument 'use_container_width'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\app.py", line 139, in main
+    render_privacy_policy_analyzer()
+  File "C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\views.py", line 2977, in render_privacy_policy_analyzer
+    st.image(claire_img_path, use_container_width=True)
+  File "C:\Users\HP\anaconda3\Lib\site-packages\streamlit\runtime\metrics_util.py", line 397, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ImageMixin.image() got an unexpected keyword argument 'use_container_width'
+2025-09-10 19:36:28,438 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 19:36:28,439 - config - INFO - Loaded 3 API key(s).
+2025-09-10 19:36:28,442 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 19:42:05,506 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 19:42:05,528 - helpers - INFO - Navigating to page: welcome from privacy
+2025-09-10 19:42:05,642 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:18:53,018 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 20:18:53,027 - config - INFO - Loaded 3 API key(s).
+2025-09-10 20:18:53,061 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:18:53,355 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 20:18:53,660 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:19:21,838 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:19:21,862 - helpers - INFO - Navigating to page: welcome from privacy
+2025-09-10 20:19:21,948 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:19:26,494 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:19:32,864 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:19:35,487 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:19:35,611 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:19:35,640 - helpers - INFO - Admin token validated
+2025-09-10 20:19:35,751 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:22:15,042 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 20:22:15,043 - config - INFO - Loaded 3 API key(s).
+2025-09-10 20:22:15,045 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:22:15,090 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 20:22:15,195 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:22:17,048 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 20:22:17,074 - helpers - INFO - Navigating to page: welcome from privacy
+2025-09-10 20:22:17,170 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:08,670 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:08,787 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 22:04:09,371 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:15,163 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:15,795 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:16,509 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:16,539 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 22:04:16,791 - privacy_policy_analyzer - WARNING - No search results found for AXIS
+2025-09-10 22:04:36,015 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:36,049 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 22:04:36,257 - privacy_policy_analyzer - WARNING - No search results found for AXIS
+2025-09-10 22:04:38,403 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:38,437 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 22:04:38,641 - privacy_policy_analyzer - WARNING - No search results found for AXIS
+2025-09-10 22:04:45,207 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:46,491 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:46,523 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-09-10 22:04:46,734 - privacy_policy_analyzer - WARNING - No search results found for HDFC
+2025-09-10 22:04:59,436 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:04:59,469 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-09-10 22:04:59,693 - privacy_policy_analyzer - WARNING - No search results found for HDFC
+2025-09-10 22:05:00,833 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:00,866 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-09-10 22:05:01,088 - privacy_policy_analyzer - WARNING - No search results found for HDFC
+2025-09-10 22:05:13,102 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:13,917 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-10 22:05:16,072 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:18,525 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:18,618 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:18,643 - helpers - INFO - Admin token validated
+2025-09-10 22:05:18,705 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:19,914 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:19,951 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 22:05:20,025 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:26,655 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:27,581 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:28,331 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:28,366 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 22:05:28,591 - privacy_policy_analyzer - WARNING - No search results found for AXIS
+2025-09-10 22:05:30,524 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:05:30,553 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 22:05:30,743 - privacy_policy_analyzer - WARNING - No search results found for AXIS
+2025-09-10 22:06:05,523 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-10 22:06:05,525 - config - INFO - Loaded 3 API key(s).
+2025-09-10 22:06:05,526 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:07,365 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:07,393 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 22:06:07,597 - privacy_policy_analyzer - WARNING - No search results found for AXIS
+2025-09-10 22:06:09,341 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:11,452 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:11,607 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:11,650 - helpers - INFO - Admin token validated
+2025-09-10 22:06:11,757 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:13,297 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:13,322 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-10 22:06:13,429 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:19,154 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:19,980 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:20,787 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:20,823 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 22:06:21,024 - privacy_policy_analyzer - WARNING - No search results found for AXIS
+2025-09-10 22:06:23,123 - __main__ - INFO - Application started - Logging initialized
+2025-09-10 22:06:23,158 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-10 22:06:23,356 - privacy_policy_analyzer - WARNING - No search results found for AXIS
+2025-09-10 22:09:42,156 - config - INFO - Base directory: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main
+2025-09-11 07:38:44,235 - config - INFO - Loaded 3 API key(s).
+2025-09-11 07:38:44,293 - __main__ - INFO - Application started - Logging initialized
+2025-09-11 07:38:44,293 - __main__ - INFO - Application started - Logging initialized
+2025-09-11 07:38:44,302 - __main__ - INFO - Application started - Logging initialized
+2025-09-11 07:38:44,303 - __main__ - INFO - Application started - Logging initialized
+2025-09-11 07:38:44,303 - __main__ - INFO - Application started - Logging initialized

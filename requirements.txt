@@ -10,7 +10,8 @@ requests>=2.31.0,<3.0.0
 httpx>=0.26.0,<1.0.0
 
 # AI and machine learning
-openai>=1.12.0,<2.0.0
+# OpenAI SDK with Azure OpenAI support
+openai>=1.43.0,<2.0.0
 
 # File parsing and processing
 sqlparse>=0.4.4,<1.0.0
@@ -24,6 +25,7 @@ googlesearch-python>=1.2.3,<2.0.0
 
 # Configuration and utilities
 python-dotenv>=1.0.0,<2.0.0
+duckduckgo-search>=7.2.2,<8.1.1
 
 # Development and testing (optional - uncomment if needed)
 # pytest>=7.4.0,<8.0.0

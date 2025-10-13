@@ -1,0 +1,20 @@
+2025-08-21 12:49:31,628 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI in country: India
+2025-08-21 12:49:32,162 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI: https://www.icicibank.com/privacy
+2025-08-21 12:49:32,163 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicibank.com/privacy
+2025-08-21 12:49:32,368 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.icicibank.com/privacy on attempt 1
+2025-08-21 12:49:32,555 - privacy_policy_analyzer - DEBUG - Removed 29 unwanted elements
+2025-08-21 12:49:32,581 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-08-21 12:49:32,585 - privacy_policy_analyzer - INFO - Successfully extracted 50235 characters of content
+2025-08-21 12:49:32,593 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-21 12:50:09,968 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-21 12:50:09,970 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 'choices'
+2025-08-21 12:52:19,728 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI in country: India
+2025-08-21 12:52:20,161 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI: https://www.icicibank.com/privacy
+2025-08-21 12:52:20,162 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicibank.com/privacy
+2025-08-21 12:52:20,221 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.icicibank.com/privacy on attempt 1
+2025-08-21 12:52:20,396 - privacy_policy_analyzer - DEBUG - Removed 29 unwanted elements
+2025-08-21 12:52:20,423 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-08-21 12:52:20,426 - privacy_policy_analyzer - INFO - Successfully extracted 50235 characters of content
+2025-08-21 12:52:20,431 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-21 12:54:03,050 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-21 12:54:03,051 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 'choices'

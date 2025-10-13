@@ -188,27 +188,25 @@ def _generate_template_report(results: Dict[str, Any], format: str = FORMAT_MARK
 
 def _generate_report_with_api(results: Dict[str, Any], format: str = FORMAT_MARKDOWN) -> str:
     """Generate a formatted report using external AI API"""
-    api_key = config.get_ai_api_key()
     api_type = config.get_ai_provider()
-    
-    if not api_key:
-        logger.warning("API key not found, falling back to template report")
-        return _generate_template_report(results, format)
     
     # Prepare context for the AI
     # logger.info(f"Preparing context data for {api_type} API")
     context = _prepare_ai_context(results)
     
     # Handle different API providers
-    if api_type == "openrouter":
-        # logger.info(f"Using {api_type} API for report generation")
-        # logger.info(f"Configuring {api_type} API client")
-        report = _generate_with_openai(context, api_key, format, use_openrouter=True)
-        # logger.info(f"{api_type} client configured with model: {config.get_ai_model()}")
-    elif api_type == "azure":
-        report = _generate_with_azure(context, api_key, format)
+    if api_type == "azure":
+        # Use Azure client configuration from config; do not require OpenRouter key
+        report = _generate_with_azure(context, "", format)
     else:
-        report = _generate_with_openai(context, api_key, format)
+        api_key = config.get_ai_api_key()
+        if not api_key:
+            logger.warning("API key not found for provider '%s', falling back to template report", api_type)
+            return _generate_template_report(results, format)
+        if api_type == "openrouter":
+            report = _generate_with_openai(context, api_key, format, use_openrouter=True)
+        else:
+            report = _generate_with_openai(context, api_key, format)
     
     return report
 
@@ -456,12 +454,39 @@ def _generate_with_openai(context: Dict[str, Any], api_key: str, format: str = F
         return _generate_template_report(context, format)
 
 def _generate_with_azure(context: Dict[str, Any], api_key: str, format: str = FORMAT_MARKDOWN) -> str:
-    """Generate a formatted report using Azure OpenAI API"""
-    # Azure OpenAI implementation
-    # This would be similar to the OpenAI implementation but with Azure endpoints
-    # For now, we'll fall back to the template report
-    logger.warning("Azure OpenAI integration not fully implemented yet")
-    return _generate_template_report(context, format)
+    """Generate a formatted report using Azure OpenAI API."""
+    try:
+        azure_client = config.get_azure_client()
+        if not azure_client:
+            logger.error("Azure client not configured")
+            return _generate_template_report(context, format)
+
+        deployment = config.get_azure_deployment()
+
+        # Determine system prompt based on format
+        if format == FORMAT_MARKDOWN:
+            system_prompt = "You are an expert compliance analyst specializing in data protection regulations. Create a professional compliance report based on the assessment results provided. Format your response using Markdown for clear structure with headings, bullet points, and emphasized text. Use proper Markdown formatting for all structural elements."
+        elif format == FORMAT_HTML:
+            system_prompt = "You are an expert compliance analyst specializing in data protection regulations. Create a professional compliance report based on the assessment results provided. Format your response using HTML for proper structure with headings, paragraphs, lists, and emphasized text. Include appropriate HTML tags for all structural elements."
+        else:
+            system_prompt = "You are an expert compliance analyst specializing in data protection regulations. Create a professional compliance report based on the assessment results provided. Return a plain text report with clear section titles, indentation, and structural elements to ensure readability without special formatting."
+
+        prompt = _create_openai_prompt(context, format)
+
+        resp = azure_client.chat.completions.create(
+            model=deployment,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": prompt}
+            ],
+            max_completion_tokens=8000,
+        )
+
+        content = resp.choices[0].message.content
+        return content or _generate_template_report(context, format)
+    except Exception as e:
+        logger.error(f"Azure OpenAI generation failed: {e}")
+        return _generate_template_report(context, format)
 
 def _create_openai_prompt(context: Dict[str, Any], format: str = FORMAT_MARKDOWN) -> str:
     """Create a detailed prompt for the OpenAI API requesting properly formatted output"""
@@ -538,7 +563,7 @@ Information for your report on what products you can recommend based on the resu
 Discover Digital Personal Data.
 Identify Digital Personal Data Estate.
 Comply with data minimization, process limitation, and storage limitations.
-Relevant Informatica Products: Informatica Cloud Data Governance (CDGC), Metadata Command Center (MCC), Informatica Cloud Data Profiling (CDP), Informatica Data Privacy Management (DPM)
+Relevant Informatica Products: Informatica Cloud Data Governance (CDGC), Metadata Command Center (MCC), Informatica Cloud Data Profiling (CDP)
 
 3. Data is labeled based on sensitivity and protection needs
 Keep track of digital personal data.
@@ -552,18 +577,18 @@ Relevant Informatica Products: Informatica Cloud Data Governance (CDGC), Informa
 Safeguard personal data.
 Protect personal data from unauthorized processing.
 Track personal data.
-Relevant Informatica Products: Informatica Data Privacy Management (DPM), Informatica Cloud Data Access Management (CDAM), Informatica Cloud Data Governance (CDGC)
+Relevant Informatica Products:  Informatica Cloud Data Access Management (CDAM), Informatica Cloud Data Governance (CDGC)
 
 5(a). Data Travel Across National Boundaries
 Close monitoring of data transfers.
 Location-based policies to restrict access from unauthorized locations.
-Relevant Informatica Products: Informatica Cloud Data Governance Catalog (CDGC), Informatica Cloud Data Privacy Management (CDPM), Informatica Cloud Data Access Management (CDAM)
+Relevant Informatica Products: Informatica Cloud Data Governance Catalog (CDGC), Informatica Cloud Data Access Management (CDAM)
 
 5(b). Personal data is processed
 Adherence to data minimization and remediation of data exposure.
 Track processing activity to ensure lawful and fair processing.
 Manage Data Principal Rights.
-Relevant Informatica Products: Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Privacy Management (CDPM), Informatica Cloud Data Governance (CDGC)
+Relevant Informatica Products: Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Governance (CDGC)
 
 5(c). Data activity is monitored
 Detect and respond to unauthorized access, transfer, or processing activities on personal data.

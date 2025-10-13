@@ -1,0 +1,59 @@
+2025-09-12 10:23:42,644 - privacy_policy_analyzer - INFO - Search query: site:informatica.com privacy policy (region=in-en)
+2025-09-12 10:23:43,337 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain+keyword): https://www.informatica.com/privacy-policy.html
+2025-09-12 10:23:43,338 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-12 10:23:44,245 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-12 10:23:44,458 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-12 10:23:44,460 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-12 10:23:44,462 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-12 10:23:44,532 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 10:24:41,818 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-12 10:24:41,819 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-12 10:24:41,939 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:41,939 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:41,973 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:41,973 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:42,004 - privacy_policy_analyzer - INFO - Successfully read 575115 bytes from PDF
+2025-09-12 10:24:42,005 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 17:01:28,512 - privacy_policy_analyzer - INFO - Search query: site:google.com privacy policy (region=in-en)
+2025-09-12 17:01:30,243 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain+keyword): https://sites.google.com/funnii.net/policy
+2025-09-12 17:01:30,244 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://sites.google.com/funnii.net/policy
+2025-09-12 17:01:30,732 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://sites.google.com/funnii.net/policy on attempt 1
+2025-09-12 17:01:30,773 - privacy_policy_analyzer - DEBUG - Removed 16 unwanted elements
+2025-09-12 17:01:30,778 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-12 17:01:30,778 - privacy_policy_analyzer - INFO - Successfully extracted 21 characters of content
+2025-09-12 17:01:30,783 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 17:01:32,157 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-12 17:01:32,157 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-12 17:01:34,159 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 17:01:34,590 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 401
+2025-09-12 17:01:34,590 - privacy_policy_analyzer - WARNING - OpenRouter returned 401. Rotating API key and retrying...
+2025-09-12 17:01:38,592 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 17:01:40,709 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-12 17:01:40,710 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-12 17:01:48,738 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-12 17:01:48,799 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}
+2025-09-15 18:17:32,159 - privacy_policy_analyzer - INFO - Search query: site:google.com privacy policy (region=in-en)
+2025-09-15 18:17:33,783 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain+keyword): https://sites.google.com/funnii.net/policy
+2025-09-15 18:17:33,785 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://sites.google.com/funnii.net/policy
+2025-09-15 18:17:34,641 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://sites.google.com/funnii.net/policy on attempt 1
+2025-09-15 18:17:34,673 - privacy_policy_analyzer - DEBUG - Removed 16 unwanted elements
+2025-09-15 18:17:34,676 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-15 18:17:34,677 - privacy_policy_analyzer - INFO - Successfully extracted 21 characters of content
+2025-09-15 18:17:34,694 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-15 18:18:10,464 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-15 18:18:10,466 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-15 18:18:10,612 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,613 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,669 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,670 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,700 - privacy_policy_analyzer - INFO - Successfully read 569685 bytes from PDF
+2025-09-15 18:18:10,700 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 19:35:17,358 - privacy_policy_analyzer - INFO - Search query: site:google.com privacy policy (region=au-en)
+2025-09-15 19:35:22,936 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain+keyword): https://policies.google.com/privacy?hl=en-US
+2025-09-15 19:35:22,939 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://policies.google.com/privacy?hl=en-US
+2025-09-15 19:35:24,352 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://policies.google.com/privacy?hl=en-US on attempt 1
+2025-09-15 19:35:24,519 - privacy_policy_analyzer - DEBUG - Removed 29 unwanted elements
+2025-09-15 19:35:24,551 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-09-15 19:35:24,557 - privacy_policy_analyzer - INFO - Successfully extracted 53016 characters of content
+2025-09-15 19:35:24,562 - privacy_policy_analyzer - ERROR - Law file not found: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets/Documents/OAIC.txt
+2025-09-15 19:35:24,564 - privacy_policy_analyzer - ERROR - No content found for law: oaic_australia

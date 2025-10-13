@@ -27,22 +27,36 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 ORG_DATA_DIR = os.path.join(DATA_DIR, 'organizations')
 REPORTS_DIR = os.path.join(DATA_DIR, 'reports')
 
-# Email configuration with fallback values
+# Email configuration with safe fallback when secrets are unavailable (local dev)
 try:
-    email_secrets = st.secrets["email"]
-    SMTP_SERVER = email_secrets.get("smtp_server", "smtp.gmail.com")
-    SMTP_PORT = email_secrets.get("smtp_port", 587)
-    SENDER_EMAIL = email_secrets.get("sender_email", "")
-    SENDER_PASSWORD = email_secrets.get("sender_password", "")
-    RECIPIENT_EMAIL = email_secrets.get("recipient_email", "")
-except (KeyError, AttributeError) as e:
-    logger.warning(f"Could not access email configuration from secrets: {e}")
-    # Use default values
-    SMTP_SERVER = "smtp.gmail.com"
-    SMTP_PORT = 587
-    SENDER_EMAIL = ""
-    SENDER_PASSWORD = ""
-    RECIPIENT_EMAIL = ""
+    email_secrets = None
+    if hasattr(st, "secrets"):
+        try:
+            # Accessing st.secrets may raise FileNotFoundError if no secrets.toml exists
+            if "email" in st.secrets:
+                email_secrets = st.secrets["email"]
+        except FileNotFoundError as se:
+            logger.warning(f"Streamlit secrets not found: {se}")
+
+    if email_secrets:
+        SMTP_SERVER = email_secrets.get("smtp_server", "smtp.gmail.com")
+        SMTP_PORT = email_secrets.get("smtp_port", 587)
+        SENDER_EMAIL = email_secrets.get("sender_email", "")
+        SENDER_PASSWORD = email_secrets.get("sender_password", "")
+        RECIPIENT_EMAIL = email_secrets.get("recipient_email", "")
+    else:
+        raise KeyError("email secrets not available")
+except Exception as e:
+    logger.warning(f"Email configuration falling back to environment variables: {e}")
+    SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
+    # Ensure port is an int
+    try:
+        SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+    except ValueError:
+        SMTP_PORT = 587
+    SENDER_EMAIL = os.getenv("SENDER_EMAIL", "")
+    SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "")
+    RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL", "")
 
 def send_assessment_notification(org_name: str) -> bool:
     """Send email notification when a new assessment starts

@@ -1,0 +1,8 @@
+2025-09-18 12:28:52,234 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-18 12:28:52,234 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}
+2025-09-18 12:47:17,890 - privacy_policy_analyzer - ERROR - API error: 401
+2025-09-18 12:47:18,014 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"User not found.","code":401}}
+2025-09-18 12:51:47,025 - privacy_policy_analyzer - ERROR - Connection failed after 3 attempts
+2025-09-18 17:47:28,261 - privacy_policy_analyzer - ERROR - Error processing content from URL https://www.idfcfirstbank.com/privacy-policy: 'HttpUrl' object has no attribute 'startswith'
+2025-09-18 17:51:00,580 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-18 17:51:00,581 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}

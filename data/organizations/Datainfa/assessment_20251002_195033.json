@@ -1,0 +1,16 @@
+{
+  "organization_name": "Datainfa",
+  "assessment_date": "2025-10-02",
+  "selected_regulation": "oaic_australia",
+  "selected_industry": "General",
+  "responses": {
+    "s0_q0": "Partially: There is a privacy policy, but it is outdated or not fully comprehensive.",
+    "s0_q1": "Yes: All these elements are clearly addressed in the policy.",
+    "s0_q2": "Partially: The policy is available but may not always be free or easily accessible.",
+    "s0_q3": "Partially: The organization tries but may not always accommodate requests.",
+    "s1_q0": "Partially: Anonymity or pseudonymity is allowed in limited circumstances.",
+    "s1_q1": "Yes: Exceptions are only made when legally required or impracticable."
+  },
+  "assessment_complete": false,
+  "saved_at": "2025-10-02T19:50:33.982670"
+}

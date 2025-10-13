@@ -1,0 +1,2 @@
+2025-10-02 10:54:44,433 - privacy_policy_analyzer - ERROR - Error finding privacy policy URL for ANZ via SearchAI: Failed to perform, curl: (6) Could not resolve host: lite.duckduckgo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-10-02 10:54:51,925 - privacy_policy_analyzer - ERROR - Error finding privacy policy URL for ANZ via SearchAI: Failed to perform, curl: (6) Could not resolve host: lite.duckduckgo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.

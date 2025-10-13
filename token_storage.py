@@ -176,15 +176,16 @@ def get_organization_for_token(token: str) -> Optional[str]:
     try:
         if not os.path.exists(TOKENS_FILE):
             return None
-            
-        with open(TOKENS_FILE, 'r') as f:
+
+        with open(TOKENS_FILE, 'r', newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row['token'] == token:
-                    return row['organization']
-                    
+                if row.get('token') == token:
+                    org_name = row.get('organization_name') or row.get('organization')
+                    return org_name.strip() if org_name else None
+
         return None
-            
+
     except Exception as e:
         logger.error(f"Error getting organization for token: {e}")
         return None
@@ -194,28 +195,33 @@ def revoke_token(token: str) -> bool:
     try:
         if not os.path.exists(TOKENS_FILE):
             return False
-            
-        rows = []
-        token_found = False
-        
-        with open(TOKENS_FILE, 'r') as f:
+
+        with open(TOKENS_FILE, 'r', newline='') as f:
             reader = csv.DictReader(f)
-            rows.append(next(reader))  # Header row
+            fieldnames = reader.fieldnames or TOKEN_CSV_COLUMNS
+            if 'token' not in fieldnames:
+                logger.error("Token file missing required 'token' column")
+                return False
+
+            remaining_rows = []
+            token_found = False
             for row in reader:
-                if row['token'] != token:
-                    rows.append(row)
-                else:
+                if row.get('token') == token:
                     token_found = True
-        
-        if token_found:
-            with open(TOKENS_FILE, 'w', newline='') as f:
-                writer = csv.writer(f)
-                writer.writerows(rows)
-            logger.info(f"Revoked token: {token}")
-            return True
-        else:
+                else:
+                    remaining_rows.append(row)
+
+        if not token_found:
             return False
-        
+
+        with open(TOKENS_FILE, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(remaining_rows)
+
+        logger.info(f"Revoked token: {token}")
+        return True
+
     except Exception as e:
         logger.error(f"Error revoking token: {e}")
         return False
@@ -225,29 +231,56 @@ def cleanup_expired_tokens() -> int:
     try:
         if not os.path.exists(TOKENS_FILE):
             return 0
-        
+
         current_time = datetime.now()
-        rows = []
-        expired_count = 0
-        
-        with open(TOKENS_FILE, 'r') as f:
+
+        with open(TOKENS_FILE, 'r', newline='') as f:
             reader = csv.DictReader(f)
-            rows.append(next(reader))  # Header row
+            fieldnames = reader.fieldnames or TOKEN_CSV_COLUMNS
+            if 'token' not in fieldnames:
+                logger.error("Token file missing required 'token' column")
+                return 0
+
+            remaining_rows = []
+            expired_count = 0
+
             for row in reader:
-                expires_at = datetime.fromisoformat(row['expires_at'])
+                expires_str = row.get('expires_at')
+                if not expires_str:
+                    remaining_rows.append(row)
+                    continue
+
+                expires_at = None
+                try:
+                    expires_at = datetime.fromisoformat(expires_str)
+                except ValueError:
+                    for fmt in ('%Y-%m-%d %H:%M:%S', '%Y-%m-%d %H:%M', '%Y-%m-%d'):
+                        try:
+                            expires_at = datetime.strptime(expires_str, fmt)
+                            break
+                        except ValueError:
+                            continue
+
+                if expires_at is None:
+                    logger.warning(f"Could not parse expiry date '{expires_str}', keeping token active")
+                    remaining_rows.append(row)
+                    continue
+
                 if current_time <= expires_at:
-                    rows.append(row)
+                    remaining_rows.append(row)
                 else:
                     expired_count += 1
-        
+
         if expired_count > 0:
             with open(TOKENS_FILE, 'w', newline='') as f:
-                writer = csv.writer(f)
-                writer.writerows(rows)
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(remaining_rows)
             logger.info(f"Removed {expired_count} expired tokens")
-        
+
         return expired_count
-        
+
     except Exception as e:
         logger.error(f"Error cleaning up expired tokens: {e}")
         return 0
+

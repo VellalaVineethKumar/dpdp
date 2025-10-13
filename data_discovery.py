@@ -83,43 +83,29 @@ Use clear headings and bullet points for visual organization.
 Highlight critical findings in **bold**.
 Maintain consistent formatting throughout the analysis.
 
-Include -> *Contact info@datainfa.com for futher understaing and DPDP implementation*
+Include -> *Contact info@datainfa.com for futher understanding and DPDP implementation*
 """
 
 def get_ai_analysis(schema: str) -> Optional[Dict]:
-    """Get AI analysis of database schema using OpenRouter with DeepSeek"""
+    """Get AI analysis of database schema using Azure OpenAI chat completions."""
     logger.info("Starting AI analysis of database schema")
     try:
-        api_key = config.get_ai_api_key()
-        if not api_key:
-            logger.error("API key not found in configuration")
-            raise ValueError("API key not found in configuration")
-
-        response = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "HTTP-Referer": "https://datainfa.com",
-                "X-Title": "Compliance Assessment Tool",
-                "Content-Type": "application/json"
-            },
-            json={
-                "model": "deepseek/deepseek-chat-v3-0324:free",
-                "messages": [
-                    {"role": "system", "content": "You are a DPDP compliance expert analyzing database schemas."},
-                    {"role": "user", "content": SENSITIVE_DATA_PROMPT.format(schema=schema)}
-                ],
-                "temperature": 0.1,
-                "max_tokens": 8000
-            }
-        )
-
-        if response.status_code != 200:
-            logger.error(f"OpenRouter API error: {response.status_code}")
+        azure_client = config.get_azure_client()
+        if not azure_client:
+            logger.error("Azure OpenAI client not configured")
             return None
 
-        result = response.json()
-        return result["choices"][0]["message"]["content"]
+        deployment = config.get_azure_deployment()
+        resp = azure_client.chat.completions.create(
+            model=deployment,
+            messages=[
+                {"role": "system", "content": "You are a DPDP compliance expert analyzing database schemas."},
+                {"role": "user", "content": SENSITIVE_DATA_PROMPT.format(schema=schema)}
+            ],
+            max_completion_tokens=8000,
+        )
+
+        return resp.choices[0].message.content
 
     except Exception as e:
         logger.error(f"AI analysis error: {str(e)}")

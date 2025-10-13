@@ -1,0 +1,25 @@
+2025-09-19 20:12:39,359 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.anz.com.au/privacy/centre/policy/
+2025-09-19 20:12:39,364 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.anz.com.au/privacy/centre/policy/
+2025-09-19 20:12:39,522 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.anz.com.au/privacy/centre/policy/ on attempt 1
+2025-09-19 20:12:39,649 - privacy_policy_analyzer - DEBUG - Removed 20 unwanted elements
+2025-09-19 20:12:39,650 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-19 20:12:39,652 - privacy_policy_analyzer - INFO - Successfully extracted 26383 characters of content
+2025-09-19 20:12:39,655 - privacy_policy_analyzer - ERROR - Law file not found: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets/Documents/OAIC.txt
+2025-09-19 20:12:39,655 - privacy_policy_analyzer - ERROR - No content found for law: oaic_australia
+2025-09-19 20:21:01,363 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.anz.com.au/privacy/centre/policy/
+2025-09-19 20:21:01,364 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.anz.com.au/privacy/centre/policy/
+2025-09-19 20:21:01,531 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.anz.com.au/privacy/centre/policy/ on attempt 1
+2025-09-19 20:21:01,628 - privacy_policy_analyzer - DEBUG - Removed 20 unwanted elements
+2025-09-19 20:21:01,629 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-19 20:21:01,631 - privacy_policy_analyzer - INFO - Successfully extracted 26383 characters of content
+2025-09-19 20:21:01,634 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Australia analysis
+2025-09-19 20:21:02,982 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-19 20:21:02,982 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-19 20:21:04,984 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Australia analysis
+2025-09-19 20:21:05,519 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 401
+2025-09-19 20:21:05,520 - privacy_policy_analyzer - WARNING - OpenRouter returned 401. Rotating API key and retrying...
+2025-09-19 20:21:09,521 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for Australia analysis
+2025-09-19 20:21:11,284 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-19 20:21:11,285 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-19 20:21:19,287 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-19 20:21:19,288 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}

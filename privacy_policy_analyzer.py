@@ -1,10 +1,12 @@
+from __future__ import annotations
 import os
 import requests
-from bs4 import BeautifulSoup
 import re
-from typing import Dict, Optional, Any
-from googlesearch import search
 import logging
+from typing import Dict, Optional, Any, List, Tuple, Set
+from bs4 import BeautifulSoup
+from duckduckgo_search import DDGS  # type: ignore
+from search_ai import search
 import openai
 import config
 from datetime import datetime
@@ -41,7 +43,7 @@ DPDP Act Requirements:
 Your task is to:
 1. Identify any conflicts or gaps between the privacy policy and the DPDP Act requirements
 2. Highlight specific sections of the DPDP Act that are relevant to each finding, make sure to use hyperlink https://datainfa.com/dpdp-act/
-3. Provide recommendations for compliance, including Informatica product recommendations where relevant (see context below)
+3. Provide recommendations for compliance, including Informatica product recommendations based STRICTLY on the catalog and rules below
 4. Clearly highlight key issues
 
 # Privacy Policy Analysis
@@ -53,7 +55,9 @@ Your task is to:
 - List specific gaps with references to DPDP Act requirements
 
 ## Recommendations
-- Provide actionable recommendations to address each gap, referencing Informatica products where appropriate.
+- Provide actionable recommendations to address each gap
+- For each recommendation, map the gap to 1–2 Informatica products from the catalog below, explaining why each product is relevant in 1–2 sentences
+- Prioritize the minimal effective product set and avoid redundancy
 
 ## Detailed Analysis
 For each major section of the privacy policy, provide:
@@ -62,65 +66,60 @@ For each major section of the privacy policy, provide:
 - Compliance status
 - Recommendations
 
-Information for your report on what products you can recommend based on the results:
-"1. Data gets Collected
+## Informatica Product Catalog and Decision Rules
+Only recommend products from this list. Do NOT invent other products. Use the rules to map gaps to products.
 
-2. Data is discovered
-Discover Digital Personal Data.
-Identify Digital Personal Data Estate.
-Comply with data minimization, process limitation, and storage limitations.
-Relevant Informatica Products: Informatica Cloud Data Governance (CDGC), Metadata Command Center (MCC), Informatica Cloud Data Profiling (CDP), Informatica Data Privacy Management (DPM)
+1) Data is discovered
+- Needs: Discover digital personal data; identify the data estate; comply with data minimization and storage limits
+- Products: Informatica Cloud Data Governance Catalog (CDGC), Metadata Command Center (MCC), Informatica Cloud Data Profiling (CDP)
 
-3. Data is labeled based on sensitivity and protection needs
-Keep track of digital personal data.
-Respond to data principal access rights.
-Maintain accuracy and correctness.
-Keep track of personal data of children.
-Appropriately protect data.
-Relevant Informatica Products: Informatica Cloud Data Governance (CDGC), Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Integration (CDI)
+2) Data is labeled based on sensitivity and protection needs
+- Needs: Maintain inventories; respond to data principal rights; maintain accuracy; track children’s data; protect appropriately
+- Products: Informatica Cloud Data Governance Catalog (CDGC), Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Validation (CDV), Informatica Cloud Data Integration (CDI)
 
-4. Data gets protected based on policies
-Safeguard personal data.
-Protect personal data from unauthorized processing.
-Track personal data.
-Relevant Informatica Products: Informatica Data Privacy Management (DPM), Informatica Cloud Data Access Management (CDAM), Informatica Cloud Data Governance (CDGC)
+3) Data gets protected based on policies
+- Needs: Safeguard personal data; prevent unauthorized processing; track personal data
+- Products: Informatica Cloud Data Access Management (CDAM), Informatica Cloud Data Governance Catalog (CDGC)
 
-5(a). Data Travel Across National Boundaries
-Close monitoring of data transfers.
-Location-based policies to restrict access from unauthorized locations.
-Relevant Informatica Products: Informatica Cloud Data Governance Catalog (CDGC), Informatica Cloud Data Privacy Management (CDPM), Informatica Cloud Data Access Management (CDAM)
+4) Data travels across national boundaries
+- Needs: Monitor data transfers; apply location-based access restrictions
+- Products: Informatica Cloud Data Governance Catalog (CDGC), Informatica Cloud Data Access Management (CDAM)
 
-5(b). Personal data is processed
-Adherence to data minimization and remediation of data exposure.
-Track processing activity to ensure lawful and fair processing.
-Manage Data Principal Rights.
-Relevant Informatica Products: Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Privacy Management (CDPM), Informatica Cloud Data Governance (CDGC)
+5) Personal data is processed
+- Needs: Enforce data minimization; remediate exposure; track processing for lawful/fair basis; manage data principal rights
+- Products: Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Governance Catalog (CDGC)
 
-5(c). Data activity is monitored
-Detect and respond to unauthorized access, transfer, or processing activities on personal data.
-Relevant Informatica Products: Informatica Cloud Application Integration (CAI), Informatica Cloud Data Governance Catalog (CDGC), CLAIRE GPT
+6) Data activity is monitored
+- Needs: Detect and respond to unauthorized access, transfer, or processing
+- Products: Informatica Cloud Application Integration (CAI), Informatica Cloud Data Governance Catalog (CDGC), CLAIRE GPT
 
-6. Data gets retired and deleted
-Retention and data lifecycle management.
-Mark documents as "Records".
-Disposition reviews to mark safe deletion.
-Relevant Informatica Products: Informatica Cloud Data Integration (CDI), Informatica Cloud Data Quality (CDQ), Informatica Cloud Master Data Management (CMDM), Informatica Cloud Data Access Management (CDAM)."
+7) Data gets retired and deleted
+- Needs: Retention and lifecycle management; mark records; perform disposition reviews
+- Products: Informatica Cloud Data Integration (CDI), Informatica Cloud Data Quality (CDQ), Informatica Cloud Master Data Management (CMDM), Informatica Cloud Data Access Management (CDAM)
+
+Selection guidance:
+- Select only products that directly address the identified gap(s)
+- Prefer 1–2 products per gap to minimize overlap
+- Use the exact product names and acronyms as listed above
+- Do NOT recommend outside this catalog
 
 Your report should include:
 1. An executive summary assessing the overall compliance status
 2. Analysis of each section with risk levels and implications
 3. Prioritized action items with clear descriptions
-4. Strategic recommendations for improving compliance posture (focus on Informatica Solutions provided in the context)
+4. Strategic recommendations for improving compliance posture (use only the Informatica catalog and decision rules provided above)
 
 IMPORTANT FORMATTING INSTRUCTIONS:
-- DO NOT prefix recommendations with "Informatica Solution:"
+- DO NOT prefix recommendations with \"Informatica Solution:\"
 - Present recommendations directly and concisely
 - When mentioning Informatica products, integrate them naturally into the recommendations
+- Do NOT include offers or solicitations such as \"If you want, I can...\", \"we can draft...\", or any request to contact for templates/checklists. Do NOT suggest follow-up deliverables.
+- Do NOT ask the user questions; output only the analysis and recommendations.
+- At the end, append exactly this line on a separate line:
+  *Contact info@datainfa.com for futher understanding and DPDP implementation*
 
 Ensure the tone is professional but accessible, avoiding overly technical language.
 Use data-driven insights to provide specific, actionable recommendations.
-Include at the end -> Partner with Informatica experts to close gaps efficiently.
-Contact info@datainfa.com for further understanding and implementation.
 
 IMPORTANT: Ensure all HTML tags are properly balanced and there are no stray closing tags in the output."""
     },
@@ -388,7 +387,7 @@ For each major section of the privacy policy, provide:
     "oaic_australia": {
         "name": "Australia",
         "regulation": "Australian Privacy Principles (APPs)",
-        "file_path": "Assets/Documents/OAIC.txt",
+        "file_path": "Assets/Documents/OAIC.md",
         "country": "Australia",
         "website": "https://www.oaic.gov.au/privacy/australian-privacy-principles/",
         "prompt_template": """You are a privacy policy compliance expert. Analyze the following privacy policy against the requirements of the Australian Privacy Principles (APPs) under the Privacy Act 1988 (Cth).
@@ -406,7 +405,7 @@ APPs Requirements:
 Your task is to:
 1. Identify any conflicts or gaps between the privacy policy and the APPs requirements
 2. Highlight specific APPs that are relevant to each finding, make sure to use hyperlink https://www.oaic.gov.au/privacy/australian-privacy-principles/
-3. Provide recommendations for compliance
+3. Provide recommendations for compliance, including Informatica product recommendations based STRICTLY on the catalog and rules below
 4. Clearly highlight key issues
 
 # Privacy Policy Analysis
@@ -419,13 +418,60 @@ Your task is to:
 
 ## Recommendations
 - Provide actionable recommendations to address each gap
+- For each recommendation, map the gap to 1–2 Informatica products from the catalog below, explaining why each product is relevant in 1–2 sentences
+- Prioritize the minimal effective product set and avoid redundancy
 
 ## Detailed Analysis
 For each major section of the privacy policy, provide:
 - What was found
 - Relevant APPs
 - Compliance status
-- Recommendations"""
+- Recommendations
+
+## Informatica Product Catalog and Decision Rules
+Only recommend products from this list. Do NOT invent other products. Use the rules to map gaps to products.
+
+1) Data is discovered
+- Needs: Discover digital personal data; identify the data estate; comply with data minimization and storage limits
+- Products: Informatica Cloud Data Governance Catalog (CDGC), Metadata Command Center (MCC), Informatica Cloud Data Profiling (CDP)
+
+2) Data is labeled based on sensitivity and protection needs
+- Needs: Maintain inventories; respond to data principal rights; maintain accuracy; track children’s data; protect appropriately
+- Products: Informatica Cloud Data Governance Catalog (CDGC), Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Validation (CDV), Informatica Cloud Data Integration (CDI)
+
+3) Data gets protected based on policies
+- Needs: Safeguard personal data; prevent unauthorized processing; track personal data
+- Products: Informatica Cloud Data Access Management (CDAM), Informatica Cloud Data Governance Catalog (CDGC)
+
+4) Data travels across national boundaries
+- Needs: Monitor data transfers; apply location-based access restrictions
+- Products: Informatica Cloud Data Governance Catalog (CDGC), Informatica Cloud Data Access Management (CDAM)
+
+5) Personal data is processed
+- Needs: Enforce data minimization; remediate exposure; track processing for lawful/fair basis; manage data principal rights
+- Products: Informatica Cloud Data Quality (CDQ), Informatica Cloud Data Governance Catalog (CDGC)
+
+6) Data activity is monitored
+- Needs: Detect and respond to unauthorized access, transfer, or processing
+- Products: Informatica Cloud Application Integration (CAI), Informatica Cloud Data Governance Catalog (CDGC), CLAIRE GPT
+
+7) Data gets retired and deleted
+- Needs: Retention and lifecycle management; mark records; perform disposition reviews
+- Products: Informatica Cloud Data Integration (CDI), Informatica Cloud Data Quality (CDQ), Informatica Cloud Master Data Management (CMDM), Informatica Cloud Data Access Management (CDAM)
+
+Selection guidance:
+- Select only products that directly address the identified gap(s)
+- Prefer 1–2 products per gap to minimize overlap
+- Use the exact product names and acronyms as listed above
+- Do NOT recommend outside this catalog
+
+IMPORTANT FORMATTING INSTRUCTIONS:
+- DO NOT prefix recommendations with \"Informatica Solution:\"
+- Present recommendations directly and concisely
+- When mentioning Informatica products, integrate them naturally into the recommendations
+- Do NOT include offers or solicitations such as \"If you want, I can...\", \"we can draft...\", or any request to contact for templates/checklists. Do NOT suggest follow-up deliverables.
+
+"""
     }
 }
 
@@ -468,25 +514,55 @@ def setup_privacy_policy_logging():
 # Initialize logger
 logger = setup_privacy_policy_logging()
 
-def find_privacy_policy_url(organization_name: str, country: str = None, num_results: int = 5) -> Optional[str]:
-    """Find privacy policy URL using Google search with country context."""
-    logger.info(f"Searching privacy policy for organization: {organization_name} in country: {country}")
-    query = f"{organization_name} privacy policy {country if country else ''}".strip()
-    try:
-        search_results = list(search(query, num_results=num_results, lang="en"))
-        if not search_results:
-            logger.warning(f"No search results found for {organization_name}")
-            return None
+def normalize_url(url: object) -> str:
+    """Return a normalized URL string.
 
-        for url in search_results:
-            if 'privacy' in url.lower() or 'policy' in url.lower() or 'legal' in url.lower():
-                logger.info(f"Found privacy policy URL for {organization_name}: {url}")
-                return url
-        
-        logger.info(f"Using first search result for {organization_name}: {search_results[0]}")
-        return search_results[0]
+    Converts possible non-string URL objects (e.g., Pydantic HttpUrl) to a
+    string and ensures an HTTP scheme is present.
+
+    Args:
+        url: A URL-like object which may be a string or another type.
+
+    Returns:
+        A string URL guaranteed to start with "http://" or "https://".
+    """
+    as_str = str(url or "").strip()
+    if as_str and not as_str.startswith(("http://", "https://")):
+        return f"https://{as_str}"
+    return as_str
+
+def find_privacy_policy_url(organization_name: str, country: Optional[str] = None, num_results: int = 10) -> Optional[str]:
+    """Find a likely privacy policy URL using SearchAI results.
+
+    Builds a simple query and returns the first result's `link` field when present.
+
+    Args:
+        organization_name: Company or organization name to search for.
+        country: Optional country context to refine results (e.g., "India").
+        num_results: Unused; kept for compatibility.
+
+    Returns:
+        The first discovered privacy policy URL (from the `link` field) if found, else None.
+    """
+    try:
+        org = (organization_name or "").strip()
+        ctry = (country or "").strip()
+        query = f"What is the privacy policy website url of {org}"
+        if ctry:
+            query = f"{query} {ctry}"
+
+        results = search(query)
+        for result in results:
+            data: Dict[str, Any] = result.model_dump() if hasattr(result, 'model_dump') else (result.__dict__ if hasattr(result, '__dict__') else {})
+            link = data.get('link')
+            if link:
+                logger.info(f"Selected privacy policy URL via SearchAI: {link}")
+                return link
+
+        logger.warning(f"No suitable privacy policy URL found for '{organization_name}' via SearchAI")
+        return None
     except Exception as e:
-        logger.error(f"Error finding privacy policy URL for {organization_name}: {e}")
+        logger.error(f"Error finding privacy policy URL for {organization_name} via SearchAI: {e}")
         return None
 
 def fetch_with_selenium(url: str) -> Optional[str]:
@@ -500,6 +576,7 @@ def fetch_with_selenium(url: str) -> Optional[str]:
         Optional[str]: The visible text content of the page, or None if fetching fails.
     """
     try:
+        url_str = normalize_url(url)
 
 
         chrome_options = Options()
@@ -512,16 +589,16 @@ def fetch_with_selenium(url: str) -> Optional[str]:
         chrome_options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36')
 
         driver = webdriver.Chrome(options=chrome_options)
-        driver.get(url)
+        driver.get(url_str)
         time.sleep(3)  # Wait for JS to load
         body = driver.find_element(By.TAG_NAME, 'body')
         text = body.text
         driver.quit()
         if text:
-            logger.info(f"Selenium successfully fetched {len(text)} characters from {url}")
+            logger.info(f"Selenium successfully fetched {len(text)} characters from {url_str}")
             return text
         else:
-            logger.error(f"Selenium fetched no text from {url}")
+            logger.error(f"Selenium fetched no text from {url_str}")
             return None
     except WebDriverException as e:
         logger.error(f"Selenium WebDriver error: {e}")
@@ -532,7 +609,8 @@ def fetch_with_selenium(url: str) -> Optional[str]:
 
 def fetch_policy_content(url: str, max_retries: int = 3, retry_delay: int = 2, verify_ssl: bool = True) -> Optional[str]:
     """Fetch and extract privacy policy content from URL."""
-    logger.info(f"Fetching privacy policy content from: {url}")
+    original_url_str = str(url)
+    logger.info(f"Fetching privacy policy content from: {original_url_str}")
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -543,35 +621,35 @@ def fetch_policy_content(url: str, max_retries: int = 3, retry_delay: int = 2, v
 
     for attempt in range(max_retries):
         try:
-            # Validate URL format
-            if not url.startswith(('http://', 'https://')):
-                url = 'https://' + url
-                logger.info(f"Added https:// prefix to URL: {url}")
+            # Normalize URL to handle non-string types and missing scheme
+            working_url = normalize_url(url)
+            if working_url != original_url_str and not original_url_str.startswith(("http://", "https://")):
+                logger.info(f"Added https:// prefix to URL: {working_url}")
 
             session = requests.Session()
             
             # First try with SSL verification
             try:
-                response = session.get(url, headers=headers, timeout=30, verify=verify_ssl)
+                response = session.get(working_url, headers=headers, timeout=30, verify=verify_ssl)
                 response.raise_for_status()
             except requests.exceptions.SSLError as ssl_error:
                 logger.warning(f"SSL verification failed on attempt {attempt + 1}, trying without verification")
-                response = session.get(url, headers=headers, timeout=30, verify=False)
+                response = session.get(working_url, headers=headers, timeout=30, verify=False)
                 response.raise_for_status()
             except requests.exceptions.HTTPError as http_err:
                 if response.status_code == 403:
-                    logger.error(f"403 Forbidden error encountered for URL: {url}. Trying Selenium fallback.")
-                    selenium_text = fetch_with_selenium(url)
+                    logger.error(f"403 Forbidden error encountered for URL: {working_url}. Trying Selenium fallback.")
+                    selenium_text = fetch_with_selenium(working_url)
                     if selenium_text:
                         # Post-process as with normal fetch
                         lines = [line.strip() for line in selenium_text.split('\n')]
                         selenium_text = '\n'.join(line for line in lines if line)
                         return selenium_text
                     else:
-                        logger.error(f"Selenium fallback failed for {url}.")
+                        logger.error(f"Selenium fallback failed for {working_url}.")
                 raise
             
-            logger.debug(f"Successfully fetched content from {url} on attempt {attempt + 1}")
+            logger.debug(f"Successfully fetched content from {working_url} on attempt {attempt + 1}")
             soup = BeautifulSoup(response.text, 'html.parser')
             
             # Remove unwanted elements
@@ -644,11 +722,11 @@ def fetch_policy_content(url: str, max_retries: int = 3, retry_delay: int = 2, v
             time.sleep(retry_delay)
 
         except requests.exceptions.RequestException as e:
-            logger.error(f"Error fetching URL {url}: {e}")
+            logger.error(f"Error fetching URL {working_url}: {e}")
             return None
 
         except Exception as e:
-            logger.error(f"Error processing content from URL {url}: {e}")
+            logger.error(f"Error processing content from URL {working_url}: {e}")
             return None
 
     return None
@@ -711,59 +789,51 @@ def analyze_privacy_policy(policy_content: str, law_key: str, organization_name:
             law_country=law_config["country"]
         )
         
-        # Make the API call to OpenRouter
-        api_key = config.get_ai_api_key()
-        if not api_key:
-            logger.error("API key not found in configuration")
-            return {"error": "API key not found"}
-            
-        # Log the request details
-        logger.info(f"Sending request to OpenRouter for {law_config['name']} analysis")
+        # Use Azure OpenAI for analysis
+        logger.info("Preparing Azure OpenAI request for privacy policy analysis")
+        azure_client = config.get_azure_client()
+        if not azure_client:
+            logger.error("Azure client not configured")
+            return {"error": "Azure OpenAI client not configured. Set AZURE_OPENAI_* env vars."}
 
-        
-        response = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "HTTP-Referer": "https://datainfa.com",
-                "X-Title": "Compliance Assessment Tool",
-            },
-            json={
-                "model": "deepseek/deepseek-chat-v3-0324:free",
-                "messages": [
-                    {"role": "system", "content": f"You are a {law_config['name']} compliance expert analyzing privacy policies."},
-                    {"role": "user", "content": analysis_prompt}
-                ],
-                "temperature": 0.1,
-                "max_tokens": 15000
-            }
-        )
-        
-        # Log the response status
-        logger.info(f"Received response from OpenRouter with status code: {response.status_code}")
-        
-        if response.status_code != 200:
-            logger.error(f"API error: {response.status_code}")
-            logger.error(f"API response: {response.text}")
-            return {"error": f"API error: {response.status_code}"}
-            
-        result = response.json()
-        analysis = result["choices"][0]["message"]["content"].strip()
-        logger.info("Successfully received analysis from OpenRouter")
-        
-        # Generate PDF report
-        pdf_content = generate_privacy_policy_pdf(
-            {"analysis": analysis},
-            organization_name=organization_name,
-            law_key=law_key
-        )
-        
-        return {
-            "analysis": analysis,
-            "law_name": law_config["name"],
-            "law_country": law_config["country"],
-            "pdf_content": pdf_content
-        }
+        deployment = config.get_azure_deployment()
+        # Retry on transient errors
+        max_attempts = 3
+        for attempt in range(max_attempts):
+            try:
+                logger.info("Sending request to Azure OpenAI for %s analysis (attempt %d/%d)", law_config['name'], attempt + 1, max_attempts)
+                resp = azure_client.chat.completions.create(
+                    model=deployment,
+                    messages=[
+                        {"role": "system", "content": f"You are a {law_config['name']} compliance expert analyzing privacy policies."},
+                        {"role": "user", "content": analysis_prompt}
+                    ],
+                    # Some Azure deployments only support default temperature; omit to use default
+                    max_completion_tokens=15000,
+                )
+                analysis = (resp.choices[0].message.content or "").strip()
+                if not analysis:
+                    raise ValueError("Empty response content from Azure OpenAI")
+
+                # Generate PDF report
+                pdf_content = generate_privacy_policy_pdf(
+                    {"analysis": analysis},
+                    organization_name=organization_name,
+                    law_key=law_key
+                )
+
+                return {
+                    "analysis": analysis,
+                    "law_name": law_config["name"],
+                    "law_country": law_config["country"],
+                    "pdf_content": pdf_content
+                }
+            except Exception as e:
+                logger.error("Azure OpenAI request failed (attempt %d/%d): %s", attempt + 1, max_attempts, e)
+                if attempt < max_attempts - 1:
+                    time.sleep(2 ** attempt)
+                else:
+                    return {"error": f"Azure OpenAI error: {e}"}
         
     except Exception as e:
         logger.error(f"Error analyzing privacy policy: {str(e)}")

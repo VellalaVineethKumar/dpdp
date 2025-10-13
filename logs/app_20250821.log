@@ -1,0 +1,43 @@
+2025-08-21 12:48:51,170 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:48:52,492 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-08-21 12:48:55,821 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:48:59,483 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:48:59,631 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:48:59,701 - helpers - INFO - Admin token validated
+2025-08-21 12:48:59,803 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:49:15,525 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:49:15,707 - helpers - INFO - Navigating to page: privacy from welcome
+2025-08-21 12:49:15,882 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:49:25,323 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:49:26,164 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:49:30,744 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:49:31,589 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:49:31,628 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI in country: India
+2025-08-21 12:49:32,162 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI: https://www.icicibank.com/privacy
+2025-08-21 12:49:32,163 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicibank.com/privacy
+2025-08-21 12:49:32,368 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.icicibank.com/privacy on attempt 1
+2025-08-21 12:49:32,555 - privacy_policy_analyzer - DEBUG - Removed 29 unwanted elements
+2025-08-21 12:49:32,581 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-08-21 12:49:32,585 - privacy_policy_analyzer - INFO - Successfully extracted 50235 characters of content
+2025-08-21 12:49:32,593 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-21 12:50:09,968 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-21 12:50:09,970 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 'choices'
+2025-08-21 12:52:19,670 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 12:52:19,728 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: ICICI in country: India
+2025-08-21 12:52:20,161 - privacy_policy_analyzer - INFO - Found privacy policy URL for ICICI: https://www.icicibank.com/privacy
+2025-08-21 12:52:20,162 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.icicibank.com/privacy
+2025-08-21 12:52:20,221 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.icicibank.com/privacy on attempt 1
+2025-08-21 12:52:20,396 - privacy_policy_analyzer - DEBUG - Removed 29 unwanted elements
+2025-08-21 12:52:20,423 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-08-21 12:52:20,426 - privacy_policy_analyzer - INFO - Successfully extracted 50235 characters of content
+2025-08-21 12:52:20,431 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-08-21 12:54:03,050 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-08-21 12:54:03,051 - privacy_policy_analyzer - ERROR - Error analyzing privacy policy: 'choices'
+2025-08-21 18:46:02,329 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 20:24:48,636 - __main__ - INFO - Application started - Logging initialized
+2025-08-21 23:00:29,828 - __main__ - INFO - Application started - Logging initialized
+2025-08-22 03:18:36,912 - __main__ - INFO - Application started - Logging initialized
+2025-08-22 08:43:14,450 - __main__ - INFO - Application started - Logging initialized
+2025-08-22 10:55:58,357 - __main__ - INFO - Application started - Logging initialized
+2025-08-22 11:48:29,989 - __main__ - INFO - Application started - Logging initialized
+2025-08-22 13:33:13,353 - __main__ - INFO - Application started - Logging initialized

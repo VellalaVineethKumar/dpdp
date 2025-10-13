@@ -114,22 +114,32 @@ def get_available_industries(regulation_code: str) -> Dict[str, str]:
 
 # AI Report Generation settings
 AI_ENABLED = True
-AI_PROVIDER = "openrouter"
+# Default to Azure unless overridden (keeps ability to switch providers if needed)
+AI_PROVIDER = os.getenv("AI_PROVIDER", "azure").lower()
 
 # --- Read API keys: Prioritize Streamlit Secrets, fallback to environment variables --- #
 
 def get_secret_or_env(secret_name: str, env_var_name: str) -> Optional[str]:
-    """Helper to get key first from st.secrets, then from os.getenv."""
+    """Helper to get key first from st.secrets (only if secrets file exists), then from os.getenv.
+
+    Avoids triggering Streamlit's "No secrets files found" warning by checking presence of
+    a secrets.toml file before accessing st.secrets.
+    """
     key = None
     try:
-        # Check if running in Streamlit context and secrets exist
-        if hasattr(st, 'secrets') and secret_name in st.secrets:
-             key_raw = st.secrets.get(secret_name)
-             if key_raw:
-                 # Clean the key: remove whitespace and surrounding quotes
-                 key = key_raw.strip().strip('"').strip("'")
-                 logger.debug(f"Loaded {secret_name} from Streamlit Secrets.")
-                 return key
+        # Check for a secrets.toml file in common locations before touching st.secrets
+        user_secrets_path = os.path.join(os.path.expanduser('~'), '.streamlit', 'secrets.toml')
+        project_secrets_path = os.path.join(BASE_DIR, '.streamlit', 'secrets.toml')
+        secrets_file_exists = os.path.exists(user_secrets_path) or os.path.exists(project_secrets_path)
+
+        if secrets_file_exists and hasattr(st, 'secrets'):
+            if secret_name in st.secrets:
+                key_raw = st.secrets.get(secret_name)
+                if key_raw:
+                    # Clean the key: remove whitespace and surrounding quotes
+                    key = key_raw.strip().strip('"').strip("'")
+                    logger.debug(f"Loaded {secret_name} from Streamlit Secrets.")
+                    return key
     except Exception as e:
         # st.secrets might not be available during certain phases or tests
         logger.debug(f"Could not access st.secrets for {secret_name}: {e}")
@@ -146,8 +156,8 @@ def get_secret_or_env(secret_name: str, env_var_name: str) -> Optional[str]:
     return None
 
 api_key_1 = get_secret_or_env("openrouter_api_key_1", "OPENROUTER_API_KEY_1")
-api_key_2 = get_secret_or_env("openrouter_api_key_1", "OPENROUTER_API_KEY_2")
-api_key_3 = get_secret_or_env("openrouter_api_key_1", "OPENROUTER_API_KEY_3")
+api_key_2 = get_secret_or_env("openrouter_api_key_2", "OPENROUTER_API_KEY_2")
+api_key_3 = get_secret_or_env("openrouter_api_key_3", "OPENROUTER_API_KEY_3")
 # --- End API Key Reading --- #
 
 # Filter out any keys that were not found (returned None)
@@ -194,3 +204,53 @@ def get_ai_enabled():
 def get_ai_provider():
     """Get the AI provider to use"""
     return AI_PROVIDER
+
+# ----------------- Azure OpenAI configuration -----------------
+try:
+    # Import optionally to avoid hard dependency at import time if not used
+    from openai import AzureOpenAI  # type: ignore
+except Exception:
+    AzureOpenAI = None  # type: ignore
+
+# Read Azure OpenAI settings from secrets/env
+AZURE_OPENAI_ENDPOINT: Optional[str] = get_secret_or_env("azure_openai_endpoint", "AZURE_OPENAI_ENDPOINT") or ""
+AZURE_OPENAI_API_KEY: Optional[str] = get_secret_or_env("azure_openai_api_key", "AZURE_OPENAI_API_KEY") or ""
+AZURE_OPENAI_API_VERSION: str = os.getenv("AZURE_OPENAI_API_VERSION", "2024-12-01-preview")
+AZURE_OPENAI_DEPLOYMENT: str = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-5-mini")
+
+_azure_client_instance = None
+
+def get_azure_client() -> Optional["AzureOpenAI"]:
+    """Return a cached Azure OpenAI client if configured.
+
+    Returns:
+        Optional[AzureOpenAI]: Initialized client or None if misconfigured.
+    """
+    global _azure_client_instance
+    if _azure_client_instance is not None:
+        return _azure_client_instance
+    if AzureOpenAI is None:
+        logger.error("openai package missing or outdated; cannot import AzureOpenAI")
+        return None
+    if not AZURE_OPENAI_ENDPOINT or not AZURE_OPENAI_API_KEY:
+        logger.error("Azure OpenAI configuration missing; set AZURE_OPENAI_ENDPOINT and AZURE_OPENAI_API_KEY")
+        return None
+    try:
+        logger.info(
+            "Initializing Azure OpenAI client (endpoint=%s, version=%s)",
+            AZURE_OPENAI_ENDPOINT,
+            AZURE_OPENAI_API_VERSION,
+        )
+        _azure_client_instance = AzureOpenAI(
+            api_version=AZURE_OPENAI_API_VERSION,
+            azure_endpoint=AZURE_OPENAI_ENDPOINT,
+            api_key=AZURE_OPENAI_API_KEY,
+        )
+        return _azure_client_instance
+    except Exception as exc:
+        logger.error("Failed to initialize Azure OpenAI client: %s", exc)
+        return None
+
+def get_azure_deployment() -> str:
+    """Return the Azure OpenAI deployment name to use for chat completions."""
+    return AZURE_OPENAI_DEPLOYMENT

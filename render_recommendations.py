@@ -6,16 +6,12 @@ This module handles the detailed rendering of recommendations based on assessmen
 
 import streamlit as st
 import logging
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any
+
+from recommendation_engine import get_recommendation_context
 
 # Setup logging
 logger = logging.getLogger(__name__)
-
-# This function duplicates one in recommendation_engine.py
-def get_recommendation_context(questionnaire: Dict[str, Any], responses: Dict[str, str]) -> Dict[str, List[Dict[str, Any]]]:
-    """Get detailed context for recommendations including which questions triggered them."""
-    # Identical to recommendation_engine.py's version
-    # ...existing code...
 
 def render_detailed_recommendations(section_name: str, contexts: List[Dict[str, Any]]):
     """

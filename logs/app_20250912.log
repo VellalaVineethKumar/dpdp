@@ -1,0 +1,608 @@
+2025-09-12 10:22:53,163 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:22:53,163 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:22:53,281 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:22:54,077 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-12 10:22:54,444 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:17,835 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:17,840 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:18,433 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-12 10:23:19,340 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:22,140 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:22,236 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:22,257 - helpers - INFO - Admin token validated
+2025-09-12 10:23:22,317 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:34,786 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:34,808 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-12 10:23:34,897 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:41,078 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:41,922 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:42,609 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 10:23:42,644 - privacy_policy_analyzer - INFO - Search query: site:informatica.com privacy policy (region=in-en)
+2025-09-12 10:23:42,854 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Ainformatica.com%20privacy%20policy 200
+2025-09-12 10:23:43,318 - primp - INFO - response: https://search.brave.com/search?q=site%3Ainformatica.com+privacy+policy&source=web 200
+2025-09-12 10:23:43,337 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain+keyword): https://www.informatica.com/privacy-policy.html
+2025-09-12 10:23:43,338 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-12 10:23:44,245 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-12 10:23:44,458 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-12 10:23:44,460 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-12 10:23:44,462 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-12 10:23:44,532 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 10:24:41,818 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-12 10:24:41,819 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-12 10:24:41,939 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:41,939 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:41,973 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:41,973 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:42,004 - privacy_policy_analyzer - INFO - Successfully read 575115 bytes from PDF
+2025-09-12 10:24:42,005 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpeshf7kfj.pdf
+2025-09-12 10:24:42,085 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:01:58,770 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:01:59,207 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:02:00,413 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:04:41,379 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:04:42,455 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:04:42,482 - helpers - INFO - Admin token validated
+2025-09-12 12:04:42,565 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:04:56,432 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:04:56,468 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-09-12 12:04:56,473 - data_storage - INFO - Saved assessment data for XYZ COMPANY to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\XYZ COMPANY\assessment_20250912_120456.json
+2025-09-12 12:04:56,597 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:04:56,624 - views - INFO - Starting assessment for XYZ COMPANY
+2025-09-12 12:04:56,625 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-09-12 12:04:56,625 - data_storage - INFO - Triggering start notification email for XYZ COMPANY
+2025-09-12 12:04:56,626 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-09-12 12:04:59,845 - data_storage - INFO - Assessment notification email sent for XYZ COMPANY
+2025-09-12 12:04:59,850 - data_storage - INFO - Saved assessment data for XYZ COMPANY to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\XYZ COMPANY\assessment_20250912_120459.json
+2025-09-12 12:04:59,852 - helpers - INFO - Navigating to page: assessment from welcome
+2025-09-12 12:04:59,922 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:04:59,945 - assessment - INFO - Loading questionnaire for regulation: PDPPL, industry: General
+2025-09-12 12:04:59,946 - assessment - INFO - Looking for questionnaire for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL
+2025-09-12 12:04:59,947 - assessment - WARNING - No PDPPL questionnaire found for general in C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL, using default
+2025-09-12 12:04:59,948 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-09-12 12:04:59,949 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\PDPPL\Oil_and_Gas.json
+2025-09-12 12:04:59,975 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Applicability of the PDPPL",
+      "weight": 0.06,
+      "que...
+2025-09-12 12:04:59,977 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Applicability of the PDPPL'
+2025-09-12 12:04:59,978 - views - INFO - [render_assessment] Session selected_country: India
+2025-09-12 12:04:59,979 - views - INFO - [render_assessment] Session selected_industry: Banking and finance
+2025-09-12 12:04:59,979 - views - INFO - [render_assessment] Mapped industry_for_loader: Banking and finance
+2025-09-12 12:04:59,980 - views - INFO - [render_assessment] Using regulation: DPDP for country: India
+2025-09-12 12:04:59,981 - assessment - INFO - Loading questionnaire for regulation: DPDP, industry: Banking and finance
+2025-09-12 12:04:59,981 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\DPDP\banking and finance.json
+2025-09-12 12:04:59,983 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\DPDP\banking and finance.json
+2025-09-12 12:05:00,005 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Data Collection and Processing",
+      "weight": 0.11,
+      ...
+2025-09-12 12:05:00,008 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Data Collection and Processing'
+2025-09-12 12:05:00,009 - views - INFO - [render_assessment] Loaded questionnaire for regulation: DPDP, industry: Banking and finance
+2025-09-12 12:05:02,718 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:02,844 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:02,869 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='PDPPL', industry_code='General'
+2025-09-12 12:05:02,871 - assessment - INFO - [CALC] Using passed parameters: regulation='PDPPL', industry='General'
+2025-09-12 12:05:02,871 - assessment - INFO - [CALC] About to call get_questionnaire('PDPPL', 'General')
+2025-09-12 12:05:02,871 - assessment - INFO - [CALC] Loaded questionnaire has 10 sections for PDPPL/General
+2025-09-12 12:05:02,872 - assessment - INFO - [CALC] First 3 section names: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons']
+2025-09-12 12:05:02,873 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Applicability of the PDPPL', 'Principles of Data Privacy', 'Permitted Reasons', 'Special Nature Processing & Security', "Individuals' Rights & Complaints", 'Governance & Training Awareness', 'Data Privacy Impact Assessment (DPIA) & Privacy by Design', 'Cross Border Data Flows & Third Party Agreements', 'Data Breaches', "Children's Websites"]
+2025-09-12 12:05:02,873 - assessment - ERROR - [CALC] CRITICAL ERROR: Loading PDPPL questionnaire when expecting PDPPL!
+2025-09-12 12:05:02,873 - assessment - INFO - [CALC] Answer points dictionary has 10 entries
+2025-09-12 12:05:02,874 - assessment - INFO - Answer points dictionary has 10 entries
+2025-09-12 12:05:02,874 - assessment - WARNING - Response 'Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.' not found in answer_points
+2025-09-12 12:05:02,875 - assessment - WARNING - Response 'Yes, with detailed itemization: The notice provides a clear, detailed list of all personal data collected and specifies the exact purposes for their use.' not found in answer_points
+2025-09-12 12:05:02,876 - assessment - WARNING - Response 'Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.' not found in answer_points
+2025-09-12 12:05:02,876 - assessment - WARNING - Response 'No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.' not found in answer_points
+2025-09-12 12:05:02,877 - assessment - WARNING - Response 'Not applicable: This option might apply if your organization does not handle data under consent exemptions or if such exemptions are not relevant to your operations.' not found in answer_points
+2025-09-12 12:05:02,877 - assessment - INFO - Processing scores for 10 sections
+2025-09-12 12:05:02,878 - assessment - INFO - Found responses for section indices: [0]
+2025-09-12 12:05:02,878 - assessment - INFO - ===== Calculating score for section: Applicability of the PDPPL =====
+2025-09-12 12:05:02,878 - assessment - INFO - Question 1: Response = 'Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.'
+2025-09-12 12:05:02,879 - assessment - WARNING - No points assigned for response: 'Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.'
+2025-09-12 12:05:02,879 - assessment - INFO - Section 'Applicability of the PDPPL' has all full compliance responses - should have perfect score
+2025-09-12 12:05:02,879 - assessment - INFO - Correcting Applicability of the PDPPL score from 0.0 to 1.0 based on full compliance pattern
+2025-09-12 12:05:02,879 - assessment - INFO - Section Applicability of the PDPPL score: BEFORE=0.0%, AFTER=100.0% (Corrected)
+2025-09-12 12:05:02,879 - assessment - INFO - Section Applicability of the PDPPL: total_points=0.0, max_points=1
+2025-09-12 12:05:02,879 - assessment - INFO - ===== Calculating score for section: Principles of Data Privacy =====
+2025-09-12 12:05:02,879 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,880 - assessment - INFO - Question 2: No response provided
+2025-09-12 12:05:02,880 - assessment - WARNING - Empty responses for section Principles of Data Privacy, using raw score None
+2025-09-12 12:05:02,880 - assessment - INFO - Section Principles of Data Privacy score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,880 - assessment - INFO - Section Principles of Data Privacy: No responses, score set to None
+2025-09-12 12:05:02,880 - assessment - INFO - Section Principles of Data Privacy: total_points=0.0, max_points=2
+2025-09-12 12:05:02,880 - assessment - INFO - ===== Calculating score for section: Permitted Reasons =====
+2025-09-12 12:05:02,881 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,881 - assessment - INFO - Question 2: No response provided
+2025-09-12 12:05:02,881 - assessment - INFO - Question 3: No response provided
+2025-09-12 12:05:02,881 - assessment - WARNING - Empty responses for section Permitted Reasons, using raw score None
+2025-09-12 12:05:02,881 - assessment - INFO - Section Permitted Reasons score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,881 - assessment - INFO - Section Permitted Reasons: No responses, score set to None
+2025-09-12 12:05:02,882 - assessment - INFO - Section Permitted Reasons: total_points=0.0, max_points=3
+2025-09-12 12:05:02,882 - assessment - INFO - ===== Calculating score for section: Special Nature Processing & Security =====
+2025-09-12 12:05:02,882 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,882 - assessment - INFO - Question 2: No response provided
+2025-09-12 12:05:02,882 - assessment - WARNING - Empty responses for section Special Nature Processing & Security, using raw score None
+2025-09-12 12:05:02,883 - assessment - INFO - Section Special Nature Processing & Security score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,883 - assessment - INFO - Section Special Nature Processing & Security: No responses, score set to None
+2025-09-12 12:05:02,883 - assessment - INFO - Section Special Nature Processing & Security: total_points=0.0, max_points=2
+2025-09-12 12:05:02,883 - assessment - INFO - ===== Calculating score for section: Individuals' Rights & Complaints =====
+2025-09-12 12:05:02,883 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,884 - assessment - INFO - Question 2: No response provided
+2025-09-12 12:05:02,884 - assessment - WARNING - Empty responses for section Individuals' Rights & Complaints, using raw score None
+2025-09-12 12:05:02,884 - assessment - INFO - Section Individuals' Rights & Complaints score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,884 - assessment - INFO - Section Individuals' Rights & Complaints: No responses, score set to None
+2025-09-12 12:05:02,885 - assessment - INFO - Section Individuals' Rights & Complaints: total_points=0.0, max_points=2
+2025-09-12 12:05:02,885 - assessment - INFO - ===== Calculating score for section: Governance & Training Awareness =====
+2025-09-12 12:05:02,885 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,885 - assessment - INFO - Question 2: No response provided
+2025-09-12 12:05:02,885 - assessment - INFO - Question 3: No response provided
+2025-09-12 12:05:02,885 - assessment - WARNING - Empty responses for section Governance & Training Awareness, using raw score None
+2025-09-12 12:05:02,886 - assessment - INFO - Section Governance & Training Awareness score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,886 - assessment - INFO - Section Governance & Training Awareness: No responses, score set to None
+2025-09-12 12:05:02,886 - assessment - INFO - Section Governance & Training Awareness: total_points=0.0, max_points=3
+2025-09-12 12:05:02,887 - assessment - INFO - ===== Calculating score for section: Data Privacy Impact Assessment (DPIA) & Privacy by Design =====
+2025-09-12 12:05:02,889 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,889 - assessment - INFO - Question 2: No response provided
+2025-09-12 12:05:02,890 - assessment - WARNING - Empty responses for section Data Privacy Impact Assessment (DPIA) & Privacy by Design, using raw score None
+2025-09-12 12:05:02,890 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,891 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: No responses, score set to None
+2025-09-12 12:05:02,891 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: total_points=0.0, max_points=2
+2025-09-12 12:05:02,891 - assessment - INFO - ===== Calculating score for section: Cross Border Data Flows & Third Party Agreements =====
+2025-09-12 12:05:02,892 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,892 - assessment - INFO - Question 2: No response provided
+2025-09-12 12:05:02,892 - assessment - WARNING - Empty responses for section Cross Border Data Flows & Third Party Agreements, using raw score None
+2025-09-12 12:05:02,892 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,893 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: No responses, score set to None
+2025-09-12 12:05:02,893 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: total_points=0.0, max_points=2
+2025-09-12 12:05:02,894 - assessment - INFO - ===== Calculating score for section: Data Breaches =====
+2025-09-12 12:05:02,896 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,896 - assessment - WARNING - Empty responses for section Data Breaches, using raw score None
+2025-09-12 12:05:02,897 - assessment - INFO - Section Data Breaches score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,897 - assessment - INFO - Section Data Breaches: No responses, score set to None
+2025-09-12 12:05:02,897 - assessment - INFO - Section Data Breaches: total_points=0.0, max_points=1
+2025-09-12 12:05:02,897 - assessment - INFO - ===== Calculating score for section: Children's Websites =====
+2025-09-12 12:05:02,898 - assessment - INFO - Question 1: No response provided
+2025-09-12 12:05:02,898 - assessment - WARNING - Empty responses for section Children's Websites, using raw score None
+2025-09-12 12:05:02,898 - assessment - INFO - Section Children's Websites score: AFTER=0.0% (Raw score was None)
+2025-09-12 12:05:02,898 - assessment - INFO - Section Children's Websites: No responses, score set to None
+2025-09-12 12:05:02,899 - assessment - INFO - Section Children's Websites: total_points=0.0, max_points=1
+2025-09-12 12:05:02,899 - assessment - INFO - Verifying all sections have scores...
+2025-09-12 12:05:02,899 - assessment - INFO - Calculated section scores: {'Applicability of the PDPPL': 1.0, 'Principles of Data Privacy': None, 'Permitted Reasons': None, 'Special Nature Processing & Security': None, "Individuals' Rights & Complaints": None, 'Governance & Training Awareness': None, 'Data Privacy Impact Assessment (DPIA) & Privacy by Design': None, 'Cross Border Data Flows & Third Party Agreements': None, 'Data Breaches': None, "Children's Websites": None}
+2025-09-12 12:05:02,899 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-09-12 12:05:02,899 - assessment - INFO - Section Applicability of the PDPPL: score=1.00, weight=0.06, contribution=0.06
+2025-09-12 12:05:02,899 - assessment - INFO - Section Principles of Data Privacy: SKIPPED (no score)
+2025-09-12 12:05:02,900 - assessment - INFO - Section Permitted Reasons: SKIPPED (no score)
+2025-09-12 12:05:02,900 - assessment - INFO - Section Special Nature Processing & Security: SKIPPED (no score)
+2025-09-12 12:05:02,900 - assessment - INFO - Section Individuals' Rights & Complaints: SKIPPED (no score)
+2025-09-12 12:05:02,900 - assessment - INFO - Section Governance & Training Awareness: SKIPPED (no score)
+2025-09-12 12:05:02,900 - assessment - INFO - Section Data Privacy Impact Assessment (DPIA) & Privacy by Design: SKIPPED (no score)
+2025-09-12 12:05:02,901 - assessment - INFO - Section Cross Border Data Flows & Third Party Agreements: SKIPPED (no score)
+2025-09-12 12:05:02,901 - assessment - INFO - Section Data Breaches: SKIPPED (no score)
+2025-09-12 12:05:02,901 - assessment - INFO - Section Children's Websites: SKIPPED (no score)
+2025-09-12 12:05:02,901 - assessment - INFO - Total weighted score: 0.06, Total weight: 0.06
+2025-09-12 12:05:02,901 - assessment - INFO - Overall score calculation: (0.06 / total_weight) * 100 = 100.00%
+2025-09-12 12:05:03,913 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:04,063 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:04,587 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:04,699 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:05,863 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:05,988 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:06,742 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:06,850 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:09,551 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:09,680 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:10,262 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:10,400 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:11,127 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:11,264 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:12,101 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:12,245 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:13,390 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:13,513 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:15,772 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:15,901 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:17,592 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:17,715 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:18,649 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:18,766 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:19,586 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:19,705 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:20,926 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:21,049 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:21,754 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:21,887 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:22,564 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:22,693 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:23,283 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:23,421 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:24,483 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:24,608 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:25,548 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:25,665 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:26,216 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:26,366 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:26,975 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:27,083 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:27,841 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:05:27,981 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:37,160 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:37,306 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:37,956 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:38,116 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:38,695 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:38,817 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:40,646 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:40,682 - assessment - INFO - [CALC] calculate_compliance_score CALLED with regulation_code='DPDP', industry_code='Banking and finance'
+2025-09-12 12:06:40,683 - assessment - INFO - [CALC] Using passed parameters: regulation='DPDP', industry='Banking and finance'
+2025-09-12 12:06:40,684 - assessment - INFO - [CALC] About to call get_questionnaire('DPDP', 'Banking and finance')
+2025-09-12 12:06:40,686 - assessment - INFO - [CALC] Loaded questionnaire has 13 sections for DPDP/Banking and finance
+2025-09-12 12:06:40,687 - assessment - INFO - [CALC] First 3 section names: ['Data Collection and Processing', 'Data Principal Rights', 'Data Security Measures']
+2025-09-12 12:06:40,688 - assessment - INFO - [CALC] ALL SECTION NAMES: ['Data Collection and Processing', 'Data Principal Rights', 'Data Security Measures', 'Data Breach Notification', 'Data Retention and Erasure', 'Data Accuracy and Completeness', "Children's Data Protection", 'Third-Party Processing', 'Cross-Border Data Transfers', 'Significant Data Fiduciary Obligations', 'Grievance Redressal', 'Exemptions', 'Documentation and Compliance']
+2025-09-12 12:06:40,689 - assessment - WARNING - [CALC] UNKNOWN: Questionnaire type unclear for DPDP
+2025-09-12 12:06:40,689 - assessment - INFO - [CALC] Answer points dictionary has 175 entries
+2025-09-12 12:06:40,690 - assessment - INFO - Answer points dictionary has 175 entries
+2025-09-12 12:06:40,690 - assessment - WARNING - Response 'Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.' not found in answer_points
+2025-09-12 12:06:40,691 - assessment - WARNING - Response 'The Manual processes are in place, but they are effective: The organization uses manual processes for data erasure, which are effective but may not be as efficient or compliant with recognized standards as automated solutions.' not found in answer_points
+2025-09-12 12:06:40,694 - assessment - WARNING - Response 'Yes, with robust measures: The organization has implemented comprehensive technical and organizational measures to ensure the effectiveness of the grievance redressal system, including dedicated channels for submitting grievances, clear timelines for resolution, and a robust monitoring system to analyze performance and identify trends.' not found in answer_points
+2025-09-12 12:06:40,701 - assessment - INFO - Processing scores for 13 sections
+2025-09-12 12:06:40,705 - assessment - INFO - Found responses for section indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+2025-09-12 12:06:40,708 - assessment - INFO - ===== Calculating score for section: Data Collection and Processing =====
+2025-09-12 12:06:40,712 - assessment - INFO - Question 1: Response = 'Yes, Notices are provided in English and all 22 official Indian languages listed in the Eighth Schedule of the Constitution.'
+2025-09-12 12:06:40,724 - assessment - INFO - Question 1: Points = 1.0 (partial match)
+2025-09-12 12:06:40,728 - assessment - INFO - Question 2: Response = 'Yes, with detailed itemization: The notice provides a clear, detailed list of all personal data collected and specifies the exact purposes for their use.'
+2025-09-12 12:06:40,733 - assessment - INFO - Question 2: Points = 1.0
+2025-09-12 12:06:40,737 - assessment - INFO - Question 2: Adding 1.0 points, running total = 1.0/2
+2025-09-12 12:06:40,740 - assessment - INFO - Question 3: Response = 'Partially, but consent mechanisms need improvement: Consent is obtained, but the process could be clearer or more explicit.'
+2025-09-12 12:06:40,742 - assessment - INFO - Question 3: Points = 0.5
+2025-09-12 12:06:40,745 - assessment - INFO - Question 3: Adding 0.5 points, running total = 1.5/3
+2025-09-12 12:06:40,752 - assessment - INFO - Question 4: Response = 'No, processing often exceeds specified purposes: The organization frequently processes personal data for purposes not specified in the notice.'
+2025-09-12 12:06:40,755 - assessment - INFO - Question 4: Points = 0.0
+2025-09-12 12:06:40,759 - assessment - INFO - Question 4: Adding 0.0 points, running total = 1.5/4
+2025-09-12 12:06:40,762 - assessment - INFO - Question 5: Response = 'Not applicable: This option might apply if your organization does not handle data under consent exemptions or if such exemptions are not relevant to your operations.'
+2025-09-12 12:06:40,762 - assessment - INFO - Question 5: Points = None
+2025-09-12 12:06:40,762 - assessment - INFO - Section Data Collection and Processing score: BEFORE=30.0%, AFTER=30.0% (Corrected)
+2025-09-12 12:06:40,762 - assessment - INFO - Section Data Collection and Processing: total_points=1.5, max_points=5
+2025-09-12 12:06:40,763 - assessment - INFO - ===== Calculating score for section: Data Principal Rights =====
+2025-09-12 12:06:40,763 - assessment - INFO - Question 1: Response = 'Yes, with clear, accessible channels: The organization provides straightforward and user-friendly methods for data principals to request access, correction, or erasure of their personal data, aligning with DPDP Act requirements.'
+2025-09-12 12:06:40,763 - assessment - INFO - Question 1: Points = 1.0
+2025-09-12 12:06:40,763 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-09-12 12:06:40,765 - assessment - INFO - Question 2: Response = 'Partially, but the feature needs improvement: While some mechanism exists, it may not be fully accessible or user-friendly, requiring further enhancements.'
+2025-09-12 12:06:40,766 - assessment - INFO - Question 2: Points = 0.5
+2025-09-12 12:06:40,766 - assessment - INFO - Question 2: Adding 0.5 points, running total = 1.5/2
+2025-09-12 12:06:40,767 - assessment - INFO - Question 3: Response = 'Yes, with established processes and timelines: The organization has developed internal mechanisms to ensure timely responses to data principal requests, typically within the specified timeframe (e.g., 30 days).'
+2025-09-12 12:06:40,768 - assessment - INFO - Question 3: Points = 1.0
+2025-09-12 12:06:40,768 - assessment - INFO - Question 3: Adding 1.0 points, running total = 2.5/3
+2025-09-12 12:06:40,768 - assessment - INFO - Question 4: Response = 'Not applicable: This option might apply if your organization does not handle personal data or if such grievances are not relevant to your operations.'
+2025-09-12 12:06:40,768 - assessment - INFO - Question 4: Points = None
+2025-09-12 12:06:40,769 - assessment - INFO - Question 5: Response = 'Yes, with clear nomination procedures: The organization provides a straightforward process for data principals to nominate representatives to exercise their rights, especially in cases of incapacity or death.'
+2025-09-12 12:06:40,769 - assessment - INFO - Question 5: Points = 1.0
+2025-09-12 12:06:40,769 - assessment - INFO - Question 5: Adding 1.0 points, running total = 3.5/5
+2025-09-12 12:06:40,769 - assessment - INFO - Section Data Principal Rights score: BEFORE=70.0%, AFTER=70.0% (Corrected)
+2025-09-12 12:06:40,770 - assessment - INFO - Section Data Principal Rights: total_points=3.5, max_points=5
+2025-09-12 12:06:40,770 - assessment - INFO - ===== Calculating score for section: Data Security Measures =====
+2025-09-12 12:06:40,770 - assessment - INFO - Question 1: Response = 'Not applicable: This option might apply if your organization does not handle personal data or if such measures are not relevant to your operations.'
+2025-09-12 12:06:40,770 - assessment - INFO - Question 1: Points = None
+2025-09-12 12:06:40,770 - assessment - INFO - Question 2: Response = 'No, we lack adequate access controls: The organization does not have sufficient access controls in place to protect computer resources from unauthorized access.'
+2025-09-12 12:06:40,770 - assessment - INFO - Question 2: Points = 0.0
+2025-09-12 12:06:40,770 - assessment - INFO - Question 2: Adding 0.0 points, running total = 0.0/2
+2025-09-12 12:06:40,772 - assessment - INFO - Question 3: Response = 'Yes, with comprehensive logging and monitoring: The organization has implemented robust logging, monitoring, and review systems to detect unauthorized access to personal data, ensuring timely identification and response to security incidents.'
+2025-09-12 12:06:40,772 - assessment - INFO - Question 3: Points = 1.0
+2025-09-12 12:06:40,772 - assessment - INFO - Question 3: Adding 1.0 points, running total = 1.0/3
+2025-09-12 12:06:40,772 - assessment - INFO - Question 4: Response = 'Partially, but backup and recovery processes need improvement: While some measures exist, they may not be fully reliable or comprehensive in case of data compromise.'
+2025-09-12 12:06:40,773 - assessment - INFO - Question 4: Points = 0.5
+2025-09-12 12:06:40,773 - assessment - INFO - Question 4: Adding 0.5 points, running total = 1.5/4
+2025-09-12 12:06:40,773 - assessment - INFO - Question 5: Response = 'Partially, but retention period is less than one year: While some logs and data are retained, the retention period is shorter than one year.'
+2025-09-12 12:06:40,773 - assessment - INFO - Question 5: Points = 0.5
+2025-09-12 12:06:40,773 - assessment - INFO - Question 5: Adding 0.5 points, running total = 2.0/5
+2025-09-12 12:06:40,774 - assessment - INFO - Section Data Security Measures score: BEFORE=40.0%, AFTER=40.0% (Corrected)
+2025-09-12 12:06:40,774 - assessment - INFO - Section Data Security Measures: total_points=2.0, max_points=5
+2025-09-12 12:06:40,774 - assessment - INFO - ===== Calculating score for section: Data Breach Notification =====
+2025-09-12 12:06:40,774 - assessment - INFO - Question 1: Response = 'Partially, but notification procedures need improvement: While some procedures exist, they may not ensure timely notification to all affected data principals.'
+2025-09-12 12:06:40,775 - assessment - INFO - Question 1: Points = 0.5
+2025-09-12 12:06:40,775 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-09-12 12:06:40,775 - assessment - INFO - Question 2: Response = 'Yes, with comprehensive details: The breach notification includes a clear description of the breach (nature, timing, and location), its likely consequences for affected data principals, measures implemented to mitigate risks, and safety measures data principals can take to protect themselves.'
+2025-09-12 12:06:40,775 - assessment - INFO - Question 2: Points = 1.0
+2025-09-12 12:06:40,775 - assessment - INFO - Question 2: Adding 1.0 points, running total = 1.5/2
+2025-09-12 12:06:40,776 - assessment - INFO - Question 3: Response = 'Yes, with established procedures for timely notification: The organization has implemented processes to ensure that the Data Protection Board is notified within 72 hours of becoming aware of a breach, as required by the DPDP Act.'
+2025-09-12 12:06:40,776 - assessment - INFO - Question 3: Points = 1.0
+2025-09-12 12:06:40,776 - assessment - INFO - Question 3: Adding 1.0 points, running total = 2.5/3
+2025-09-12 12:06:40,776 - assessment - INFO - Section Data Breach Notification score: BEFORE=83.3%, AFTER=83.3% (Corrected)
+2025-09-12 12:06:40,777 - assessment - INFO - Section Data Breach Notification: total_points=2.5, max_points=3
+2025-09-12 12:06:40,779 - assessment - INFO - ===== Calculating score for section: Data Retention and Erasure =====
+2025-09-12 12:06:40,779 - assessment - INFO - Question 1: Response = 'Manual processes are in place, but they are effective: The organization uses manual processes for erasing personal data, which are effective but may not be as efficient as automated systems.'
+2025-09-12 12:06:40,779 - assessment - INFO - Question 1: Points = 0
+2025-09-12 12:06:40,779 - assessment - INFO - Question 1: Adding 0 points, running total = 0.0/1
+2025-09-12 12:06:40,780 - assessment - INFO - Question 2: Response = 'Yes, with automated processes for data erasure: The organization has implemented automated processes to erase personal data when it is no longer necessary for the specified purpose or when the customer has not approached for data processing within the prescribed time period.'
+2025-09-12 12:06:40,780 - assessment - INFO - Question 2: Points = 1.0
+2025-09-12 12:06:40,780 - assessment - INFO - Question 2: Adding 1.0 points, running total = 1.0/2
+2025-09-12 12:06:40,780 - assessment - INFO - Question 3: Response = 'Yes, with consistent 48-hour notice: The organization provides a minimum of 48 hours' notice to customers before deleting their personal data, as required by the DPDP Act.'
+2025-09-12 12:06:40,781 - assessment - INFO - Question 3: Points = 1.0
+2025-09-12 12:06:40,781 - assessment - INFO - Question 3: Adding 1.0 points, running total = 2.0/3
+2025-09-12 12:06:40,781 - assessment - INFO - Question 4: Response = 'The Manual processes are in place, but they are effective: The organization uses manual processes for data erasure, which are effective but may not be as efficient or compliant with recognized standards as automated solutions.'
+2025-09-12 12:06:40,781 - assessment - INFO - Question 4: Points = 0 (partial match)
+2025-09-12 12:06:40,781 - assessment - WARNING - No points assigned for response: 'The Manual processes are in place, but they are effective: The organization uses manual processes for data erasure, which are effective but may not be as efficient or compliant with recognized standards as automated solutions.'
+2025-09-12 12:06:40,782 - assessment - INFO - Section Data Retention and Erasure score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-09-12 12:06:40,782 - assessment - INFO - Section Data Retention and Erasure: total_points=2.0, max_points=4
+2025-09-12 12:06:40,782 - assessment - INFO - ===== Calculating score for section: Data Accuracy and Completeness =====
+2025-09-12 12:06:40,783 - assessment - INFO - Question 1: Response = 'Not Applicable: Our organization does not handle personal data or process customer decisions based on such data.'
+2025-09-12 12:06:40,783 - assessment - INFO - Question 1: Points = None
+2025-09-12 12:06:40,783 - assessment - INFO - Question 2: Response = 'Manual tracking is used instead of automated logs: The organization relies on manual methods or basic tracking systems for monitoring database changes, which may not be as efficient or reliable as automated audit logs.'
+2025-09-12 12:06:40,785 - assessment - INFO - Question 2: Points = 0
+2025-09-12 12:06:40,790 - assessment - INFO - Question 2: Adding 0 points, running total = 0.0/2
+2025-09-12 12:06:40,793 - assessment - INFO - Section Data Accuracy and Completeness score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-09-12 12:06:40,797 - assessment - INFO - Section Data Accuracy and Completeness: total_points=0.0, max_points=2
+2025-09-12 12:06:40,801 - assessment - INFO - ===== Calculating score for section: Children's Data Protection =====
+2025-09-12 12:06:40,804 - assessment - INFO - Question 1: Response = 'No, we lack mechanisms for obtaining verifiable parental consent: The organization does not have specific mechanisms in place to obtain verifiable parental consent before processing children's data.'
+2025-09-12 12:06:40,807 - assessment - INFO - Question 1: Points = 0.0
+2025-09-12 12:06:40,828 - assessment - INFO - Question 1: Adding 0.0 points, running total = 0.0/1
+2025-09-12 12:06:40,848 - assessment - INFO - Question 2: Response = 'Yes, with robust identity verification methods: The organization uses advanced technical measures such as biometric verification, document-based verification (e.g., government IDs), or digital tokens to verify the identity and age of parents, ensuring compliance with legal requirements.'
+2025-09-12 12:06:40,858 - assessment - INFO - Question 2: Points = 1.0
+2025-09-12 12:06:40,861 - assessment - INFO - Question 2: Adding 1.0 points, running total = 1.0/2
+2025-09-12 12:06:40,864 - assessment - INFO - Question 3: Response = 'Yes, we qualify for exemptions: The organization falls under categories exempted from obtaining verifiable parental consent for processing children's data, such as educational institutions, healthcare providers, or childcare services, provided that the processing is for specific purposes like education, health services, or child safety.'
+2025-09-12 12:06:40,866 - assessment - INFO - Question 3: Points = 1.0
+2025-09-12 12:06:40,867 - assessment - INFO - Question 3: Adding 1.0 points, running total = 2.0/3
+2025-09-12 12:06:40,868 - assessment - INFO - Section Children's Data Protection score: BEFORE=66.7%, AFTER=66.7% (Corrected)
+2025-09-12 12:06:40,869 - assessment - INFO - Section Children's Data Protection: total_points=2.0, max_points=3
+2025-09-12 12:06:40,869 - assessment - INFO - ===== Calculating score for section: Third-Party Processing =====
+2025-09-12 12:06:40,869 - assessment - INFO - Question 1: Response = 'Not applicable: This option might apply if your organization does not engage third-party processors or if such contracts are not relevant to your operations.'
+2025-09-12 12:06:40,870 - assessment - INFO - Question 1: Points = None
+2025-09-12 12:06:40,871 - assessment - INFO - Question 2: Response = 'No, we lack adequate security provisions: The organization's contracts with data processors do not include sufficient provisions for security safeguards, which could leave data vulnerable to unauthorized access or breaches.'
+2025-09-12 12:06:40,871 - assessment - INFO - Question 2: Points = 0.0
+2025-09-12 12:06:40,872 - assessment - INFO - Question 2: Adding 0.0 points, running total = 0.0/2
+2025-09-12 12:06:40,872 - assessment - INFO - Section Third-Party Processing score: BEFORE=0.0%, AFTER=0.0% (Corrected)
+2025-09-12 12:06:40,872 - assessment - INFO - Section Third-Party Processing: total_points=0.0, max_points=2
+2025-09-12 12:06:40,873 - assessment - INFO - ===== Calculating score for section: Cross-Border Data Transfers =====
+2025-09-12 12:06:40,873 - assessment - INFO - Question 1: Response = 'Yes, with full compliance: The organization fully complies with data localization norms set by regulators such as the RBI and IRDAI, ensuring that all relevant data (e.g., payment system data, insurance records) is stored within India as required.'
+2025-09-12 12:06:40,874 - assessment - INFO - Question 1: Points = 1.0
+2025-09-12 12:06:40,874 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-09-12 12:06:40,883 - assessment - INFO - Question 2: Response = 'No, we do not comply with data localization requirements: The organization does not adhere to the requirement to keep specified personal data and traffic data within India, which could lead to regulatory issues.'
+2025-09-12 12:06:40,885 - assessment - INFO - Question 2: Points = 0.0
+2025-09-12 12:06:40,886 - assessment - INFO - Question 2: Adding 0.0 points, running total = 1.0/2
+2025-09-12 12:06:40,887 - assessment - INFO - Question 3: Response = 'Yes, with full compliance: The organization fully complies with the Central Government's requirements for making personal data available to foreign entities, adhering to any restrictions or conditions set forth by the government regarding cross-border data transfers.'
+2025-09-12 12:06:40,887 - assessment - INFO - Question 3: Points = 1.0
+2025-09-12 12:06:40,889 - assessment - INFO - Question 3: Adding 1.0 points, running total = 2.0/3
+2025-09-12 12:06:40,889 - assessment - INFO - Section Cross-Border Data Transfers score: BEFORE=66.7%, AFTER=66.7% (Corrected)
+2025-09-12 12:06:40,889 - assessment - INFO - Section Cross-Border Data Transfers: total_points=2.0, max_points=3
+2025-09-12 12:06:40,890 - assessment - INFO - ===== Calculating score for section: Significant Data Fiduciary Obligations =====
+2025-09-12 12:06:40,890 - assessment - INFO - Question 1: Response = 'Partially, but frequency or scope needs improvement: While DPIAs and audits are conducted, they may not be performed annually or may not cover all necessary aspects, requiring adjustments to meet regulatory requirements.'
+2025-09-12 12:06:40,890 - assessment - INFO - Question 1: Points = 0.5
+2025-09-12 12:06:40,890 - assessment - INFO - Question 1: Adding 0.5 points, running total = 0.5/1
+2025-09-12 12:06:40,890 - assessment - INFO - Question 2: Response = 'No, we do not submit such reports: The organization does not submit reports containing significant observations from DPIAs and audits to the Data Protection Board, which could lead to non-compliance and potential penalties.'
+2025-09-12 12:06:40,891 - assessment - INFO - Question 2: Points = 0.0
+2025-09-12 12:06:40,891 - assessment - INFO - Question 2: Adding 0.0 points, running total = 0.5/2
+2025-09-12 12:06:40,891 - assessment - INFO - Question 3: Response = 'No, we lack due diligence processes: The organization does not have specific due diligence processes in place to verify the safety of algorithmic software used for personal data processing, which could lead to compliance issues.'
+2025-09-12 12:06:40,891 - assessment - INFO - Question 3: Points = 0.0
+2025-09-12 12:06:40,891 - assessment - INFO - Question 3: Adding 0.0 points, running total = 0.5/3
+2025-09-12 12:06:40,891 - assessment - INFO - Section Significant Data Fiduciary Obligations score: BEFORE=16.7%, AFTER=16.7% (Corrected)
+2025-09-12 12:06:40,891 - assessment - INFO - Section Significant Data Fiduciary Obligations: total_points=0.5, max_points=3
+2025-09-12 12:06:40,893 - assessment - INFO - ===== Calculating score for section: Grievance Redressal =====
+2025-09-12 12:06:40,893 - assessment - INFO - Question 1: Response = 'Yes, with a comprehensive mechanism: The organization has established a robust grievance redressal mechanism that includes dedicated channels for receiving and handling complaints, such as a customer service desk, email address, or online portal. This mechanism ensures timely responses to data principals' grievances regarding their personal data processing.'
+2025-09-12 12:06:40,893 - assessment - INFO - Question 1: Points = 1.0
+2025-09-12 12:06:40,895 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-09-12 12:06:40,896 - assessment - INFO - Question 2: Response = 'Yes, with clear publication: The organization has clearly published the timeframe for responding to grievances on its website and/or app, ensuring transparency and compliance with regulatory requirements.'
+2025-09-12 12:06:40,896 - assessment - INFO - Question 2: Points = 1.0
+2025-09-12 12:06:40,897 - assessment - INFO - Question 2: Adding 1.0 points, running total = 2.0/2
+2025-09-12 12:06:40,897 - assessment - INFO - Question 3: Response = 'Yes, with robust measures: The organization has implemented comprehensive technical and organizational measures to ensure the effectiveness of the grievance redressal system, including dedicated channels for submitting grievances, clear timelines for resolution, and a robust monitoring system to analyze performance and identify trends.'
+2025-09-12 12:06:40,898 - assessment - WARNING - No points assigned for response: 'Yes, with robust measures: The organization has implemented comprehensive technical and organizational measures to ensure the effectiveness of the grievance redressal system, including dedicated channels for submitting grievances, clear timelines for resolution, and a robust monitoring system to analyze performance and identify trends.'
+2025-09-12 12:06:40,898 - assessment - INFO - Section 'Grievance Redressal' has all full compliance responses - should have perfect score
+2025-09-12 12:06:40,900 - assessment - INFO - Correcting Grievance Redressal score from 0.6666666666666666 to 1.0 based on full compliance pattern
+2025-09-12 12:06:40,901 - assessment - INFO - Section Grievance Redressal score: BEFORE=66.7%, AFTER=100.0% (Corrected)
+2025-09-12 12:06:40,901 - assessment - INFO - Section Grievance Redressal: total_points=2.0, max_points=3
+2025-09-12 12:06:40,902 - assessment - INFO - ===== Calculating score for section: Exemptions =====
+2025-09-12 12:06:40,902 - assessment - INFO - Question 1: Response = 'Yes, we are aware of these exemptions: The organization is aware of the exemptions under the DPDP Act that allow for processing personal data without consent for specific purposes, such as preventing or investigating offenses, assessing financial information of loan defaulters, and enforcing legal rights or claims.'
+2025-09-12 12:06:40,902 - assessment - INFO - Question 1: Points = 1.0
+2025-09-12 12:06:40,903 - assessment - INFO - Question 1: Adding 1.0 points, running total = 1.0/1
+2025-09-12 12:06:40,903 - assessment - INFO - Question 2: Response = 'No, we have not received exemptions: The organization has not been granted any exemptions by the government related to the volume and nature of personal data processed.'
+2025-09-12 12:06:40,903 - assessment - INFO - Question 2: Points = 0.0
+2025-09-12 12:06:40,903 - assessment - INFO - Question 2: Adding 0.0 points, running total = 1.0/2
+2025-09-12 12:06:40,904 - assessment - INFO - Section Exemptions score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-09-12 12:06:40,904 - assessment - INFO - Section Exemptions: total_points=1.0, max_points=2
+2025-09-12 12:06:40,905 - assessment - INFO - ===== Calculating score for section: Documentation and Compliance =====
+2025-09-12 12:06:40,905 - assessment - INFO - Question 1: Response = 'No, we lack comprehensive documentation: The organization does not have adequate documentation of its personal data protection processes, which could lead to compliance issues and difficulties in demonstrating accountability.'
+2025-09-12 12:06:40,905 - assessment - INFO - Question 1: Points = 0.0
+2025-09-12 12:06:40,905 - assessment - INFO - Question 1: Adding 0.0 points, running total = 0.0/1
+2025-09-12 12:06:40,905 - assessment - INFO - Question 2: Response = 'Not applicable: This option might apply if your organization does not handle personal data or if such reviews and updates are not relevant to your operations.'
+2025-09-12 12:06:40,907 - assessment - INFO - Question 2: Points = None
+2025-09-12 12:06:40,907 - assessment - INFO - Question 3: Response = 'Yes, with a designated person (not a formal DPO): While not formally appointing a DPO, the organization has designated a person responsible for answering questions about data processing and ensuring compliance with data protection regulations.'
+2025-09-12 12:06:40,907 - assessment - INFO - Question 3: Points = 1.0
+2025-09-12 12:06:40,907 - assessment - INFO - Question 3: Adding 1.0 points, running total = 1.0/3
+2025-09-12 12:06:40,907 - assessment - INFO - Question 4: Response = 'Yes, with comprehensive training programs: The organization conducts regular and comprehensive training sessions for all staff on DPDP compliance requirements. These sessions cover key aspects such as data protection principles, consent management, data security, and handling personal data breaches, ensuring that employees are well-informed and compliant.'
+2025-09-12 12:06:40,908 - assessment - INFO - Question 4: Points = 1.0
+2025-09-12 12:06:40,908 - assessment - INFO - Question 4: Adding 1.0 points, running total = 2.0/4
+2025-09-12 12:06:40,908 - assessment - INFO - Question 5: Response = 'Partially, but the process needs improvement: While some efforts are made to monitor changes, such as occasional reviews or informal updates, the process is not systematic or comprehensive enough to ensure full compliance with evolving regulations.'
+2025-09-12 12:06:40,908 - assessment - INFO - Question 5: Points = 0.5
+2025-09-12 12:06:40,909 - assessment - INFO - Question 5: Adding 0.5 points, running total = 2.5/5
+2025-09-12 12:06:40,909 - assessment - INFO - Section Documentation and Compliance score: BEFORE=50.0%, AFTER=50.0% (Corrected)
+2025-09-12 12:06:40,909 - assessment - INFO - Section Documentation and Compliance: total_points=2.5, max_points=5
+2025-09-12 12:06:40,911 - assessment - INFO - Verifying all sections have scores...
+2025-09-12 12:06:40,913 - assessment - INFO - Calculated section scores: {'Data Collection and Processing': 0.3, 'Data Principal Rights': 0.7, 'Data Security Measures': 0.4, 'Data Breach Notification': 0.8333333333333334, 'Data Retention and Erasure': 0.5, 'Data Accuracy and Completeness': 0.0, "Children's Data Protection": 0.6666666666666666, 'Third-Party Processing': 0.0, 'Cross-Border Data Transfers': 0.6666666666666666, 'Significant Data Fiduciary Obligations': 0.16666666666666666, 'Grievance Redressal': 1.0, 'Exemptions': 0.5, 'Documentation and Compliance': 0.5}
+2025-09-12 12:06:40,915 - assessment - INFO - ===== Calculating weighted overall score =====
+2025-09-12 12:06:40,915 - assessment - INFO - Section Data Collection and Processing: score=0.30, weight=0.11, contribution=0.03
+2025-09-12 12:06:40,916 - assessment - INFO - Section Data Principal Rights: score=0.70, weight=0.11, contribution=0.08
+2025-09-12 12:06:40,916 - assessment - INFO - Section Data Security Measures: score=0.40, weight=0.13, contribution=0.05
+2025-09-12 12:06:40,916 - assessment - INFO - Section Data Breach Notification: score=0.83, weight=0.10, contribution=0.08
+2025-09-12 12:06:40,916 - assessment - INFO - Section Data Retention and Erasure: score=0.50, weight=0.05, contribution=0.03
+2025-09-12 12:06:40,916 - assessment - INFO - Section Data Accuracy and Completeness: score=0.00, weight=0.08, contribution=0.00
+2025-09-12 12:06:40,917 - assessment - INFO - Section Children's Data Protection: score=0.67, weight=0.03, contribution=0.02
+2025-09-12 12:06:40,917 - assessment - INFO - Section Third-Party Processing: score=0.00, weight=0.08, contribution=0.00
+2025-09-12 12:06:40,919 - assessment - INFO - Section Cross-Border Data Transfers: score=0.67, weight=0.06, contribution=0.04
+2025-09-12 12:06:40,921 - assessment - INFO - Section Significant Data Fiduciary Obligations: score=0.17, weight=0.10, contribution=0.02
+2025-09-12 12:06:40,921 - assessment - INFO - Section Grievance Redressal: score=1.00, weight=0.05, contribution=0.05
+2025-09-12 12:06:40,922 - assessment - INFO - Section Exemptions: score=0.50, weight=0.03, contribution=0.01
+2025-09-12 12:06:40,923 - assessment - INFO - Section Documentation and Compliance: score=0.50, weight=0.06, contribution=0.03
+2025-09-12 12:06:40,923 - assessment - INFO - Total weighted score: 0.44200000000000006, Total weight: 0.99
+2025-09-12 12:06:40,923 - assessment - INFO - Overall score calculation: (0.44200000000000006 / total_weight) * 100 = 44.65%
+2025-09-12 12:06:40,924 - assessment - INFO - Added recommendation from partial match: The organization does not adhere to the requirement to keep specified personal data and traffic data within India, which could lead to regulatory issues. Establish controls to restrict the transfer of specified personal and traffic data outside India, aligning with DPDP Section 12(4).
+2025-09-12 12:06:41,052 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 12:06:42,885 - views - INFO - Requesting AI report generation with the following configuration:
+2025-09-12 12:06:42,886 - views - INFO - AI enabled: True
+2025-09-12 12:06:42,887 - views - INFO - API key available: Yes
+2025-09-12 12:06:42,887 - views - INFO - API provider: openrouter
+2025-09-12 12:06:42,887 - nlg_report - INFO - AI API is fully configured and enabled
+2025-09-12 12:06:42,888 - nlg_report - INFO - Configuring OpenRouter API client
+2025-09-12 12:06:43,647 - nlg_report - INFO - OpenRouter client configured with model: deepseek/deepseek-chat-v3-0324:free
+2025-09-12 12:06:43,648 - nlg_report - INFO - Creating AI prompt for markdown format from context data
+2025-09-12 12:06:43,648 - nlg_report - INFO - Created prompt with length: 9753 characters
+2025-09-12 12:06:43,648 - nlg_report - INFO - Making API request attempt 1/3
+2025-09-12 12:06:43,648 - nlg_report - INFO - Sending request to OpenRouter API
+2025-09-12 12:06:49,873 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 12:07:22,630 - nlg_report - INFO - Received full API response
+2025-09-12 12:07:22,631 - nlg_report - INFO - API call completed successfully in 38.98 seconds
+2025-09-12 12:07:22,632 - nlg_report - INFO - Received valid response with content length: 5457 characters
+2025-09-12 12:07:23,902 - views - INFO - Report generation completed in 41.01 seconds
+2025-09-12 12:07:23,903 - views - INFO - Report length: 5457 characters
+2025-09-12 12:07:23,905 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-09-12 12:07:23,912 - views - INFO - Looking for logo at: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets\@DataINFA.png
+2025-09-12 12:07:23,940 - views - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp34xbgsi3.pdf
+2025-09-12 12:07:23,941 - views - INFO - Attempting conversion and save to: C:\Users\HP\AppData\Local\Temp\tmp34xbgsi3.pdf
+2025-09-12 12:07:23,964 - views - INFO - markdown-pdf save operation completed for C:\Users\HP\AppData\Local\Temp\tmp34xbgsi3.pdf
+2025-09-12 12:07:23,965 - views - INFO - Output PDF file exists: C:\Users\HP\AppData\Local\Temp\tmp34xbgsi3.pdf
+2025-09-12 12:07:23,979 - views - INFO - Successfully read 156552 bytes from C:\Users\HP\AppData\Local\Temp\tmp34xbgsi3.pdf
+2025-09-12 12:07:23,981 - views - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp34xbgsi3.pdf
+2025-09-12 12:07:24,005 - views - INFO - [render_assessment] Mapped regulation_for_loader: DPDP
+2025-09-12 12:48:44,715 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 14:17:10,764 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 16:11:31,037 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 17:00:48,759 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 17:00:48,839 - helpers - INFO - Admin token validated
+2025-09-12 17:00:48,968 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 17:00:50,596 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 17:00:50,629 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-12 17:00:50,774 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 17:01:27,145 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 17:01:27,741 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 17:01:28,467 - __main__ - INFO - Application started - Logging initialized
+2025-09-12 17:01:28,512 - privacy_policy_analyzer - INFO - Search query: site:google.com privacy policy (region=in-en)
+2025-09-12 17:01:29,053 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Agoogle.com%20privacy%20policy 200
+2025-09-12 17:01:30,163 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Agoogle.com+privacy+policy&web=1&searchid=4375285 200
+2025-09-12 17:01:30,243 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain+keyword): https://sites.google.com/funnii.net/policy
+2025-09-12 17:01:30,244 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://sites.google.com/funnii.net/policy
+2025-09-12 17:01:30,732 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://sites.google.com/funnii.net/policy on attempt 1
+2025-09-12 17:01:30,773 - privacy_policy_analyzer - DEBUG - Removed 16 unwanted elements
+2025-09-12 17:01:30,778 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-12 17:01:30,778 - privacy_policy_analyzer - INFO - Successfully extracted 21 characters of content
+2025-09-12 17:01:30,783 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 17:01:32,157 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-12 17:01:32,157 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-12 17:01:32,157 - config - INFO - Rotating to API key index 1
+2025-09-12 17:01:34,159 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 17:01:34,590 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 401
+2025-09-12 17:01:34,590 - privacy_policy_analyzer - WARNING - OpenRouter returned 401. Rotating API key and retrying...
+2025-09-12 17:01:34,590 - config - INFO - Rotating to API key index 2
+2025-09-12 17:01:38,592 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 17:01:40,709 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-12 17:01:40,710 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-12 17:01:40,711 - config - INFO - Rotating to API key index 0
+2025-09-12 17:01:48,738 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-12 17:01:48,799 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}
+2025-09-12 22:09:49,253 - __main__ - INFO - Application started - Logging initialized
+2025-09-13 03:16:35,138 - __main__ - INFO - Application started - Logging initialized
+2025-09-13 08:22:52,739 - __main__ - INFO - Application started - Logging initialized
+2025-09-13 11:26:55,520 - __main__ - INFO - Application started - Logging initialized
+2025-09-13 15:28:39,588 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 11:24:29,810 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 11:58:35,747 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 12:56:23,188 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 12:59:27,759 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 13:10:45,012 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 13:57:16,721 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 13:57:16,986 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 13:57:17,052 - helpers - INFO - Admin token validated
+2025-09-15 13:57:17,197 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 13:57:19,269 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 13:57:19,319 - helpers - INFO - Navigating to page: privacy from welcome
+2025-09-15 13:57:19,477 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 15:50:19,637 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 18:08:20,940 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 18:17:29,661 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 18:17:31,256 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 18:17:32,125 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 18:17:32,159 - privacy_policy_analyzer - INFO - Search query: site:google.com privacy policy (region=in-en)
+2025-09-15 18:17:32,689 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Agoogle.com%20privacy%20policy 200
+2025-09-15 18:17:33,699 - primp - INFO - response: https://yandex.com/search/site/?text=site%3Agoogle.com+privacy+policy&web=1&searchid=1112389 200
+2025-09-15 18:17:33,783 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain+keyword): https://sites.google.com/funnii.net/policy
+2025-09-15 18:17:33,785 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://sites.google.com/funnii.net/policy
+2025-09-15 18:17:34,641 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://sites.google.com/funnii.net/policy on attempt 1
+2025-09-15 18:17:34,673 - privacy_policy_analyzer - DEBUG - Removed 16 unwanted elements
+2025-09-15 18:17:34,676 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-15 18:17:34,677 - privacy_policy_analyzer - INFO - Successfully extracted 21 characters of content
+2025-09-15 18:17:34,694 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-15 18:18:10,464 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-15 18:18:10,466 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-15 18:18:10,612 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,613 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,669 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,670 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,700 - privacy_policy_analyzer - INFO - Successfully read 569685 bytes from PDF
+2025-09-15 18:18:10,700 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpua5z6jb8.pdf
+2025-09-15 18:18:10,825 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:19:50,907 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:33:44,564 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:33:44,630 - helpers - INFO - Navigating to page: welcome from privacy
+2025-09-15 19:33:45,021 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:33:48,706 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:33:50,969 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:34:04,463 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:34:04,518 - data_storage - INFO - Assessment data received - is_start: None, is_complete: None
+2025-09-15 19:34:04,530 - data_storage - INFO - Saved assessment data for AZAAA to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\AZAAA\assessment_20250915_193404.json
+2025-09-15 19:34:04,734 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:34:04,803 - views - INFO - Starting assessment for AZAAA
+2025-09-15 19:34:04,804 - data_storage - INFO - Assessment data received - is_start: True, is_complete: None
+2025-09-15 19:34:04,805 - data_storage - INFO - Triggering start notification email for AZAAA
+2025-09-15 19:34:04,808 - data_storage - INFO - Attempting to connect to SMTP server...
+2025-09-15 19:34:09,838 - data_storage - INFO - Assessment notification email sent for AZAAA
+2025-09-15 19:34:09,844 - data_storage - INFO - Saved assessment data for AZAAA to C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\data\organizations\AZAAA\assessment_20250915_193409.json
+2025-09-15 19:34:09,846 - helpers - INFO - Navigating to page: assessment from welcome
+2025-09-15 19:34:10,026 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:34:10,085 - views - INFO - [render_assessment] Session selected_country: Australia
+2025-09-15 19:34:10,086 - views - INFO - [render_assessment] Session selected_industry: General
+2025-09-15 19:34:10,086 - views - INFO - [render_assessment] Mapped industry_for_loader: General
+2025-09-15 19:34:10,088 - views - INFO - [render_assessment] Using regulation: OAIC for country: Australia
+2025-09-15 19:34:10,088 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: General
+2025-09-15 19:34:10,089 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\general.json
+2025-09-15 19:34:10,091 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\general.json
+2025-09-15 19:34:10,114 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Open and Transparent Management of Personal Information",
+   ...
+2025-09-15 19:34:10,117 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Open and Transparent Management of Personal Information'
+2025-09-15 19:34:10,118 - views - INFO - [render_assessment] Loaded questionnaire for regulation: OAIC, industry: General
+2025-09-15 19:34:10,141 - assessment - INFO - Loading questionnaire for regulation: OAIC, industry: npc
+2025-09-15 19:34:10,143 - assessment - WARNING - No OAIC questionnaire found for npc, using General.json
+2025-09-15 19:34:10,144 - assessment - INFO - Loading questionnaire from: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\General.json
+2025-09-15 19:34:10,145 - assessment - INFO - [CACHE] File exists: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Questionnaire\OAIC\General.json
+2025-09-15 19:34:10,147 - assessment - INFO - [CACHE] File preview: {
+  "sections": [
+    {
+      "name": "Open and Transparent Management of Personal Information",
+   ...
+2025-09-15 19:34:10,151 - assessment - INFO - [CACHE] Loaded questionnaire first section: 'Open and Transparent Management of Personal Information'
+2025-09-15 19:34:19,956 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:34:20,005 - helpers - INFO - Navigating to page: privacy from assessment
+2025-09-15 19:34:20,218 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:35:10,688 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:35:14,858 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:35:17,294 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 19:35:17,358 - privacy_policy_analyzer - INFO - Search query: site:google.com privacy policy (region=au-en)
+2025-09-15 19:35:18,346 - primp - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=site%3Agoogle.com%20privacy%20policy 200
+2025-09-15 19:35:19,270 - primp - INFO - response: https://search.yahoo.com/search;_ylt=W7P0BZqKz0lHbQubgTlPhSnp;_ylu=Yun26odTJBcfjikql_pGiBBBpq185kxMkvDOaTO65kRYCoE?p=site%3Agoogle.com+privacy+policy 200
+2025-09-15 19:35:22,911 - primp - INFO - response: https://www.google.com/search?q=site%3Agoogle.com+privacy+policy&filter=1&start=0&asearch=arc&async=arc_id%3Asrp_9St9tkmLrTi9-5vzS7o5_u0_100%2Cuse_ac%3Atrue%2C_fmt%3Aprog&ie=UTF-8&oe=UTF-8&hl=en-AU&lr=lang_en&cr=countryAU 200
+2025-09-15 19:35:22,936 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain+keyword): https://policies.google.com/privacy?hl=en-US
+2025-09-15 19:35:22,939 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://policies.google.com/privacy?hl=en-US
+2025-09-15 19:35:24,352 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://policies.google.com/privacy?hl=en-US on attempt 1
+2025-09-15 19:35:24,519 - privacy_policy_analyzer - DEBUG - Removed 29 unwanted elements
+2025-09-15 19:35:24,551 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-09-15 19:35:24,557 - privacy_policy_analyzer - INFO - Successfully extracted 53016 characters of content
+2025-09-15 19:35:24,562 - privacy_policy_analyzer - ERROR - Law file not found: C:\Users\HP\OneDrive - DataInfa Solution Private Limited\Projects\DPDP-main\DPDP-main\Assets/Documents/OAIC.txt
+2025-09-15 19:35:24,564 - privacy_policy_analyzer - ERROR - No content found for law: oaic_australia
+2025-09-15 19:58:43,430 - __main__ - INFO - Application started - Logging initialized
+2025-09-15 21:36:29,260 - __main__ - INFO - Application started - Logging initialized
+2025-09-16 03:26:01,158 - __main__ - INFO - Application started - Logging initialized
+2025-09-16 07:45:36,495 - __main__ - INFO - Application started - Logging initialized
+2025-09-16 09:56:27,993 - __main__ - INFO - Application started - Logging initialized
+2025-09-16 12:38:46,744 - __main__ - INFO - Application started - Logging initialized

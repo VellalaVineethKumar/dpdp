@@ -1,0 +1,454 @@
+2025-09-11 07:39:28,347 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXID in country: India
+2025-09-11 07:39:28,348 - privacy_policy_analyzer - INFO - Trying search query: "AXID" privacy policy India
+2025-09-11 07:39:28,528 - privacy_policy_analyzer - WARNING - No search results for query: "AXID" privacy policy India
+2025-09-11 07:39:28,529 - privacy_policy_analyzer - INFO - Trying search query: AXID privacy policy India
+2025-09-11 07:39:28,683 - privacy_policy_analyzer - WARNING - No search results for query: AXID privacy policy India
+2025-09-11 07:39:28,684 - privacy_policy_analyzer - INFO - Trying search query: AXID data protection policy India
+2025-09-11 07:39:28,858 - privacy_policy_analyzer - WARNING - No search results for query: AXID data protection policy India
+2025-09-11 07:39:28,859 - privacy_policy_analyzer - INFO - Trying search query: AXID website privacy India
+2025-09-11 07:39:28,999 - privacy_policy_analyzer - WARNING - No search results for query: AXID website privacy India
+2025-09-11 07:39:28,999 - privacy_policy_analyzer - INFO - Trying search query: AXID legal terms privacy India
+2025-09-11 07:39:29,174 - privacy_policy_analyzer - WARNING - No search results for query: AXID legal terms privacy India
+2025-09-11 07:39:29,175 - privacy_policy_analyzer - WARNING - No search results found for AXID with any query
+2025-09-11 07:39:54,812 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXID in country: India
+2025-09-11 07:39:54,813 - privacy_policy_analyzer - INFO - Trying search query: "AXID" privacy policy India
+2025-09-11 07:39:54,965 - privacy_policy_analyzer - WARNING - No search results for query: "AXID" privacy policy India
+2025-09-11 07:39:54,966 - privacy_policy_analyzer - INFO - Trying search query: AXID privacy policy India
+2025-09-11 07:39:55,106 - privacy_policy_analyzer - WARNING - No search results for query: AXID privacy policy India
+2025-09-11 07:39:55,107 - privacy_policy_analyzer - INFO - Trying search query: AXID data protection policy India
+2025-09-11 07:39:55,258 - privacy_policy_analyzer - WARNING - No search results for query: AXID data protection policy India
+2025-09-11 07:39:55,259 - privacy_policy_analyzer - INFO - Trying search query: AXID website privacy India
+2025-09-11 07:39:55,410 - privacy_policy_analyzer - WARNING - No search results for query: AXID website privacy India
+2025-09-11 07:39:55,410 - privacy_policy_analyzer - INFO - Trying search query: AXID legal terms privacy India
+2025-09-11 07:39:55,570 - privacy_policy_analyzer - WARNING - No search results for query: AXID legal terms privacy India
+2025-09-11 07:39:55,571 - privacy_policy_analyzer - WARNING - No search results found for AXID with any query
+2025-09-11 07:40:40,938 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 07:40:40,938 - privacy_policy_analyzer - INFO - Trying search query: "AXIS" privacy policy India
+2025-09-11 07:40:41,072 - privacy_policy_analyzer - WARNING - No search results for query: "AXIS" privacy policy India
+2025-09-11 07:40:41,073 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 07:40:41,204 - privacy_policy_analyzer - WARNING - No search results for query: AXIS privacy policy India
+2025-09-11 07:40:41,205 - privacy_policy_analyzer - INFO - Trying search query: AXIS data protection policy India
+2025-09-11 07:40:41,343 - privacy_policy_analyzer - WARNING - No search results for query: AXIS data protection policy India
+2025-09-11 07:40:41,343 - privacy_policy_analyzer - INFO - Trying search query: AXIS website privacy India
+2025-09-11 07:40:41,483 - privacy_policy_analyzer - WARNING - No search results for query: AXIS website privacy India
+2025-09-11 07:40:41,484 - privacy_policy_analyzer - INFO - Trying search query: AXIS legal terms privacy India
+2025-09-11 07:40:41,625 - privacy_policy_analyzer - WARNING - No search results for query: AXIS legal terms privacy India
+2025-09-11 07:40:41,625 - privacy_policy_analyzer - WARNING - No search results found for AXIS with any query
+2025-09-11 07:40:43,194 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 07:40:43,195 - privacy_policy_analyzer - INFO - Trying search query: "AXIS" privacy policy India
+2025-09-11 07:40:43,326 - privacy_policy_analyzer - WARNING - No search results for query: "AXIS" privacy policy India
+2025-09-11 07:40:43,327 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 07:40:43,479 - privacy_policy_analyzer - WARNING - No search results for query: AXIS privacy policy India
+2025-09-11 07:40:43,480 - privacy_policy_analyzer - INFO - Trying search query: AXIS data protection policy India
+2025-09-11 07:40:43,631 - privacy_policy_analyzer - WARNING - No search results for query: AXIS data protection policy India
+2025-09-11 07:40:43,632 - privacy_policy_analyzer - INFO - Trying search query: AXIS website privacy India
+2025-09-11 07:40:43,778 - privacy_policy_analyzer - WARNING - No search results for query: AXIS website privacy India
+2025-09-11 07:40:43,778 - privacy_policy_analyzer - INFO - Trying search query: AXIS legal terms privacy India
+2025-09-11 07:40:43,952 - privacy_policy_analyzer - WARNING - No search results for query: AXIS legal terms privacy India
+2025-09-11 07:40:43,952 - privacy_policy_analyzer - WARNING - No search results found for AXIS with any query
+2025-09-11 07:42:54,370 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 07:42:54,371 - privacy_policy_analyzer - INFO - Testing googlesearch library with query: privacy policy
+2025-09-11 07:42:54,513 - privacy_policy_analyzer - INFO - Test search returned 0 results
+2025-09-11 07:42:54,514 - privacy_policy_analyzer - INFO - Trying search query: "AXIS" privacy policy India
+2025-09-11 07:42:55,669 - privacy_policy_analyzer - INFO - Search returned 0 results for query: "AXIS" privacy policy India
+2025-09-11 07:42:55,670 - privacy_policy_analyzer - WARNING - No search results for query: "AXIS" privacy policy India
+2025-09-11 07:42:55,671 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 07:42:56,819 - privacy_policy_analyzer - INFO - Search returned 0 results for query: AXIS privacy policy India
+2025-09-11 07:42:56,820 - privacy_policy_analyzer - WARNING - No search results for query: AXIS privacy policy India
+2025-09-11 07:42:56,821 - privacy_policy_analyzer - INFO - Trying search query: AXIS data protection policy India
+2025-09-11 07:42:57,971 - privacy_policy_analyzer - INFO - Search returned 0 results for query: AXIS data protection policy India
+2025-09-11 07:42:57,971 - privacy_policy_analyzer - WARNING - No search results for query: AXIS data protection policy India
+2025-09-11 07:42:57,972 - privacy_policy_analyzer - INFO - Trying search query: AXIS website privacy India
+2025-09-11 07:42:59,133 - privacy_policy_analyzer - INFO - Search returned 0 results for query: AXIS website privacy India
+2025-09-11 07:42:59,134 - privacy_policy_analyzer - WARNING - No search results for query: AXIS website privacy India
+2025-09-11 07:42:59,135 - privacy_policy_analyzer - INFO - Trying search query: AXIS legal terms privacy India
+2025-09-11 07:43:00,271 - privacy_policy_analyzer - INFO - Search returned 0 results for query: AXIS legal terms privacy India
+2025-09-11 07:43:00,272 - privacy_policy_analyzer - WARNING - No search results for query: AXIS legal terms privacy India
+2025-09-11 07:43:00,273 - privacy_policy_analyzer - INFO - Trying generic search as fallback...
+2025-09-11 07:43:00,274 - privacy_policy_analyzer - INFO - Trying generic search query: AXIS bank privacy policy India
+2025-09-11 07:43:02,413 - privacy_policy_analyzer - WARNING - No search results found for AXIS with any query
+2025-09-11 07:43:26,094 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 07:43:26,095 - privacy_policy_analyzer - INFO - Testing googlesearch library with query: privacy policy
+2025-09-11 07:43:26,220 - privacy_policy_analyzer - INFO - Test search returned 0 results
+2025-09-11 07:43:26,220 - privacy_policy_analyzer - INFO - Trying search query: "AXIS" privacy policy India
+2025-09-11 07:43:27,353 - privacy_policy_analyzer - INFO - Search returned 0 results for query: "AXIS" privacy policy India
+2025-09-11 07:43:27,354 - privacy_policy_analyzer - WARNING - No search results for query: "AXIS" privacy policy India
+2025-09-11 07:43:27,355 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 07:43:28,492 - privacy_policy_analyzer - INFO - Search returned 0 results for query: AXIS privacy policy India
+2025-09-11 07:43:28,493 - privacy_policy_analyzer - WARNING - No search results for query: AXIS privacy policy India
+2025-09-11 07:43:28,493 - privacy_policy_analyzer - INFO - Trying search query: AXIS data protection policy India
+2025-09-11 07:43:29,622 - privacy_policy_analyzer - INFO - Search returned 0 results for query: AXIS data protection policy India
+2025-09-11 07:43:29,623 - privacy_policy_analyzer - WARNING - No search results for query: AXIS data protection policy India
+2025-09-11 07:43:29,623 - privacy_policy_analyzer - INFO - Trying search query: AXIS website privacy India
+2025-09-11 07:43:30,748 - privacy_policy_analyzer - INFO - Search returned 0 results for query: AXIS website privacy India
+2025-09-11 07:43:30,748 - privacy_policy_analyzer - WARNING - No search results for query: AXIS website privacy India
+2025-09-11 07:43:30,748 - privacy_policy_analyzer - INFO - Trying search query: AXIS legal terms privacy India
+2025-09-11 07:43:31,885 - privacy_policy_analyzer - INFO - Search returned 0 results for query: AXIS legal terms privacy India
+2025-09-11 07:43:31,885 - privacy_policy_analyzer - WARNING - No search results for query: AXIS legal terms privacy India
+2025-09-11 07:43:31,885 - privacy_policy_analyzer - INFO - Trying generic search as fallback...
+2025-09-11 07:43:31,886 - privacy_policy_analyzer - INFO - Trying generic search query: AXIS bank privacy policy India
+2025-09-11 07:43:34,056 - privacy_policy_analyzer - WARNING - No search results found for AXIS with any query
+2025-09-11 08:18:03,461 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Google in country: India
+2025-09-11 08:18:03,461 - privacy_policy_analyzer - INFO - Testing yagooglesearch library with query: privacy policy
+2025-09-11 08:18:03,854 - privacy_policy_analyzer - INFO - Test search returned 0 results
+2025-09-11 08:18:03,854 - privacy_policy_analyzer - INFO - Trying search query: "Google" privacy policy India
+2025-09-11 08:18:05,160 - privacy_policy_analyzer - INFO - Search returned 0 results for query: "Google" privacy policy India
+2025-09-11 08:18:05,160 - privacy_policy_analyzer - WARNING - No search results for query: "Google" privacy policy India
+2025-09-11 08:18:05,161 - privacy_policy_analyzer - INFO - Trying search query: Google privacy policy India
+2025-09-11 08:18:06,663 - privacy_policy_analyzer - INFO - Search returned 0 results for query: Google privacy policy India
+2025-09-11 08:18:06,664 - privacy_policy_analyzer - WARNING - No search results for query: Google privacy policy India
+2025-09-11 08:18:06,664 - privacy_policy_analyzer - INFO - Trying search query: Google data protection policy India
+2025-09-11 08:18:08,198 - privacy_policy_analyzer - INFO - Search returned 0 results for query: Google data protection policy India
+2025-09-11 08:18:08,198 - privacy_policy_analyzer - WARNING - No search results for query: Google data protection policy India
+2025-09-11 08:18:08,198 - privacy_policy_analyzer - INFO - Trying search query: Google website privacy India
+2025-09-11 08:18:09,599 - privacy_policy_analyzer - INFO - Search returned 0 results for query: Google website privacy India
+2025-09-11 08:18:09,600 - privacy_policy_analyzer - WARNING - No search results for query: Google website privacy India
+2025-09-11 08:18:09,601 - privacy_policy_analyzer - INFO - Trying search query: Google legal terms privacy India
+2025-09-11 08:18:13,219 - privacy_policy_analyzer - INFO - Search returned 0 results for query: Google legal terms privacy India
+2025-09-11 08:18:13,219 - privacy_policy_analyzer - WARNING - No search results for query: Google legal terms privacy India
+2025-09-11 08:18:13,219 - privacy_policy_analyzer - INFO - Trying generic search as fallback...
+2025-09-11 08:18:13,219 - privacy_policy_analyzer - INFO - Trying generic search query: Google bank privacy policy India
+2025-09-11 08:18:15,679 - privacy_policy_analyzer - WARNING - No search results found for Google with any query
+2025-09-11 08:19:19,767 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Microsoft in country: India
+2025-09-11 08:19:19,767 - privacy_policy_analyzer - INFO - Search query: Microsoft privacy policy India
+2025-09-11 08:19:20,377 - privacy_policy_analyzer - WARNING - No search results found for Microsoft
+2025-09-11 08:20:42,946 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 08:20:42,947 - privacy_policy_analyzer - INFO - Search query: AXIS privacy policy India
+2025-09-11 08:23:20,307 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Axis in country: India
+2025-09-11 08:23:20,308 - privacy_policy_analyzer - INFO - Search query: Axis privacy policy India
+2025-09-11 08:24:05,514 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Axis Bank in country: India
+2025-09-11 08:24:05,515 - privacy_policy_analyzer - INFO - Trying search query: "Axis Bank" site:privacy policy
+2025-09-11 08:24:06,075 - privacy_policy_analyzer - INFO - Trying search query: "Axis Bank" site:legal privacy
+2025-09-11 08:24:06,489 - privacy_policy_analyzer - INFO - Trying search query: "Axis Bank" privacy policy site:com
+2025-09-11 08:24:07,044 - privacy_policy_analyzer - INFO - Trying search query: "Axis Bank" data protection policy
+2025-09-11 08:24:07,583 - privacy_policy_analyzer - INFO - Trying search query: "Axis Bank" privacy policy India
+2025-09-11 08:24:07,934 - privacy_policy_analyzer - WARNING - No valid search results found for Axis Bank
+2025-09-11 08:24:50,297 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Axis Bank in country: India
+2025-09-11 08:24:50,298 - privacy_policy_analyzer - INFO - Search query: Axis Bank privacy policy India
+2025-09-11 08:24:50,439 - privacy_policy_analyzer - WARNING - No search results found for Axis Bank
+2025-09-11 08:25:39,206 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Axis Bank in country: India
+2025-09-11 08:25:39,206 - privacy_policy_analyzer - INFO - Search query: Axis Bank privacy policy India
+2025-09-11 08:25:39,355 - privacy_policy_analyzer - WARNING - No search results found for Axis Bank
+2025-09-11 08:33:40,337 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Axis Bank in country: India
+2025-09-11 08:33:40,337 - privacy_policy_analyzer - INFO - Trying search query: Axis Bank privacy policy India
+2025-09-11 08:33:40,904 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:33:41,008 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axisbank.com/privacy-policy
+2025-09-11 08:34:16,753 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Axis Bank in country: India
+2025-09-11 08:34:16,754 - privacy_policy_analyzer - INFO - Trying search query: Axis Bank privacy policy India
+2025-09-11 08:34:17,358 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:34:17,458 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axisbank.com/privacy-policy
+2025-09-11 08:34:37,883 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: SBI Bank in country: India
+2025-09-11 08:34:37,883 - privacy_policy_analyzer - INFO - Trying search query: SBI Bank privacy policy India
+2025-09-11 08:34:38,426 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:34:43,865 - privacy_policy_analyzer - INFO - Trying search query: SBI Bank data protection policy
+2025-09-11 08:34:44,438 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:34:49,053 - privacy_policy_analyzer - INFO - Trying search query: SBI Bank website privacy policy
+2025-09-11 08:34:49,573 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:34:54,263 - privacy_policy_analyzer - INFO - Trying search query: SBI Bank legal privacy terms
+2025-09-11 08:34:57,092 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:35:05,468 - privacy_policy_analyzer - WARNING - No privacy policy URL found for SBI Bank
+2025-09-11 08:36:22,659 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: Axis Bank in country: India
+2025-09-11 08:36:22,660 - privacy_policy_analyzer - INFO - Trying search query: Axis Bank privacy policy India
+2025-09-11 08:36:23,192 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:36:23,332 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axisbank.com/privacy-policy
+2025-09-11 08:37:08,620 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 08:37:08,622 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 08:37:09,180 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:37:10,849 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axis.com/privacy
+2025-09-11 08:37:10,850 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axis.com/privacy
+2025-09-11 08:37:10,903 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axis.com/privacy on attempt 1
+2025-09-11 08:37:11,153 - privacy_policy_analyzer - DEBUG - Removed 54 unwanted elements
+2025-09-11 08:37:11,154 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-11 08:37:11,156 - privacy_policy_analyzer - INFO - Successfully extracted 1267 characters of content
+2025-09-11 08:37:11,161 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 08:38:05,331 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 08:38:05,333 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 08:38:05,406 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp8xrg0qxi.pdf
+2025-09-11 08:38:05,407 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp8xrg0qxi.pdf
+2025-09-11 08:38:05,489 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp8xrg0qxi.pdf
+2025-09-11 08:38:05,490 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp8xrg0qxi.pdf
+2025-09-11 08:38:05,530 - privacy_policy_analyzer - INFO - Successfully read 160431 bytes from PDF
+2025-09-11 08:38:05,530 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp8xrg0qxi.pdf
+2025-09-11 08:38:41,949 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-09-11 08:38:41,950 - privacy_policy_analyzer - INFO - Trying search query: HDFC privacy policy India
+2025-09-11 08:38:42,336 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:44,230 - privacy_policy_analyzer - INFO - Trying search query: HDFC data protection policy
+2025-09-11 08:38:44,763 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:44,900 - privacy_policy_analyzer - INFO - Trying search query: HDFC website privacy policy
+2025-09-11 08:38:45,440 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:45,589 - privacy_policy_analyzer - INFO - Trying search query: HDFC legal privacy terms
+2025-09-11 08:38:45,989 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:46,141 - privacy_policy_analyzer - WARNING - No privacy policy URL found for HDFC
+2025-09-11 08:38:53,737 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-09-11 08:38:53,738 - privacy_policy_analyzer - INFO - Trying search query: HDFC privacy policy India
+2025-09-11 08:38:54,281 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:55,890 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-09-11 08:38:55,890 - privacy_policy_analyzer - INFO - Trying search query: HDFC privacy policy India
+2025-09-11 08:38:56,132 - privacy_policy_analyzer - INFO - Trying search query: HDFC data protection policy
+2025-09-11 08:38:56,241 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:56,344 - privacy_policy_analyzer - INFO - Trying search query: HDFC data protection policy
+2025-09-11 08:38:56,514 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:56,621 - privacy_policy_analyzer - INFO - Trying search query: HDFC website privacy policy
+2025-09-11 08:38:56,913 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:57,016 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:57,023 - privacy_policy_analyzer - INFO - Trying search query: HDFC website privacy policy
+2025-09-11 08:38:57,122 - privacy_policy_analyzer - INFO - Trying search query: HDFC legal privacy terms
+2025-09-11 08:38:57,411 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:57,481 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:57,534 - privacy_policy_analyzer - INFO - Trying search query: HDFC legal privacy terms
+2025-09-11 08:38:57,633 - privacy_policy_analyzer - WARNING - No privacy policy URL found for HDFC
+2025-09-11 08:38:57,992 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:38:58,107 - privacy_policy_analyzer - WARNING - No privacy policy URL found for HDFC
+2025-09-11 08:40:15,264 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 08:40:15,265 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 08:40:15,797 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:40:16,503 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axis.com/privacy
+2025-09-11 08:40:16,504 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axis.com/privacy
+2025-09-11 08:40:16,547 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axis.com/privacy on attempt 1
+2025-09-11 08:40:16,819 - privacy_policy_analyzer - DEBUG - Removed 54 unwanted elements
+2025-09-11 08:40:16,820 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-11 08:40:16,821 - privacy_policy_analyzer - INFO - Successfully extracted 1267 characters of content
+2025-09-11 08:40:16,824 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 08:40:18,409 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-11 08:40:18,409 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-11 08:40:18,410 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2oFOqwpucraJNs0eKBORi1mGIsq"}
+2025-09-11 08:44:24,474 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 08:44:24,475 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 08:44:24,883 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 08:44:25,644 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axis.com/privacy
+2025-09-11 08:44:25,645 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axis.com/privacy
+2025-09-11 08:44:25,691 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axis.com/privacy on attempt 1
+2025-09-11 08:44:25,893 - privacy_policy_analyzer - DEBUG - Removed 54 unwanted elements
+2025-09-11 08:44:25,894 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-11 08:44:25,895 - privacy_policy_analyzer - INFO - Successfully extracted 1267 characters of content
+2025-09-11 08:44:25,898 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 08:44:53,936 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 08:44:53,937 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 08:44:54,030 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmphzqs23p4.pdf
+2025-09-11 08:44:54,031 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmphzqs23p4.pdf
+2025-09-11 08:44:54,047 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmphzqs23p4.pdf
+2025-09-11 08:44:54,049 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmphzqs23p4.pdf
+2025-09-11 08:44:54,086 - privacy_policy_analyzer - INFO - Successfully read 151523 bytes from PDF
+2025-09-11 08:44:54,088 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmphzqs23p4.pdf
+2025-09-11 09:09:37,453 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 09:09:37,458 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 09:09:38,017 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 09:09:38,763 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axis.com/privacy
+2025-09-11 09:09:38,765 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axis.com/privacy
+2025-09-11 09:09:38,811 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axis.com/privacy on attempt 1
+2025-09-11 09:09:39,016 - privacy_policy_analyzer - DEBUG - Removed 54 unwanted elements
+2025-09-11 09:09:39,016 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-11 09:09:39,018 - privacy_policy_analyzer - INFO - Successfully extracted 1267 characters of content
+2025-09-11 09:09:39,023 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 09:10:14,615 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 09:10:14,618 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 09:10:14,712 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp2582_trp.pdf
+2025-09-11 09:10:14,713 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp2582_trp.pdf
+2025-09-11 09:10:14,777 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp2582_trp.pdf
+2025-09-11 09:10:14,777 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp2582_trp.pdf
+2025-09-11 09:10:14,816 - privacy_policy_analyzer - INFO - Successfully read 166416 bytes from PDF
+2025-09-11 09:10:14,817 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp2582_trp.pdf
+2025-09-11 09:51:04,690 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS in country: India
+2025-09-11 09:51:04,691 - privacy_policy_analyzer - INFO - Trying search query: AXIS privacy policy India
+2025-09-11 09:51:06,167 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 09:51:07,497 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axis.com/privacy
+2025-09-11 09:51:07,500 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axis.com/privacy
+2025-09-11 09:51:07,560 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axis.com/privacy on attempt 1
+2025-09-11 09:51:07,691 - privacy_policy_analyzer - DEBUG - Removed 54 unwanted elements
+2025-09-11 09:51:07,692 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-11 09:51:07,693 - privacy_policy_analyzer - INFO - Successfully extracted 1267 characters of content
+2025-09-11 09:51:07,694 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 09:51:43,248 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 09:51:43,248 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 09:51:43,322 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp2awd7kgx.pdf
+2025-09-11 09:51:43,322 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp2awd7kgx.pdf
+2025-09-11 09:51:43,345 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp2awd7kgx.pdf
+2025-09-11 09:51:43,347 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp2awd7kgx.pdf
+2025-09-11 09:51:43,375 - privacy_policy_analyzer - INFO - Successfully read 633678 bytes from PDF
+2025-09-11 09:51:43,376 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp2awd7kgx.pdf
+2025-09-11 09:52:02,271 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS BANK in country: India
+2025-09-11 09:52:02,272 - privacy_policy_analyzer - INFO - Trying search query: AXIS BANK privacy policy India
+2025-09-11 09:52:03,674 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 09:52:03,748 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axisbank.com/privacy-policy
+2025-09-11 09:52:03,750 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axisbank.com/privacy-policy
+2025-09-11 09:52:03,869 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axisbank.com/privacy-policy on attempt 1
+2025-09-11 09:52:04,037 - privacy_policy_analyzer - DEBUG - Removed 35 unwanted elements
+2025-09-11 09:52:04,039 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-11 09:52:04,040 - privacy_policy_analyzer - INFO - Successfully extracted 7038 characters of content
+2025-09-11 09:52:04,043 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 09:53:00,925 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 09:53:00,927 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 09:53:00,970 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpbz6pq2ej.pdf
+2025-09-11 09:53:00,971 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpbz6pq2ej.pdf
+2025-09-11 09:53:00,995 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpbz6pq2ej.pdf
+2025-09-11 09:53:00,996 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpbz6pq2ej.pdf
+2025-09-11 09:53:01,019 - privacy_policy_analyzer - INFO - Successfully read 995420 bytes from PDF
+2025-09-11 09:53:01,020 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpbz6pq2ej.pdf
+2025-09-11 10:25:09,398 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS BANK in country: India
+2025-09-11 10:25:09,399 - privacy_policy_analyzer - INFO - Trying search query: AXIS BANK privacy policy India
+2025-09-11 10:25:10,958 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 10:25:11,047 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axisbank.com/privacy-policy
+2025-09-11 10:25:11,050 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axisbank.com/privacy-policy
+2025-09-11 10:25:11,201 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axisbank.com/privacy-policy on attempt 1
+2025-09-11 10:25:11,384 - privacy_policy_analyzer - DEBUG - Removed 35 unwanted elements
+2025-09-11 10:25:11,388 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-11 10:25:11,389 - privacy_policy_analyzer - INFO - Successfully extracted 7038 characters of content
+2025-09-11 10:25:11,394 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 10:25:14,246 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-11 10:25:14,247 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-11 10:25:14,247 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2oFOqwpucraJNs0eKBORi1mGIsq"}
+2025-09-11 10:28:45,343 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS BANK in country: India
+2025-09-11 10:28:45,344 - privacy_policy_analyzer - INFO - Trying search query: AXIS BANK privacy policy India
+2025-09-11 10:28:46,870 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 10:28:46,990 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axisbank.com/privacy-policy
+2025-09-11 10:28:46,991 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axisbank.com/privacy-policy
+2025-09-11 10:28:47,176 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axisbank.com/privacy-policy on attempt 1
+2025-09-11 10:28:47,423 - privacy_policy_analyzer - DEBUG - Removed 35 unwanted elements
+2025-09-11 10:28:47,426 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-11 10:28:47,428 - privacy_policy_analyzer - INFO - Successfully extracted 7038 characters of content
+2025-09-11 10:28:47,432 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 10:29:31,473 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 10:29:31,474 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 10:29:31,505 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmph2w_pdg1.pdf
+2025-09-11 10:29:31,507 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmph2w_pdg1.pdf
+2025-09-11 10:29:31,533 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmph2w_pdg1.pdf
+2025-09-11 10:29:31,534 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmph2w_pdg1.pdf
+2025-09-11 10:29:31,560 - privacy_policy_analyzer - INFO - Successfully read 171056 bytes from PDF
+2025-09-11 10:29:31,561 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmph2w_pdg1.pdf
+2025-09-11 10:36:42,630 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS BANK in country: India
+2025-09-11 10:36:42,631 - privacy_policy_analyzer - INFO - Trying search query: AXIS BANK privacy policy India
+2025-09-11 10:36:43,879 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 10:36:43,999 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axisbank.com/privacy-policy
+2025-09-11 10:36:44,002 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axisbank.com/privacy-policy
+2025-09-11 10:36:44,275 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axisbank.com/privacy-policy on attempt 1
+2025-09-11 10:36:44,440 - privacy_policy_analyzer - DEBUG - Removed 35 unwanted elements
+2025-09-11 10:36:44,442 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-11 10:36:44,443 - privacy_policy_analyzer - INFO - Successfully extracted 7038 characters of content
+2025-09-11 10:36:44,447 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 10:37:18,087 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 10:37:18,090 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 10:37:18,150 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpxkxgca4y.pdf
+2025-09-11 10:37:18,151 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpxkxgca4y.pdf
+2025-09-11 10:37:18,165 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpxkxgca4y.pdf
+2025-09-11 10:37:18,166 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpxkxgca4y.pdf
+2025-09-11 10:37:18,185 - privacy_policy_analyzer - INFO - Successfully read 521563 bytes from PDF
+2025-09-11 10:37:18,186 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpxkxgca4y.pdf
+2025-09-11 11:24:38,516 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: AXIS BANK in country: India
+2025-09-11 11:24:38,518 - privacy_policy_analyzer - INFO - Trying search query: AXIS BANK privacy policy India
+2025-09-11 11:24:39,623 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 11:24:39,712 - privacy_policy_analyzer - INFO - Found working privacy policy URL: https://www.axisbank.com/privacy-policy
+2025-09-11 11:24:39,714 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axisbank.com/privacy-policy
+2025-09-11 11:24:39,819 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axisbank.com/privacy-policy on attempt 1
+2025-09-11 11:24:39,906 - privacy_policy_analyzer - DEBUG - Removed 35 unwanted elements
+2025-09-11 11:24:39,908 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-11 11:24:39,909 - privacy_policy_analyzer - INFO - Successfully extracted 7038 characters of content
+2025-09-11 11:24:39,913 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 11:25:44,779 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 11:25:44,780 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 11:25:44,837 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp42qm5k09.pdf
+2025-09-11 11:25:44,838 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp42qm5k09.pdf
+2025-09-11 11:25:44,872 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp42qm5k09.pdf
+2025-09-11 11:25:44,873 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp42qm5k09.pdf
+2025-09-11 11:25:44,893 - privacy_policy_analyzer - INFO - Successfully read 610330 bytes from PDF
+2025-09-11 11:25:44,894 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp42qm5k09.pdf
+2025-09-11 15:42:26,856 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-09-11 15:42:26,857 - privacy_policy_analyzer - INFO - Trying search query: HDFC privacy policy India
+2025-09-11 15:42:28,399 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 15:42:30,233 - privacy_policy_analyzer - INFO - Trying search query: HDFC data protection policy
+2025-09-11 15:42:31,422 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 15:42:31,619 - privacy_policy_analyzer - INFO - Trying search query: HDFC website privacy policy
+2025-09-11 15:42:32,773 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 15:42:32,942 - privacy_policy_analyzer - INFO - Trying search query: HDFC legal privacy terms
+2025-09-11 15:42:34,053 - privacy_policy_analyzer - INFO - Trying to construct likely privacy policy URLs...
+2025-09-11 15:42:34,240 - privacy_policy_analyzer - WARNING - No privacy policy URL found for HDFC
+2025-09-11 15:54:04,831 - privacy_policy_analyzer - INFO - Searching privacy policy for organization: HDFC in country: India
+2025-09-11 15:54:04,833 - privacy_policy_analyzer - INFO - Search query: HDFC privacy policy India
+2025-09-11 15:54:05,443 - privacy_policy_analyzer - WARNING - No search results found for HDFC
+2025-09-11 20:52:46,242 - privacy_policy_analyzer - INFO - Search query: site:hdfc.com privacy policy (region=in-en)
+2025-09-11 20:52:50,200 - privacy_policy_analyzer - INFO - Search query: HDFC privacy policy India (region=in-en)
+2025-09-11 20:52:50,456 - privacy_policy_analyzer - WARNING - No suitable privacy policy URL found for 'HDFC'
+2025-09-11 20:55:34,644 - privacy_policy_analyzer - INFO - Search query: site:axisbank.com privacy policy (region=in-en)
+2025-09-11 20:55:36,768 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain match): https://www.axisbank.com/privacy-policy
+2025-09-11 20:55:36,770 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.axisbank.com/privacy-policy
+2025-09-11 20:55:36,943 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.axisbank.com/privacy-policy on attempt 1
+2025-09-11 20:55:37,069 - privacy_policy_analyzer - DEBUG - Removed 35 unwanted elements
+2025-09-11 20:55:37,073 - privacy_policy_analyzer - DEBUG - Found content using selector: {'role': 'main'}
+2025-09-11 20:55:37,074 - privacy_policy_analyzer - INFO - Successfully extracted 7038 characters of content
+2025-09-11 20:55:37,098 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 20:55:52,507 - privacy_policy_analyzer - INFO - Search query: site:hjd.com privacy policy (region=in-en)
+2025-09-11 20:55:59,943 - privacy_policy_analyzer - INFO - Search query: site:hdfc.com privacy policy (region=in-en)
+2025-09-11 20:56:01,164 - privacy_policy_analyzer - INFO - Selected privacy policy URL (fallback): https://www.bing.com/aclick?ld=e85HqTOZefrrnVRWOXfiyllTVUCUy6qZGIcTJ6rTFQBE2DZ-nmjKoBvILZYG-7i-OZ-HUzzwh9WyTj6Yze6Ooxc9M6Lvh5Ylp2guxd8gQIMkJhkxpR4W7lpgADigrKDQZPtwZyPlO5uxC9B-HrO7BL68nBz5UqL7Hclu0Z7wytkWAFR4KH8L9CRlX03fOckENhe1EKdg&u=aHR0cHMlM2ElMmYlMmZ3d3cuZWI5Y2c0dHJrLmNvbSUyZjNKNjdDJTJmM1FRRzclMmYlM2Z1cmwlM2RodHRwcyUyNTNBJTI1MkYlMjUyRmVmb3Jtcy5jb20lMjUyRmZvcm0lMjUyRnByaXZhY3ktcG9saWN5LWdlbmVyYXRvciUyNTJGJTI1M0ZnY2xpZCUyNTNEJTI1MjZ1dG1fc291cmNlJTI1M0RiaW5nJTI1MjZ1dG1fbWVkaXVtJTI1M0RjcGMlMjUyNnV0bV9jYW1wYWlnbiUyNTNEVGVybXMlMjUyNTIwJTI1MjUyNiUyNTI1MjBDb25kaXRpb25zJTI1MjUyMCUyNTI1MjYlMjUyNTIwUHJpdmFjeSUyNTI2dXRtX3Rlcm0lMjUzRGZyZWUlMjUyNTIwcHJpdmFjeSUyNTI1MjBwb2xpY3klMjUyNTIwZ2VuZXJhdG9yJTI1MjUyMGZvciUyNTI1MjB3ZWJzaXRlJTI1MjZ1dG1fY29udGVudCUyNTNEUHJpdmFjeSUyNTI1MjBQb2xpY3klMjUyNmVmbG93JTI1M0QlMjU3QnRyYW5zYWN0aW9uX2lkJTI1N0QlMjUyNmVmbG93X2FmZmlsJTI1M0QlMjU3QmFmZmlsaWF0ZV9pZCUyNTdEJTI1MjZhZmZpZCUyNTNEMiUyNTI2b2lkJTI1M0QyJTI2Z2NsaWQlM2QlMjZzdWIyJTNkUHJpdmFjeSUyNTIwUG9saWN5JTI2c3ViMyUzZGZyZWUlMjUyMHByaXZhY3klMjUyMHBvbGljeSUyNTIwZ2VuZXJhdG9yJTI1MjBmb3IlMjUyMHdlYnNpdGUlMjZzdWIxJTNkVGVybXMlMjUyMCUyNTI2JTI1MjBDb25kaXRpb25zJTI1MjAlMjUyNiUyNTIwUHJpdmFjeSUyNmFmZmlkJTNkMiUyNm9pZCUzZDIlMjZtc2Nsa2lkJTNkOTFjYjJkM2IyZjA5MWRmMzI1NDQ0NWY5YzUwODY4MmElMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RUZXJtcyUyNTIwJTI1MjYlMjUyMENvbmRpdGlvbnMlMjUyMCUyNTI2JTI1MjBQcml2YWN5JTI2dXRtX3Rlcm0lM2RmcmVlJTI1MjBwcml2YWN5JTI1MjBwb2xpY3klMjUyMGdlbmVyYXRvciUyNTIwZm9yJTI1MjB3ZWJzaXRlJTI2dXRtX2NvbnRlbnQlM2RQcml2YWN5JTI1MjBQb2xpY3k&rlid=91cb2d3b2f091df3254445f9c508682a
+2025-09-11 20:56:02,728 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain match): https://portal.hdfc.com/campaign/new
+2025-09-11 20:56:02,732 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://portal.hdfc.com/campaign/new
+2025-09-11 20:56:02,972 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://portal.hdfc.com/campaign/new on attempt 1
+2025-09-11 20:56:02,979 - privacy_policy_analyzer - DEBUG - Removed 4 unwanted elements
+2025-09-11 20:56:02,980 - privacy_policy_analyzer - WARNING - No specific content container found, using body or full document
+2025-09-11 20:56:02,981 - privacy_policy_analyzer - INFO - Successfully extracted 193 characters of content
+2025-09-11 20:56:02,984 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 20:56:06,511 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-11 20:56:06,512 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-11 20:56:06,514 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2oFOqwpucraJNs0eKBORi1mGIsq"}
+2025-09-11 20:56:21,800 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 20:56:21,801 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 20:56:21,858 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp42gmgvmq.pdf
+2025-09-11 20:56:21,859 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp42gmgvmq.pdf
+2025-09-11 20:56:21,908 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp42gmgvmq.pdf
+2025-09-11 20:56:21,908 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp42gmgvmq.pdf
+2025-09-11 20:56:21,931 - privacy_policy_analyzer - INFO - Successfully read 169160 bytes from PDF
+2025-09-11 20:56:21,932 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp42gmgvmq.pdf
+2025-09-11 20:57:28,447 - privacy_policy_analyzer - INFO - Search query: site:hdfcbank.com privacy policy (region=in-en)
+2025-09-11 20:57:31,591 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain match): https://www.hdfcbank.com/personal/useful-links/privacy
+2025-09-11 20:57:31,592 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-09-11 20:57:31,679 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-09-11 20:57:32,133 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-09-11 20:57:32,204 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-09-11 20:57:32,208 - privacy_policy_analyzer - INFO - Successfully extracted 73462 characters of content
+2025-09-11 20:57:32,210 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 20:57:36,246 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-11 20:57:36,246 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-11 20:57:36,247 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2oFOqwpucraJNs0eKBORi1mGIsq"}
+2025-09-11 20:58:50,892 - privacy_policy_analyzer - INFO - Search query: site:hdfcbank.com privacy policy (region=in-en)
+2025-09-11 20:58:53,331 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain match): https://developer.hdfcbank.com/privacy-policy
+2025-09-11 20:58:53,334 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://developer.hdfcbank.com/privacy-policy
+2025-09-11 20:58:53,929 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://developer.hdfcbank.com/privacy-policy on attempt 1
+2025-09-11 20:58:53,990 - privacy_policy_analyzer - DEBUG - Removed 23 unwanted elements
+2025-09-11 20:58:53,992 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-11 20:58:53,997 - privacy_policy_analyzer - INFO - Successfully extracted 56492 characters of content
+2025-09-11 20:58:54,001 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 20:59:43,010 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 200
+2025-09-11 20:59:43,012 - privacy_policy_analyzer - INFO - Successfully received analysis from OpenRouter
+2025-09-11 20:59:43,038 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpddnrit4t.pdf
+2025-09-11 20:59:43,039 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpddnrit4t.pdf
+2025-09-11 20:59:43,057 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpddnrit4t.pdf
+2025-09-11 20:59:43,057 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpddnrit4t.pdf
+2025-09-11 20:59:43,080 - privacy_policy_analyzer - INFO - Successfully read 170316 bytes from PDF
+2025-09-11 20:59:43,081 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpddnrit4t.pdf
+2025-09-11 21:03:48,091 - privacy_policy_analyzer - INFO - Search query: site:informatica.com privacy policy (region=in-en)
+2025-09-11 21:03:52,878 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain match): https://www.informatica.com/privacy-policy.html
+2025-09-11 21:03:52,881 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/privacy-policy.html
+2025-09-11 21:03:52,976 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/privacy-policy.html on attempt 1
+2025-09-11 21:03:53,177 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-11 21:03:53,179 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-11 21:03:53,181 - privacy_policy_analyzer - INFO - Successfully extracted 36427 characters of content
+2025-09-11 21:03:53,185 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-11 21:03:54,844 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-11 21:03:54,845 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-11 21:03:54,847 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2oFOqwpucraJNs0eKBORi1mGIsq"}
+2025-09-12 10:05:14,540 - privacy_policy_analyzer - INFO - Search query: site:informatica.com privacy policy (region=in-en)
+2025-09-12 10:05:17,832 - privacy_policy_analyzer - INFO - Selected privacy policy URL (domain match): https://www.informatica.com/ae/about-us/news/in-the-news/2019/09/20190919-informatica-opens-innovation-hub-in-city.html
+2025-09-12 10:05:17,834 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.informatica.com/ae/about-us/news/in-the-news/2019/09/20190919-informatica-opens-innovation-hub-in-city.html
+2025-09-12 10:05:18,569 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.informatica.com/ae/about-us/news/in-the-news/2019/09/20190919-informatica-opens-innovation-hub-in-city.html on attempt 1
+2025-09-12 10:05:18,784 - privacy_policy_analyzer - DEBUG - Removed 39 unwanted elements
+2025-09-12 10:05:18,785 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-09-12 10:05:18,786 - privacy_policy_analyzer - INFO - Successfully extracted 614 characters of content
+2025-09-12 10:05:18,804 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 10:05:21,026 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-12 10:05:21,027 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-12 10:05:23,032 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 10:05:23,505 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 401
+2025-09-12 10:05:23,506 - privacy_policy_analyzer - WARNING - OpenRouter returned 401. Rotating API key and retrying...
+2025-09-12 10:05:27,508 - privacy_policy_analyzer - INFO - Sending request to OpenRouter for India analysis
+2025-09-12 10:05:29,484 - privacy_policy_analyzer - INFO - Received response from OpenRouter with status code: 429
+2025-09-12 10:05:29,485 - privacy_policy_analyzer - WARNING - OpenRouter returned 429. Rotating API key and retrying...
+2025-09-12 10:05:37,486 - privacy_policy_analyzer - ERROR - API error: 429
+2025-09-12 10:05:37,488 - privacy_policy_analyzer - ERROR - API response: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"deepseek/deepseek-chat-v3-0324:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_2tB1X4jT0CPngYQVgpfoYJhob9r"}

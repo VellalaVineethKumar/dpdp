@@ -1,0 +1,56 @@
+2025-10-01 11:50:30,536 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.anz.com.au/privacy/centre/policy/
+2025-10-01 11:50:30,540 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.anz.com.au/privacy/centre/policy/
+2025-10-01 11:50:30,694 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.anz.com.au/privacy/centre/policy/ on attempt 1
+2025-10-01 11:50:30,928 - privacy_policy_analyzer - DEBUG - Removed 20 unwanted elements
+2025-10-01 11:50:30,930 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-10-01 11:50:30,936 - privacy_policy_analyzer - INFO - Successfully extracted 26383 characters of content
+2025-10-01 11:50:30,946 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-01 11:50:30,949 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for Australia analysis (attempt 1/3)
+2025-10-01 11:51:20,759 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpw6ic91nl.pdf
+2025-10-01 11:51:20,759 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpw6ic91nl.pdf
+2025-10-01 11:51:20,821 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpw6ic91nl.pdf
+2025-10-01 11:51:20,821 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpw6ic91nl.pdf
+2025-10-01 11:51:20,865 - privacy_policy_analyzer - INFO - Successfully read 928236 bytes from PDF
+2025-10-01 11:51:20,868 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpw6ic91nl.pdf
+2025-10-01 18:44:22,001 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.anz.com.au/privacy/centre/policy/
+2025-10-01 18:44:22,004 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.anz.com.au/privacy/centre/policy/
+2025-10-01 18:44:22,114 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.anz.com.au/privacy/centre/policy/ on attempt 1
+2025-10-01 18:44:22,234 - privacy_policy_analyzer - DEBUG - Removed 20 unwanted elements
+2025-10-01 18:44:22,235 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-10-01 18:44:22,239 - privacy_policy_analyzer - INFO - Successfully extracted 26383 characters of content
+2025-10-01 18:44:22,242 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-01 18:44:23,369 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for Australia analysis (attempt 1/3)
+2025-10-01 18:45:24,444 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpnjgpe6fr.pdf
+2025-10-01 18:45:24,446 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpnjgpe6fr.pdf
+2025-10-01 18:45:24,483 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpnjgpe6fr.pdf
+2025-10-01 18:45:24,484 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpnjgpe6fr.pdf
+2025-10-01 18:45:24,512 - privacy_policy_analyzer - INFO - Successfully read 939484 bytes from PDF
+2025-10-01 18:45:24,513 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpnjgpe6fr.pdf
+2025-10-01 18:52:10,548 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.anz.com.au/privacy/centre/policy/
+2025-10-01 18:52:10,552 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.anz.com.au/privacy/centre/policy/
+2025-10-01 18:52:10,658 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.anz.com.au/privacy/centre/policy/ on attempt 1
+2025-10-01 18:52:10,764 - privacy_policy_analyzer - DEBUG - Removed 20 unwanted elements
+2025-10-01 18:52:10,765 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-10-01 18:52:10,766 - privacy_policy_analyzer - INFO - Successfully extracted 26383 characters of content
+2025-10-01 18:52:10,768 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-01 18:52:11,269 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for Australia analysis (attempt 1/3)
+2025-10-01 18:53:18,984 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp67253cjs.pdf
+2025-10-01 18:53:18,986 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp67253cjs.pdf
+2025-10-01 18:53:19,004 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp67253cjs.pdf
+2025-10-01 18:53:19,005 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp67253cjs.pdf
+2025-10-01 18:53:19,050 - privacy_policy_analyzer - INFO - Successfully read 549597 bytes from PDF
+2025-10-01 18:53:19,051 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp67253cjs.pdf
+2025-10-02 09:31:56,517 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://www.anz.com.au/privacy/centre/policy/
+2025-10-02 09:31:56,524 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.anz.com.au/privacy/centre/policy/
+2025-10-02 09:31:56,959 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.anz.com.au/privacy/centre/policy/ on attempt 1
+2025-10-02 09:31:57,234 - privacy_policy_analyzer - DEBUG - Removed 20 unwanted elements
+2025-10-02 09:31:57,237 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-10-02 09:31:57,243 - privacy_policy_analyzer - INFO - Successfully extracted 26383 characters of content
+2025-10-02 09:31:57,270 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-02 09:31:57,271 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for Australia analysis (attempt 1/3)
+2025-10-02 09:32:57,502 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmppefgud_h.pdf
+2025-10-02 09:32:57,503 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmppefgud_h.pdf
+2025-10-02 09:32:57,591 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmppefgud_h.pdf
+2025-10-02 09:32:57,593 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmppefgud_h.pdf
+2025-10-02 09:32:57,646 - privacy_policy_analyzer - INFO - Successfully read 931559 bytes from PDF
+2025-10-02 09:32:57,649 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmppefgud_h.pdf
