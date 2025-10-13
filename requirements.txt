@@ -21,12 +21,12 @@ markdown-pdf
 # Web scraping and search
 beautifulsoup4>=4.12.3,<5.0.0
 selenium>=4.15.0,<5.0.0
-googlesearch-python>=1.2.3,<2.0.0
+# Replaced Google Search usage with DuckDuckGo
 
 # Configuration and utilities
 python-dotenv>=1.0.0,<2.0.0
 duckduckgo-search>=7.2.2,<8.1.1
-
+search-ai-core
 # Development and testing (optional - uncomment if needed)
 # pytest>=7.4.0,<8.0.0
 # pytest-cov>=4.1.0,<5.0.0
