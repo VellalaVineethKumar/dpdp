@@ -12,3 +12,169 @@
 2025-10-13 12:51:27,971 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
 2025-10-13 12:51:27,990 - privacy_policy_analyzer - INFO - Successfully read 966404 bytes from PDF
 2025-10-13 12:51:27,991 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp0g0zglb_.pdf
+2025-10-13 13:26:17,540 - privacy_policy_analyzer - INFO - Selected privacy policy URL via SearchAI: https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/
+2025-10-13 13:26:17,544 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/
+2025-10-13 13:26:19,061 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/ on attempt 1
+2025-10-13 13:26:19,123 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-10-13 13:26:19,124 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-10-13 13:26:19,124 - privacy_policy_analyzer - INFO - Successfully extracted 87 characters of content
+2025-10-13 13:26:19,132 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 13:26:20,314 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 13:27:27,769 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp9e7nlbyu.pdf
+2025-10-13 13:27:27,771 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp9e7nlbyu.pdf
+2025-10-13 13:27:27,794 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp9e7nlbyu.pdf
+2025-10-13 13:27:27,796 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp9e7nlbyu.pdf
+2025-10-13 13:27:27,812 - privacy_policy_analyzer - INFO - Successfully read 949361 bytes from PDF
+2025-10-13 13:27:27,813 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp9e7nlbyu.pdf
+2025-10-13 13:28:10,644 - privacy_policy_analyzer - INFO - Selected privacy policy URL via DuckDuckGo: https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/
+2025-10-13 13:28:10,646 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/
+2025-10-13 13:28:12,114 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/ on attempt 1
+2025-10-13 13:28:12,167 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-10-13 13:28:12,167 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-10-13 13:28:12,167 - privacy_policy_analyzer - INFO - Successfully extracted 87 characters of content
+2025-10-13 13:28:12,171 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 13:28:12,732 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 13:28:38,314 - privacy_policy_analyzer - INFO - Selected privacy policy URL via DuckDuckGo: https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/
+2025-10-13 13:28:38,318 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/
+2025-10-13 13:28:39,820 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/ on attempt 1
+2025-10-13 13:28:39,856 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-10-13 13:28:39,857 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-10-13 13:28:39,858 - privacy_policy_analyzer - INFO - Successfully extracted 87 characters of content
+2025-10-13 13:28:39,862 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 13:28:39,863 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 13:29:02,059 - privacy_policy_analyzer - INFO - Selected privacy policy URL via DuckDuckGo: https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/
+2025-10-13 13:29:02,061 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/
+2025-10-13 13:29:03,751 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://dpforum.se/nordic-privacy-arena/nordic-privacy-arena-2025/ on attempt 1
+2025-10-13 13:29:03,799 - privacy_policy_analyzer - DEBUG - Removed 130 unwanted elements
+2025-10-13 13:29:03,801 - privacy_policy_analyzer - DEBUG - Found content using selector: main
+2025-10-13 13:29:03,802 - privacy_policy_analyzer - INFO - Successfully extracted 87 characters of content
+2025-10-13 13:29:03,805 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 13:29:03,806 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 13:29:11,433 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpnhr50m1z.pdf
+2025-10-13 13:29:11,434 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpnhr50m1z.pdf
+2025-10-13 13:29:11,443 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpnhr50m1z.pdf
+2025-10-13 13:29:11,444 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpnhr50m1z.pdf
+2025-10-13 13:29:11,464 - privacy_policy_analyzer - INFO - Successfully read 929167 bytes from PDF
+2025-10-13 13:29:11,465 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpnhr50m1z.pdf
+2025-10-13 13:29:33,017 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpqm5wpxji.pdf
+2025-10-13 13:29:33,018 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpqm5wpxji.pdf
+2025-10-13 13:29:33,026 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpqm5wpxji.pdf
+2025-10-13 13:29:33,026 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpqm5wpxji.pdf
+2025-10-13 13:29:33,046 - privacy_policy_analyzer - INFO - Successfully read 980424 bytes from PDF
+2025-10-13 13:29:33,047 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpqm5wpxji.pdf
+2025-10-13 13:30:01,383 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpxih46jiz.pdf
+2025-10-13 13:30:01,385 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpxih46jiz.pdf
+2025-10-13 13:30:01,392 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpxih46jiz.pdf
+2025-10-13 13:30:01,392 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpxih46jiz.pdf
+2025-10-13 13:30:01,413 - privacy_policy_analyzer - INFO - Successfully read 520330 bytes from PDF
+2025-10-13 13:30:01,414 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpxih46jiz.pdf
+2025-10-13 13:31:23,352 - privacy_policy_analyzer - INFO - Selected privacy policy URL via DuckDuckGo: https://www.hdfcbank.com/
+2025-10-13 13:31:23,355 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/
+2025-10-13 13:31:23,520 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/ on attempt 1
+2025-10-13 13:31:24,211 - privacy_policy_analyzer - DEBUG - Removed 73 unwanted elements
+2025-10-13 13:31:24,351 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-10-13 13:31:24,366 - privacy_policy_analyzer - INFO - Successfully extracted 18409 characters of content
+2025-10-13 13:31:24,379 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 13:31:25,388 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 13:32:17,266 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmp6yhi8xwy.pdf
+2025-10-13 13:32:17,267 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmp6yhi8xwy.pdf
+2025-10-13 13:32:17,274 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmp6yhi8xwy.pdf
+2025-10-13 13:32:17,275 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmp6yhi8xwy.pdf
+2025-10-13 13:32:17,297 - privacy_policy_analyzer - INFO - Successfully read 503977 bytes from PDF
+2025-10-13 13:32:17,299 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmp6yhi8xwy.pdf
+2025-10-13 13:32:53,719 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/finance/How-can-i-transfer-money-from-my-nre-account-to-my-nro-account-in-hdfc-online (score: 1, url_score: 0)
+2025-10-13 13:32:53,721 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/finance/What_is_the_full_name_of_HDFC_bank (score: 1, url_score: 0)
+2025-10-13 13:32:53,722 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/finance/What_does_NWD_mean_in_HDFC_Bank_statement (score: 1, url_score: 0)
+2025-10-13 13:32:53,723 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/finance/What_is_the_full_form_of_EAW_in_hdfc_bank_statement (score: 1, url_score: 0)
+2025-10-13 13:32:53,723 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/telecommunications/What_is_the_toll-free_number_for_HDFC_for_an_EDC_machine (score: 1, url_score: 0)
+2025-10-13 13:32:53,724 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/finance/Is_hdfc_is_a_government_of_India_undertaking_bank (score: 1, url_score: 0)
+2025-10-13 13:32:53,725 - privacy_policy_analyzer - DEBUG - Skipping non-matching result: https://www.answers.com/finance/What_is_ib_billpay_in_bank_statement
+2025-10-13 13:32:53,726 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/finance/Where_is_HDFC_bank_in_Melbourne (score: 1, url_score: 0)
+2025-10-13 13:32:53,727 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/finance/What_is_atw_in_hdfc_bank_statement (score: 1, url_score: 0)
+2025-10-13 13:32:53,728 - privacy_policy_analyzer - DEBUG - Result: https://www.answers.com/finance/What_does_EAW_mean_in_HDFC_Bank_statement (score: 1, url_score: 0)
+2025-10-13 13:32:53,729 - privacy_policy_analyzer - INFO - Selected privacy policy URL via DuckDuckGo: https://www.answers.com/finance/How-can-i-transfer-money-from-my-nre-account-to-my-nro-account-in-hdfc-online (score: 1)
+2025-10-13 13:32:53,731 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.answers.com/finance/How-can-i-transfer-money-from-my-nre-account-to-my-nro-account-in-hdfc-online
+2025-10-13 13:32:55,854 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.answers.com/finance/How-can-i-transfer-money-from-my-nre-account-to-my-nro-account-in-hdfc-online on attempt 1
+2025-10-13 13:32:55,893 - privacy_policy_analyzer - DEBUG - Removed 32 unwanted elements
+2025-10-13 13:32:55,906 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-10-13 13:32:55,906 - privacy_policy_analyzer - WARNING - No text extracted from main container, attempting to extract all visible text from <body>
+2025-10-13 13:32:55,907 - privacy_policy_analyzer - INFO - Successfully extracted 3847 characters of content
+2025-10-13 13:32:55,917 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 13:32:56,917 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 13:34:06,333 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpb2pvk4hh.pdf
+2025-10-13 13:34:06,334 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpb2pvk4hh.pdf
+2025-10-13 13:34:06,343 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpb2pvk4hh.pdf
+2025-10-13 13:34:06,344 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpb2pvk4hh.pdf
+2025-10-13 13:34:06,361 - privacy_policy_analyzer - INFO - Successfully read 545304 bytes from PDF
+2025-10-13 13:34:06,362 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpb2pvk4hh.pdf
+2025-10-13 14:15:47,385 - privacy_policy_analyzer - INFO - Searching for privacy policy: HDFC privacy policy India
+2025-10-13 14:15:47,787 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/What_is_the_full_name_of_HDFC_bank
+2025-10-13 14:15:47,788 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/How-can-i-transfer-money-from-my-nre-account-to-my-nro-account-in-hdfc-online
+2025-10-13 14:15:47,789 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/What_does_NWD_mean_in_HDFC_Bank_statement
+2025-10-13 14:15:47,789 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/What_is_the_full_form_of_EAW_in_hdfc_bank_statement
+2025-10-13 14:15:47,790 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/Is_hdfc_is_a_government_of_India_undertaking_bank
+2025-10-13 14:15:47,791 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/telecommunications/What_is_the_toll-free_number_for_HDFC_for_an_EDC_machine
+2025-10-13 14:15:47,791 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/What_is_atw_in_hdfc_bank_statement
+2025-10-13 14:15:47,792 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/Where_is_HDFC_bank_in_Melbourne
+2025-10-13 14:15:47,792 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/What_is_ib_billpay_in_bank_statement
+2025-10-13 14:15:47,793 - privacy_policy_analyzer - DEBUG - Skipping irrelevant domain: https://www.answers.com/finance/What_does_EAW_mean_in_HDFC_Bank_statement
+2025-10-13 14:15:47,794 - privacy_policy_analyzer - WARNING - No suitable privacy policy URL found for 'HDFC'
+2025-10-13 14:16:02,938 - privacy_policy_analyzer - INFO - Searching for privacy policy: HDFC privacy policy India
+2025-10-13 14:16:04,610 - privacy_policy_analyzer - DEBUG - Result: https://www.hdfcbank.com/personal/useful-links/privacy (score: 14, url_score: 8)
+2025-10-13 14:16:04,611 - privacy_policy_analyzer - DEBUG - Result: https://www.hdfclife.com/privacy-policy (score: 15, url_score: 11)
+2025-10-13 14:16:04,611 - privacy_policy_analyzer - DEBUG - Result: https://www.hdfcfund.com/privacy-policy (score: 17, url_score: 11)
+2025-10-13 14:16:04,611 - privacy_policy_analyzer - DEBUG - Result: https://developer.hdfcbank.com/privacy-policy (score: 16, url_score: 11)
+2025-10-13 14:16:04,612 - privacy_policy_analyzer - DEBUG - Result: https://leads.hdfcbank.com/aboutus/terms_conditions/privacy.htm (score: 12, url_score: 11)
+2025-10-13 14:16:04,612 - privacy_policy_analyzer - DEBUG - Result: https://v.hdfcbank.com/content/dam/hdfc-aem-microsites/common-pdfs/pdf/Personal_Data_Privacy_Policy.pdf (score: 15, url_score: 11)
+2025-10-13 14:16:04,613 - privacy_policy_analyzer - DEBUG - Result: https://www.hdfc.com/website-usage-policy (score: 6, url_score: 3)
+2025-10-13 14:16:04,613 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://cdn.urbanmoney.com/hdfc-privacy-policy.pdf
+2025-10-13 14:16:04,614 - privacy_policy_analyzer - DEBUG - Result: https://www.hdfccapital.com/pdf/Privacy_Policy.pdf (score: 16, url_score: 11)
+2025-10-13 14:16:04,614 - privacy_policy_analyzer - INFO - Selected privacy policy URL: https://www.hdfcfund.com/privacy-policy (score: 17)
+2025-10-13 14:16:04,615 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcfund.com/privacy-policy
+2025-10-13 14:16:04,802 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcfund.com/privacy-policy on attempt 1
+2025-10-13 14:16:04,817 - privacy_policy_analyzer - DEBUG - Removed 24 unwanted elements
+2025-10-13 14:16:04,821 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-10-13 14:16:04,822 - privacy_policy_analyzer - WARNING - No text extracted from main container, attempting to extract all visible text from <body>
+2025-10-13 14:16:04,823 - privacy_policy_analyzer - INFO - Successfully extracted 927 characters of content
+2025-10-13 14:16:04,826 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 14:16:05,506 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 14:17:07,815 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmppt3dvhte.pdf
+2025-10-13 14:17:07,816 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmppt3dvhte.pdf
+2025-10-13 14:17:07,857 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmppt3dvhte.pdf
+2025-10-13 14:17:07,858 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmppt3dvhte.pdf
+2025-10-13 14:17:07,894 - privacy_policy_analyzer - INFO - Successfully read 948550 bytes from PDF
+2025-10-13 14:17:07,895 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmppt3dvhte.pdf
+2025-10-13 14:17:25,442 - privacy_policy_analyzer - INFO - Searching for privacy policy: HDFC privacy policy India
+2025-10-13 14:17:25,751 - privacy_policy_analyzer - WARNING - No suitable privacy policy URL found for 'HDFC'
+2025-10-13 14:35:30,368 - privacy_policy_analyzer - INFO - Searching for privacy policy: AXIS BANK privacy policy India
+2025-10-13 14:35:30,648 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://fontfree.me/
+2025-10-13 14:35:30,649 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://goodfreefonts.com/
+2025-10-13 14:35:30,650 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://font-labo.com/
+2025-10-13 14:35:30,651 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://coliss.com/articles/freebies/japanese-free-fonts.html
+2025-10-13 14:35:30,651 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://kinabal.co.jp/marketing/freefont/
+2025-10-13 14:35:30,651 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://fontdasu.com/
+2025-10-13 14:35:30,653 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://ffont.jp/
+2025-10-13 14:35:30,653 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://photoshopvip.net/166360
+2025-10-13 14:35:30,654 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://free-fonts.jp/
+2025-10-13 14:35:30,654 - privacy_policy_analyzer - DEBUG - Skipping - org not in domain: https://webclips.jp/design/japanese-free-font-vol01/
+2025-10-13 14:35:30,655 - privacy_policy_analyzer - WARNING - No suitable privacy policy URL found for 'AXIS BANK'
+2025-10-13 15:09:16,895 - privacy_policy_analyzer - INFO - Selected privacy policy URL: https://zhidao.baidu.com/question/2278696923404342028.html
+2025-10-13 15:09:16,896 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://zhidao.baidu.com/question/2278696923404342028.html
+2025-10-13 15:09:16,938 - privacy_policy_analyzer - WARNING - Connection error on attempt 1: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-13 15:09:18,958 - privacy_policy_analyzer - WARNING - Connection error on attempt 2: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-13 15:09:20,984 - privacy_policy_analyzer - WARNING - Connection error on attempt 3: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-13 15:09:20,985 - privacy_policy_analyzer - ERROR - Connection failed after 3 attempts
+2025-10-13 15:30:26,733 - privacy_policy_analyzer - INFO - Selected privacy policy URL: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-10-13 15:30:26,737 - privacy_policy_analyzer - INFO - Fetching privacy policy content from: https://www.hdfcbank.com/personal/useful-links/privacy
+2025-10-13 15:30:26,896 - privacy_policy_analyzer - DEBUG - Successfully fetched content from https://www.hdfcbank.com/personal/useful-links/privacy on attempt 1
+2025-10-13 15:30:27,383 - privacy_policy_analyzer - DEBUG - Removed 63 unwanted elements
+2025-10-13 15:30:27,426 - privacy_policy_analyzer - DEBUG - Found content using selector: {'id': re.compile('(content|main|policy|privacy)', re.IGNORECASE)}
+2025-10-13 15:30:27,433 - privacy_policy_analyzer - INFO - Successfully extracted 73462 characters of content
+2025-10-13 15:30:27,439 - privacy_policy_analyzer - INFO - Preparing Azure OpenAI request for privacy policy analysis
+2025-10-13 15:30:28,552 - privacy_policy_analyzer - INFO - Sending request to Azure OpenAI for India analysis (attempt 1/3)
+2025-10-13 15:32:00,428 - privacy_policy_analyzer - INFO - Temporary PDF output path: C:\Users\HP\AppData\Local\Temp\tmpmexiomfu.pdf
+2025-10-13 15:32:00,430 - privacy_policy_analyzer - INFO - Attempting to save PDF to: C:\Users\HP\AppData\Local\Temp\tmpmexiomfu.pdf
+2025-10-13 15:32:00,486 - privacy_policy_analyzer - INFO - PDF save operation completed for C:\Users\HP\AppData\Local\Temp\tmpmexiomfu.pdf
+2025-10-13 15:32:00,488 - privacy_policy_analyzer - INFO - Reading PDF content from: C:\Users\HP\AppData\Local\Temp\tmpmexiomfu.pdf
+2025-10-13 15:32:00,559 - privacy_policy_analyzer - INFO - Successfully read 1036018 bytes from PDF
+2025-10-13 15:32:00,561 - privacy_policy_analyzer - INFO - Cleaned up temporary PDF file: C:\Users\HP\AppData\Local\Temp\tmpmexiomfu.pdf

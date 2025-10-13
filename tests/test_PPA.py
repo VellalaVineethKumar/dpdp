@@ -8,7 +8,7 @@ args = parser.parse_args()
 
 org = args.org.strip()
 country = args.country.strip() if args.country else None
-query = f'What is the privacy policy website url of {org}'
+query = f'{org} privacy policy'
 if country:
     query = f'{query} {country}'
 

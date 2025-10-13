@@ -5,7 +5,6 @@ import re
 import logging
 from typing import Dict, Optional, Any, List, Tuple, Set
 from bs4 import BeautifulSoup
-from duckduckgo_search import DDGS  # type: ignore
 from search_ai import search
 import openai
 import config
@@ -532,37 +531,31 @@ def normalize_url(url: object) -> str:
     return as_str
 
 def find_privacy_policy_url(organization_name: str, country: Optional[str] = None, num_results: int = 10) -> Optional[str]:
-    """Find a likely privacy policy URL using SearchAI results.
+    """Find a likely privacy policy URL using search_ai (simple strategy).
 
-    Builds a simple query and returns the first result's `link` field when present.
-
-    Args:
-        organization_name: Company or organization name to search for.
-        country: Optional country context to refine results (e.g., "India").
-        num_results: Unused; kept for compatibility.
-
-    Returns:
-        The first discovered privacy policy URL (from the `link` field) if found, else None.
+    Mirrors the logic in tests/test_PPA.py: builds a "{org} privacy policy [country]"
+    query, calls search_ai.search, and returns the first result's link.
     """
     try:
         org = (organization_name or "").strip()
         ctry = (country or "").strip()
-        query = f"What is the privacy policy website url of {org}"
+        query = f"{org} privacy policy"
         if ctry:
             query = f"{query} {ctry}"
 
-        results = search(query)
+        results = search(query, max_results=num_results)
         for result in results:
-            data: Dict[str, Any] = result.model_dump() if hasattr(result, 'model_dump') else (result.__dict__ if hasattr(result, '__dict__') else {})
-            link = data.get('link')
+            data: Dict[str, Any] = (
+                result.model_dump() if hasattr(result, "model_dump")
+                else (result.__dict__ if hasattr(result, "__dict__") else {})
+            )
+            link = data.get("link")
             if link:
-                logger.info(f"Selected privacy policy URL via SearchAI: {link}")
+                logger.info(f"Selected privacy policy URL: {link}")
                 return link
-
-        logger.warning(f"No suitable privacy policy URL found for '{organization_name}' via SearchAI")
         return None
     except Exception as e:
-        logger.error(f"Error finding privacy policy URL for {organization_name} via SearchAI: {e}")
+        logger.error(f"Error finding privacy policy URL for {organization_name}: {e}")
         return None
 
 def fetch_with_selenium(url: str) -> Optional[str]:
