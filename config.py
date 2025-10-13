@@ -137,13 +137,8 @@ def get_secret_or_env(secret_name: str, env_var_name: str) -> Optional[str]:
     """
     key: Optional[str] = None
     try:
-        # Check for a secrets.toml file in common locations before touching st.secrets
-        user_secrets_path = os.path.join(os.path.expanduser('~'), '.streamlit', 'secrets.toml')
-        project_secrets_path = os.path.join(BASE_DIR, '.streamlit', 'secrets.toml')
-        secrets_file_exists = os.path.exists(user_secrets_path) or os.path.exists(project_secrets_path)
-
-        if secrets_file_exists and hasattr(st, 'secrets'):
-            # Support both lowercase and uppercase keys inside secrets.toml
+        # Read from Streamlit Secrets when available (works on Streamlit Cloud too)
+        if hasattr(st, 'secrets'):
             candidate_keys = [
                 secret_name,
                 env_var_name,
@@ -151,17 +146,19 @@ def get_secret_or_env(secret_name: str, env_var_name: str) -> Optional[str]:
                 env_var_name.lower(),
             ]
             for candidate in candidate_keys:
-                if candidate in st.secrets:
-                    key_raw = st.secrets.get(candidate)
-                    if key_raw is not None:
-                        # Ensure string and clean quotes/whitespace
-                        if not isinstance(key_raw, str):
-                            key_raw = str(key_raw)
-                        key = key_raw.strip().strip('"').strip("'")
-                        logger.debug(f"Loaded {candidate} from Streamlit Secrets.")
-                        return key
+                try:
+                    if candidate in st.secrets:
+                        key_raw = st.secrets.get(candidate)
+                        if key_raw is not None:
+                            if not isinstance(key_raw, str):
+                                key_raw = str(key_raw)
+                            key = key_raw.strip().strip('"').strip("'")
+                            logger.debug(f"Loaded {candidate} from Streamlit Secrets.")
+                            return key
+                except Exception:
+                    # Some environments may raise during early access; try next
+                    continue
     except Exception as e:
-        # st.secrets might not be available during certain phases or tests
         logger.debug(f"Could not access st.secrets for {secret_name}/{env_var_name}: {e}")
 
     # Fallback to environment variable if not found in secrets or secrets inaccessible
